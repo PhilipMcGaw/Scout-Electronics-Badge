@@ -533,7 +533,7 @@ The BOM can list each part’s reference, value, footprint, and quantity. A refe
 
 ### Quick check: soldering
 
-**Question 1 of 7**
+**Question 1 of 8**
 
 What is this type of connection called?
 
@@ -546,7 +546,7 @@ What is this type of connection called?
 
 **Answer for the Leader:** Lineman splice.
 
-**Question 2 of 7**
+**Question 2 of 8**
 
 Which temperature range includes the personal examples given in this section?
 
@@ -557,7 +557,7 @@ Which temperature range includes the personal examples given in this section?
 
 **Answer for the Leader:** 650 °F–750 °F (approximately 350 °C–400 °C). These are personal examples, not a recommended range for every iron or joint. Follow the iron and solder instructions and your Leader’s guidance.
 
-**Question 3 of 7**
+**Question 3 of 8**
 
 What is wrong with these completed solder connections?
 
@@ -570,7 +570,7 @@ What is wrong with these completed solder connections?
 
 **Answer for the Leader:** Too much of the solder joint was cut away. Trim the component lead just above the solder joint, without cutting into the solder fillet. Cutting away the fillet can weaken the joint.
 
-**Question 4 of 7**
+**Question 4 of 8**
 
 Why should you avoid bending component leads flat against the board?
 
@@ -583,7 +583,7 @@ Why should you avoid bending component leads flat against the board?
 
 **Answer for the Leader:** The bare lead may touch nearby copper, or solder may bridge to it, causing a short circuit. If the assembly instructions say to bend the leads, bend them only enough to hold the component and keep them clear of other pads and tracks.
 
-**Question 5 of 7**
+**Question 5 of 8**
 
 Why should you check whether flux residue needs cleaning?
 
@@ -594,7 +594,7 @@ Why should you check whether flux residue needs cleaning?
 
 **Answer for the Leader:** Flux types differ. Some no-clean residues do not need removal in most applications, while other types need cleaning. Check the solder or flux instructions and ask your Leader which method is suitable.
 
-**Question 6 of 7**
+**Question 6 of 8**
 
 What important information does a diode symbol on the PCB silkscreen show?
 
@@ -607,7 +607,7 @@ What important information does a diode symbol on the PCB silkscreen show?
 
 **Answer for the Leader:** The symbol shows the diode’s polarity and which way round to fit it. Check the component markings and assembly guide before soldering. See [Read the board markings](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#read-the-board-markings).
 
-**Question 7 of 7**
+**Question 7 of 8**
 
 How do you export a bill of materials (BOM) in KiCad?
 
@@ -617,6 +617,17 @@ How do you export a bill of materials (BOM) in KiCad?
 - KiCad cannot export a BOM.
 
 **Answer for the Leader:** In KiCad’s Schematic Editor, select **Tools → Generate Bill of Materials**. Choose the fields and CSV format, then export the list. See [Identify and order components](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#identify-and-order-components).
+
+**Question 8 of 8**
+
+What makes open-source files useful for PCB designs?
+
+- You cannot manufacture them for retail sale.
+- They work with every ECAD programme.
+- They let people study, learn from, and sometimes modify or reuse a design under its licence.
+- They can be used without checking a licence.
+
+**Answer for the Leader:** Open-source files let people study a design and may allow them to modify or reuse it. The licence sets the conditions, so check it before copying, changing, or selling a design. See [Finding a board to practise on](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#finding-a-board-to-practise-on).
 
 ### Quick check: soldering and welding
 
