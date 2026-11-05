@@ -942,6 +942,16 @@ I do not like drag soldering; I prefer to feed solder to one pin at a time. With
 
 Do not power the board until your Leader has checked the orientation and solder joints.
 
+#### Applying solder paste with a stencil
+
+Stencil printing is another way to solder surface-mount parts. A stencil places solder paste onto many board pads at once. Components are then placed on the paste and soldered in a separate heating step called *reflow*. This is an advanced process and needs direct Leader supervision.
+
+Solder paste contains tiny metal particles and flux. Different pastes can have different alloys and handling requirements. Read the exact product’s label, safety data sheet, and instructions. Avoid skin and eye contact, keep food and drink away, and wash your hands after handling. The storage temperature and shelf life depend on the paste. Follow its instructions; if it must be refrigerated, let it warm to room temperature naturally before opening it. Do not heat it to warm it up. See [Kester’s solder-paste handling guidance](https://www.kester.com/Portals/0/Documents/Knowledge%20Base/Kester-Solder-Paste-Handling-Guidelines-Solder-Paste-Americas-EN-24Jun21-RB.pdf).
+
+To apply the paste, secure the board in a stencil holder and line up the stencil openings with the board pads. Use a suitable squeegee to spread a small bead of paste evenly across the stencil. Lift the stencil straight up, then check that paste has been left on the pads without smearing between them. Stop and ask your Leader if the stencil has moved or the paste has spread across neighbouring pads. Thin metal stencils can have sharp edges, so let your Leader handle them.
+
+Use tweezers to place each component on its paste deposits. Check the board layout and component markings for polarity and pin 1 before placing parts. Reflow is a separate step: do not heat the board until your Leader has checked the component placement and selected a process that matches the paste, board, and components. Follow the hot-air station or hot-plate instructions and use a heat-resistant work surface. For more information, see [AIM Solder’s handling guidance](https://www.aimsolder.com/technical-center/solder-paste-handling-tips/).
+
 ## Image and licensing note
 
 Do not create new images for this booklet. Any photographs, diagrams, or illustrations added later should come from the supplied reference material or from a clearly identified Creative Commons or other compatible licence. Record the creator, source, licence, and any required attribution beside the image or in a sources section. Prefer simple, age-appropriate diagrams that explain a component, measurement, or circuit.
