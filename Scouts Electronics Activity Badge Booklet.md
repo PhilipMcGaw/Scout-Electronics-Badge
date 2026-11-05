@@ -957,3 +957,16 @@ Use tweezers to place each component on its paste deposits. Check the board layo
 A hot-air rework station can heat the solder paste until it melts and joins the components to the board. On my bench, I use a 400 °C setpoint on both my soldering iron and hot-air station. The suitable temperature and airflow still depend on the station, solder paste, board, and components, so my setting is not a recipe for another setup. A trained adult should choose the heating process, use fume extraction, and secure the board on a heat-resistant surface.
 
 Before heating, check the position and orientation of every component. Warm the board gradually and move the hot-air nozzle around the area so the heat is spread evenly. Use only enough airflow to avoid moving the small parts. Watch the solder; once it has flowed onto the pads and component leads, stop heating and let the board cool without moving it. The nozzle, air, and board will be very hot, so keep hands clear. After cooling, inspect the joints and check that no components have shifted or been fitted the wrong way round. Do not power the board until your Leader has checked it.
+
+### Quick check: surface-mount soldering (optional)
+
+**Question 1 of 4**
+
+What diameter of solder wire is a suitable choice for hand-soldering small surface-mount parts?
+
+- 2.2 mm
+- 3.4 mm
+- 0.8 mm or smaller
+- 1–1.8 mm
+
+**Answer for the Leader:** 0.8 mm or smaller. Fine solder wire can make it easier to control how much solder you add to small pads.
