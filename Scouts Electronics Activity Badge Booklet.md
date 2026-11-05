@@ -339,6 +339,19 @@ Before you begin working with a circuit, read and study this chapter on solderin
 
 Soldering is not just gluing metals together. Done correctly, it creates a reliable electrical and mechanical connection between clean metal surfaces. Use the solder alloy and flux recommended for the equipment and project. Lead-free solder is preferred for beginner activities unless a Leader has approved another type.
 
+### Quick check: soldering and welding
+
+**Question 1 of 1**
+
+Welding differs from soldering because, during a weld, you use a `_____` type of filler material.
+
+- softer
+- different
+- harder
+- similar
+
+**Answer for the Leader:** similar.
+
 There is a section near the rear of this document called Soldering is Easy on page 57.
 
 ### How to Desolder
