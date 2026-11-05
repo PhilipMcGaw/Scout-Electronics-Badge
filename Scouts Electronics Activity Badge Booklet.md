@@ -493,6 +493,14 @@ Fit the connector squarely and hold the board securely. If the instructions allo
 
 Large lugs can stay hot after soldering. Leave the board in its holder to cool, and do not touch the connector to check whether it is cool. Ask your Leader to inspect the joints before connecting power.
 
+### Clean flux residue from a circuit board
+
+You may see residue left by flux after soldering. Whether it needs cleaning depends on the solder or flux used: some no-clean fluxes are designed to remain on the board, while other types need to be removed. Do not judge by colour or stickiness alone. Check the solder or flux instructions and ask your Leader. See [Kester’s guidance on flux residues](https://www.kester.com/knowledge-base/knowledge-base/soldering-handbook).
+
+If cleaning is needed, let the board cool and disconnect its power first. Only clean it with your Leader supervising. Your Leader should choose a cleaner and method that are safe for the board and its components; some cleaners can damage switches, crystals, or other parts. Use only a small amount in a well-ventilated area, away from the soldering iron, flames, and sparks. Keep the cleaner in its labelled container, and let the board dry fully before reconnecting power.
+
+Never put isopropyl alcohol (IPA) or another flammable liquid into a standard ultrasonic cleaner. IPA is flammable, and ultrasonic-cleaner manufacturers warn that flammable cleaners can cause a fire or explosion. Follow the cleaner’s instructions; for example, see the [Quantrex ultrasonic-cleaner manual](https://www.wpiinc.com/media/wysiwyg/pdf/Quantrex_ultrasonic_cleaning_system_IM.pdf).
+
 ### Finding a board to practise on
 
 This booklet will be supplied with a Woggle PCB for soldering practice. Its design uses LEDs and a small 8-pin DIP microcontroller. For this or any other board, look for a project that shares its schematic, board layout, parts list, and assembly instructions. Check that the files all match the same board revision.
