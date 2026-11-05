@@ -353,6 +353,15 @@ Some solder contains lead. Do not eat or drink at the workbench, and keep solder
 
 Some electronic components can be damaged by static electricity. Ask your Leader how to handle any parts that need protection from static.
 
+### Basic hand tools for soldering
+
+For a small through-hole project, a few hand tools make the work easier. Ask your Leader to show you how to use each tool.
+
+- **Wire strippers** remove insulation from hookup wire. Use the slot that matches the wire size. Cutters can nick or break the wire underneath, so do not use them as a substitute for a wire stripper.
+- **Flush side cutters** trim component leads after soldering. Their small, angled head can reach close to the board. Cut the lead just above the solder joint, without touching the board or joint. Wear safety glasses and point the cut end away from people; collect the offcuts.
+- **Long-nose pliers** help bend component leads and hold wires in place before soldering. Do not handle a lead or joint until it has cooled.
+- **Tweezers** can help position small components. They are useful for tiny parts, but not every project needs them. Metal tweezers can become hot if they touch the iron or a hot joint.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering and welding
