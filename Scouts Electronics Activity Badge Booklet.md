@@ -501,6 +501,14 @@ With your Leader supervising, excess solder on a through-hole joint can sometime
 
 After removing excess solder, inspect the joint. It still needs enough solder to connect the lead and pad, with no bridge to nearby pads. Ask your Leader to check the repair before powering the board.
 
+### Correcting too little solder on a through-hole joint
+
+Too little solder may leave a weak mechanical connection or an unreliable electrical connection. If solder has not flowed onto both the component lead and the copper pad, stop and ask your Leader to check the joint. Disconnect the board from power before making a correction.
+
+With your Leader supervising, place the iron tip so it heats the lead and pad together. Feed a small amount of electronics solder into the heated joint. The flux in the solder wire is often enough for this small correction; ask your Leader before adding extra flux. Stop when the solder has flowed around the lead and onto the pad, and into the plated hole where the board design has one. Let the joint cool without moving it.
+
+Inspect the repaired joint for good wetting and check that it has not bridged to another pad. Follow the kit or board instructions for the expected joint shape, then ask your Leader to check it before powering the circuit.
+
 ### Clean flux residue from a circuit board
 
 You may see residue left by flux after soldering. Whether it needs cleaning depends on the solder or flux used: some no-clean fluxes are designed to remain on the board, while other types need to be removed. Do not judge by colour or stickiness alone. Check the solder or flux instructions and ask your Leader. See [Kester’s guidance on flux residues](https://www.kester.com/knowledge-base/knowledge-base/soldering-handbook).
