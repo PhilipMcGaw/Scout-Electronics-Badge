@@ -914,6 +914,8 @@ Surface-mount components sit on copper pads on the board instead of having leads
 
 Most of the time, I hand-solder surface-mount components in 0805 packages. Sometimes I work with 0604 parts. I can solder smaller parts too, but I find them hard work. These numbers are package-size codes, not component values.
 
+For ICs, a SOIC package with 1.27 mm pin pitch (the distance between adjacent pins) is about my preferred limit for hand-soldering. I can manage finer-pitch packages, but find them hard work.
+
 Before soldering, inspect the board and pads. Dirt, grease, or oxidation can stop solder from wetting a pad. Do not clean every board automatically: if a board looks dirty, ask your Leader whether it needs cleaning and which method is suitable. Follow the cleaning instructions in [Clean flux residue from a circuit board](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#clean-flux-residue-from-a-circuit-board), and make sure the board is completely dry before soldering.
 
 Choose solder wire and an iron tip that suit the size of the pads. The 0.6 mm wire in the range described above can make it easier to feed a small amount onto a small pad. The iron tip must reach the pad without touching neighbouring pads, while still transferring enough heat to the joint. Ask your Leader to help choose a suitable tip; see [HAKKO’s soldering-tip guidance](https://www.hakko.com/english/support/maintenance/detail.php?seq=171).
