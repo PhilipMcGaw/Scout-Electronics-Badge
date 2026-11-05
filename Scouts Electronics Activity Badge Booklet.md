@@ -429,6 +429,14 @@ With the wire held still, your Leader can heat the joint and feed electronics so
 
 When the joint is cool, slide the tubing over it. A suitable heat-shrink tool must be used by your Leader, following its instructions. Keep the tubing and wire away from the hot soldering iron. Never shrink tubing with a lighter or match.
 
+### Connecting a wire to a component terminal
+
+Check the kit instructions and make sure the battery or power supply is disconnected. Some switches and other components have metal terminals with holes for wires. If the instructions allow it, thread the stripped end of the wire through the hole and bend it around the terminal so it stays in place before soldering. Do not force a wire into a terminal that is not designed for it. Ask your Leader to check the connection.
+
+Hold the component and wire steady with a suitable holder. With your Leader supervising, heat both the wire and terminal with the soldering iron, then feed electronics solder onto the joint until it flows over the joined metal. Use only enough solder to cover the joint, and take care not to heat or melt the component body or nearby insulation. Keep still while the joint cools, then ask your Leader to inspect it.
+
+If nearby bare terminals could touch, ask your Leader whether insulation is needed. Slide any heat-shrink tubing onto the wire before soldering, and use a suitable heat-shrink tool only as directed by your Leader. Do not use an open flame or the soldering iron to shrink it.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering and welding
