@@ -379,7 +379,7 @@ You do not need to buy every accessory at once. Ask your Leader to choose items 
 - **Extra flux** is optional. Use only flux labelled for electronics, and only when your Leader says it is needed. Do not use plumber’s flux on a circuit board. Follow the flux instructions, including any cleaning steps. Some electronics flux pens are designed for circuit-board work; see the [manufacturer’s information on flux pens](https://mgchemicals.com/category/soldering-supplies/flux-pens/).
 - **Desoldering braid or a pump** can help remove solder when correcting a joint. They are not needed for every project. Practise with a Leader and follow the instructions in [How to Desolder](#how-to-desolder).
 
-A timer may remind you to switch the iron off, but it does not make it safe to leave the iron unattended. Follow the safety steps above and ask your Leader to switch off and unplug the iron when the activity ends.
+A timer is optional. At home, I use a small USB-C soldering iron and a temperature-controlled bench station with hot-air rework; I do not use a timer. Temperature control is not the same as automatic switch-off. Keep the iron in its stand while it is hot, and ask your Leader to switch it off and unplug it when the activity ends.
 
 ### Secure your work
 
