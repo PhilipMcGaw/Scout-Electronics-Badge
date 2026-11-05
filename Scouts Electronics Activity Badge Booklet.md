@@ -517,6 +517,12 @@ With your Leader supervising, add a small amount of electronics flux with a flux
 
 Check that solder has wetted both the lead and pad, and has not bridged to a nearby pad. Follow the kit or board instructions, and ask your Leader to inspect the repair before powering the circuit.
 
+### Fixing a disturbed solder joint
+
+If a component or wire moves while the solder is cooling, the joint may not form properly. A rough or wrinkled surface, or a connection that feels loose, can be a sign of a disturbed joint. Disconnect the board from power and ask your Leader to inspect it; do not wiggle a joint to test it.
+
+With your Leader supervising, apply a small amount of electronics flux to the joint. Reheat the lead and pad together until the solder flows over both. Add a little fresh solder only if needed. Keep the board steady while the joint cools. If it still looks rough or the connection remains loose, stop and let your Leader check it again. Do not power the board until the repair has been inspected.
+
 ### Clean flux residue from a circuit board
 
 You may see residue left by flux after soldering. Whether it needs cleaning depends on the solder or flux used: some no-clean fluxes are designed to remain on the board, while other types need to be removed. Do not judge by colour or stickiness alone. Check the solder or flux instructions and ask your Leader. See [Kester’s guidance on flux residues](https://www.kester.com/knowledge-base/knowledge-base/soldering-handbook).
