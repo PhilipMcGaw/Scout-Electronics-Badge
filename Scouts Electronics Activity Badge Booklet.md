@@ -479,7 +479,7 @@ For an assembly example that compares polarised and non-polarised capacitors, se
 
 A bare circuit board can give you a place to practise soldering without using a complete kit. Look for a project that shares its schematic, board layout, parts list, and assembly instructions. Check that the files all match the same board revision.
 
-A schematic shows which parts connect to each other. A board layout shows where the parts, holes, and copper tracks sit on the physical board. A design program can show these details on separate layers, such as copper tracks, labels, and the board outline. You do not need to understand every layer to practise, but comparing the schematic and board layout can help you see how the circuit is built.
+A schematic shows which parts connect to each other. A board layout shows where the parts, holes, and copper tracks sit on the physical board. I use KiCad as my electronic CAD (ECAD) software. It can show board details on separate layers, such as copper tracks, labels, and the board outline. You do not need to understand every layer to practise, but comparing the schematic and board layout can help you see how the circuit is built.
 
 Before using or ordering a design, read its licence. It may require credit to the designer or place conditions on sharing changes. A public download does not automatically mean that every use is allowed. See the [Open Source Hardware Association’s definition](https://oshwa.org/resources/open-source-hardware-definition/).
 
