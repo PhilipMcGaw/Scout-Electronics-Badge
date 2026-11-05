@@ -391,6 +391,14 @@ Helping hands can hold a small part or wire. Check that the clips are stable and
 
 Let the joint cool without moving the board. Read the safety advice above before using tape or a clamp near the soldering iron.
 
+### Solder for beginner electronics
+
+For hand-soldering a beginner circuit, use solder wire made for electronics. Do not use solder or flux intended for plumbing; it is not suitable for circuit boards. Solder paste is mainly used for surface-mount work and is not needed for the through-hole projects in this booklet.
+
+Choose lead-free solder unless your Leader gives a different instruction. Many electronics solder wires have a flux core. Flux helps the melted solder spread over the metal parts being joined. Heating flux can produce fumes, so follow the fume-extraction advice above even when using lead-free solder.
+
+Solder wire is sold in different diameters. For many small circuit-board joints, **0.6–0.8 mm** is a useful starting range. Thicker wire feeds more solder at once and can be harder to control on a small joint. Check the kit instructions or ask your Leader if they specify a different size. Weller’s [solder-wire guide](https://www.weller-tools.com/eu/gb/industrial-soldering/products/soldering-wire) gives **0.5–0.8 mm** as a typical range for most PCB work.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering and welding
