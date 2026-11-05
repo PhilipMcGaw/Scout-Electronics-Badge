@@ -406,6 +406,19 @@ Welding differs from soldering because, during a weld, you use a `_____` type of
 
 **Answer for the Leader:** similar.
 
+### Quick check: soldering safety
+
+**Question 1 of 1**
+
+What piece of safety equipment do beginners most often forget?
+
+- safety glasses
+- fume extractor
+- gloves
+- hair ties
+
+**Answer for the Leader:** safety glasses.
+
 There is a section near the rear of this document called Soldering is Easy on page 57.
 
 ### How to Desolder
