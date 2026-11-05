@@ -970,3 +970,14 @@ What diameter of solder wire is a suitable choice for hand-soldering small surfa
 - 1–1.8 mm
 
 **Answer for the Leader:** 0.8 mm or smaller. Fine solder wire can make it easier to control how much solder you add to small pads.
+
+**Question 2 of 4**
+
+If a bare PCB needs cleaning before soldering, which cleaner may be suitable?
+
+- Peroxide
+- Isopropyl alcohol
+- Water
+- Bleach
+
+**Answer for the Leader:** Isopropyl alcohol may be suitable for cleaning a bare PCB. Check the board and cleaner instructions first, keep the flammable alcohol away from heat or flames, and let the board dry completely before soldering.
