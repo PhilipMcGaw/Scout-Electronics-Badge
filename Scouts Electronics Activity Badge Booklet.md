@@ -981,3 +981,14 @@ If a bare PCB needs cleaning before soldering, which cleaner may be suitable?
 - Bleach
 
 **Answer for the Leader:** Isopropyl alcohol may be suitable for cleaning a bare PCB. Check the board and cleaner instructions first, keep the flammable alcohol away from heat or flames, and let the board dry completely before soldering.
+
+**Question 3 of 4**
+
+When using hot air to reflow surface-mount solder paste, how should you move the nozzle?
+
+- Use extra heat to melt the solder quickly.
+- Move it slowly in circles while warming the board gradually.
+- Apply heat quickly so the solder melts fast.
+- Put the hot-air nozzle against the component.
+
+**Answer for the Leader:** Move the nozzle slowly around the area while warming the board gradually. This helps spread the heat; the right process still depends on the solder paste, board, components, and station.
