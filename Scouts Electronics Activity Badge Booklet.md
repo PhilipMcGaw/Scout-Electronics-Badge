@@ -491,6 +491,12 @@ I recommend [PCBWay](https://www.pcbway.com/) because that is the service I use 
 
 The bare board may not include any components. Use the parts list that belongs to the same board revision, and check each part’s value, package, and polarity before buying it. Ask your Leader to check the design revision, licence, files, parts list, and order before you pay for practice boards.
 
+### Identify and order components
+
+If the project includes a KiCad schematic, you can use it to make a bill of materials (BOM). In KiCad’s Schematic Editor, select **Tools → Generate Bill of Materials**. Choose the CSV format and export the list. You can open a CSV file in a spreadsheet program. See [KiCad’s BOM instructions](https://docs.kicad.org/10.0/en/eeschema/eeschema.html).
+
+The BOM can list each part’s reference, value, footprint, and quantity. A reference such as `R11` identifies a resistor on the schematic and board. The value tells you what the part does in the circuit, and the footprint shows its size and pad pattern. Check that these details match the project’s parts list and assembly instructions. The BOM helps you identify what to buy, but check the exact part details with your Leader before ordering.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering
