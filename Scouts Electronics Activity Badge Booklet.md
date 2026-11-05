@@ -433,6 +433,8 @@ When the joint is cool, slide the tubing over it. A suitable heat-shrink tool mu
 
 ### Connecting a wire to a component terminal
 
+> **Illustration placeholder:** Four panels showing how to pre-tin stranded wire, pass it through a switch’s solder lug, solder the joint, and cover nearby exposed terminals with heat-shrink tubing.
+
 Check the kit instructions and make sure the battery or power supply is disconnected. Some switches have solder lugs with holes for wires. For stranded wire, tin the stripped end before putting it through the lug: with your Leader supervising, hold the wire steady in a suitable holder, heat the bare strands, and feed on a small amount of electronics solder until the strands stay together. Let it cool. See [HAKKO’s guide to pre-tinning a lead wire](https://www.hakko.com/english/support/maintenance/detail.php?seq=171) for an example.
 
 If the instructions allow it, pass the tinned end through the hole and bend it back gently so it stays in place before soldering. Do not force a wire into a terminal that is not designed for it. Ask your Leader to check the connection.
