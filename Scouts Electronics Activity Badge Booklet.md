@@ -463,6 +463,18 @@ Solder each lead using the method in the LED section: heat both the lead and cop
 
 Wear safety glasses and use flush cutters to trim each lead just above the solder joint, without cutting into it. Collect the clipped ends, then ask your Leader to check for gaps or solder bridges before powering the circuit.
 
+### Soldering a capacitor into a circuit board
+
+Check the capacitor type and the board layout before fitting it. Some capacitors, such as many ceramic types, are not polarised and can go either way round. Others, including electrolytic capacitors, are polarised and must go in the correct direction. The longer lead is often positive, and a stripe on an electrolytic capacitor often marks the negative side, but check the part markings and kit diagram. Ask your Leader to check the direction before soldering.
+
+Set the capacitor’s height and position as shown in the kit instructions. Some capacitors stand upright; others may lie flat if the layout shows that. Do not push a capacitor flat or change its position unless the instructions show it. Bend the leads gently to fit the holes, then spread them slightly on the back of the board so the capacitor stays in place. Hold the board steady in a suitable holder.
+
+Solder each lead using the method in the LED section: heat both the lead and copper pad, then feed a little solder onto the heated joint until it flows over both. Keep the board still while the joint cools. Follow your Leader’s instructions and avoid heating the component or board for longer than needed.
+
+Wear safety glasses and use flush cutters to trim each lead just above the solder joint, without cutting into it. Collect the clipped ends. Ask your Leader to check the capacitor direction and solder joints before powering the circuit.
+
+For an assembly example that compares polarised and non-polarised capacitors, see [Adafruit’s Boarduino kit guide](https://learn.adafruit.com/boarduino-kits?view=all).
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering
