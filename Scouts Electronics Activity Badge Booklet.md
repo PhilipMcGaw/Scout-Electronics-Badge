@@ -493,6 +493,14 @@ Fit the connector squarely and hold the board securely. If the instructions allo
 
 Large lugs can stay hot after soldering. Leave the board in its holder to cool, and do not touch the connector to check whether it is cool. Ask your Leader to inspect the joints before connecting power.
 
+### Correcting excess solder and solder bridges
+
+Too much solder can form a blob on a joint or bridge two nearby pads. Stop soldering, disconnect the board from power, and ask your Leader to check it. Do not touch molten solder or try to wipe it away.
+
+With your Leader supervising, excess solder on a through-hole joint can sometimes be removed by reheating it with a clean iron tip. Some solder may transfer to the tip; clean the tip in the usual way and repeat only if needed. If solder still bridges nearby joints, your Leader can use solder braid: place the braid over the bridge and heat it until the solder flows into the braid. Lift the braid and iron away together; do not pull the braid across the board, as this can damage the pads. The braid will be hot, so let your Leader handle it and dispose of it safely.
+
+After removing excess solder, inspect the joint. It still needs enough solder to connect the lead and pad, with no bridge to nearby pads. Ask your Leader to check the repair before powering the board.
+
 ### Clean flux residue from a circuit board
 
 You may see residue left by flux after soldering. Whether it needs cleaning depends on the solder or flux used: some no-clean fluxes are designed to remain on the board, while other types need to be removed. Do not judge by colour or stickiness alone. Check the solder or flux instructions and ask your Leader. See [Kester’s guidance on flux residues](https://www.kester.com/knowledge-base/knowledge-base/soldering-handbook).
@@ -712,7 +720,7 @@ Most electronic devices use one or more printed circuit (PC) boards. A PC board 
 - Apply a small amount of solder to both the tip and the connection.
 - Remove the iron and let the solder set before moving the wire or the board. The finished connection, as you have learned, should be smooth and shiny.
 - Finally, clip off the excess wire length.
-If a solder bridge forms, switch off the power and remove it with solder wick or a suitable desoldering pump. Do not wipe molten solder away with a cloth or touch it while it is hot. Inspect the board for damage before testing the circuit again.
+If a solder bridge forms, disconnect the board from power and ask your Leader to correct it. See [Correcting excess solder and solder bridges](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#correcting-excess-solder-and-solder-bridges). Do not wipe molten solder away with a cloth or touch it while it is hot. Inspect the board for damage before testing the circuit again.
 
 ## Control Devices
 
