@@ -487,7 +487,7 @@ KiCad can also import EAGLE schematic and board files made with EAGLE 6 or later
 
 Before using or ordering a design, read its licence. It may require credit to the designer or place conditions on sharing changes. A public download does not automatically mean that every use is allowed. See the [Open Source Hardware Association’s definition](https://oshwa.org/resources/open-source-hardware-definition/).
 
-A board manufacturer may not accept the original design file from the CAD program. Follow the manufacturer’s current instructions; it may ask for manufacturing files such as Gerber and drill files. For example, see [JLCPCB’s instructions for PCB files](https://jlcpcb.com/help/article/instructions-for-pcb-layout-ordering). Ask your Leader to check the design revision, licence, files, and order before you pay for practice boards.
+I use [PCBWay](https://www.pcbway.com/) to have my PCBs made. A board manufacturer may not accept the original design file from the CAD program. Follow the manufacturer’s current instructions; it may ask for manufacturing files such as Gerber and drill files. Ask your Leader to check the design revision, licence, files, and order before you pay for practice boards.
 
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
