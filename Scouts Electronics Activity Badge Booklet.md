@@ -409,7 +409,7 @@ Isopropyl alcohol and some other cleaners are flammable. Only use a cleaner if y
 
 ### Set up a new soldering iron
 
-Ask your Leader to check the iron’s instructions and set it up for the project. If the iron has temperature control, use the setting recommended for the iron, solder, and joint. There is no single temperature that suits every iron and job. In the video, Mark uses about 700 °F (approximately 370 °C) as his personal setting; treat this as an example, not a setting for every iron or joint. Use the lowest setting that makes a good joint; too much heat can damage the tip or heat-sensitive parts. Do not change the setting unless your Leader asks you to. Read [HAKKO’s soldering-tip care guidance](https://www.hakko.com/english/support/maintenance/detail.php?seq=183).
+Ask your Leader to check the iron’s instructions and set it up for the project. If the iron has temperature control, use the setting recommended for the iron, solder, and joint. There is no single temperature that suits every iron and job. I usually run my iron at 400 °C. In the video, Mark uses about 700 °F (approximately 370 °C) as his personal setting. These are individual examples, not settings for every iron or joint. Use the lowest setting that makes a good joint; too much heat can damage the tip or heat-sensitive parts. Do not change the setting unless your Leader asks you to. Read [HAKKO’s soldering-tip care guidance](https://www.hakko.com/english/support/maintenance/detail.php?seq=183).
 
 Put the iron in its stand while it heats. Keep the fume extractor running and keep your face out of the fumes. Never touch the metal tip, even when the iron is new.
 
