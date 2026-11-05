@@ -407,6 +407,14 @@ An electronics flux pen or paste can help when a Leader is correcting a joint or
 
 Isopropyl alcohol and some other cleaners are flammable. Only use a cleaner if your Leader approves, keep it away from a hot iron and other ignition sources, and follow its label. Read the [HSE guidance on cleaning substances](https://www.hse.gov.uk/mvr/topics/degreaser.htm). Follow the fume-extraction advice above whenever soldering, including when using lead-free solder.
 
+### Set up a new soldering iron
+
+Ask your Leader to check the iron’s instructions and set it up for the project. If the iron has temperature control, use the setting recommended for the iron, solder, and joint. There is no single temperature that suits every iron and job. Use the lowest setting that makes a good joint; too much heat can damage the tip or heat-sensitive parts. Do not change the setting unless your Leader asks you to. Read [HAKKO’s soldering-tip care guidance](https://www.hakko.com/english/support/maintenance/detail.php?seq=183).
+
+Put the iron in its stand while it heats. Keep the fume extractor running and keep your face out of the fumes. Never touch the metal tip, even when the iron is new.
+
+Follow the manufacturer’s instructions before using a new tip. With your Leader supervising, warm the tip in the stand, then feed a little electronics solder onto its working surface so a thin, shiny layer covers it. This is called *tinning* the tip. Clean it with the cleaner specified for the iron, and put it back in the stand. Do not file or scrape the tip.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering and welding
