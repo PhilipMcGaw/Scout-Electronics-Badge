@@ -339,6 +339,22 @@ Before you begin working with a circuit, read and study this chapter on solderin
 
 Soldering is not just gluing metals together. Done correctly, it creates a reliable electrical and mechanical connection between clean metal surfaces. Use the solder alloy and flux recommended for the equipment and project. Lead-free solder is preferred for beginner activities unless a Leader has approved another type.
 
+### Set up a safe work environment when soldering
+
+Work with a Leader supervising. Set up a tidy, stable bench with a heat-resistant surface and good lighting. Keep food, drinks, paper, and other things that can burn away from the work. Tie back long hair and secure loose sleeves. Arrange the soldering iron, its stand, and its cable so that nobody can knock or pull the hot iron off the bench.
+
+Wear safety glasses while soldering and trimming component leads. Hot solder can spit, and a clipped lead can fly towards your eyes. Good lighting or a magnifier can help you see the joint, but neither replaces safety glasses.
+
+Flux used for soldering can give off fumes when heated. Use a suitable solder-fume extractor set up by your Leader, keep your face out of the fume, and never overheat the iron. The Health and Safety Executive warns that fume from rosin-based solder flux can cause asthma and recommends fume extraction. Read the [HSE guidance for solderers](https://www.hse.gov.uk/asthma/solderers.htm).
+
+Put the iron in its stand whenever you are not using it. Do not touch its metal tip, and treat the iron, solder, and board as hot until they have cooled. Do not leave a hot iron unattended. Ask your Leader to switch off and unplug it after the activity, and wait for it to cool before packing it away.
+
+Some solder contains lead. Do not eat or drink at the workbench, and keep solder and clipped leads away from your mouth. Wash your hands with soap and water after soldering and before eating or drinking. See the [HSE guidance on lead and hand hygiene](https://www.hse.gov.uk/lead/mostatrisk.htm).
+
+Some electronic components can be damaged by static electricity. Ask your Leader how to handle any parts that need protection from static.
+
+*Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
+
 ### Quick check: soldering and welding
 
 **Question 1 of 1**
