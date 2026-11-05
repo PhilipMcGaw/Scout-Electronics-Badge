@@ -445,6 +445,21 @@ If nearby bare terminals could touch, ask your Leader whether insulation is need
 
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
+### Quick check: wire connections
+
+**Question 1 of 2**
+
+What is this type of connection called?
+
+*Two wires are joined by interlocking loops. Each loop is made by bending a wire back on itself, then wrapping its free end around the wire.*
+
+- Lineman splice
+- Twist connection
+- Twist splice
+- Alternate splice
+
+**Answer for the Leader:** Lineman splice.
+
 ### Quick check: soldering and welding
 
 **Question 1 of 1**
