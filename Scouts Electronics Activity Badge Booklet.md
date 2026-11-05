@@ -924,6 +924,24 @@ For hand-soldering SMDs, I consider a flux pen essential. It lets me apply a sma
 
 I also have a temperature-controlled hot-air rework station and a small hot plate on my bench. Hot air and a hot plate are other ways to work with surface-mount parts, but they heat a wider area than an iron and need their own techniques. Use them only with your Leader, and follow the tool, solder, and component instructions. Never use IPA or another flammable cleaner near a hot iron, hot-air station, or hot plate.
 
+#### Soldering a small surface-mount part
+
+Practise on a separate SMD practice board, not the through-hole Woggle PCB. Start with a larger part, such as an 0805 resistor. Resistors are not polarised, but check the part value and board layout before fitting one.
+
+1. With your Leader supervising, secure the unpowered board in a holder. Apply a little flux from your flux pen to the pads.
+2. Clean the iron tip and put a small amount of solder on one pad.
+3. Hold the part with tweezers and line it up with the pads. Reheat the tinned pad to tack one end of the part in place. Let it cool and check the alignment.
+4. Solder the other end. Feed a small amount of solder to the heated pad and component terminal; use only enough to make the joint.
+5. Inspect both ends with magnification. If needed, ask your Leader to help reflow the first end. Check the project instructions for any parts with polarity before soldering.
+
+#### Soldering a multi-pin surface-mount IC
+
+Before fitting an IC, check its pin 1 mark and match it to the board layout. Apply flux to the pads, line up the pins, then tack one corner pin. Check the alignment and tack a pin at the opposite corner before soldering the remaining pins.
+
+For closely spaced pins, an experienced hand-solderer may use *drag soldering*: a suitable iron tip carries a small amount of solder along a row of pins. This is an advanced technique. Ask your Leader to demonstrate it and inspect the joints with magnification. Too much solder can bridge neighbouring pins. If that happens, stop and ask your Leader to show you how to remove the excess with flux and solder wick. Do not scrape or pull the wick across the board; it can damage the pads. See [HAKKO’s guidance on soldering-tip shapes](https://www.hakko.com/english/support/maintenance/detail.php?seq=171) and [using solder wick](https://www.hakko.com/english/products/hakko_wick_2_feature.html).
+
+Do not power the board until your Leader has checked the orientation and solder joints.
+
 ## Image and licensing note
 
 Do not create new images for this booklet. Any photographs, diagrams, or illustrations added later should come from the supplied reference material or from a clearly identified Creative Commons or other compatible licence. Record the creator, source, licence, and any required attribution beside the image or in a sources section. Prefer simple, age-appropriate diagrams that explain a component, measurement, or circuit.
