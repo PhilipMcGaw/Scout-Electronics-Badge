@@ -370,6 +370,17 @@ Choose an iron with a stable holder made for it. The holder must keep the hot ir
 
 The tip must fit the iron and suit the size of the joint. A very sharp point is not always the best choice; ask your Leader which tip to use. A basic temperature-controlled iron is enough for most beginner through-hole projects. Hot-air rework tools are for more advanced work and are not needed for these activities.
 
+### Soldering-iron accessories
+
+You do not need to buy every accessory at once. Ask your Leader to choose items that fit the iron and the project.
+
+- **Spare tips** can be useful, but tips are not universal. Check that they fit the iron. Different shapes suit different joints; ask your Leader which one to use. See [HAKKO’s guide to choosing a tip](https://www.hakko.com/english/support/maintenance/detail.php?seq=171).
+- **Tip cleaners** include brass-wire cleaners and sponges. Use the type recommended for your iron. If you use a sponge, dampen it as the instructions say; do not use it dry. See [HAKKO’s guide to preparing a tip cleaner](https://www.hakko.com/english/support/maintenance/detail.php?seq=214).
+- **Extra flux** is optional. Use only flux labelled for electronics, and only when your Leader says it is needed. Do not use plumber’s flux on a circuit board. Follow the flux instructions, including any cleaning steps. Some electronics flux pens are designed for circuit-board work; see the [manufacturer’s information on flux pens](https://mgchemicals.com/category/soldering-supplies/flux-pens/).
+- **Desoldering braid or a pump** can help remove solder when correcting a joint. They are not needed for every project. Practise with a Leader and follow the instructions in [How to Desolder](#how-to-desolder).
+
+A timer may remind you to switch the iron off, but it does not make it safe to leave the iron unattended. Follow the safety steps above and ask your Leader to switch off and unplug the iron when the activity ends.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering and welding
