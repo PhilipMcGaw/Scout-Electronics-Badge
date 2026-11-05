@@ -415,6 +415,20 @@ Put the iron in its stand while it heats. Keep the fume extractor running and ke
 
 Follow the manufacturer’s instructions before using a new tip. With your Leader supervising, warm the tip in the stand, then feed a little electronics solder onto its working surface so a thin, shiny layer covers it. This is called *tinning* the tip. Clean it with the cleaner specified for the iron, and put it back in the stand. Do not file or scrape the tip.
 
+### Joining two wires
+
+Only solder wires for a low-voltage project, with your Leader supervising. Do not use this method on mains wiring, household cables, or a wire whose purpose you do not know. Check the kit instructions first; some projects need a connector instead.
+
+Before you join the wires, slide a piece of heat-shrink tubing onto one wire. Choose tubing wide enough to slide over the finished joint and long enough to cover the bare metal and a little insulation on both sides. If you forget this step, you will have to undo the joint to fit the tubing.
+
+With the power disconnected, use the correct wire stripper to remove only enough insulation for the joint. Keep the bare wire neat, and check that you have not cut or damaged the conductor. Follow your Leader’s instructions for the type of wire in your project.
+
+Cross the bare ends and wrap them around each other so they hold together before soldering. Your Leader should check that the joint is secure and that no loose strands stick out. A loose twist held only by solder can break.
+
+With the wire held still, your Leader can heat the joint and feed electronics solder onto the wire until it flows over the joined metal. Use only enough solder to cover the joint; a large blob does not make it stronger. Keep still while it cools, then ask your Leader to check that the joint is covered and has not moved.
+
+When the joint is cool, slide the tubing over it. A suitable heat-shrink tool must be used by your Leader, following its instructions. Keep the tubing and wire away from the hot soldering iron. Never shrink tubing with a lighter or match.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering and welding
