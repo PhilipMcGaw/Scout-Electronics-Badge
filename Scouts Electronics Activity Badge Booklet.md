@@ -362,6 +362,14 @@ For a small through-hole project, a few hand tools make the work easier. Ask you
 - **Long-nose pliers** help bend component leads and hold wires in place before soldering. Do not handle a lead or joint until it has cooled.
 - **Tweezers** can help position small components. They are useful for tiny parts, but not every project needs them. Metal tweezers can become hot if they touch the iron or a hot joint.
 
+### Choosing a soldering iron
+
+Ask your Leader to help choose an iron that suits the project. A temperature-controlled iron or station lets the Leader select a suitable setting for the joint. A replaceable tip is useful, as long as replacement tips are available for that model. Follow the manufacturer’s instructions, and do not change the temperature setting unless your Leader asks you to.
+
+Choose an iron with a stable holder made for it. The holder must keep the hot iron secure when you put it down. Never rest a hot iron on the bench or use a stand that wobbles. Read the iron’s instructions; see [HAKKO’s guidance on soldering-iron holders](https://www.hakko.com/english/products/hakko_kote_board.html).
+
+The tip must fit the iron and suit the size of the joint. A very sharp point is not always the best choice; ask your Leader which tip to use. A basic temperature-controlled iron is enough for most beginner through-hole projects. Hot-air rework tools are for more advanced work and are not needed for these activities.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering and welding
