@@ -481,7 +481,7 @@ An integrated circuit (IC) with many pins can be tricky to fit because it can mo
 
 Check the socket’s notch and match it to the notch shown on the board. Insert the socket and make sure every pin passes through a hole and the socket sits flat. Hold the board securely in a suitable holder. Ask your Leader to help if the socket will not stay in place.
 
-With your Leader supervising, solder one corner pin first. Let the joint cool, then check that the socket is still flat and correctly lined up. If it has moved, ask your Leader to help reheat that joint and reposition it. When the first corner is right, solder the pin at the opposite corner. Check the alignment again, then solder the remaining pins one at a time. Keep the board still while each joint cools.
+With your Leader supervising, solder one corner pin first. Let the joint cool, then check that the socket is still flat and correctly lined up. If it has moved, ask your Leader to help reheat that joint and reposition it. When the first corner is right, solder the pin at the opposite corner. Check the alignment again, then solder the remaining pins one at a time. Keep the board still while each joint cools. After soldering the other pins, briefly reheat the first tack joint so the socket can settle and any mechanical stress can relax. Add a little solder if that joint needs it, then keep the board still while it cools again.
 
 Use a magnifier to check that solder has joined each pin to its pad and has not bridged between neighbouring pins. Ask your Leader to inspect the joints before inserting the IC or powering the board. When you insert the IC, match its notch or pin 1 mark to the socket and board markings.
 
