@@ -533,7 +533,7 @@ The BOM can list each part’s reference, value, footprint, and quantity. A refe
 
 ### Quick check: soldering
 
-**Question 1 of 5**
+**Question 1 of 6**
 
 What is this type of connection called?
 
@@ -546,7 +546,7 @@ What is this type of connection called?
 
 **Answer for the Leader:** Lineman splice.
 
-**Question 2 of 5**
+**Question 2 of 6**
 
 Which temperature range includes the personal examples given in this section?
 
@@ -557,7 +557,7 @@ Which temperature range includes the personal examples given in this section?
 
 **Answer for the Leader:** 650 °F–750 °F (approximately 350 °C–400 °C). These are personal examples, not a recommended range for every iron or joint. Follow the iron and solder instructions and your Leader’s guidance.
 
-**Question 3 of 5**
+**Question 3 of 6**
 
 What is wrong with these completed solder connections?
 
@@ -570,7 +570,7 @@ What is wrong with these completed solder connections?
 
 **Answer for the Leader:** Too much of the solder joint was cut away. Trim the component lead just above the solder joint, without cutting into the solder fillet. Cutting away the fillet can weaken the joint.
 
-**Question 4 of 5**
+**Question 4 of 6**
 
 Why should you avoid bending component leads flat against the board?
 
@@ -583,7 +583,7 @@ Why should you avoid bending component leads flat against the board?
 
 **Answer for the Leader:** The bare lead may touch nearby copper, or solder may bridge to it, causing a short circuit. If the assembly instructions say to bend the leads, bend them only enough to hold the component and keep them clear of other pads and tracks.
 
-**Question 5 of 5**
+**Question 5 of 6**
 
 Why should you check whether flux residue needs cleaning?
 
@@ -593,6 +593,19 @@ Why should you check whether flux residue needs cleaning?
 - Cleaning makes each solder joint mechanically stronger.
 
 **Answer for the Leader:** Flux types differ. Some no-clean residues do not need removal in most applications, while other types need cleaning. Check the solder or flux instructions and ask your Leader which method is suitable.
+
+**Question 6 of 6**
+
+What important information does a diode symbol on the PCB silkscreen show?
+
+*The board has letters and numbers, plus a diode symbol printed between two pads.*
+
+- The colour of the component.
+- Code snippets.
+- The component’s polarity.
+- The component’s weight.
+
+**Answer for the Leader:** The symbol shows the diode’s polarity and which way round to fit it. Check the component markings and assembly guide before soldering. See [Read the board markings](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#read-the-board-markings).
 
 ### Quick check: soldering and welding
 
