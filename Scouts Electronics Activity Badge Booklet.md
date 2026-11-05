@@ -475,6 +475,16 @@ Wear safety glasses and use flush cutters to trim each lead just above the solde
 
 For an assembly example that compares polarised and non-polarised capacitors, see [Adafruit’s Boarduino kit guide](https://learn.adafruit.com/boarduino-kits?view=all).
 
+### Soldering a multi-pin IC socket
+
+An integrated circuit (IC) with many pins can be tricky to fit because it can move while you solder. Some kits include a socket for the IC. Soldering the socket first makes it easier to correct a mistake and keeps the IC out of the heat. Follow the kit instructions if they say to solder the IC directly to the board.
+
+Check the socket’s notch and match it to the notch shown on the board. Insert the socket and make sure every pin passes through a hole and the socket sits flat. Hold the board securely in a suitable holder. Ask your Leader to help if the socket will not stay in place.
+
+With your Leader supervising, solder one corner pin first. Let the joint cool, then check that the socket is still flat and correctly lined up. If it has moved, ask your Leader to help reheat that joint and reposition it. When the first corner is right, solder the pin at the opposite corner. Check the alignment again, then solder the remaining pins one at a time. Keep the board still while each joint cools.
+
+Use a magnifier to check that solder has joined each pin to its pad and has not bridged between neighbouring pins. Ask your Leader to inspect the joints before inserting the IC or powering the board. When you insert the IC, match its notch or pin 1 mark to the socket and board markings.
+
 ### Finding a board to practise on
 
 A bare circuit board can give you a place to practise soldering without using a complete kit. Look for a project that shares its schematic, board layout, parts list, and assembly instructions. Check that the files all match the same board revision.
