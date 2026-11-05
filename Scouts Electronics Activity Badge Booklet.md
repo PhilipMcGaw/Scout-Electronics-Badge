@@ -485,6 +485,14 @@ With your Leader supervising, solder one corner pin first. Let the joint cool, t
 
 Use a magnifier to check that solder has joined each pin to its pad and has not bridged between neighbouring pins. Ask your Leader to inspect the joints before inserting the IC or powering the board. When you insert the IC, match its notch or pin 1 mark to the socket and board markings.
 
+### Soldering a connector with large metal lugs
+
+Some connectors, such as certain USB sockets, have large metal lugs as well as smaller electrical pins. The lugs help hold the connector to the board and may also make an electrical connection. Check the board markings and kit instructions so you know which pads are for the lugs and which are for the pins.
+
+Fit the connector squarely and hold the board securely. If the instructions allow, solder the large lugs first, then solder the smaller pins. Large lugs and the copper around them can take longer to heat than a small pin. Do not compensate by turning up the iron or feeding in a large blob of solder. With your Leader supervising, heat the lug and its pad together, then feed a little electronics solder onto the joint until it flows over both. Use enough to make the connection shown in the instructions, while keeping neighbouring pins and pads clear. If the solder does not flow, stop and ask your Leader rather than holding the iron on the board for a long time.
+
+Large lugs can stay hot after soldering. Leave the board in its holder to cool, and do not touch the connector to check whether it is cool. Ask your Leader to inspect the joints before connecting power.
+
 ### Finding a board to practise on
 
 A bare circuit board can give you a place to practise soldering without using a complete kit. Look for a project that shares its schematic, board layout, parts list, and assembly instructions. Check that the files all match the same board revision.
