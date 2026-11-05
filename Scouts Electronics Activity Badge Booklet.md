@@ -974,7 +974,13 @@ Before fitting an IC, check its pin 1 mark and match it to the board layout. App
 
 I do not like drag soldering; I prefer to feed solder to one pin at a time. With flux on the pins and pads, heat one pin and its pad together, then feed a small amount of solder to the joint. Work along each row and inspect under magnification as you go. Use an iron tip suited to the pin spacing. Too much solder can bridge neighbouring pins. If that happens, stop and ask your Leader to show you how to remove the excess with flux and solder wick. Do not scrape or pull the wick across the board; it can damage the pads. See [HAKKO’s guidance on soldering-tip shapes](https://www.hakko.com/english/support/maintenance/detail.php?seq=171) and [using solder wick](https://www.hakko.com/english/products/hakko_wick_2_feature.html).
 
-Do not power the board until your Leader has checked the orientation and solder joints.
+#### Correcting excess solder on surface-mount joints
+
+Too much solder can bridge nearby pins and cause a short circuit. If you see a bridge, stop and ask your Leader to check it. The board must be disconnected from power before any repair.
+
+With your Leader supervising, apply a small amount of electronics flux to the bridge. Lay fresh solder braid over the excess solder, then gently heat the braid with the iron until solder flows into it. Lift the braid and iron away together; do not drag or scrape the braid across the pads, as this can damage them. Use a fresh piece of braid if needed, and let the braid and board cool before touching them. For one small bridge, your Leader may choose to reflow the joint with flux and a clean iron tip instead.
+
+Inspect the pins under magnification afterwards. Check that the bridge is gone and each pin still has a sound joint to its pad. If a joint needs more solder, feed a small amount to that pin only. Do not use drag soldering to add solder. Do not power the board until your Leader has checked the component orientation and solder joints.
 
 #### Applying solder paste with a stencil
 
