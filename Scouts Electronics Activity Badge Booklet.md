@@ -533,7 +533,7 @@ The BOM can list each part’s reference, value, footprint, and quantity. A refe
 
 ### Quick check: soldering
 
-**Question 1 of 2**
+**Question 1 of 3**
 
 What is this type of connection called?
 
@@ -546,7 +546,7 @@ What is this type of connection called?
 
 **Answer for the Leader:** Lineman splice.
 
-**Question 2 of 2**
+**Question 2 of 3**
 
 Which temperature range includes the personal examples given in this section?
 
@@ -556,6 +556,19 @@ Which temperature range includes the personal examples given in this section?
 - 850 °F–950 °F (approximately 450 °C–500 °C)
 
 **Answer for the Leader:** 650 °F–750 °F (approximately 350 °C–400 °C). These are personal examples, not a recommended range for every iron or joint. Follow the iron and solder instructions and your Leader’s guidance.
+
+**Question 3 of 3**
+
+What is wrong with these completed solder connections?
+
+*The component leads have been cut almost flush with the board, and the solder joints have been cut back.*
+
+- Too much of the solder joint was cut away when trimming the leads.
+- Nothing; the connections are perfect.
+- Too little of each lead was trimmed.
+- The connections have not been soldered yet.
+
+**Answer for the Leader:** Too much of the solder joint was cut away. Trim the component lead just above the solder joint, without cutting into the solder fillet. Cutting away the fillet can weaken the joint.
 
 ### Quick check: soldering and welding
 
