@@ -381,6 +381,16 @@ You do not need to buy every accessory at once. Ask your Leader to choose items 
 
 A timer may remind you to switch the iron off, but it does not make it safe to leave the iron unattended. Follow the safety steps above and ask your Leader to switch off and unplug the iron when the activity ends.
 
+### Secure your work
+
+Keep the board and the part you are soldering still. Movement can disturb a joint while it cools. Ask your Leader to help choose a holder that suits the job.
+
+A small piece of tape may hold a light component in place while you start a joint, but use it only if your Leader agrees. Keep tape away from the iron and hot joint; it can soften or burn. Tape is temporary and is not a safe holder for the hot iron or a heavy board.
+
+Helping hands can hold a small part or wire. Check that the clips are stable and do not crush the wire insulation or block access to the joint. Sharp clip teeth can damage insulation, so use smooth or padded jaws where possible. A PCB holder or small vice can hold a board steady; tighten it only enough to stop the board moving, without bending it. These holders can make fine work easier, but a large or expensive vice is not needed for a beginner project. See the [Adafruit guide to soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering/surface-mount?view=all) for examples of board holders and helping hands.
+
+Let the joint cool without moving the board. Read the safety advice above before using tape or a clamp near the soldering iron.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering and welding
