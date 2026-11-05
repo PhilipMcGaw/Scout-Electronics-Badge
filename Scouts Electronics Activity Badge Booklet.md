@@ -655,6 +655,17 @@ Why can a heavy metal lug need more heat input than a small component pin?
 
 **Answer for the Leader:** A large metal lug and the copper connected to it can absorb heat, so the joint may need more heat input. Follow the kit and iron instructions and your Leader’s guidance; do not simply turn up the iron or keep it on the joint for a long time. See [Soldering a connector with large metal lugs](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#soldering-a-connector-with-large-metal-lugs).
 
+**Question 9 of 9**
+
+Which pin should you solder first when fitting a multi-pin component?
+
+- Any suitable pin can be soldered first to hold the component in place.
+- Always solder the top-most pin first.
+- Solder all the pins at once.
+- Start with pins 7 and 10.
+
+**Answer for the Leader:** Any suitable pin can be soldered first. For a socket, a corner pin is a useful starting point: check that the socket is aligned, then solder the opposite corner before doing the remaining pins. Briefly reflow the first tack joint at the end. See [Soldering a multi-pin IC socket](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#soldering-a-multi-pin-ic-socket).
+
 ### Quick check: soldering and welding
 
 **Question 1 of 1**
