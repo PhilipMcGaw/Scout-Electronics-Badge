@@ -419,6 +419,8 @@ Follow the manufacturer’s instructions before using a new tip. With your Leade
 
 Only solder wires for a low-voltage project, with your Leader supervising. Do not use this method on mains wiring, household cables, or a wire whose purpose you do not know. Check the kit instructions first; some projects need a connector instead.
 
+I prefer stranded wire because it is more flexible. Check your project instructions to see which type to use.
+
 Before you join the wires, slide a piece of heat-shrink tubing onto one wire. Choose tubing wide enough to slide over the finished joint and long enough to cover the bare metal and a little insulation on both sides. If you forget this step, you will have to undo the joint to fit the tubing.
 
 With the power disconnected, use the correct wire stripper to remove only enough insulation for the joint. Keep the bare wire neat, and check that you have not cut or damaged the conductor. Follow your Leader’s instructions for the type of wire in your project.
