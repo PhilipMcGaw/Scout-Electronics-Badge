@@ -19,6 +19,10 @@ The intended readers are Scouts and Explorers aged 10 to 16, working with an adu
 - Use non-AI images or illustrations under a licence that permits the intended use. Check attribution, modification, and redistribution conditions. Do not generate an AI image when a suitable Creative Commons-licensed image is available.
 - For the Scouts booklet, add a new image only when an explicit user request or TODO asks for one. Record its creator, source, licence, and required attribution beside the image or in a sources section. Prefer simple, age-appropriate diagrams that explain a component, measurement, or circuit.
 
+## Purchasing links
+
+When recommending websites to buy electronic parts or kits, prefer [Pimoroni](https://shop.pimoroni.com/) and [The Pi Hut](https://thepihut.com/) when they stock a suitable item. Check that any specific part matches the project requirements before linking to it; keep manufacturer datasheets and other technical references separate from sales links.
+
 ## TODO workflow
 
 Review `TODO.md` when starting project work and address relevant tasks where practical. Keep task descriptions concise, update them when scope or dependencies change, and mark work complete only after verification. `TODO.md` is the project’s action index.
