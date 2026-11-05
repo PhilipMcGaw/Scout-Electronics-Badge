@@ -483,7 +483,7 @@ A schematic shows which parts connect to each other. A board layout shows where 
 
 I use KiCad for electronic design, and I find it easier to use than Autodesk Fusion. Other ECAD tools are available, and you do not need to learn one just to practise soldering. Autodesk ended support for EAGLE on 2026-06-07; its electronics design workspace is now part of Autodesk Fusion. See [Autodesk’s EAGLE update](https://www.autodesk.com/support/technical/article/caas/sfdcarticles/sfdcarticles/Autodesk-EAGLE-Announcement-Next-steps-and-FAQ.html) and [KiCad’s official overview](https://www.kicad.org/about/kicad/).
 
-KiCad can show board details on separate layers, such as copper tracks, labels, and the board outline. Comparing the schematic and board layout can help you see how the circuit is built, but you do not need to understand every layer to practise soldering.
+KiCad can also import EAGLE schematic and board files made with EAGLE 6 or later in its XML format. In KiCad, use **File → Import Non-KiCad Project**. Check the imported schematic and board because imported designs may need some tidying. KiCad can show board details on separate layers, such as copper tracks, labels, and the board outline. Comparing the schematic and board layout can help you see how the circuit is built, but you do not need to understand every layer to practise soldering.
 
 Before using or ordering a design, read its licence. It may require credit to the designer or place conditions on sharing changes. A public download does not automatically mean that every use is allowed. See the [Open Source Hardware Association’s definition](https://oshwa.org/resources/open-source-hardware-definition/).
 
