@@ -644,6 +644,17 @@ The resistor is standing upright on the board, with one lead bent over to fit th
 
 **Answer for the Leader:** Nothing, if the board layout or assembly instructions show it mounted upright. Resistors are normally not polarised, and an upright position can save space. Follow the design rather than changing the component’s position. See [Soldering a resistor into a circuit board](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#soldering-a-resistor-into-a-circuit-board).
 
+**Question 8 of 9**
+
+Why can a heavy metal lug need more heat input than a small component pin?
+
+- It always needs the same heat as a small component pin.
+- It needs no heat.
+- The larger amount of metal can carry heat away from the joint.
+- It needs less heat because there is already more metal in the connection.
+
+**Answer for the Leader:** A large metal lug and the copper connected to it can absorb heat, so the joint may need more heat input. Follow the kit and iron instructions and your Leader’s guidance; do not simply turn up the iron or keep it on the joint for a long time. See [Soldering a connector with large metal lugs](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#soldering-a-connector-with-large-metal-lugs).
+
 ### Quick check: soldering and welding
 
 **Question 1 of 1**
