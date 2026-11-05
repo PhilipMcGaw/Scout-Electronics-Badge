@@ -533,7 +533,7 @@ The BOM can list each part’s reference, value, footprint, and quantity. A refe
 
 ### Quick check: soldering
 
-**Question 1 of 3**
+**Question 1 of 4**
 
 What is this type of connection called?
 
@@ -546,7 +546,7 @@ What is this type of connection called?
 
 **Answer for the Leader:** Lineman splice.
 
-**Question 2 of 3**
+**Question 2 of 4**
 
 Which temperature range includes the personal examples given in this section?
 
@@ -557,7 +557,7 @@ Which temperature range includes the personal examples given in this section?
 
 **Answer for the Leader:** 650 °F–750 °F (approximately 350 °C–400 °C). These are personal examples, not a recommended range for every iron or joint. Follow the iron and solder instructions and your Leader’s guidance.
 
-**Question 3 of 3**
+**Question 3 of 4**
 
 What is wrong with these completed solder connections?
 
@@ -569,6 +569,19 @@ What is wrong with these completed solder connections?
 - The connections have not been soldered yet.
 
 **Answer for the Leader:** Too much of the solder joint was cut away. Trim the component lead just above the solder joint, without cutting into the solder fillet. Cutting away the fillet can weaken the joint.
+
+**Question 4 of 4**
+
+Why should you avoid bending component leads flat against the board?
+
+*One lead extends away from the board; another is bent flat against its surface.*
+
+- It makes a stronger connection.
+- The bare lead can touch nearby copper, or solder can bridge to it and cause a short circuit.
+- The component will not stay in place.
+- Solder will not flow onto the lead.
+
+**Answer for the Leader:** The bare lead may touch nearby copper, or solder may bridge to it, causing a short circuit. If the assembly instructions say to bend the leads, bend them only enough to hold the component and keep them clear of other pads and tracks.
 
 ### Quick check: soldering and welding
 
