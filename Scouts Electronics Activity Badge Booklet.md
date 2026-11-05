@@ -475,6 +475,16 @@ Wear safety glasses and use flush cutters to trim each lead just above the solde
 
 For an assembly example that compares polarised and non-polarised capacitors, see [Adafruit’s Boarduino kit guide](https://learn.adafruit.com/boarduino-kits?view=all).
 
+### Finding a board to practise on
+
+A bare circuit board can give you a place to practise soldering without using a complete kit. Look for a project that shares its schematic, board layout, parts list, and assembly instructions. Check that the files all match the same board revision.
+
+A schematic shows which parts connect to each other. A board layout shows where the parts, holes, and copper tracks sit on the physical board. A design program can show these details on separate layers, such as copper tracks, labels, and the board outline. You do not need to understand every layer to practise, but comparing the schematic and board layout can help you see how the circuit is built.
+
+Before using or ordering a design, read its licence. It may require credit to the designer or place conditions on sharing changes. A public download does not automatically mean that every use is allowed. See the [Open Source Hardware Association’s definition](https://oshwa.org/resources/open-source-hardware-definition/).
+
+A board manufacturer may not accept the original design file from the CAD program. Follow the manufacturer’s current instructions; it may ask for manufacturing files such as Gerber and drill files. For example, see [JLCPCB’s instructions for PCB files](https://jlcpcb.com/help/article/instructions-for-pcb-layout-ordering). Ask your Leader to check the design revision, licence, files, and order before you pay for practice boards.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering
