@@ -453,6 +453,16 @@ If nearby bare terminals could touch, ask your Leader whether insulation is need
 
 For more examples, see [Adafruit’s guide to through-hole soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering?view=all) and [HAKKO’s through-hole soldering example](https://www.hakko.com/english/hikaru/pages/story5.html).
 
+### Soldering a resistor into a circuit board
+
+Check the resistor value and the board layout before fitting it. A fixed resistor normally has no polarity, but its position and height still matter. Follow the kit drawing: a resistor may sit close to the board, stand slightly above it, or be mounted upright to fit the layout. Do not press it flat or change its position unless the instructions show that.
+
+Bend the leads gently to match the holes, then insert them. On the back of the board, bend the leads apart just enough to hold the resistor in place. Do not bend them sharply against the resistor body. Hold the board steady in a suitable holder.
+
+Solder each lead using the method in the LED section: heat both the lead and copper pad, then feed a little solder onto the heated joint until it flows over both. Keep the board still while the joint cools. Do not use a fixed time for every joint; follow your Leader’s instructions and avoid heating the board for longer than needed.
+
+Wear safety glasses and use flush cutters to trim each lead just above the solder joint, without cutting into it. Collect the clipped ends, then ask your Leader to check for gaps or solder bridges before powering the circuit.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering
