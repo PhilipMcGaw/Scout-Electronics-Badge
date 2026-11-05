@@ -509,6 +509,14 @@ With your Leader supervising, place the iron tip so it heats the lead and pad to
 
 Inspect the repaired joint for good wetting and check that it has not bridged to another pad. Follow the kit or board instructions for the expected joint shape, then ask your Leader to check it before powering the circuit.
 
+### Fixing a cold solder joint
+
+A cold solder joint can form if the component lead and copper pad are not heated together, or if the joint moves while the solder cools. The solder may bead up on the lead instead of flowing over both the lead and pad. Disconnect the board from power and ask your Leader to check the joint.
+
+With your Leader supervising, add a small amount of electronics flux with a flux pen, if available. The flux core in fresh electronics solder may also provide enough flux for the repair. Use a clean iron tip to heat the lead and pad together until the solder melts and flows over both. Add only a little solder if needed; do not just heat a blob on the lead or turn up the iron temperature. Remove the iron and let the joint cool without moving it.
+
+Check that solder has wetted both the lead and pad, and has not bridged to a nearby pad. Follow the kit or board instructions, and ask your Leader to inspect the repair before powering the circuit.
+
 ### Clean flux residue from a circuit board
 
 You may see residue left by flux after soldering. Whether it needs cleaning depends on the solder or flux used: some no-clean fluxes are designed to remain on the board, while other types need to be removed. Do not judge by colour or stickiness alone. Check the solder or flux instructions and ask your Leader. See [Kester’s guidance on flux residues](https://www.kester.com/knowledge-base/knowledge-base/soldering-handbook).
