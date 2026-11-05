@@ -495,7 +495,7 @@ Large lugs can stay hot after soldering. Leave the board in its holder to cool, 
 
 ### Finding a board to practise on
 
-A bare circuit board can give you a place to practise soldering without using a complete kit. Look for a project that shares its schematic, board layout, parts list, and assembly instructions. Check that the files all match the same board revision.
+This booklet will be supplied with a Woggle PCB for soldering practice. Its design uses LEDs and a small 8-pin DIP microcontroller. For this or any other board, look for a project that shares its schematic, board layout, parts list, and assembly instructions. Check that the files all match the same board revision.
 
 A schematic shows which parts connect to each other. A board layout shows where the parts, holes, and copper tracks sit on the physical board.
 
