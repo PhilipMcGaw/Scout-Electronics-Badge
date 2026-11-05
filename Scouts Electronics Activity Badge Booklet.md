@@ -920,6 +920,8 @@ Before soldering, inspect the board and pads. Dirt, grease, or oxidation can sto
 
 Choose solder wire and an iron tip that suit the size of the pads. The 0.6 mm wire in the range described above can make it easier to feed a small amount onto a small pad. The iron tip must reach the pad without touching neighbouring pads, while still transferring enough heat to the joint. Ask your Leader to help choose a suitable tip; see [HAKKO’s soldering-tip guidance](https://www.hakko.com/english/support/maintenance/detail.php?seq=171).
 
+For hand-soldering SMDs, I consider a flux pen essential. It lets me apply a small amount of electronics flux exactly where it is needed and helps solder wet the pads. Follow the pen’s instructions and clean any residue as directed.
+
 I also have a temperature-controlled hot-air rework station and a small hot plate on my bench. Hot air and a hot plate are other ways to work with surface-mount parts, but they heat a wider area than an iron and need their own techniques. Use them only with your Leader, and follow the tool, solder, and component instructions. Never use IPA or another flammable cleaner near a hot iron, hot-air station, or hot plate.
 
 ## Image and licensing note
