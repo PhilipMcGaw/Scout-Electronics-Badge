@@ -529,16 +529,6 @@ If the project includes a KiCad schematic, you can use it to make a bill of mate
 
 The BOM can list each part’s reference, value, footprint, and quantity. A reference such as `R11` identifies a resistor on the schematic and board. The value tells you what the part does in the circuit, and the footprint shows its size and pad pattern. Check that these details match the project’s parts list and assembly instructions. The BOM helps you identify what to buy, but check the exact part details with your Leader before ordering.
 
-### First steps with a surface-mount component
-
-Surface-mount components sit on copper pads on the board instead of having leads that pass through holes. Some packages are too small to solder easily by hand, but many larger ones can be soldered with an iron. See [Adafruit’s guide to surface-mount soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering/surface-mount?view=all).
-
-Before soldering, inspect the board and pads. Dirt, grease, or oxidation can stop solder from wetting a pad. Do not clean every board automatically: if a board looks dirty, ask your Leader whether it needs cleaning and which method is suitable. Follow the cleaning instructions in [Clean flux residue from a circuit board](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#clean-flux-residue-from-a-circuit-board), and make sure the board is completely dry before soldering.
-
-Choose solder wire and an iron tip that suit the size of the pads. The 0.6 mm wire in the range described above can make it easier to feed a small amount onto a small pad. The iron tip must reach the pad without touching neighbouring pads, while still transferring enough heat to the joint. Ask your Leader to help choose a suitable tip; see [HAKKO’s soldering-tip guidance](https://www.hakko.com/english/support/maintenance/detail.php?seq=171).
-
-I also have a temperature-controlled hot-air rework station on my bench. Hot air is another way to work with surface-mount parts, but it heats a wider area and needs its own technique. Use it only with your Leader and follow the station and component instructions. Never use IPA or another flammable cleaner near a hot iron or hot-air station.
-
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering basics
@@ -913,6 +903,20 @@ For each circuit, record: the circuit name; a hand-drawn schematic using standar
 ## Everyday Uses of Electronics
 
 Electronics is used in communication, healthcare, transport, homes, energy systems, environmental monitoring, accessibility devices, education, and emergency services. Examples include hearing aids, insulin pumps, traffic signals, navigation systems, smoke alarms, renewable-energy controllers, phones, computers, and assistive switches. Discuss both the benefits and the responsibilities: reliable design, privacy, repairability, energy use, recycling, and safe disposal of batteries and electronic waste.
+
+## Further reading
+
+### Surface-mount soldering (optional)
+
+The Woggle PCB supplied with this booklet uses through-hole components. You do not need surface-mount soldering to build it. This section introduces a different technique for anyone who wants to learn more.
+
+Surface-mount components sit on copper pads on the board instead of having leads that pass through holes. Some packages are too small to solder easily by hand, but many larger ones can be soldered with an iron. See [Adafruit’s guide to surface-mount soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering/surface-mount?view=all).
+
+Before soldering, inspect the board and pads. Dirt, grease, or oxidation can stop solder from wetting a pad. Do not clean every board automatically: if a board looks dirty, ask your Leader whether it needs cleaning and which method is suitable. Follow the cleaning instructions in [Clean flux residue from a circuit board](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#clean-flux-residue-from-a-circuit-board), and make sure the board is completely dry before soldering.
+
+Choose solder wire and an iron tip that suit the size of the pads. The 0.6 mm wire in the range described above can make it easier to feed a small amount onto a small pad. The iron tip must reach the pad without touching neighbouring pads, while still transferring enough heat to the joint. Ask your Leader to help choose a suitable tip; see [HAKKO’s soldering-tip guidance](https://www.hakko.com/english/support/maintenance/detail.php?seq=171).
+
+I also have a temperature-controlled hot-air rework station on my bench. Hot air is another way to work with surface-mount parts, but it heats a wider area and needs its own technique. Use it only with your Leader and follow the station and component instructions. Never use IPA or another flammable cleaner near a hot iron or hot-air station.
 
 ## Image and licensing note
 
