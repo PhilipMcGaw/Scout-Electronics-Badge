@@ -998,6 +998,14 @@ A hot-air rework station can heat the solder paste until it melts and joins the 
 
 Before heating, check the position and orientation of every component. Warm the board gradually and move the hot-air nozzle around the area so the heat is spread evenly. Use only enough airflow to avoid moving the small parts. Watch the solder; once it has flowed onto the pads and component leads, stop heating and let the board cool without moving it. The nozzle, air, and board will be very hot, so keep hands clear. After cooling, inspect the joints and check that no components have shifted or been fitted the wrong way round. Do not power the board until your Leader has checked it.
 
+#### Removing a surface-mount IC (advanced)
+
+Removing a surface-mount IC is an advanced repair task and is not needed for the Woggle project. It should be done by an experienced Leader. Hot-air rework is the preferred method when removal is necessary. Secure the unpowered board, use fume extraction, and follow the station, board, and component instructions. Heat around the IC so all its pins reflow. Do not pull or pry the IC: when all the solder has melted, it should lift away with tweezers. If it resists, stop and ask the Leader to check whether more heating is needed.
+
+After the board cools, the Leader can remove excess solder from the pads with flux and solder braid, using the method above. Inspect the pads and tracks for damage before fitting another component. Reusing a removed IC is not guaranteed; heat can damage the component or board.
+
+Cutting the leads of an IC is a destructive last resort, only for a part that will be discarded. It can damage the PCB, and clipped leads can fly away. A Leader must decide whether it is suitable and use eye protection. Do not try this as a beginner repair.
+
 ### Quick check: surface-mount soldering (optional)
 
 **Question 1 of 4**
