@@ -485,6 +485,12 @@ I use KiCad for electronic design, and I find it easier to use than Autodesk Fus
 
 KiCad can also import EAGLE schematic and board files made with EAGLE 6 or later in its XML format. In KiCad, use **File → Import Non-KiCad Project**. Check the imported schematic and board because imported designs may need some tidying. KiCad can show board details on separate layers, such as copper tracks, labels, and the board outline. Comparing the schematic and board layout can help you see how the circuit is built, but you do not need to understand every layer to practise soldering.
 
+### Read the board markings
+
+The silkscreen is the layer of printed labels and outlines on a circuit board. It acts like a map when you place parts. Labels such as `R1`, `C1`, `D1`, and `U1` identify components, while outlines show where parts sit. Use the same labels to match a component with the schematic, parts list, or assembly guide.
+
+Some markings show which way a part must face. Look for `+` and `−` signs, a line for a diode, or a notch or dot marking pin 1 on an integrated circuit. Match the board marking with the part itself and check the assembly guide or datasheet if you are unsure. Some boards also have jumpers or tracks that can be changed to select an option, such as a supply voltage. Do not cut a track or bridge jumper pads unless the project instructions tell you to do so and your Leader has checked it.
+
 Before using or ordering a design, read its licence. It may require credit to the designer or place conditions on sharing changes. A public download does not automatically mean that every use is allowed. See the [Open Source Hardware Association’s definition](https://oshwa.org/resources/open-source-hardware-definition/).
 
 I recommend [PCBWay](https://www.pcbway.com/) because that is the service I use to have my PCBs made. A board manufacturer may not accept the original design file from the CAD program. Follow the manufacturer’s current instructions; it may ask for manufacturing files such as Gerber and drill files. The order page may show previews of the board layers. Check the board outline, holes, labels, and top and bottom views against the design. If anything looks wrong or confusing, stop and ask your Leader before placing the order.
