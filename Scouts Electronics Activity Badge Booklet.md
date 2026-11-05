@@ -399,6 +399,14 @@ Choose lead-free solder unless your Leader gives a different instruction. Many e
 
 Solder wire is sold in different diameters. For many small circuit-board joints, **0.6–0.8 mm** is a useful starting range. Thicker wire feeds more solder at once and can be harder to control on a small joint. Check the kit instructions or ask your Leader if they specify a different size. Weller’s [solder-wire guide](https://www.weller-tools.com/eu/gb/industrial-soldering/products/soldering-wire) gives **0.5–0.8 mm** as a typical range for most PCB work.
 
+### Flux and when to use it
+
+Flux helps remove the thin oxide layer on metal and helps melted solder spread across the joint. Many electronics solder wires contain a small amount of flux in their core. For an ordinary beginner joint, that may be enough; you do not always need to add more.
+
+An electronics flux pen or paste can help when a Leader is correcting a joint or removing a component. Use only flux made for electronics and follow its instructions. Some flux is labelled “no-clean”, while other fluxes need cleaning. “No-clean” can still leave residue. Do not assume that every board needs cleaning with alcohol; check the instructions for the flux and the components. See the [manufacturer’s information on flux types](https://mgchemicals.com/category/soldering-supplies/flux-pens/).
+
+Isopropyl alcohol and some other cleaners are flammable. Only use a cleaner if your Leader approves, keep it away from a hot iron and other ignition sources, and follow its label. Read the [HSE guidance on cleaning substances](https://www.hse.gov.uk/mvr/topics/degreaser.htm). Follow the fume-extraction advice above whenever soldering, including when using lead-free solder.
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering and welding
