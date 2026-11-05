@@ -992,3 +992,13 @@ When using hot air to reflow surface-mount solder paste, how should you move the
 - Put the hot-air nozzle against the component.
 
 **Answer for the Leader:** Move the nozzle slowly around the area while warming the board gradually. This helps spread the heat; the right process still depends on the solder paste, board, components, and station.
+
+**Question 4 of 4**
+
+If the solder paste maker specifies refrigerated storage, where should it be kept?
+
+- In a small heated enclosure
+- On your workbench
+- In a clearly labelled, non-food refrigerator
+
+**Answer for the Leader:** In a clearly labelled, non-food refrigerator. Storage requirements vary, so follow the paste maker’s instructions. If the paste needs refrigeration, let it reach room temperature naturally before opening it, as the instructions direct.
