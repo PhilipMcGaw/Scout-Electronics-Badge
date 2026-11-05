@@ -443,6 +443,16 @@ Hold the component and wire steady with a suitable holder. With your Leader supe
 
 If nearby bare terminals could touch, ask your Leader whether insulation is needed. Slide any heat-shrink tubing onto the wire before soldering, and use a suitable heat-shrink tool only as directed by your Leader. Do not use an open flame or the soldering iron to shrink it.
 
+### Soldering an LED into a circuit board
+
+1. **Check the LED direction.** LEDs have a positive and a negative side. The longer lead is usually positive, but check the kit diagram or component markings before fitting it.
+2. **Fit the LED.** Put its leads through the correct holes. Set the LED height as the kit instructions show. On the back of the board, gently bend the leads apart so the LED stays in place. Do not bend them sharply against the LED body or across other pads.
+3. **Hold the board steady.** Use a suitable board holder, and check that the LED has not moved.
+4. **Solder each lead.** With your Leader supervising, place the iron tip so it touches both the component lead and the copper pad. Feed a little electronics solder onto the heated joint, from the side away from the tip. Stop when the solder has flowed over both the lead and pad, then remove the solder and iron. Do not melt solder on the iron tip and wipe it onto the joint. Avoid heating the LED body or the board for longer than needed.
+5. **Let the joint cool, then trim.** Keep the board still while the solder cools. Wear safety glasses and use flush cutters to trim each lead just above the solder joint, without cutting into it. Collect the clipped ends. Ask your Leader to check the joints for gaps or solder bridges before powering the circuit.
+
+For more examples, see [Adafruit’s guide to through-hole soldering](https://learn.adafruit.com/adafruit-guide-excellent-soldering?view=all) and [HAKKO’s through-hole soldering example](https://www.hakko.com/english/hikaru/pages/story5.html).
+
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
 ### Quick check: soldering
