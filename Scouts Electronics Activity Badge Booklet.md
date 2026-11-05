@@ -445,7 +445,7 @@ If nearby bare terminals could touch, ask your Leader whether insulation is need
 
 *Adapted from Mark De Vinck’s video series, “Soldering for Electronic Products and Manufacturing”.*
 
-### Quick check: wire connections
+### Quick check: soldering
 
 **Question 1 of 2**
 
@@ -459,6 +459,17 @@ What is this type of connection called?
 - Alternate splice
 
 **Answer for the Leader:** Lineman splice.
+
+**Question 2 of 2**
+
+Which temperature range includes the personal examples given in this section?
+
+- 250 °F–350 °F (approximately 125 °C–175 °C)
+- 650 °F–750 °F (approximately 350 °C–400 °C)
+- 450 °F–550 °F (approximately 230 °C–300 °C)
+- 850 °F–950 °F (approximately 450 °C–500 °C)
+
+**Answer for the Leader:** 650 °F–750 °F (approximately 350 °C–400 °C). These are personal examples, not a recommended range for every iron or joint. Follow the iron and solder instructions and your Leader’s guidance.
 
 ### Quick check: soldering and welding
 
