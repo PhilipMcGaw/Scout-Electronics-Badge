@@ -120,7 +120,7 @@ A short circuit is an unintended low-resistance path that bypasses the load. It 
 
 ### Ideal and real battery sources
 
-An ideal voltage source is a useful model: it keeps the same voltage as the load changes. A real battery has limits. The circuit and its load determine how much current is drawn; the battery does not push its maximum current into every circuit. If a load tries to draw more current than the battery can safely provide, the battery’s terminal voltage may fall and the battery may heat up or become damaged. Check the battery and component instructions, and never test a battery’s limit by shorting it or connecting an unsuitable load.
+An ideal voltage source is a useful model: it keeps the same voltage as the load changes. A real battery has some internal resistance. When current flows, this resistance causes a voltage drop inside the battery, so the voltage measured at its terminals can fall as the load draws more current. The circuit and its load determine how much current is drawn; the battery does not push its maximum current into every circuit. If a load tries to draw more current than the battery can safely provide, the battery may heat up or become damaged. The effect depends on the battery and its condition. Check the battery and component instructions, and never test a battery’s limit by shorting it or connecting an unsuitable load.
 
 ### Battery capacity
 
