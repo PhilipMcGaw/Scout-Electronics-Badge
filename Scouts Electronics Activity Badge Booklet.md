@@ -130,6 +130,12 @@ The same battery size can have different nominal voltages because the chemistry 
 
 Capacity is often given in milliamp-hours (mAh) or amp-hours (Ah). It describes how much charge a battery can deliver under stated test conditions; it is not the maximum current the battery can safely supply. A rough runtime estimate is capacity divided by the circuit’s average current. For example, `1,000 mAh ÷ 10 mA = 100 h`. Treat this only as an estimate: actual capacity and runtime depend on the battery, current drawn, temperature, and the voltage at which the circuit stops working. Check the manufacturer’s information, and never use the capacity rating as a safe-current rating.
 
+### Cells in series and parallel
+
+Cells in series connect the positive terminal of one cell to the negative terminal of the next. Their nominal voltages add: two 1.5 V cells in series make a 3 V pack. The pack’s capacity in amp-hours stays about the same as one cell’s capacity when the cells match. The same current passes through each cell, but increasing the pack voltage can change the current drawn by a load.
+
+Cells in parallel connect positive to positive and negative to negative. A correctly designed pack keeps about the same voltage as one cell, while its capacity may increase if the cells are matched and the manufacturer allows that arrangement. Do not connect loose cells in parallel as part of this activity: cells that differ in type or charge can drive unwanted current into one another. Use only a purpose-built holder or pack and follow its instructions. When a device uses several cells, use a matched set of the same type and condition; do not mix old and new cells or different chemistries.
+
 ### Current, Voltage, and Resistance
 
 Here are some basic definitions of terms used in electronics.

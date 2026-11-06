@@ -4,7 +4,7 @@
 
 **Purpose:** Explain why a battery's stated voltage does not tell the whole story about how it will perform in a circuit.
 
-**Source note:** The user supplied a transcript headed “Battery capacity”. Use it as background, correct its simplifications and arithmetic, and write original explanations.
+**Source note:** The user supplied transcripts headed “Battery capacity” and “Batteries in series and parallel”. Use them as background, correct their simplifications and arithmetic, and write original explanations.
 
 ## Planned outline
 
@@ -12,8 +12,9 @@
 2. Explain battery capacity and what a capacity rating can and cannot tell you about operating time.
 3. Introduce internal resistance and show why terminal voltage can fall when a load draws current.
 4. Compare a battery's open-circuit voltage with a suitable under-load measurement.
-5. Use a simple, low-voltage circuit or Falstad simulation to show how changing the load affects voltage and current.
-6. Explain how battery type, condition, temperature, and load affect the result; check the manufacturer's data for the actual cell.
+5. Explain series and parallel cell arrangements, their nominal voltage and capacity effects, and why matched, manufacturer-approved packs are essential.
+6. Use a simple, low-voltage circuit or Falstad simulation to show how changing the load affects voltage and current.
+7. Explain how battery type, condition, temperature, and load affect the result; check the manufacturer's data for the actual cell.
 
 ## Notes to carry forward
 
@@ -23,6 +24,10 @@
 - Define amp-hours (`Ah`) and milliamp-hours (`mAh`) as charge capacity, distinct from current (`A` or `mA`). One amp-hour equals 3,600 coulombs. A rough runtime estimate is rated capacity divided by average load current, but only as a starting estimate: the rating depends on test current, temperature, and cutoff voltage, and delivered capacity changes with discharge rate and use pattern. Use `1,000 mAh ÷ 10 mA = 100 h` only as an idealised calculation, not a runtime promise. Never infer safe maximum current from capacity.
 - Explain nominal voltage as a designated approximate value, not the voltage at the halfway point of discharge. Battery voltage under load and during discharge depends on chemistry, condition, load, temperature, and state of charge. Do not imply every battery’s voltage declines in the same way.
 - Compare nominal cell voltage by chemistry, not just by physical size. Common rechargeable NiCd and NiMH cells are typically 1.2 V per cell; alkaline primary cells of the same size are typically 1.5 V. Explain that this can affect compatibility, but do not imply all rechargeable chemistries have a 1.2 V nominal voltage. Check the device and exact cell datasheets.
+- Explain that matched cells in series add nominal voltage while the pack's amp-hour capacity remains approximately that of one cell. The same current passes through each series cell; for a fixed resistive load, adding series cells raises the voltage and changes the current drawn. Do not say series connection leaves each cell's discharge rate unchanged without specifying the load.
+- Explain that a designed parallel pack keeps approximately one cell's voltage and can increase capacity, but do not claim the current divides equally or that maximum current ratings simply add unless exact cell and pack data support it. Do not recommend that readers connect loose cells in parallel; use only manufacturer-approved packs and protection.
+- Use matched cells of the same chemistry, type, age, and state of charge as specified by the manufacturer. Do not mix old and new or different cells. An incorrectly mixed pack can over-discharge a weaker cell, cause leakage, or create other hazards. Keep parallel-pack construction out of the Scouts activity.
+- Do not repeat the transcript's generic AA examples (50 mA typical drain, 100 mA for a two-cell parallel pack, or 4,800/7,200 mAh totals) without a specific cell datasheet and test conditions. The 20 Ω / 1.5 V arithmetic gives 75 mA in an ideal circuit, but does not prove a particular cell can safely provide that current.
 - Do not copy the transcript’s capacity figures or current capabilities for AAA and D cells without the exact cell datasheets and their test conditions. Do not suggest that an amp-hour rating allows arbitrary current-time trades (for example, tens of amps for minutes).
 - The transcript's 9 V, 10 kΩ example should calculate to `0.9 mA`, not `9 mA`. Its 9 V across 2 Ω calculation gives an ideal demand of `4.5 A`, but this is not a safe battery test and must not be used to claim a generic 9 V battery can provide that current.
 - Link to the [electronics fundamentals post](electronics-fundamentals.md) for the basic voltage, current, resistance, and power relationships.
@@ -33,4 +38,5 @@
 - Check current manufacturer datasheets for the chosen battery chemistry, capacity test conditions, internal resistance information, discharge limits, and temperature range.
 - For terminology and alkaline-cell examples, use the manufacturer’s [battery glossary](https://data.energizer.com/battery-glossary-faq/) and [alkaline application manual](https://data.energizer.com/pdfs/alkaline_appman.pdf), then check the current datasheet for the exact cell used.
 - For nominal-voltage examples, use [Panasonic’s battery chemistry guide](https://www.panasonic.com/global/energy/study/academy/battery-structure.html) alongside a datasheet for the specific alkaline cell.
+- Follow the manufacturer's [battery-use guidance](https://www.panasonic.com/global/energy/products/battery/dry_batteries_faq.html) on using matched cells and avoiding mixed or incorrectly installed batteries.
 - Use an original circuit diagram or a clearly attributed Falstad simulation if permission and reuse terms allow it.
