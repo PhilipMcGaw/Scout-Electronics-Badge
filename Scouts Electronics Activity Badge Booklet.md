@@ -1119,6 +1119,17 @@ What is **not** a basic type of DMM measurement?
 
 **Answer for the Leader:** Magnetism. A basic DMM measures electrical quantities such as voltage, current, resistance, and continuity.
 
+**Question 3 of 3**
+
+If you try to measure voltage while your DMM is set to `_____` mode, it can blow the fuse.
+
+- Current
+- Electrical continuity
+- Voltage
+- Resistance
+
+**Answer for the Leader:** Current. A meter in current mode has a low-resistance path. Connecting it across a battery or supply can cause a short circuit, blow the meter’s fuse, or damage the meter.
+
 ## Analogue and Digital Electronics
 
 Analogue circuits use continuously varying voltages or currents. A microphone signal, a light sensor, and a temperature sensor are examples. Digital circuits use defined logic states, commonly described as LOW and HIGH or 0 and 1. Real digital signals still have voltage ranges, noise margins, timing limits, and current limits.
