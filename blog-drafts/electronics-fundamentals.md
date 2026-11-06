@@ -6,9 +6,9 @@
 
 **Related article to review:** [Is P = I x V Part of Ohm’s Law?](https://philipmcgaw.com/ohms-law-and-watts-law/).
 
-**Source note:** This outline uses ideas from the user-pasted transcripts headed “The fundamentals of electronics”, “What you should know”, “Electrical charge”, “Conductors and insulators”, “Voltage”, “Current”, “Circuit basics”, “Safety message”, “Resistance and Ohm’s Law”, “SI prefixes”, “What is a multimeter?”, “Electric power”, “Ideal vs. real-world power sources”, and “Grounded vs. floating power sources”. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcripts as background and write original explanations rather than reproducing their wording.
+**Source note:** This outline uses ideas from the user-pasted transcripts headed “The fundamentals of electronics”, “What you should know”, “Electrical charge”, “Conductors and insulators”, “Voltage”, “Current”, “Circuit basics”, “Safety message”, “Resistance and Ohm’s Law”, “SI prefixes”, “What is a multimeter?”, “Electric power”, “Ideal vs. real-world power sources”, “Grounded vs. floating power sources”, and “Continue your electronics journey”. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcripts as background and write original explanations rather than reproducing their wording.
 
-The local course-exercise folder contains a parts list, a multimeter list, an SI-prefix reference, and two circuit-challenge PDFs. A user-supplied screenshot of the parts list shows two 9 V batteries and two connectors, a 6.15 V, 0.5 A miniature bulb and holder, a red LED, a 470 Ω resistor, and SparkFun TOL-12966 and Extech MN36 multimeters. The listed shop links are US-oriented. Treat these as course examples, not UK purchasing recommendations. The screenshot does not show the circuit connections, so do not assume how the bulb, LED, or resistor are used together. The SI-prefix reference and multimeter list have been checked; one circuit-challenge PDF remains to be reviewed.
+The local course-exercise folder contains a parts list, a multimeter list, an SI-prefix reference, and two circuit-challenge PDFs. A user-supplied screenshot of the parts list shows two 9 V batteries and two connectors, a 6.15 V, 0.5 A miniature bulb and holder, a red LED, a 470 Ω resistor, and SparkFun TOL-12966 and Extech MN36 multimeters. The listed shop links are US-oriented. Treat these as course examples, not UK purchasing recommendations. The screenshot does not show the circuit connections, so do not assume how the bulb, LED, or resistor are used together. The SI-prefix reference, multimeter list, and both circuit-challenge PDFs have been checked; their useful points are recorded in the relevant notes.
 
 ## Planned outline
 
@@ -25,6 +25,7 @@ The local course-exercise folder contains a parts list, a multimeter list, an SI
 11. Use Falstad to explore the circuit and compare the model with measurements from the real low-voltage build.
 12. Link to the resistor article for power ratings and the battery article for capacity and voltage under load.
 13. Add an optional advanced note explaining circuit common, Earth reference, and floating sources without bringing mains wiring into scope.
+14. Conclude by encouraging readers to keep applying the fundamentals as their circuits grow more complex and use them to troubleshoot; point to practical next steps.
 
 ## Notes to carry forward
 
