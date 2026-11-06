@@ -7,7 +7,7 @@
 ## Planned outline
 
 1. Confirm the Woggle project files and board revision.
-2. Open the project in KiCad and inspect the schematic and PCB layout.
+2. Open the project in KiCad and inspect the schematic and PCB layout. Follow a connection from its schematic symbol through the board tracks to the relevant pads.
 3. Change the group name and check project metadata.
 4. Generate a CSV bill of materials and match each item to the assembly instructions.
 5. Prepare the manufacturing files requested by PCBWay and inspect the online previews.

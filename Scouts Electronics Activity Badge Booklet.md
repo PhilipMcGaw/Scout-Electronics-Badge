@@ -959,6 +959,7 @@ Learning to solder gives you a way to build and repair electronic projects. If y
 - Try coding with an Arduino or Raspberry Pi. A program can read a sensor and control an LED, buzzer, or motor. Start with a low-voltage project and follow the board’s instructions.
 - Explore a circuit idea in the [Falstad Circuit Simulator](https://www.falstad.com/circuit/) before building it. A simulation helps you explore how a circuit may behave; check the real circuit carefully as well.
 - Learn to draw schematics and design circuit boards with [KiCad](https://www.kicad.org/). You can study open-source designs, but check their licence before reusing them. See [Finding a board to practise on](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#finding-a-board-to-practise-on).
+- Find out what electronics jobs involve. Ask your Leader whether you can talk to someone who designs, builds, tests, or repairs electronic equipment; there are different routes into this work.
 - Practise repairing low-voltage projects with an adult. Do not open or repair mains-powered appliances as a beginner activity.
 
 You do not need to do all of these. Pick a project, get help when you need it, and keep experimenting safely.
