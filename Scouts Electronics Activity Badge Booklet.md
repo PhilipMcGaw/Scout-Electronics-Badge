@@ -212,13 +212,11 @@ By removing the component pin from going through the feed-through hole, the feed
 
 ### Schematic Diagrams
 
-The illustrations in the previous section didn’t show you a picture of a real diode or transistor. Instead, they showed you a kind of illustrated outline, called a schematic diagram. These diagrams are a simple way of showing how electronic components are connected. In a schematic, symbols stand for the different electronic components. The schematic diagram illustrated here is for a code-practice oscillator, used to practice Morse code. The corresponding pictorial representation shows how the components look. In the schematic, a different type of symbol represents each type of component:
+Schematic diagrams show how electronic components are connected. They use symbols for components and lines for wires, rather than pictures of the parts. This booklet follows IEC-style symbols used in UK diagrams. For example, a resistor is shown as a rectangle, and a battery is shown with long and short lines.
 
-long and short lines represent the battery; a zigzag line stands for a resistor. In this section, you will learn these symbols so that you can understand schematic diagrams.
+Some North American schematics, often called ANSI/IEEE style, use a zigzag line for a resistor instead of a rectangle. Both symbols represent a resistor. When you meet a diagram that uses unfamiliar symbols, look for its key or legend and follow the connections shown. In many diagrams, a dot marks wires that join at a crossing; check the diagram’s own convention if it is not clear.
 
-To start, compare the schematic diagram with the pictorial and match each symbol in the schematic with its equivalent component in the pictorial. Also match each line in the schematic with the appropriate wire in the pictorial. Notice where two lines cross in the schematic. If the wires are to be connected, a dot shows at the crossing on the schematic. If there is no dot, the two wires bypass each other and are not connected.
-
-When you draw your schematic for requirement 2, you will need a sharp pencil, paper, and a ruler or straight edge for drawing straight lines. A compass might be helpful for drawing circles. If you have a computer with a drawing program, you might use that to draw a schematic. There are also several freely available schematic capture tools.
+When you draw a schematic, use one symbol style consistently and include a key if you use symbols that may be unfamiliar. You can draw it with a pencil, paper, and a ruler, or use a schematic-capture program such as KiCad.
 
 ## Component Types
 
