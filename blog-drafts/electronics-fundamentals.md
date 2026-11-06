@@ -4,7 +4,7 @@
 
 **Purpose:** Connect the basic electrical quantities to a simple circuit, then check the explanation with safe low-voltage measurements.
 
-**Source note:** This outline uses ideas from the user-pasted transcript headed “The fundamentals of electronics”. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcript as background and write original explanations rather than reproducing its wording.
+**Source note:** This outline uses ideas from the user-pasted transcript headed “The fundamentals of electronics” and the “What you should know” section. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcript as background and write original explanations rather than reproducing its wording.
 
 ## Planned outline
 
@@ -19,6 +19,7 @@
 ## Notes to carry forward
 
 - The Scouts booklet already gives short definitions and the formulae. The blog post should add a worked example, a practical measurement, and a clear explanation of the limits of the water analogy rather than repeat the definitions at length.
+- Assume the reader is new to electronics. Build understanding before introducing equations, keep the mathematics to basic arithmetic, and use only the calculations needed to show how the quantities relate.
 - Keep examples to checked, low-voltage circuits. Do not include mains measurements, mains-powered equipment, or construction of power supplies.
 - Make clear that an ideal source is a useful circuit model, while actual sources have operating limits. Check any quantitative example against the selected battery and load data.
 - Explain multimeter connections precisely: voltage is measured in parallel; current is measured in series. Follow the meter's instructions and the existing booklet safety guidance.
