@@ -284,6 +284,17 @@ Electrons flow from the positive battery terminal towards the negative terminal.
 
 **Answer for the Leader:** False. In the external wires of a simple battery circuit, electrons drift from the negative terminal towards the positive terminal. Conventional current is described in the opposite direction, from positive to negative.
 
+**Question 3 of 11**
+
+Which material is the best electrical conductor?
+
+- Copper
+- Glass
+- Rubber
+- Plastic
+
+**Answer for the Leader:** Copper.
+
 ## Component Types
 
 Before we look at the most common types of electronics components, as well as the schematic symbol and a pictorial of each one, let’s define and review some basic terms (also see the Basic Electronics Theory section):
