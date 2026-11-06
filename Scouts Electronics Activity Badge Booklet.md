@@ -1096,6 +1096,19 @@ To measure resistance or continuity, switch the circuit off and make sure any ca
 
 Voltage is the electrical potential difference that can drive charge. Current is the rate of charge flow. Resistance opposes current. In a simple resistive circuit, Ohm’s law is V = I &#215; R. Power is P = V &#215; I. Record the units: volts (V), amperes (A), ohms (Ω), and watts (W).
 
+### Quick check: using a multimeter
+
+**Question 1 of 3**
+
+What happens if you swap the two DMM probes when measuring DC voltage?
+
+- The voltage reading changes sign (it is negated).
+- The DMM will break.
+- The measurement will be out of range.
+- The DMM will display the number 1.
+
+**Answer for the Leader:** The voltage reading changes sign. The meter shows the red probe’s voltage relative to the black probe, so swapping them reverses the sign but normally leaves the magnitude unchanged.
+
 ## Analogue and Digital Electronics
 
 Analogue circuits use continuously varying voltages or currents. A microphone signal, a light sensor, and a temperature sensor are examples. Digital circuits use defined logic states, commonly described as LOW and HIGH or 0 and 1. Real digital signals still have voltage ranges, noise margins, timing limits, and current limits.
