@@ -6,6 +6,10 @@
 
 The intended readers are Scouts and Explorers aged 10 to 16, working with an adult Leader. Keep explanations practical, age-appropriate, and technically accurate. When adapting supplied transcripts or notes, distinguish source material from editorial explanations and Philip’s own experience. Do not invent personal experiences, equipment settings, tests, or results. Check product-specific safety, storage, and operating instructions where they matter.
 
+## UK context and source relevance
+
+This is a UK-centric project. Use UK Scout requirements and UK safety, legal, regulatory, and standards guidance where applicable. Electrical conventions, terminology, suppliers, and requirements can differ between territories. A US or other overseas source may be accurate in its own context but incorrect or unsuitable here. Treat it as background, verify relevant claims against current UK primary or authoritative sources before adapting them, and identify any information that applies only outside the UK.
+
 ## Language and house style
 
 - Write new project content in British English. Use `organisation`, `organise`, `licence` as a noun, `license` as a verb, `colour`, and `behaviour`. Use `program` for software and `programme` for organised activities.
