@@ -1044,7 +1044,7 @@ The Woggle uses *Charlieplexing* to control several LEDs with fewer microcontrol
 
 ### Woggle KiCad files
 
-The woggle was designed in KiCad,
+The Woggle was designed in KiCad. It uses two AAA cells connected in series. Two alkaline cells provide a nominal 3.0 V; two NiCd or NiMH cells provide about 2.4 V. Follow the Woggle parts list and check the board’s permitted supply voltage before substituting a different cell chemistry.
 
 ## Soldering is Easy
 
