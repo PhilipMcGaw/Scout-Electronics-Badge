@@ -89,6 +89,19 @@ In a neutral atom, the positive and negative charges balance. Like charges repel
 
 The amount of electrical charge is measured in coulombs (C). Rubbing two materials, such as a balloon and a woollen jumper, can transfer electrons from one material to the other. The material that gains electrons becomes negatively charged; the material that loses them becomes positively charged. Rubbing moves charge; it does not create charge. A build-up of charge like this is called static electricity.
 
+#### Activity: make a balloon stick
+
+**You will need:** a balloon, a woollen jumper or piece of wool fabric, a smooth wall, and (optionally) a few small pieces of paper. Use a non-latex balloon if anyone taking part has a latex allergy.
+
+1. Rub the balloon on the wool fabric several times.
+2. Hold the balloon close to the wall without pressing it against the wall. Observe what happens.
+3. Bring the balloon near the paper pieces. Observe whether they move.
+4. Repeat the tests without rubbing the balloon first, then compare the results. Try different fabrics and record what you observe; the result can vary with the materials and the conditions.
+
+**What is happening?** Rubbing brings the materials into close contact. With a rubber balloon and wool, electrons commonly transfer from the wool to the balloon, although the result can vary with the exact materials. The balloon gains negative charge and the wool is left positively charged. Opposite charges attract. The wall can still be neutral overall: the balloon makes the charges in atoms near its surface shift slightly, leaving the nearby area a little more positive. This attraction can make the balloon stick. Charge gradually leaks away, and the effect may be weaker in damp air.
+
+**Safety:** Keep the balloon away from exposed electronic components, which can be damaged by static discharge. Do not deliberately make sparks or do the activity near flammable vapours.
+
 When charge moves through a circuit, we call that movement an electric current. In metal wires, electrons are the moving charges. Standard circuit diagrams usually show *conventional current* in the opposite direction, from positive to negative. Both descriptions refer to the same circuit; use the direction shown by the diagram or instructions.
 
 ### Conductors and Insulators
