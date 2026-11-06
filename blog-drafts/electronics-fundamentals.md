@@ -6,6 +6,8 @@
 
 **Source note:** This outline uses ideas from the user-pasted transcript headed “The fundamentals of electronics” and the “What you should know” section. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcript as background and write original explanations rather than reproducing its wording.
 
+The local, untracked course-exercise folder also contains a parts list, a multimeter list, an SI-prefix reference, and two circuit-challenge PDFs. Their contents have not yet been reviewed. Check any parts or equipment suggestions for current UK suitability before adapting them.
+
 ## Planned outline
 
 1. Start with a simple closed circuit and define voltage, current, resistance, and power in relation to its parts.
