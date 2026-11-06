@@ -1,0 +1,28 @@
+# Review note: IET Scout Electronics Badge Activity Pack
+
+- **Reviewed:** 2026-11-06
+- **Source filename:** `iet-scout-electronics-badge-activity-pack.pdf`
+- **Cover title:** *Scout Electronics Badge Scout Pack*
+- **Length:** 41 PDF pages
+
+## Review scope
+
+I extracted the searchable text and compared it with the Scouts booklet and its planned blog posts. I did not visually inspect the pages, photographs, or circuit diagrams. Some extracted text is garbled or appears out of order, so technical details and diagram-led instructions have not been treated as verified. Image reuse rights were not assessed.
+
+I also checked the current [Scouts Electronics Activity Badge requirements](https://www.scouts.org.uk/scouts/activity-badges/electronics/) on 2026-11-06. They match the requirements already listed in the booklet, so no badge-requirement change was needed.
+
+## Useful activity ideas for future work
+
+The pack offers a broad set of practical activities that could help Leaders give Scouts a choice of projects: an electronics diary, a resistor-colour-code game, multimeter exercises, a brush bug, a steady-hand game, a light-sensitive night light, a light-up map, electronic dice, a memory and reaction game, and a 555-based flashing guide. It also includes open-ended design challenges.
+
+The booklet already covers component identification, resistor markings, multimeter use, three circuit projects, and soldering a Woggle PCB. These extra activities are therefore recorded as optional project inspiration rather than copied into the booklet. The individual blog drafts can draw on an idea if it supports the post and the circuit is checked for the intended parts and supply.
+
+## Material not adopted
+
+Do not treat the pack's circuit diagrams or build instructions as current, verified designs. In particular, any LED circuit must use suitable current limiting for the actual LED and supply; USB-powered projects need a checked design and protection against shorts. Follow current component, tool, and kit instructions, and have the Leader check a circuit before it is powered. The pack's general soldering-safety wording does not replace the more specific UK HSE guidance already linked in the booklet.
+
+The pack's photographs and diagrams have not been reused; their licences and attribution requirements were not checked.
+
+## Disposition
+
+`Source Documents/iet-scout-electronics-badge-activity-pack.pdf` was deleted from the repository after the review, at Philip's request. This note records the review and its limits; it is not a substitute for the source document.
