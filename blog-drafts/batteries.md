@@ -4,7 +4,7 @@
 
 **Purpose:** Explain why a battery's stated voltage does not tell the whole story about how it will perform in a circuit.
 
-**Source note:** The user supplied transcripts headed “Battery capacity” and “Batteries in series and parallel”. Use them as background, correct their simplifications and arithmetic, and write original explanations.
+**Source note:** The user supplied transcripts headed “Battery capacity”, “Batteries in series and parallel”, and “Challenge: Power a light bulb”. The last transcript describes powering a motor, despite the title. Use them as background, correct their simplifications and arithmetic, and write original explanations.
 
 ## Planned outline
 
@@ -30,6 +30,7 @@
 - Use matched cells of the same chemistry, type, age, and state of charge as specified by the manufacturer. Do not mix old and new cells: they can discharge unevenly, potentially over-discharging the weaker cell and causing leakage or damage. Keep parallel-pack construction out of the Scouts activity.
 - Do not repeat the transcript's generic AA examples (50 mA typical drain, 100 mA for a two-cell parallel pack, or 4,800/7,200 mAh totals) without a specific cell datasheet and test conditions. The 20 Ω / 1.5 V arithmetic gives 75 mA in an ideal circuit, but does not prove a particular cell can safely provide that current.
 - Do not copy the transcript’s capacity figures or current capabilities for AAA and D cells without the exact cell datasheets and their test conditions. Do not suggest that an amp-hour rating allows arbitrary current-time trades (for example, tens of amps for minutes).
+- Consider adapting the motor-sizing challenge as a worked battery-pack exercise: it specifies 6 V, 150 mA, and 48 h, which gives an idealised charge requirement of `150 mA × 48 h = 7,200 mAh` at that load. Explain that this is only a first estimate, not a pack recommendation: verify the original cell chart and solution, check capacity at the actual discharge rate and cutoff voltage, and account for motor start/stall current, voltage drop under load, temperature, and battery limits. The supplied transcript title says “light bulb” but its content says “motor”; resolve that mismatch against the source before publication. Do not recommend loose cells wired in parallel.
 - The transcript's 9 V, 10 kΩ example should calculate to `0.9 mA`, not `9 mA`. Its 9 V across 2 Ω calculation gives an ideal demand of `4.5 A`, but this is not a safe battery test and must not be used to claim a generic 9 V battery can provide that current.
 - Link to the [electronics fundamentals post](electronics-fundamentals.md) for the basic voltage, current, resistance, and power relationships.
 - Keep the explanation applicable to low-voltage battery-powered projects. Do not include mains-derived supplies or mains construction.
