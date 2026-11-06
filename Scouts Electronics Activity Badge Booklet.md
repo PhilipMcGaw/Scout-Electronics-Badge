@@ -1128,7 +1128,7 @@ If you try to measure voltage while your DMM is set to `_____` mode, it can blow
 - Voltage
 - Resistance
 
-**Answer for the Leader:** Current. A meter in current mode has a low-resistance path. Connecting it across a battery or supply can cause a short circuit, blow the meter’s fuse, or damage the meter.
+**Answer for the Leader:** Current. A meter in current mode has a low-resistance path. Connecting it across a battery or supply can cause a short circuit. Too much current can blow the meter’s fuse: the fuse is a safety part that melts and opens the circuit to help protect the meter. If it blows, the current-measurement function may stop working. Ask a Leader to check the meter and its instructions; the fuse does not prevent every kind of damage.
 
 ## Analogue and Digital Electronics
 
