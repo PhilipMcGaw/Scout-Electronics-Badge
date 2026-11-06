@@ -22,7 +22,7 @@
 - Explain how electronics can be used to improve lives.
 ## History and Introduction
 
-Electronics is the science that controls the behaviour of electrons so that some type of useful function is performed. (Electrons will be explained more fully later in this book.) Today, electronics is a fast-changing and exciting field. The rapid growth of electronics started in the early 20th century when vacuum tubes were introduced and used to manipulate electronic signals. This was something that could not be done with the telegraph and telephone circuits or the high-voltage transmitters of those days. Vacuum tubes allowed weak radio and powerful signals to be amplified, or to be made louder or stronger, and be sent on powerful waves.
+Electronics uses electrical signals to make useful things happen. Those signals involve voltage and current, which are explained in this section. Today, electronics is a fast-changing field. The rapid growth of electronics started in the early 20th century when valves, also called vacuum tubes, were used to amplify electronic signals. Transistors and integrated circuits later made it possible to build smaller, lower-power electronic systems.
 
 Electronics changed even more dramatically in 1948 when the transistor, a small, low-powered, solid-state electronic device, was invented. Transistors are smaller than vacuum tubes, require less power to function, and are more reliable. The development of the integrated circuit, or IC, advanced this technology further. ICs can contain tens of thousands of tiny transistors built onto a small piece of conducting material. This allows for the construction and production of complex electronic circuits, which are more efficient than tubes in processing electronic signals. ICs are used in many products today, including computers, audio equipment, cell phones, appliances, and automobiles.
 
@@ -70,25 +70,31 @@ For electronic parts and kits, you and your Leader could also look at [Kitronik]
 
 ## Basic Electronics Theory
 
-Before you learn about electronic components, let’s look at the theory behind electronics. Controlling electrons is the science of electronics. So, our study of electronics theory begins with the electron.
+Before you learn about electronic components, let’s look at the ideas behind electronics. We will start with atoms and electrical charge, then see how charge moves in a circuit.
 
 ### Atoms and Electrons
 
-To understand electrons, we must learn about the makeup of matter. All matter is composed of atoms, and an atom is composed of three elementary particles: electrons, protons, and neutrons. Negatively charged electrons revolve around the core (the nucleus) of the atom, which is composed of positively charged protons and neutral (not charged) neutrons.
+Matter is made from atoms. A simple model shows each atom with a tiny nucleus made of protons and neutrons, and electrons around it. This picture is useful for learning, but electrons do not move around the nucleus like tiny planets. Protons have positive electrical charge, electrons have negative charge, and neutrons have no charge.
 
-Generally, a negatively charged electron is matched by a positively charged proton. For example, copper has 29 electrons revolving around a nucleus containing 29 protons. A basic law of nature controls electrical charges. This law simply stated is that unlike charges attract and like charges repel. This means a negative charge is drawn to a positive charge but pushes away from another negative charge. This is called electrostatic force. Normally, the positively charged protons hold the negatively charged electrons in place. However, an electron sometimes breaks away from an atom because of an outside force, such as heat, light, magnetic fields, or chemical reactions.
+In a neutral atom, the positive and negative charges balance. Like charges repel; opposite charges attract.
 
-Once freed, electrons can “float” among atoms. These free electrons are what is important in electronics. Devices such as resistors, capacitors, inductors, and transistors are used to control the behaviour of these free electrons.
+### Electrical Charge
+
+The amount of electrical charge is measured in coulombs (C). Rubbing two materials, such as a balloon and a woollen jumper, can transfer electrons from one material to the other. The material that gains electrons becomes negatively charged; the material that loses them becomes positively charged. Rubbing moves charge; it does not create charge. A build-up of charge like this is called static electricity.
+
+When charge moves through a circuit, we call that movement an electric current. In metal wires, electrons are the moving charges. Standard circuit diagrams usually show *conventional current* in the opposite direction, from positive to negative. Both descriptions refer to the same circuit; use the direction shown by the diagram or instructions.
 
 ### Conductors and Insulators
 
-Conductors act as a pathway for free electrons. Most metals are good conductors of electrons, so they can be used to “transport” electrons from one place to another. Insulators act as walls or barriers, preventing electrons from flowing where we do not want them to flow. Insulators, for example, are used on most electrical wires to protect us from electrical shock. Copper, silver, and gold are popular conductors because they have many free electrons. As an example of how to make the electrons flow, picture a length of copper wire with one end connected to the positive terminal of a battery and the other end connected to the negative terminal. The positive terminal attracts the negatively charged free electrons of the wire (remember unlike charges attract) while at the same time the negative terminal repels the electrons. The result is a flow of electrons through the wire from the negative to the positive terminal. This flow is called an electric current. An insulator works just the opposite. In some materials, such as plastics and glass, atoms hold their electrons tightly. These materials have very few free electrons. Therefore, if a length of insulator is connected to a battery the same way the copper wire was attached, no measurable current would flow.
+Conductors let electrical charge move more easily. Metals, such as copper, conduct well because some electrons can move through them. Insulators, such as plastic and glass, hold their electrons more tightly, so charge does not move through them as easily. Insulating material around a wire helps keep the current in the intended path.
+
+In a working circuit, a battery or another suitable source moves charge around a complete path that includes components such as a lamp or resistor. Do not connect a wire straight across a battery's terminals: that makes a short circuit, which can heat the wire or battery.
 
 ### Current, Voltage, and Resistance
 
 Here are some basic definitions of terms used in electronics.
 
-- Current is the orderly movement of electrons through a conductor. Current is measured in amperes, or amps, or the rate at which electrons move past a given point. One ampere is the movement of about 6 billion billion electrons past that point in one second.
+- Current is the rate at which electrical charge flows. It is measured in amperes (A). One ampere means one coulomb of charge passes a point each second. In a metal wire, that moving charge is carried by electrons.
 - Voltage is an electrical pressure that can cause current to flow. Voltage forces current to flow through a wire in much the same way that water pressure forces water to flow through a pipe. This electrical pressure can be caused with magnetism, chemicals, friction, light, or heat. The unit of voltage is the volt.
 - The opposition to current flow is resistance. The resistance of a material is mainly determined by how many free electrons it has. If the material doesn’t have many, it will have little or no current flow. The unit of resistance is the ohm. One ohm is the amount of resistance that will allow 1 ampere of current to flow when the applied voltage is 1 volt.
 ### Frequency
@@ -117,17 +123,11 @@ With these formulas, you can solve simple problems involving current, voltage, a
 
 ## Power
 
-Another electrical quantity is power. Power is the rate at which work is done. The unit of electrical power is the watt and can be compared to the unit of mechanical power, called horsepower. One horsepower is equal to 746 watts. The formula for power is
+Another electrical quantity is power. Electrical power is the rate at which a circuit transfers or changes energy. It is measured in watts (W). The formula is:
 
 Power (watts) = Voltage (volts) &#215; Current (amperes)
 
-When this formula is applied, you can determine the amount of power used by a circuit if you know the voltage and current.
-
-For example, how much power is used by a 120-volt toaster that draws 5 amperes?
-
-120 volts &#215; 5 amperes = 600 watts
-
-The power used by the toaster is 600 watts. This power is used, or dissipated, in the form of heat to toast the bread.
+For example, if a checked low-voltage circuit has 5 V across a component and 0.1 A flowing through it, the power is 0.5 W. Electrical energy may be changed into heat, light, sound, movement, or another useful output. Check a component's power rating as well as its voltage and current limits.
 
 ### Current Delivery
 
@@ -150,11 +150,9 @@ The rest generates heat, which is why incandescent bulbs are so inefficient. A r
 
 Capacitors and Capacitance
 
-A capacitor is a device for storing electrons, or an electrical charge, that can be released later. Imagine two sheets of aluminium foil (conducting plates) that are separated by a sheet of waxed paper (an insulator). If you connect a battery to the two aluminium sheets, electrons will flow from the sheet that is connected to the positive terminal of the battery. Simultaneously, the same number of electrons will flow from the negative terminal of the battery to the other aluminium sheet. The number of electrons that are transferred makes the voltage between the aluminium sheets exactly that of the connected battery. If the battery is removed, the aluminium sheets will remain in their charged state. If there is no leakage through the waxed paper, the sheets will remain charged indefinitely.
+A capacitor stores energy in an electric field between conducting parts separated by an insulator. In a simple capacitor, the two conducting plates gain equal and opposite charges when the capacitor is connected to a battery. Charge does not pass through the insulating layer between the plates. When the battery is removed, the capacitor can release its stored energy into a circuit. Real capacitors slowly lose charge through leakage.
 
-Any two conducting plates separated by an insulator make up a capacitor. A capacitor can consist of many conducting plates with insulating separators. Alternate plates would be connected to form interleaved stacks. The higher the voltage, the greater will be the amount of charge that is transferred from one plate to the other. The ratio of charge to voltage is defined as the capacitance of the capacitor. Or you could also say that the “electrical size” of a capacitor is its capacitance, which is the amount of electric charge it can hold. The unit of capacitance is the farad.
-
-However, this unit is too large for most practical capacitors, so capacitors are manufactured to measure millionths of a farad (microfarads) and trillionths of a farad (picofarads, which are micro-microfarads). The insulators that separate conducting plates in a capacitor can be made of several materials, including ceramic materials, mica, certain types of paper, air, and oxide (a compound containing oxygen). A popular capacitor has been the electrolytic capacitor. In this capacitor, the insulator is an extremely thin oxide layer. The leads of electrolytic capacitors are marked positive and negative. These indicate how the capacitor must be connected for proper operation.
+The amount of charge stored for a given voltage is described by capacitance, measured in farads (F). A farad is a large unit, so practical capacitors are commonly marked in microfarads (µF) or picofarads (pF). Capacitors can use insulating materials such as ceramic, mica, paper, air, or oxide. Electrolytic capacitors have positive and negative leads and must be connected with the correct polarity.
 
 ### Valves (Vacuum Tubes)
 
