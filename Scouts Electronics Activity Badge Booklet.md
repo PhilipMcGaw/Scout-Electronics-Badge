@@ -317,6 +317,17 @@ In a metal wire, the negatively charged particles that move are called `_____`.
 
 **Answer for the Leader:** Electrons.
 
+**Question 6 of 11**
+
+A lowercase letter `m` is the symbol for which SI prefix?
+
+- Milli
+- Micro
+- Nano
+- Mega
+
+**Answer for the Leader:** Milli. Micro uses `μ`, nano uses `n`, and mega uses uppercase `M`.
+
 ## Component Types
 
 Before we look at the most common types of electronics components, as well as the schematic symbol and a pictorial of each one, let’s define and review some basic terms (also see the Basic Electronics Theory section):
