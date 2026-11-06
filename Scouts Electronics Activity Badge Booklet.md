@@ -940,6 +940,16 @@ Electronics is used in communication, healthcare, transport, homes, energy syste
 
 ## Further reading
 
+### Repair a PCB track (advanced)
+
+A mistake on a prototype PCB can sometimes be corrected with a short wire link between the right points. This is a temporary repair for testing; it does not correct the KiCad design or make the board ready for production. Correct the design and order a revised board before making a finished product.
+
+This is not a repair for Scouts to carry out from written instructions. An experienced adult should identify the intended connection from the schematic and board layout, disconnect all power, and plan the repair. Cutting the wrong track can damage the board or disconnect another part of the circuit. If a track needs to be cut, the adult must secure the board and choose a suitable controlled tool and eye protection.
+
+Use a jumper wire suited to the circuit and secure it so it cannot touch other pads or tracks. Enamelled copper wire is one option, but its insulation must be removed using a method suitable for that specific wire. Do not strip it with an open flame during a Scout activity. Heating the insulation can release decomposition fumes, so follow the wire maker’s instructions, provide suitable ventilation, and avoid breathing them. See [Sumitomo Electric’s magnet-wire handling guidance](https://sumitomoelectric.com/sites/default/files/2020-12/download_documents/MAGNET%20WIRE%20TECHNICAL%20GUIDE%20BOOK%20.pdf).
+
+Before reconnecting power, check with a multimeter that the intended points are connected and that the repair has not shorted to a neighbouring track. An adult should inspect the repair and decide whether the board is safe to test. Keep prototype repairs out of equipment that will be relied on for safety.
+
 ### Surface-mount soldering (optional)
 
 The Woggle PCB supplied with this booklet uses through-hole components. You do not need surface-mount soldering to build it. This section introduces a different technique for anyone who wants to learn more.
