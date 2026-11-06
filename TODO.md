@@ -8,5 +8,6 @@
 - [ ] Refresh the existing [resistor article](blog-drafts/resistors.md), including its potential-divider explanation and thermistor example using the existing calculator, and the [capacitor article](blog-drafts/capacitors.md) with clearer explanations and practical examples.
 - [ ] Develop the [battery](blog-drafts/batteries.md) blog draft, checking any proposed circuit against current cell data and keeping mains topics out of scope.
 - [ ] Develop the [Woggle KiCad PCB walkthrough](blog-drafts/woggle-kicad-pcb.md): set up the project, change the group name, generate a CSV bill of materials, match and order components, and prepare and send board files to PCBWay.
+- [ ] Verify the source and redistribution licence for `CharliePlex.GIF` before publication; if it is not cleared, source or create a compatible Charlieplexing diagram.
 - [ ] Write the [PCB silkscreen post](blog-drafts/pcb-silkscreens.md), focusing on diode polarity markings and IC outlines, notches, and pin 1.
 - [ ] Develop the advanced [PCB rework post](blog-drafts/pcb-rework.md) for adult electronics makers. Keep it out of the Scouts booklet.

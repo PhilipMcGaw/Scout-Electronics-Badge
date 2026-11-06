@@ -849,6 +849,12 @@ Woggle
 
 This is derived from the Scouts Queensland eWoggle, and follows the design principles laid out in the document “Circuit design principles for Scout electronics projects for JOTA/JOTI” by Michael Gross of Cobargo Venturers ([https://cobargoscouts.org.au/jota-joti-electronics.html](https://cobargoscouts.org.au/jota-joti-electronics.html)), I have also combined the functionality of the eWoggle with the Franzininho DIY ([https://docs.franzininho.com.br/docs/franzininho-diy/sobre](https://docs.franzininho.com.br/docs/franzininho-diy/sobre)) Arduino like capabilities allowing the scouts to upload new firmware after they have assembled their woggles.
 
+### Charlieplexing the Woggle LEDs
+
+The Woggle uses *Charlieplexing* to control several LEDs with fewer microcontroller pins than there are LEDs. The LEDs connect between pairs of pins, with different LEDs facing in opposite directions. To light one LED, the program sets one pin high and another low, while leaving the other pins as inputs. The program selects LEDs quickly in turn to display a pattern.
+
+<!-- Figure placeholder: CharliePlex.GIF is in the project as a reference, but its original source and permission to redistribute have not been verified. Check before publication; if it is not cleared, replace it with a diagram under a compatible licence. -->
+
 ### Woggle KiCad files
 
 The woggle was designed in KiCad,
