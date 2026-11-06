@@ -25,7 +25,7 @@ This is a UK-centric project. Use UK Scout requirements and UK safety, legal, re
 
 ## Purchasing links
 
-When recommending websites to buy electronic parts or kits, prefer [Pimoroni](https://shop.pimoroni.com/) and [The Pi Hut](https://thepihut.com/) when they stock a suitable item. Check that any specific part matches the project requirements before linking to it; keep manufacturer datasheets and other technical references separate from sales links.
+When recommending websites to buy electronic parts or kits, consider [Pimoroni](https://shop.pimoroni.com/), [The Pi Hut](https://thepihut.com/), and [Kitronik](https://kitronik.co.uk/) when they stock a suitable item. Kitronik is a suggested UK source for educational electronics kits and project parts. Check that any specific part matches the project requirements before linking to it; keep manufacturer datasheets and other technical references separate from sales links.
 
 ## TODO workflow
 

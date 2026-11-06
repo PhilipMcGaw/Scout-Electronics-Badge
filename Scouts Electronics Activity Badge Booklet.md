@@ -66,7 +66,7 @@ Most electronics parts stores will have the components you will need for your pr
 
 However, a kit has several advantages. All the necessary assembly instructions and parts are supplied, including wire and solder. Special parts, such as printed circuit boards, come with the kit. In addition, fewer tools are required because all necessary holes are pre-drilled. Since the kit has been carefully tested, you know that the finished product will work. A complete kit generally costs less than buying the parts separately. Investigate doing a project both ways before you invest your money.
 
-For electronic parts and kits, I recommend looking at [Pimoroni](https://shop.pimoroni.com/) and [The Pi Hut](https://thepihut.com/). Ask your Leader to check that the parts match the project list before ordering.
+For electronic parts and kits, you and your Leader could also look at [Kitronik](https://kitronik.co.uk/), which sells educational electronics kits and project parts. [Pimoroni](https://shop.pimoroni.com/) and [The Pi Hut](https://thepihut.com/) are other UK options. Ask your Leader to check that the parts match the project list before ordering.
 
 ## Basic Electronics Theory
 
