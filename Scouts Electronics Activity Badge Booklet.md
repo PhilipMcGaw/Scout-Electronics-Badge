@@ -102,8 +102,10 @@ In a working circuit, a battery or another suitable source moves charge around a
 Here are some basic definitions of terms used in electronics.
 
 - Current is the rate at which electrical charge flows. It is measured in amperes (A). One ampere means one coulomb of charge passes a point each second. In a metal wire, that moving charge is carried by electrons.
-- Voltage is an electrical pressure that can cause current to flow. Voltage forces current to flow through a wire in much the same way that water pressure forces water to flow through a pipe. This electrical pressure can be caused with magnetism, chemicals, friction, light, or heat. The unit of voltage is the volt.
+- Voltage is the difference in electrical potential between two points. It tells us how much energy is transferred for each coulomb of charge that moves between them, and it is measured in volts (V). Chemical reactions in a battery create a potential difference between its terminals. For example, a 9 V battery has a nominal potential difference of 9 V between its positive and negative terminals.
 - The opposition to current flow is resistance. The resistance of a material is mainly determined by how many free electrons it has. If the material doesn’t have many, it will have little or no current flow. The unit of resistance is the ohm. One ohm is the amount of resistance that will allow 1 ampere of current to flow when the applied voltage is 1 volt.
+
+The water analogy can help: voltage is like a pressure difference that can drive flow, but it is only an analogy. Voltage is measured between two points. A circuit diagram may mark one point as 0 V, common, or ground so other voltages have a reference. In a battery-powered circuit, this is a chosen reference and is not necessarily connected to the Earth.
 ### Frequency
 
 Frequency tells us how many times a repeating signal completes a cycle each second. It is measured in hertz (Hz). The UK electricity network has a nominal frequency of 50 Hz. The battery-powered circuits in this booklet use DC, not mains electricity. See the [National Energy System Operator's explanation of frequency](https://www.neso.energy/energy-101/electricity-explained/how-do-we-balance-grid/what-frequency).
