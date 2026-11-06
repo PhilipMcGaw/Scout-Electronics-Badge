@@ -93,7 +93,7 @@ When charge moves through a circuit, we call that movement an electric current. 
 
 ### Conductors and Insulators
 
-Conductors let electrical charge move more easily. Metals, such as copper, conduct well because some electrons can move through them. Insulators, such as plastic and glass, hold their electrons more tightly, so charge does not move through them as easily. Insulating material around a wire helps keep the current in the intended path.
+Conductivity describes how easily electrical charge moves through a material. Metals such as copper conduct well because some electrons can move through them. Materials such as plastic, rubber, and glass resist the movement of charge and are called insulators. Conductivity is not simply on or off: materials conduct by different amounts, and conditions such as temperature can affect them. In an insulated wire, the copper core carries current while the plastic covering helps prevent the core from touching other conductors by accident.
 
 In a working circuit, a battery or another suitable source moves charge around a complete path that includes components such as a lamp or resistor. Do not connect a wire straight across a battery's terminals: that makes a short circuit, which can heat the wire or battery.
 
