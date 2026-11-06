@@ -295,6 +295,17 @@ Which material is the best electrical conductor?
 
 **Answer for the Leader:** Copper.
 
+**Question 4 of 11**
+
+When there is an imbalance of charge between two objects, it creates a `_____` between them.
+
+- Resistance
+- Power
+- Voltage
+- Current
+
+**Answer for the Leader:** Voltage.
+
 ## Component Types
 
 Before we look at the most common types of electronics components, as well as the schematic symbol and a pictorial of each one, let’s define and review some basic terms (also see the Basic Electronics Theory section):
