@@ -93,7 +93,7 @@ Here are some basic definitions of terms used in electronics.
 - The opposition to current flow is resistance. The resistance of a material is mainly determined by how many free electrons it has. If the material doesn’t have many, it will have little or no current flow. The unit of resistance is the ohm. One ohm is the amount of resistance that will allow 1 ampere of current to flow when the applied voltage is 1 volt.
 ### Frequency
 
-Frequency, or cycles per second, uses the term hertz as its unit of measure. The electricity from electrical utilities is 60 Hertz AC and the voltage changes in a sine wave pattern.
+Frequency tells us how many times a repeating signal completes a cycle each second. It is measured in hertz (Hz). The UK electricity network has a nominal frequency of 50 Hz. The battery-powered circuits in this booklet use DC, not mains electricity. See the [National Energy System Operator's explanation of frequency](https://www.neso.energy/energy-101/electricity-explained/how-do-we-balance-grid/what-frequency).
 
 ### Ohm’s Law
 
@@ -131,7 +131,7 @@ The power used by the toaster is 600 watts. This power is used, or dissipated, i
 
 ### Current Delivery
 
-Electrical signals are classified as either direct current (DC) or alternating current (AC). Direct current signals are at a constant voltage or at a constant polarity where AC signals typically follow a sine wave or other pattern and alternate between positive and negative voltages. If the AC signal follows a specific pattern, the number of times the pattern repeats within one second is the signal’s frequency. The electricity from electrical utilities is 60 Hertz AC and the voltage changes in a sine wave pattern.
+Electrical signals are classified as direct current (DC) or alternating current (AC). DC keeps the same polarity, although its voltage can stay steady or vary. AC changes polarity repeatedly; its voltage may follow a sine wave or another repeating pattern. The number of cycles per second is its frequency.
 
 ### Resistance and Resistors
 
@@ -230,7 +230,7 @@ Before we look at the most common types of electronics components, as well as th
 - Resistance is the opposition to current flow.
 - Direct current (DC) is current that always flows in the same direction.
 - Alternating current (AC) is a current that reverses its direction of flow many times each second.
-- Frequency is the number of times that a repeat its pattern in one second.
+- Frequency is the number of cycles a signal completes each second.
 ### Passive Components
 
 #### Fixed Resistor
