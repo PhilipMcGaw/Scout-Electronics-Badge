@@ -118,6 +118,10 @@ When a switch opens the loop, the circuit is open and current stops. If the batt
 
 A short circuit is an unintended low-resistance path that bypasses the load. It can allow excessive current to flow and heat the wire or battery. Never connect a wire straight across a battery's terminals.
 
+### Ideal and real battery sources
+
+An ideal voltage source is a useful model: it keeps the same voltage as the load changes. A real battery has limits. The circuit and its load determine how much current is drawn; the battery does not push its maximum current into every circuit. If a load tries to draw more current than the battery can safely provide, the battery’s terminal voltage may fall and the battery may heat up or become damaged. Check the battery and component instructions, and never test a battery’s limit by shorting it or connecting an unsuitable load.
+
 ### Current, Voltage, and Resistance
 
 Here are some basic definitions of terms used in electronics.
