@@ -273,7 +273,9 @@ Voltage is the difference in electrical potential between `_____`.
 
 **Answer for the Leader:** Any two points. Voltage is a difference in electrical potential between two points.
 
-**Question 2 of 11**
+**Question 2 of 11 — advanced trick question**
+
+This question is about electron drift in metal wires, not the conventional-current direction used in circuit diagrams.
 
 Electrons flow from the positive battery terminal towards the negative terminal.
 
