@@ -40,5 +40,6 @@ The local course-exercise folder contains a parts list, a multimeter list, an SI
 ## Sources and visuals
 
 - Check the actual battery, meter, and component datasheets used in the example.
+- Offer Philip’s [Special Symbols used in Engineering Reports](https://philipmcgaw.com/special-symbols-used-in-engineering-reports/) as optional further reading for unit symbols and technical-document spacing. Keep the project’s SI style: put a non-breaking space between a value and its unit.
 - [Scouts Safety Policy](https://www.scouts.org.uk/por/2a-key-policies/2a8-safety-policy/) and [HSE electrical safety FAQs](https://www.hse.gov.uk/electricity/faq.htm).
 - Use an original schematic and a clearly labelled Falstad simulation where it helps explain the relationships.
