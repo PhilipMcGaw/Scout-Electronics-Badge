@@ -306,6 +306,17 @@ When there is an imbalance of charge between two objects, it creates a `_____` b
 
 **Answer for the Leader:** Voltage.
 
+**Question 5 of 11**
+
+In a metal wire, the negatively charged particles that move are called `_____`.
+
+- Atoms
+- Protons
+- Electrons
+- Neutrons
+
+**Answer for the Leader:** Electrons.
+
 ## Component Types
 
 Before we look at the most common types of electronics components, as well as the schematic symbol and a pictorial of each one, let’s define and review some basic terms (also see the Basic Electronics Theory section):
