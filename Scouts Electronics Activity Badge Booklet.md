@@ -146,6 +146,19 @@ Cells in series connect the positive terminal of one cell to the negative termin
 
 Cells in parallel connect positive to positive and negative to negative. A correctly designed pack keeps about the same voltage as one cell, while its capacity may increase if the cells are matched and the manufacturer allows that arrangement. Do not connect loose cells in parallel as part of this activity: cells that differ in type or charge can drive unwanted current into one another. Use only a purpose-built holder or pack and follow its instructions. When a device uses several cells, use a matched set of the same type and condition; do not mix old and new cells or different chemistries.
 
+### Quick check: batteries in series
+
+**Question 1 of 1**
+
+Two 9 V batteries are connected in series, with the positive terminal of one connected to the negative terminal of the other. What is the combined nominal voltage across the two remaining terminals?
+
+- 18 V
+- 4.5 V
+- 1.5 V
+- 9 V
+
+**Answer for the Leader:** 18 V. In series, nominal battery voltages add: 9 V + 9 V = 18 V.
+
 ### Current, Voltage, and Resistance
 
 Here are some basic definitions of terms used in electronics.
