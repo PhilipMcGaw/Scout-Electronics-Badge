@@ -273,6 +273,15 @@ Voltage is the difference in electrical potential between `_____`.
 
 **Answer for the Leader:** Any two points. Voltage is a difference in electrical potential between two points.
 
+**Question 2 of 11**
+
+Electrons flow from the positive battery terminal towards the negative terminal.
+
+- False
+- True
+
+**Answer for the Leader:** False. In the external wires of a simple battery circuit, electrons drift from the negative terminal towards the positive terminal. Conventional current is described in the opposite direction, from positive to negative.
+
 ## Component Types
 
 Before we look at the most common types of electronics components, as well as the schematic symbol and a pictorial of each one, let’s define and review some basic terms (also see the Basic Electronics Theory section):
