@@ -29,7 +29,9 @@ When recommending websites to buy electronic parts or kits, consider [Pimoroni](
 
 ## TODO workflow
 
-Review `TODO.md` when starting project work and address relevant tasks where practical. Keep task descriptions concise, update them when scope or dependencies change, and mark work complete only after verification. `TODO.md` is the project’s action index.
+At the start of project work, review `TODO.md` and `memories.md`. Address relevant TODOs where practical. Keep task descriptions concise, update them when scope or dependencies change, and mark work complete only after verification. `TODO.md` is the project’s action index.
+
+`memories.md` is the default place to preserve durable project context so it carries across conversations. As part of substantive work, add or update a concise, dated entry when the user supplies a lasting preference, project decision, source assessment, or outcome that will help future work. Do this by default without asking. Keep the notebook useful rather than transcribing conversations: distinguish user-reported preferences from checked repository facts, source claims, inference, and unresolved points. Do not record secrets or personal details that are not needed for the project. Keep actionable work in `TODO.md`; link to it from a memory entry when useful, and do not duplicate the task list. Correct or remove stale memories when later information supersedes them. If work creates no durable context worth retaining, no memory entry is needed.
 
 ## Workspace restrictions
 
