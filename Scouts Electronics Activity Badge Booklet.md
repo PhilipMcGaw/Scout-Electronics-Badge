@@ -348,6 +348,17 @@ Which option is **not** a basic element of an electrical circuit?
 
 **Answer for the Leader:** On/off switch. A basic circuit needs a source, a load, and a conducting path. A switch can control the path, but it is optional.
 
+**Question 9 of 11**
+
+For a fixed resistor, if the voltage across it increases, what must happen for the current through it to remain constant?
+
+- Increase the resistor’s resistance.
+- Remove the resistor from the circuit.
+- Increase the resistor’s conductivity.
+- Decrease the resistor’s resistance.
+
+**Answer for the Leader:** Increase the resistance. From Ohm’s law, `I = V ÷ R`; if the voltage increases while the current stays the same, the resistance must increase too.
+
 ## Component Types
 
 Before we look at the most common types of electronics components, as well as the schematic symbol and a pictorial of each one, let’s define and review some basic terms (also see the Basic Electronics Theory section):
