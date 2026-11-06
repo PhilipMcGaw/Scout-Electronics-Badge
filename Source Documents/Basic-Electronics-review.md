@@ -14,7 +14,7 @@ The PDF text was extracted and compared with the Scouts booklet, Leaders’ Guid
 
 The source explains circuit lines and junctions, batteries, current, voltage, resistance, resistors, LEDs, diodes, capacitors, transistors, logic gates, multimeter use, and basic project construction. Most of these topics already appear in the learner booklet, including resistor current limiting, component polarity, capacitor ratings, transistor switching, digital logic, and safe meter connections. The source does not add enough verified material to justify duplicating those sections.
 
-Two topics are better suited to the blog series than to the Scouts booklet: battery capacity, internal resistance, and voltage drop under load; and sensor circuits that use a light-dependent resistor in a voltage divider. Drafts now record these topics separately. The source also has useful background on resistor power and heating; the resistor post should explain the heat and rating relationship as a safety warning, not reproduce the source's deliberate resistor-heating demonstration.
+Battery capacity, internal resistance, and voltage drop under load are recorded for a dedicated blog post. The LDR and voltage-divider material belongs in the resistor post, which can use Philip’s existing [Potential Divider Calculator](https://philipmcgaw.com/potential-divider-calculator/) as an interactive example. The source also has useful background on resistor power and heating; the resistor post should explain the heat and rating relationship as a safety warning, not reproduce the source's deliberate resistor-heating demonstration.
 
 The source includes mains-related circuit material. Do not adapt its mains-derived power-supply circuits or mains demonstrations into the booklet or blog drafts. Keep any brief warning that tells beginners not to work on mains equipment, but do not teach mains construction or repair here.
 
@@ -26,4 +26,4 @@ The PDF is an older web-based resource and includes specific component values, c
 
 ## Disposition
 
-The booklet’s UK mains-frequency wording was corrected. The battery and sensor topics are recorded as blog-post candidates, and the resistor demonstration is recorded as a warning to adapt safely. Mains-derived circuits and demonstrations are out of scope. This review note is not a substitute for the source document.
+The booklet’s UK mains-frequency wording was corrected. Battery behaviour is recorded for a dedicated blog post; sensor voltage dividers are part of the resistor post. The resistor demonstration is recorded as a warning to adapt safely. Mains-derived circuits and demonstrations are out of scope. This review note is not a substitute for the source document.
