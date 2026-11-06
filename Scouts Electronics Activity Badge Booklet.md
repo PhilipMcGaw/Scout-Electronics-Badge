@@ -146,9 +146,9 @@ Cells in series connect the positive terminal of one cell to the negative termin
 
 Cells in parallel connect positive to positive and negative to negative. A correctly designed pack keeps about the same voltage as one cell, while its capacity may increase if the cells are matched and the manufacturer allows that arrangement. Do not connect loose cells in parallel as part of this activity: cells that differ in type or charge can drive unwanted current into one another. Use only a purpose-built holder or pack and follow its instructions. When a device uses several cells, use a matched set of the same type and condition; do not mix old and new cells or different chemistries.
 
-### Quick check: batteries
+### Quick check: batteries and loads
 
-**Question 1 of 5**
+**Question 1 of 6**
 
 Two 9 V batteries are connected in series, with the positive terminal of one connected to the negative terminal of the other. What is the combined nominal voltage across the two remaining terminals?
 
@@ -159,7 +159,7 @@ Two 9 V batteries are connected in series, with the positive terminal of one co
 
 **Answer for the Leader:** 18 V. In series, nominal battery voltages add: 9 V + 9 V = 18 V.
 
-**Question 2 of 5**
+**Question 2 of 6**
 
 When two batteries are connected in parallel, the positive terminal of one battery is connected to the negative terminal of the other battery.
 
@@ -168,7 +168,7 @@ When two batteries are connected in parallel, the positive terminal of one batte
 
 **Answer for the Leader:** False. In a parallel connection, positive is connected to positive and negative to negative.
 
-**Question 3 of 5**
+**Question 3 of 6**
 
 A correctly designed battery pack with matched cells in parallel can provide more current than one of its cells alone.
 
@@ -177,7 +177,7 @@ A correctly designed battery pack with matched cells in parallel can provide mor
 
 **Answer for the Leader:** True. Parallel cells can share the load and increase the pack’s current capability. The amount depends on the cells and pack design. Do not connect loose cells in parallel; use only a purpose-built pack approved for that arrangement.
 
-**Question 4 of 5**
+**Question 4 of 6**
 
 Which unit is commonly used to state battery capacity?
 
@@ -188,7 +188,7 @@ Which unit is commonly used to state battery capacity?
 
 **Answer for the Leader:** Amp-hours. Battery capacity is commonly stated in amp-hours (Ah) or milliamp-hours (mAh). Amps measure current, watts measure power, and joules measure energy.
 
-**Question 5 of 5**
+**Question 5 of 6**
 
 For two matched 9 V batteries in a correctly designed parallel pack, what is the combined nominal voltage?
 
@@ -198,6 +198,15 @@ For two matched 9 V batteries in a correctly designed parallel pack, what is th
 - 18 V
 
 **Answer for the Leader:** 9 V. In a parallel pack, the nominal voltage stays about the same as one battery; unlike series connection, the voltages do not add.
+
+**Question 6 of 6**
+
+For a power source with a constant output voltage, the current depends on the resistance of the load attached to it.
+
+- False
+- True
+
+**Answer for the Leader:** True. For a resistive load, Ohm’s law gives `I = V ÷ R`: if the voltage stays constant and the load resistance decreases, the current increases. A real power source may not maintain its voltage at every load and has current limits.
 
 ### Current, Voltage, and Resistance
 
