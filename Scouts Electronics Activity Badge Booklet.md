@@ -311,6 +311,10 @@ Semiconductor devices are typically made of silicon-based material. Diodes and t
 
 Diodes operate as check valves, passing current in one direction but not the other. A diode’s most common application is in power supplies. It changes alternating current (AC) into direct current (DC).
 
+#### Light-emitting diodes (LEDs)
+
+An LED is a diode that gives off light when current flows through it in the forward direction. A bare LED needs current limiting: in the simple circuits in this booklet, connect a suitable resistor in series with it. Do not connect a bare LED directly across a battery or an output pin, because too much current can damage the LED or the circuit. Some LED modules already contain a resistor or another current-limiting circuit, so check the module instructions before adding parts.
+
 #### Transistors
 
 Transistors are solid-state devices used for controlling current. A very small input current controls a much larger output current. For example, the small current from a microphone can control a much larger current that drives a loudspeaker. This is the idea behind the audio amplifiers used in public address systems.
@@ -977,7 +981,7 @@ For an integrated circuit, find the notch, dot, or other pin-1 mark. With the no
 
 ### Project 1 — LED and resistor indicator
 
-Purpose: learn polarity, current limiting, voltage measurement, and Ohm’s law. Use a battery pack or regulated supply approved by your Leader, one LED, and a series resistor. The resistor protects the LED by limiting current. Typical beginner values are a few volts of supply and a few milliamperes of LED current; calculate the resistor with R = (supply voltage − LED forward voltage) &#247; desired current.
+Purpose: learn polarity, current limiting, voltage measurement, and Ohm’s law. Use a battery pack or regulated supply approved by your Leader, one bare LED, and a suitable series resistor. A bare LED needs current limiting; never connect it directly across the supply. The resistor limits the current. Typical beginner values are a few volts of supply and a few milliamperes of LED current; calculate the resistor with R = (supply voltage − LED forward voltage) &#247; desired current.
 
 Operation and use: when the circuit is complete, current flows through the resistor and LED, producing light. Possible uses include a power indicator, a status lamp, or a warning that a switch is on. Measure the supply voltage and the voltage across the LED, then measure the circuit current in series.
 
