@@ -153,11 +153,13 @@ With these formulas, you can solve simple problems involving current, voltage, a
 
 ## Power
 
-Another electrical quantity is power. Electrical power is the rate at which a circuit transfers or changes energy. It is measured in watts (W). The formula is:
+Electrical energy can be changed into other forms, such as light, heat, sound, or movement. A battery transfers energy from its chemical store into a circuit; an LED changes some of that electrical energy into light and heat, while a motor changes some into movement. Energy is measured in joules (J).
+
+Power tells us how quickly energy is transferred or changed. One watt (W) is one joule of energy transferred each second. For a component, calculate power using the voltage across it and the current through it:
 
 Power (watts) = Voltage (volts) &#215; Current (amperes)
 
-For example, if a checked low-voltage circuit has 5 V across a component and 0.1 A flowing through it, the power is 0.5 W. Electrical energy may be changed into heat, light, sound, movement, or another useful output. Check a component's power rating as well as its voltage and current limits.
+For example, if a checked low-voltage circuit has 5 V across a component and 0.1 A flowing through it, the power is 0.5 W. A higher power means energy is transferred more quickly. Check a component's power rating as well as its voltage and current limits.
 
 ### SI prefixes
 
