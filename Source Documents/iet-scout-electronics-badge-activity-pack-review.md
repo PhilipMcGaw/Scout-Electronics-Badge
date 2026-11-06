@@ -26,3 +26,33 @@ The pack's photographs and diagrams have not been reused; their licences and att
 ## Disposition
 
 `Source Documents/iet-scout-electronics-badge-activity-pack.pdf` was deleted from the repository after the review, at Philip's request. This note records the review and its limits; it is not a substitute for the source document.
+
+## Circuit projects listed in the Scout Pack
+
+The pack lists nine circuit projects, grouped by the accompanying Leaders’ Pack into three levels:
+
+**Simple**
+
+- Light-up Greetings Cards
+- Brush Bug
+- USB-powered Colour-changing LED
+
+**Intermediate**
+
+- Steady Hand Game
+- Night Light
+- Light-up Map
+
+**Advanced**
+
+- Memory Reaction and Time Game
+- Electronic Dice
+- Guy Rope Guides
+
+It also gives three open-ended circuit challenges:
+
+- Make a Credit Card Torch
+- Make a Marshmallow Toasting Alarm
+- Make a Flashing Badge
+
+These are project titles from the text extraction. The circuit diagrams and construction steps were not visually checked, so this list is for identification and project planning; it does not validate the designs.
