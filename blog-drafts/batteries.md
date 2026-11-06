@@ -4,7 +4,7 @@
 
 **Purpose:** Explain why a battery's stated voltage does not tell the whole story about how it will perform in a circuit.
 
-**Source note:** The user supplied transcripts headed “Battery capacity”, “Batteries in series and parallel”, and “Challenge: Power a light bulb”. The last transcript describes powering a motor, despite its heading. The matching exercise handout is titled “Challenge: Combine batteries in series and/or parallel to power a motor”. Use them as background, correct their simplifications and arithmetic, and write original explanations.
+**Source note:** The user supplied transcripts headed “Battery capacity”, “Batteries in series and parallel”, and “Challenge: Power a light bulb”. The last is a motor challenge; “light bulb” was a mistaken pasted heading. The matching exercise handout is titled “Challenge: Combine batteries in series and/or parallel to power a motor”. Use them as background, correct their simplifications and arithmetic, and write original explanations.
 
 ## Planned outline
 
