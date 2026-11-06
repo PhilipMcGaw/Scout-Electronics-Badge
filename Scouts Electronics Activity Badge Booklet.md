@@ -328,6 +328,15 @@ A lowercase letter `m` is the symbol for which SI prefix?
 
 **Answer for the Leader:** Milli. Micro uses `μ`, nano uses `n`, and mega uses uppercase `M`.
 
+**Question 7 of 11**
+
+Electrons move freely through insulating materials.
+
+- False
+- True
+
+**Answer for the Leader:** False. Insulating materials resist the movement of electrical charge; they do not normally let charge move freely like a conductor.
+
 ## Component Types
 
 Before we look at the most common types of electronics components, as well as the schematic symbol and a pictorial of each one, let’s define and review some basic terms (also see the Basic Electronics Theory section):
