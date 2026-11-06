@@ -951,6 +951,18 @@ For each circuit, record: the circuit name; a hand-drawn schematic using standar
 
 Electronics is used in communication, healthcare, transport, homes, energy systems, environmental monitoring, accessibility devices, education, and emergency services. Examples include hearing aids, insulin pumps, traffic signals, navigation systems, smoke alarms, renewable-energy controllers, phones, computers, and assistive switches. Discuss both the benefits and the responsibilities: reliable design, privacy, repairability, energy use, recycling, and safe disposal of batteries and electronic waste.
 
+## What to try next
+
+Learning to solder gives you a way to build and repair electronic projects. If you enjoyed this activity, choose a next step that interests you:
+
+- Build a kit or make a simple robot. Ask your Leader to check that the kit and parts suit your experience.
+- Try coding with an Arduino or Raspberry Pi. A program can read a sensor and control an LED, buzzer, or motor. Start with a low-voltage project and follow the board’s instructions.
+- Explore a circuit idea in the [Falstad Circuit Simulator](https://www.falstad.com/circuit/) before building it. A simulation helps you explore how a circuit may behave; check the real circuit carefully as well.
+- Learn to draw schematics and design circuit boards with [KiCad](https://www.kicad.org/). You can study open-source designs, but check their licence before reusing them. See [Finding a board to practise on](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#finding-a-board-to-practise-on).
+- Practise repairing low-voltage projects with an adult. Do not open or repair mains-powered appliances as a beginner activity.
+
+You do not need to do all of these. Pick a project, get help when you need it, and keep experimenting safely.
+
 ## Further reading
 
 ### Surface-mount soldering (optional)
