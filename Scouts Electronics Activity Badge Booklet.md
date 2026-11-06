@@ -337,6 +337,17 @@ Electrons move freely through insulating materials.
 
 **Answer for the Leader:** False. Insulating materials resist the movement of electrical charge; they do not normally let charge move freely like a conductor.
 
+**Question 8 of 11**
+
+Which option is **not** a basic element of an electrical circuit?
+
+- Conductive pathway
+- Voltage source
+- On/off switch
+- Electric load
+
+**Answer for the Leader:** On/off switch. A basic circuit needs a source, a load, and a conducting path. A switch can control the path, but it is optional.
+
 ## Component Types
 
 Before we look at the most common types of electronics components, as well as the schematic symbol and a pictorial of each one, let’s define and review some basic terms (also see the Basic Electronics Theory section):
