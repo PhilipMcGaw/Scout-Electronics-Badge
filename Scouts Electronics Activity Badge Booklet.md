@@ -148,7 +148,7 @@ Cells in parallel connect positive to positive and negative to negative. A corre
 
 ### Quick check: batteries, loads, and power sources
 
-**Question 1 of 9**
+**Question 1 of 10**
 
 Two 9 V batteries are connected in series, with the positive terminal of one connected to the negative terminal of the other. What is the combined nominal voltage across the two remaining terminals?
 
@@ -159,7 +159,7 @@ Two 9 V batteries are connected in series, with the positive terminal of one co
 
 **Answer for the Leader:** 18 V. In series, nominal battery voltages add: 9 V + 9 V = 18 V.
 
-**Question 2 of 9**
+**Question 2 of 10**
 
 When two batteries are connected in parallel, the positive terminal of one battery is connected to the negative terminal of the other battery.
 
@@ -168,7 +168,7 @@ When two batteries are connected in parallel, the positive terminal of one batte
 
 **Answer for the Leader:** False. In a parallel connection, positive is connected to positive and negative to negative.
 
-**Question 3 of 9**
+**Question 3 of 10**
 
 A correctly designed battery pack with matched cells in parallel can provide more current than one of its cells alone.
 
@@ -177,7 +177,7 @@ A correctly designed battery pack with matched cells in parallel can provide mor
 
 **Answer for the Leader:** True. Parallel cells can share the load and increase the pack’s current capability. The amount depends on the cells and pack design. Do not connect loose cells in parallel; use only a purpose-built pack approved for that arrangement.
 
-**Question 4 of 9**
+**Question 4 of 10**
 
 Which unit is commonly used to state battery capacity?
 
@@ -188,7 +188,7 @@ Which unit is commonly used to state battery capacity?
 
 **Answer for the Leader:** Amp-hours. Battery capacity is commonly stated in amp-hours (Ah) or milliamp-hours (mAh). Amps measure current, watts measure power, and joules measure energy.
 
-**Question 5 of 9**
+**Question 5 of 10**
 
 For two matched 9 V batteries in a correctly designed parallel pack, what is the combined nominal voltage?
 
@@ -199,7 +199,7 @@ For two matched 9 V batteries in a correctly designed parallel pack, what is th
 
 **Answer for the Leader:** 9 V. In a parallel pack, the nominal voltage stays about the same as one battery; unlike series connection, the voltages do not add.
 
-**Question 6 of 9**
+**Question 6 of 10**
 
 For a power source with a constant output voltage, the current depends on the resistance of the load attached to it.
 
@@ -208,7 +208,7 @@ For a power source with a constant output voltage, the current depends on the re
 
 **Answer for the Leader:** True. For a resistive load, Ohm’s law gives `I = V ÷ R`: if the voltage stays constant and the load resistance decreases, the current increases. A real power source may not maintain its voltage at every load and has current limits.
 
-**Question 7 of 9**
+**Question 7 of 10**
 
 Which option is normally connected to protective Earth in a building?
 
@@ -219,7 +219,7 @@ Which option is normally connected to protective Earth in a building?
 
 **Answer for the Leader:** Mains supply through a UK socket outlet. Its protective Earth connects to the building’s earthing system. A car battery may be connected to the vehicle chassis, but that is not the same as a connection to Earth. This is a concept question only; never open or work on a mains socket.
 
-**Question 8 of 9**
+**Question 8 of 10**
 
 Amp-hours are used to measure the `_____` of electric charge that a battery can provide.
 
@@ -230,7 +230,7 @@ Amp-hours are used to measure the `_____` of electric charge that a battery can 
 
 **Answer for the Leader:** Amount. Amp-hours (Ah) and milliamp-hours (mAh) describe an amount of charge. Amps measure the rate of current flow.
 
-**Question 9 of 9**
+**Question 9 of 10**
 
 Which option is a floating power source when used by itself?
 
@@ -240,6 +240,17 @@ Which option is a floating power source when used by itself?
 - An earthed ceiling-light fitting
 
 **Answer for the Leader:** A 9 V battery with neither terminal connected to Earth or another circuit. The output of an isolated USB adapter can also be floating, which is why this option specifies an Earth connection. This is a concept question only; never open or work on mains equipment.
+
+**Question 10 of 10**
+
+Which unit measures the rate at which electrical energy is transferred into another form of energy?
+
+- Joules
+- Watts
+- Volts
+- Amps
+
+**Answer for the Leader:** Watts. Power is the rate of energy transfer: 1 W equals 1 J per second. Joules measure energy, volts measure potential difference, and amps measure current.
 
 ### Current, Voltage, and Resistance
 
