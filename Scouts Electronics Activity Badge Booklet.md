@@ -146,9 +146,9 @@ Cells in series connect the positive terminal of one cell to the negative termin
 
 Cells in parallel connect positive to positive and negative to negative. A correctly designed pack keeps about the same voltage as one cell, while its capacity may increase if the cells are matched and the manufacturer allows that arrangement. Do not connect loose cells in parallel as part of this activity: cells that differ in type or charge can drive unwanted current into one another. Use only a purpose-built holder or pack and follow its instructions. When a device uses several cells, use a matched set of the same type and condition; do not mix old and new cells or different chemistries.
 
-### Quick check: batteries in series and parallel
+### Quick check: batteries
 
-**Question 1 of 3**
+**Question 1 of 4**
 
 Two 9 V batteries are connected in series, with the positive terminal of one connected to the negative terminal of the other. What is the combined nominal voltage across the two remaining terminals?
 
@@ -159,7 +159,7 @@ Two 9 V batteries are connected in series, with the positive terminal of one co
 
 **Answer for the Leader:** 18 V. In series, nominal battery voltages add: 9 V + 9 V = 18 V.
 
-**Question 2 of 3**
+**Question 2 of 4**
 
 When two batteries are connected in parallel, the positive terminal of one battery is connected to the negative terminal of the other battery.
 
@@ -168,7 +168,7 @@ When two batteries are connected in parallel, the positive terminal of one batte
 
 **Answer for the Leader:** False. In a parallel connection, positive is connected to positive and negative to negative.
 
-**Question 3 of 3**
+**Question 3 of 4**
 
 A correctly designed battery pack with matched cells in parallel can provide more current than one of its cells alone.
 
@@ -176,6 +176,17 @@ A correctly designed battery pack with matched cells in parallel can provide mor
 - True
 
 **Answer for the Leader:** True. Parallel cells can share the load and increase the pack’s current capability. The amount depends on the cells and pack design. Do not connect loose cells in parallel; use only a purpose-built pack approved for that arrangement.
+
+**Question 4 of 4**
+
+Which unit is commonly used to state battery capacity?
+
+- Amps
+- Watts
+- Amp-hours
+- Joules
+
+**Answer for the Leader:** Amp-hours. Battery capacity is commonly stated in amp-hours (Ah) or milliamp-hours (mAh). Amps measure current, watts measure power, and joules measure energy.
 
 ### Current, Voltage, and Resistance
 
