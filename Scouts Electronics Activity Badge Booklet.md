@@ -110,13 +110,19 @@ When charge moves through a circuit, we call that movement an electric current. 
 
 Conductivity describes how easily electrical charge moves through a material. Metals such as copper conduct well because some electrons can move through them. Materials such as plastic, rubber, and glass resist the movement of charge and are called insulators. Conductivity is not simply on or off: materials conduct by different amounts, and conditions such as temperature can affect them. In an insulated wire, the copper core carries current while the plastic covering helps prevent the core from touching other conductors by accident.
 
-In a working circuit, a battery or another suitable source moves charge around a complete path that includes components such as a lamp or resistor. Do not connect a wire straight across a battery's terminals: that makes a short circuit, which can heat the wire or battery.
+### Circuit basics
+
+A simple circuit has a source, a load, and a conducting path that connects them in a loop. A battery is a source; a lamp or resistor is a load; wires provide the path. The battery's voltage drives conventional current around the complete loop. The lamp changes some electrical energy into light and heat, but the charge continues around the circuit.
+
+When a switch opens the loop, the circuit is open and current stops. If the battery remains connected, there can still be a voltage across the open switch. Closing the switch completes the path again and allows current to flow.
+
+A short circuit is an unintended low-resistance path that bypasses the load. It can allow excessive current to flow and heat the wire or battery. Never connect a wire straight across a battery's terminals.
 
 ### Current, Voltage, and Resistance
 
 Here are some basic definitions of terms used in electronics.
 
-- Current is the rate at which electrical charge passes a point in a circuit. It is measured in amperes (A). One ampere means one coulomb of charge passes each second. A voltage can drive current only when there is a complete conducting path. In a simple battery-and-lamp circuit, current flows around the loop and the lamp changes some electrical energy into light and heat. Opening the circuit stops the current.
+- Current is the rate at which electrical charge passes a point in a circuit. It is measured in amperes (A). One ampere means one coulomb of charge passes each second. In a simple series circuit, the same current flows through every component.
 - Voltage is the difference in electrical potential between two points. It tells us how much energy is transferred for each coulomb of charge that moves between them, and it is measured in volts (V). Chemical reactions in a battery create a potential difference between its terminals. For example, a 9 V battery has a nominal potential difference of 9 V between its positive and negative terminals.
 - The opposition to current flow is resistance. The resistance of a material is mainly determined by how many free electrons it has. If the material doesn’t have many, it will have little or no current flow. The unit of resistance is the ohm. One ohm is the amount of resistance that will allow 1 ampere of current to flow when the applied voltage is 1 volt.
 
