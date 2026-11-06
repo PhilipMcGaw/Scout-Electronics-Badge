@@ -58,7 +58,7 @@ For a bundled set of basic tools, Kitronik sells a [Soldering and Electronics To
 
 The soldering iron in a beginner’s tool kit should be a 15- to 40-watt iron with a fine chisel tip. Use a lead-free solder, like [https://amzn.to/4t8N10K](https://amzn.to/4t8N10K). Most of the solder you will need will have a diameter of about 0.8 mm.
 
-You also should have a solder wick ([https://amzn.to/4bW02Ve](https://amzn.to/4bW02Ve)) for desoldering a connection if you make a mistake or want to remove a component.
+Solder wick, also called solder braid, absorbs molten solder when you place it over a joint and heat it. It is useful for removing excess solder or cleaning a joint during rework. Kitronik lists a [1.5 m reel of solder wick](https://kitronik.co.uk/products/2645-economy-solder-mop) with a 2.5 mm braid width. Use it with a Leader, because the braid becomes hot during use.
 
 Use a workbench for your project if you have one. If not, you can use a kitchen table, desk, or sturdy card table. You will need to have good light and ventilation and access to power outlets. You also will need a few small boxes, trays, or jars to hold parts.
 
