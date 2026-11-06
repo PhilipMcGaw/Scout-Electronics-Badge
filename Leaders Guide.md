@@ -27,11 +27,28 @@ Plan a sequence that gives Scouts time to build, test, explain, and improve thei
 
 Adapt this sequence to the group's experience, access needs, time, equipment, and current Scouts guidance. The Woggle PCB is through-hole. Surface-mount soldering and PCB repair are optional advanced topics, not requirements for the Woggle activity.
 
+### Example six-meeting route
+
+The older IET Leaders’ Pack gives a useful example of spreading the badge across several meetings. This version is a planning aid, not a fixed programme:
+
+| Meeting | Focus | Possible activity |
+| --- | --- | --- |
+| 1 | Everyday electronics and components | Map the electronics Scouts use; match component photos to symbols and descriptions. |
+| 2 | Component markings | Practise resistor colour codes with a team game, then check values with a meter where suitable. |
+| 3 | Measurement and first circuit | Demonstrate safe meter use, then build and measure a simple LED circuit with the correct resistor. |
+| 4 | Sensors and control | Build a second circuit and discuss how an input changes its output. |
+| 5 | Digital electronics and soldering | Introduce the Woggle board, identify its parts, and practise through-hole soldering under close supervision. |
+| 6 | Finish, test, and explain | Complete and check the digital circuit; let each Scout explain the three circuits, their readings, and a possible use. |
+
+Some groups will need more time, especially for soldering or troubleshooting. Keep a record of what each Scout has built and measured so the final explanation can draw on their own work.
+
 ## Activity ideas
 
-The reviewed [IET activity-pack review](Source%20Documents/iet-scout-electronics-badge-activity-pack-review.md) records ideas from an older pack: an electronics diary, resistor-colour game, multimeter exercises, brush bug, steady-hand game, light-sensitive night light, light-up map, electronic dice, memory and reaction game, flashing guide, and open-ended design challenges.
+The reviewed [IET activity-pack review](Source%20Documents/iet-scout-electronics-badge-activity-pack-review.md) records ideas from an older pack: an electronics diary, component photo-symbol-description matching game, resistor-colour game, multimeter exercises, brush bug, steady-hand game, light-sensitive night light, light-up map, electronic dice, memory and reaction game, flashing guide, and open-ended design challenges. Matching cards can be played in pairs or teams; the resistor-code activity can use coloured strips or a table-top quiz if running around is unsuitable. A discussion map of the different devices replaced by a smartphone is another way to open a conversation about everyday electronics.
 
 Treat those as project prompts only. The original PDF's diagrams and build instructions were not visually checked, and some extracted text was unclear. Before using an idea, choose or design a circuit for the actual components and supply, verify the parts and ratings, and check that the activity suits the group. Do not reproduce a circuit from a title or partial text alone.
+
+Prepare one labelled parts set per pair or team where possible. Count small components before and after the activity, check meter leads and batteries, and prepare a known-good example circuit for demonstration. Identify shared tools that could cause a queue; arrange enough sets or stagger the work so Scouts are not waiting around hot tools.
 
 ## Safety preparation
 
