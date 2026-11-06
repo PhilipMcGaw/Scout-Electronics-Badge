@@ -102,7 +102,9 @@ The amount of electrical charge is measured in coulombs (C). Rubbing two materia
 
 **Safety:** Keep the balloon away from exposed electronic components, which can be damaged by static discharge. Do not deliberately make sparks or do the activity near flammable vapours.
 
-When charge moves through a circuit, we call that movement an electric current. In metal wires, electrons are the moving charges. Standard circuit diagrams usually show *conventional current* in the opposite direction, from positive to negative. Both descriptions refer to the same circuit; use the direction shown by the diagram or instructions.
+When charge moves through a circuit, we call that movement an electric current. Throughout this booklet, current follows the conventional direction: from positive to negative around the external circuit. Use this direction in circuit diagrams and calculations.
+
+**Advanced note:** Conventional current is a direction convention, not the direction that electrons drift in a metal wire. In metal wires, electrons drift from negative to positive. Conventional current remains the standard direction used in circuit diagrams and formulae.
 
 ### Conductors and Insulators
 
@@ -186,11 +188,9 @@ The word semiconductor is used to name a wide variety of electronic devices. Mad
 
 The other area of silicon also has an added impurity. But the atoms of this impurity combine with the silicon atoms in such a way that there is a shortage of one electron in the bonding. The absence of an electron is called a “hole,” and this hole can grab an electron from a neighbouring atom. Thus, a hole can “float” from atom to atom the same way an electron might. The silicon with the holes is called P-type (positive).
 
-For conventional current to flow through a forward-biased diode, the positive terminal of the supply connects to the anode and the negative terminal connects to the cathode. Electron flow is in the opposite direction. A reverse-biased diode normally allows only a very small leakage current, unless its breakdown rating is exceeded.
+For conventional current to flow through a forward-biased diode, the anode connects to the positive side of the supply and the cathode to the negative side. A reverse-biased diode normally allows only a very small leakage current, unless its breakdown rating is exceeded.
 
-The transistor is perhaps the most important invention in the history of electronics so far. A transistor uses the P-type and N-type silicon in much the same way as a diode. However, the transistor has three electrodes, called the emitter, the base, and the collector. The collector is connected to the positive terminal of the battery, and the emitter is connected to the negative terminal. Electrons will try to flow from the emitter to the collector. However, a thin layer (the base) separates these two elements. If the base is negative, it repels the free electrons in the emitter. In this case, no current can flow from the emitter to the collector.
-
-If the base is positive, electrons can flow into the base from the emitter. Some of the electrons will flow into the positive base lead. But because the base is very thin, most of the electrons travel through the base to the collector. Thus, if the base is made more positive, more electrons will flow. Conversely, making the base less positive will reduce the current flow. You can see then that a small voltage on the base will control the amount of current through the transistor. For this reason, the transistor can be used as an amplifier in much the same way as a vacuum tube.
+In a suitable NPN transistor circuit, a small current into the base controls a larger conventional current from the collector to the emitter. Reducing or removing the base current reduces or stops the collector current. A PNP transistor uses opposite polarities and current directions. Follow the circuit diagram and the transistor’s datasheet for its connections and limits.
 
 Notice the symbol in the illustration used to represent the NPN transistor. Another type of transistor is called the PNP transistor. Its structure and schematic symbol are shown in the following illustration. This transistor requires opposite polarity voltages for proper operation.
 
