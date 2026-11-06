@@ -126,6 +126,8 @@ An ideal voltage source is a useful model: it keeps the same voltage as the load
 
 Battery voltage is a nominal value: a useful label, not a promise that the battery will always measure exactly that voltage. Its voltage can change as it discharges and when a load is connected; the pattern depends on the battery chemistry.
 
+The same battery size can have different nominal voltages because the chemistry is different. For example, rechargeable nickel-cadmium (NiCd) and nickel-metal hydride (NiMH) cells are typically 1.2 V per cell, while non-rechargeable alkaline cells of the same size are typically 1.5 V. Check that a device can operate at the voltage of the cells you choose; not every rechargeable battery uses the same chemistry or voltage.
+
 Capacity is often given in milliamp-hours (mAh) or amp-hours (Ah). It describes how much charge a battery can deliver under stated test conditions; it is not the maximum current the battery can safely supply. A rough runtime estimate is capacity divided by the circuit’s average current. For example, `1,000 mAh ÷ 10 mA = 100 h`. Treat this only as an estimate: actual capacity and runtime depend on the battery, current drawn, temperature, and the voltage at which the circuit stops working. Check the manufacturer’s information, and never use the capacity rating as a safe-current rating.
 
 ### Current, Voltage, and Resistance
