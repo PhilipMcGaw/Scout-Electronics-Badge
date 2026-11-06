@@ -122,6 +122,12 @@ A short circuit is an unintended low-resistance path that bypasses the load. It 
 
 An ideal voltage source is a useful model: it keeps the same voltage as the load changes. A real battery has limits. The circuit and its load determine how much current is drawn; the battery does not push its maximum current into every circuit. If a load tries to draw more current than the battery can safely provide, the battery’s terminal voltage may fall and the battery may heat up or become damaged. Check the battery and component instructions, and never test a battery’s limit by shorting it or connecting an unsuitable load.
 
+### Battery capacity
+
+Battery voltage is a nominal value: a useful label, not a promise that the battery will always measure exactly that voltage. Its voltage can change as it discharges and when a load is connected; the pattern depends on the battery chemistry.
+
+Capacity is often given in milliamp-hours (mAh) or amp-hours (Ah). It describes how much charge a battery can deliver under stated test conditions; it is not the maximum current the battery can safely supply. A rough runtime estimate is capacity divided by the circuit’s average current. For example, `1,000 mAh ÷ 10 mA = 100 h`. Treat this only as an estimate: actual capacity and runtime depend on the battery, current drawn, temperature, and the voltage at which the circuit stops working. Check the manufacturer’s information, and never use the capacity rating as a safe-current rating.
+
 ### Current, Voltage, and Resistance
 
 Here are some basic definitions of terms used in electronics.
