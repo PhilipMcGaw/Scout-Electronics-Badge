@@ -148,7 +148,7 @@ Cells in parallel connect positive to positive and negative to negative. A corre
 
 ### Quick check: batteries in series and parallel
 
-**Question 1 of 2**
+**Question 1 of 3**
 
 Two 9 V batteries are connected in series, with the positive terminal of one connected to the negative terminal of the other. What is the combined nominal voltage across the two remaining terminals?
 
@@ -159,7 +159,7 @@ Two 9 V batteries are connected in series, with the positive terminal of one co
 
 **Answer for the Leader:** 18 V. In series, nominal battery voltages add: 9 V + 9 V = 18 V.
 
-**Question 2 of 2**
+**Question 2 of 3**
 
 When two batteries are connected in parallel, the positive terminal of one battery is connected to the negative terminal of the other battery.
 
@@ -167,6 +167,15 @@ When two batteries are connected in parallel, the positive terminal of one batte
 - False
 
 **Answer for the Leader:** False. In a parallel connection, positive is connected to positive and negative to negative.
+
+**Question 3 of 3**
+
+A correctly designed battery pack with matched cells in parallel can provide more current than one of its cells alone.
+
+- False
+- True
+
+**Answer for the Leader:** True. Parallel cells can share the load and increase the pack’s current capability. The amount depends on the cells and pack design. Do not connect loose cells in parallel; use only a purpose-built pack approved for that arrangement.
 
 ### Current, Voltage, and Resistance
 
