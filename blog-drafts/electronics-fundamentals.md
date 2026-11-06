@@ -6,9 +6,9 @@
 
 **Related article to review:** [Is P = I x V Part of Ohm’s Law?](https://philipmcgaw.com/ohms-law-and-watts-law/).
 
-**Source note:** This outline uses ideas from the user-pasted transcripts headed “The fundamentals of electronics”, “What you should know”, “Electrical charge”, “Conductors and insulators”, “Voltage”, “Current”, “Circuit basics”, “Safety message”, “Resistance and Ohm’s Law”, and “SI prefixes”. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcripts as background and write original explanations rather than reproducing their wording.
+**Source note:** This outline uses ideas from the user-pasted transcripts headed “The fundamentals of electronics”, “What you should know”, “Electrical charge”, “Conductors and insulators”, “Voltage”, “Current”, “Circuit basics”, “Safety message”, “Resistance and Ohm’s Law”, “SI prefixes”, and “What is a multimeter?”. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcripts as background and write original explanations rather than reproducing their wording.
 
-The local course-exercise folder contains a parts list, a multimeter list, an SI-prefix reference, and two circuit-challenge PDFs. A user-supplied screenshot of the parts list shows two 9 V batteries and two connectors, a 6.15 V, 0.5 A miniature bulb and holder, a red LED, a 470 Ω resistor, and SparkFun TOL-12966 and Extech MN36 multimeters. The listed shop links are US-oriented. Treat these as course examples, not UK purchasing recommendations. The screenshot does not show the circuit connections, so do not assume how the bulb, LED, or resistor are used together. The SI-prefix reference has been checked; the multimeter list and challenge PDFs remain to be reviewed.
+The local course-exercise folder contains a parts list, a multimeter list, an SI-prefix reference, and two circuit-challenge PDFs. A user-supplied screenshot of the parts list shows two 9 V batteries and two connectors, a 6.15 V, 0.5 A miniature bulb and holder, a red LED, a 470 Ω resistor, and SparkFun TOL-12966 and Extech MN36 multimeters. The listed shop links are US-oriented. Treat these as course examples, not UK purchasing recommendations. The screenshot does not show the circuit connections, so do not assume how the bulb, LED, or resistor are used together. The SI-prefix reference and multimeter list have been checked; one circuit-challenge PDF remains to be reviewed.
 
 ## Planned outline
 
@@ -20,9 +20,10 @@ The local course-exercise folder contains a parts list, a multimeter list, an SI
 6. Introduce Ohm’s law, `V = I × R`, rearrange it to find current, and show the relationships `V = I × R` and `P = V × I` with a checked, low-voltage example.
 7. Introduce common SI prefixes used with electrical units, with examples of converting between milliamperes and amperes, and kilo-ohms and ohms.
 8. Compare an ideal voltage source with a real battery: explain that a real source has limits and its terminal voltage can change with load.
-9. Measure voltage across a component and current through the circuit with a multimeter, following the booklet's meter-safety steps.
-10. Use Falstad to explore the circuit and compare the model with measurements from the real low-voltage build.
-11. Link to the resistor article for power ratings and the battery article for capacity and voltage under load.
+9. Introduce the digital multimeter’s display, selector, probes, sockets, and common functions; explain how to select a meter based on the measurements and safety needs.
+10. Measure voltage across a component and current through the circuit with a multimeter, following the booklet's meter-safety steps.
+11. Use Falstad to explore the circuit and compare the model with measurements from the real low-voltage build.
+12. Link to the resistor article for power ratings and the battery article for capacity and voltage under load.
 
 ## Notes to carry forward
 
@@ -43,6 +44,7 @@ The local course-exercise folder contains a parts list, a multimeter list, an SI
 - Check the available current and risks of short circuits, heating, stored energy, and the work environment. Keep all mains work outside the scope of this post and the Scout activity.
 - Make clear that an ideal source is a useful circuit model, while actual sources have operating limits. Check any quantitative example against the selected battery and load data.
 - Explain multimeter connections precisely: voltage is measured in parallel; current is measured in series. Follow the meter's instructions and the existing booklet safety guidance.
+- The course exercise file [DMM List.pdf](../Source%20Documents/Ex_Files_Electronics_Foundations_Fundamentals_2021/Ch02/02_01/DMM%20List.pdf) lists SparkFun TOL-12966 and Extech MN36 with US-oriented product links, but gives no specification table. The pasted transcript names functions and ports for these examples; check the current meter manuals before repeating model-specific details, and do not treat the old links as UK buying recommendations. Explain that socket layouts vary. For current measurements, emphasise series connection, the correct current input, range, and fuse status as stated in the meter manual; require Leader supervision, switching off before moving leads, and returning the red lead to the voltage/resistance socket.
 - If the simulation does not model the real source's limits, describe the simplification and do not present the simulation as a measurement of the physical battery.
 
 ## Sources and visuals

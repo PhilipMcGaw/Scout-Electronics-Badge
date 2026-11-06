@@ -1078,9 +1078,11 @@ For a resistor, the power rating is the maximum heat it can normally dissipate. 
 
 ## Using a Multimeter
 
-Before measuring, identify what you are measuring and select the correct function and range. Black normally goes to COM. The red lead goes to the voltage/resistance socket for voltage and resistance measurements, and to the current socket only when measuring current. Ask a Leader to check the lead positions before connecting the meter.
+A digital multimeter (DMM) combines several measuring functions in one tool. A basic DMM can measure voltage, current, resistance, and continuity; other functions vary by model. The display shows the reading, the selector chooses the measurement function and range, and the probes connect to sockets marked for common (COM), voltage/resistance, and current. Socket layouts and markings vary, so check the meter’s instructions rather than relying on where a socket is positioned.
 
-To measure voltage, connect the meter in parallel with the part or supply. To measure current, open the circuit and connect the meter in series so that the circuit current flows through the meter. To measure resistance, switch the circuit off and, where possible, disconnect one end of the resistor so that other components do not affect the reading.
+Before measuring, check the meter and leads for damage, identify what you are measuring, and select the correct function and range. Black normally goes to COM. The red lead goes to the voltage/resistance socket for voltage and resistance measurements, and to the current socket only when measuring current. Ask a Leader to check the lead positions before connecting the meter. For the battery circuits in this booklet, select DC voltage.
+
+To measure voltage, connect the meter in parallel with the part or supply. To measure current, open the circuit and connect the meter in series so that the circuit current flows through the meter. A current measurement uses a different socket on many meters; connecting that socket across a supply can cause a short circuit. Have your Leader supervise current measurements, switch off the supply before changing connections, and return the red lead to the voltage/resistance socket afterwards. To measure resistance or continuity, switch the circuit off and make sure any capacitors are discharged. Where possible, disconnect one end of the resistor so that other components do not affect the reading.
 
 Voltage is the electrical potential difference that can drive charge. Current is the rate of charge flow. Resistance opposes current. In a simple resistive circuit, Ohm’s law is V = I &#215; R. Power is P = V &#215; I. Record the units: volts (V), amperes (A), ohms (Ω), and watts (W).
 
