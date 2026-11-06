@@ -130,6 +130,16 @@ The same battery size can have different nominal voltages because the chemistry 
 
 Capacity is often given in milliamp-hours (mAh) or amp-hours (Ah). It describes how much charge a battery can deliver under stated test conditions; it is not the maximum current the battery can safely supply. A rough runtime estimate is capacity divided by the circuit’s average current. For example, `1,000 mAh ÷ 10 mA = 100 h`. Treat this only as an estimate: actual capacity and runtime depend on the battery, current drawn, temperature, and the voltage at which the circuit stops working. Check the manufacturer’s information, and never use the capacity rating as a safe-current rating.
 
+The table gives practice values from a [battery-sizing challenge sheet](Source%20Documents/Ex_Files_Electronics_Foundations_Fundamentals_2021/Ch03/03_06/03_06%20Challenge%20Description.pdf). It does not identify a battery brand or model, or state the test conditions. Use the figures to practise comparing battery options, not as specifications for batteries sold in the UK. “Typical drain” is not a safe maximum current. Check the exact battery’s datasheet before using it in a real circuit.
+
+| Alkaline battery size | Nominal voltage | Typical drain in the handout | Capacity in the handout |
+| --- | ---: | ---: | ---: |
+| 9 V battery | 9 V | 15 mA | 500 mAh |
+| AAA | 1.5 V | 10 mA | 1,000 mAh |
+| AA | 1.5 V | 50 mA | 2,400 mAh |
+| C | 1.5 V | 100 mA | 6,000 mAh |
+| D | 1.5 V | 200 mA | 13,000 mAh |
+
 ### Cells in series and parallel
 
 Cells in series connect the positive terminal of one cell to the negative terminal of the next. Their nominal voltages add: two 1.5 V cells in series make a 3 V pack. The pack’s capacity in amp-hours stays about the same as one cell’s capacity when the cells match. The same current passes through each cell, but increasing the pack voltage can change the current drawn by a load.
