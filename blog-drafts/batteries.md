@@ -18,6 +18,7 @@
 - The *Basic Electronics* source includes battery capacity, internal resistance, and voltage-drop examples. Its car-starting example is not suitable for this beginner-oriented article; use a small, current-limited low-voltage example instead.
 - Do not short a battery, use an unknown load, or deliberately heat a resistor. Select any demonstration load from its calculated current and power, check its rating, and keep it within safe operating limits.
 - Distinguish energy capacity from the maximum current a cell can safely supply. Do not imply that a larger capacity rating alone guarantees a longer runtime in every circuit.
+- Link to the [electronics fundamentals post](electronics-fundamentals.md) for the basic voltage, current, resistance, and power relationships.
 - Keep the explanation applicable to low-voltage battery-powered projects. Do not include mains-derived supplies or mains construction.
 
 ## Sources and visuals

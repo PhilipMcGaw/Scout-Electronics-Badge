@@ -20,6 +20,7 @@
 ## Notes to carry forward
 
 - The existing post already covers Ohm’s law, resistor markings, power dissipation, temperature effects, reliability, and component-selection factors.
+- Link to the [electronics fundamentals post](electronics-fundamentals.md) for the voltage, current, resistance, and power overview; keep this article focused on resistor choice and use.
 - Use the Potential Divider Calculator as an interactive companion to the explanation. Check that its inputs, equations, units, and displayed results are clear, then show how changing either resistor affects the divider output.
 - Philip is more likely to use thermistors than LDRs, so use a thermistor for the main sensor example. Check whether the selected part is NTC or PTC, and use its datasheet rather than assuming a universal resistance curve or divider value.
 - Keep the sensor example inside the resistor article as an application of the potential divider. If Falstad does not model the selected thermistor, use a variable resistor only as a clearly labelled approximation of its changing resistance.
