@@ -54,6 +54,8 @@ For most projects, you can use any small-diameter solid or stranded hookup wire.
 
 can buy at a hobby, electronics parts, or hardware store.
 
+For a bundled set of basic tools, Kitronik sells a [Soldering and Electronics Tool Kit](https://kitronik.co.uk/products/26103-12-piece-electronic-soldering-and-repair-kit). The listed contents include a 30 W soldering iron and holder, lead-free solder, a desoldering pump, pliers, a screwdriver, a voltage tester, and a multimeter. The iron plugs into a UK 230 V mains supply, so use it only with Leader supervision and follow the safety guidance in this chapter. Safety glasses and solder-fume extraction are not listed as part of the kit; arrange these separately. Check the product listing before ordering in case its contents change.
+
 The soldering iron in a beginner’s tool kit should be a 15- to 40-watt iron with a fine chisel tip. Use a lead-free solder, like [https://amzn.to/4t8N10K](https://amzn.to/4t8N10K). Most of the solder you will need will have a diameter of about 0.8 mm.
 
 You also should have a solder wick ([https://amzn.to/4bW02Ve](https://amzn.to/4bW02Ve)) for desoldering a connection if you make a mistake or want to remove a component.
