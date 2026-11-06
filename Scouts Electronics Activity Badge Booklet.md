@@ -698,6 +698,19 @@ Which pin should you solder first when fitting a multi-pin component?
 
 **Answer for the Leader:** Any suitable pin can be soldered first. For a socket, a corner pin is a useful starting point: check that the socket is aligned, then solder the opposite corner before doing the remaining pins. Briefly reflow the first tack joint at the end. See [Soldering a multi-pin IC socket](Scouts%20Electronics%20Activity%20Badge%20Booklet.md#soldering-a-multi-pin-ic-socket).
 
+### Quick check: solder-joint quality
+
+**Question 1 of 6**
+
+Too little solder creates what type of situation?
+
+- Bad electrical connection
+- Bad mechanical and electrical connection
+- Bad mechanical connection
+- It does not cause a problem
+
+**Answer for the Leader:** Bad mechanical and electrical connection. Too little solder can leave a weak mechanical joint and an unreliable electrical connection. The solder must wet both the component lead and the PCB pad.
+
 ### Quick check: soldering and welding
 
 **Question 1 of 1**
