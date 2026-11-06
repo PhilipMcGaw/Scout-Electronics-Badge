@@ -260,6 +260,19 @@ Some North American schematics, often called ANSI/IEEE style, use a zigzag line 
 
 When you draw a schematic, use one symbol style consistently and include a key if you use symbols that may be unfamiliar. You can draw it with a pencil, paper, and a ruler, or use a schematic-capture program such as KiCad.
 
+### Quick check: electrical fundamentals
+
+**Question 1 of 11**
+
+Voltage is the difference in electrical potential between `_____`.
+
+- Scarves and balloons
+- Any two points
+- Protons and electrons
+- Conductors and insulators
+
+**Answer for the Leader:** Any two points. Voltage is a difference in electrical potential between two points.
+
 ## Component Types
 
 Before we look at the most common types of electronics components, as well as the schematic symbol and a pictorial of each one, let’s define and review some basic terms (also see the Basic Electronics Theory section):
