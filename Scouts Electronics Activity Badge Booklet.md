@@ -906,6 +906,8 @@ Wear eye protection when cutting component leads or drilling. Hold small parts w
 
 Use lead-free solder unless a Leader has approved another type. Wash your hands after soldering and before eating. Keep solder and clipped wire ends away from mouths, eyes, and younger children. Use suitable fume extraction or good ventilation and keep your face out of the smoke or flux fumes.
 
+Never deliberately overload or heat a resistor to see what happens; it can become hot enough to burn skin or damage nearby materials. Before connecting power, check the polarity of LEDs and electrolytic capacitors against the component markings and circuit diagram. A reversed LED may not light and could be damaged if its reverse-voltage rating is exceeded. A reversed electrolytic capacitor can overheat and fail, and may vent gas or electrolyte. Ask your Leader to check any part whose direction is unclear.
+
 If a component, wire, battery, or tool becomes hot, smells unusual, smokes, or behaves unexpectedly, disconnect the power if safe to do so and tell a Leader immediately. Never continue troubleshooting a powered circuit by touching random points.
 
 ## Ratings and datasheets

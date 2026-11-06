@@ -10,7 +10,7 @@
 
 1. What capacitance means and how a capacitor differs from a battery and an inductor.
 2. Recognise common units and read typical ceramic-capacitor markings.
-3. Identify polarised and non-polarised parts; explain polarity and voltage rating.
+3. Identify polarised and non-polarised parts; explain polarity and voltage rating, and what can happen if a polarised electrolytic capacitor is connected backwards.
 4. Show a resistor-capacitor charge and discharge circuit, including the time constant.
 5. Use a Falstad simulation to explore how changing resistance or capacitance changes the timing.
 6. Note practical limits: real components have tolerances and other non-ideal properties.
@@ -20,6 +20,7 @@
 - The existing post covers capacitor uses, charge, energy, and the RC time constant.
 - Reader comments ask for clearer definitions of symbols and a comparison with battery and inductor energy storage.
 - Do not imply that all capacitors above or below a particular value use one construction or have the same polarity rules.
+- Explain that a reversed aluminium electrolytic can heat up and fail; use a manufacturer source such as [KEMET’s aluminium electrolytic capacitor data sheet](https://content.kemet.com/datasheets/KEM_A4093_ALA8A.pdf), and keep the practical advice simple: check the capacitor markings and circuit before connecting power.
 
 ## Sources and visuals
 
