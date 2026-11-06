@@ -6,7 +6,7 @@
 
 **Source note:** This outline uses ideas from the user-pasted transcript headed “The fundamentals of electronics” and the “What you should know” section. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcript as background and write original explanations rather than reproducing its wording.
 
-The local, untracked course-exercise folder also contains a parts list, a multimeter list, an SI-prefix reference, and two circuit-challenge PDFs. Their contents have not yet been reviewed. Check any parts or equipment suggestions for current UK suitability before adapting them.
+The local course-exercise folder contains a parts list, a multimeter list, an SI-prefix reference, and two circuit-challenge PDFs. A user-supplied screenshot of the parts list shows two 9 V batteries and two connectors, a 6.15 V, 0.5 A miniature bulb and holder, a red LED, a 470 Ω resistor, and SparkFun TOL-12966 and Extech MN36 multimeters. The listed shop links are US-oriented. Treat these as course examples, not UK purchasing recommendations. The screenshot does not show the circuit connections, so do not assume how the bulb, LED, or resistor are used together. The remaining exercise PDFs have not yet been reviewed.
 
 ## Planned outline
 
