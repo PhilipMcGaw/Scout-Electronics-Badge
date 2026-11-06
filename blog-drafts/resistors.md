@@ -2,7 +2,7 @@
 
 **Status:** Outline started; draft not written.
 
-**Existing articles:** [Learn about Resistors](https://philipmcgaw.com/learn-about-resistors/), [LED Resistor Values](https://philipmcgaw.com/led-resistors-values/), and the [Potential Divider Calculator](https://philipmcgaw.com/potential-divider-calculator/).
+**Existing articles:** [Learn about Resistors](https://philipmcgaw.com/learn-about-resistors/), [Is P = I x V Part of Ohm’s Law?](https://philipmcgaw.com/ohms-law-and-watts-law/), [LED Resistor Values](https://philipmcgaw.com/led-resistors-values/), and the [Potential Divider Calculator](https://philipmcgaw.com/potential-divider-calculator/).
 
 **Purpose:** Refresh the existing article with clearer explanations and a practical example that shows how resistor choice affects a real circuit.
 
@@ -21,6 +21,7 @@
 
 - The existing post already covers Ohm’s law, resistor markings, power dissipation, temperature effects, reliability, and component-selection factors.
 - Review of the current [Learn about Resistors](https://philipmcgaw.com/learn-about-resistors/) page (checked 2026-11-06): revise the “conventional current” section so it presents conventional current from positive to negative as the standard direction used in this series, with electron flow as a brief optional note rather than calling the convention a lie. The page’s temperature-coefficient equation assumes a positive coefficient; explain that resistance may increase or decrease with temperature and check any example against the selected resistor’s datasheet. Replace the broad claim that surface-mount markings follow the first three colour bands with a short explanation that marking systems vary by package and manufacturer. Remove or qualify the broad claim that through-hole resistors are rarely encountered outside prototyping and hobby electronics. Explain Kirchhoff’s current and voltage laws in plain language or omit them here if they distract from practical resistor selection. The reliability model and failure-rate figures are specialist material; omit them unless the intended reader needs them and a suitable primary source is added.
+- Coordinate with [Is P = I x V Part of Ohm’s Law?](https://philipmcgaw.com/ohms-law-and-watts-law/) and the fundamentals post: present `V = I × R` as the relationship for ohmic behaviour under stated conditions, and `P = V × I` as the electrical power relationship. Use both together for resistor heating and ratings, but explain the difference instead of calling power a rule of thumb.
 - Link to the [electronics fundamentals post](electronics-fundamentals.md) for the voltage, current, resistance, and power overview; keep this article focused on resistor choice and use.
 - Use the Potential Divider Calculator as an interactive companion to the explanation. Check that its inputs, equations, units, and displayed results are clear, then show how changing either resistor affects the divider output.
 - Philip is more likely to use thermistors than LDRs, so use a thermistor for the main sensor example. Check whether the selected part is NTC or PTC, and use its datasheet rather than assuming a universal resistance curve or divider value.
