@@ -6,7 +6,7 @@
 
 **Related article to review:** [Is P = I x V Part of Ohm’s Law?](https://philipmcgaw.com/ohms-law-and-watts-law/).
 
-**Source note:** This outline uses ideas from the user-pasted transcripts headed “The fundamentals of electronics”, “What you should know”, “Electrical charge”, “Conductors and insulators”, “Voltage”, “Current”, “Circuit basics”, “Safety message”, and “Resistance and Ohm’s Law”. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcripts as background and write original explanations rather than reproducing their wording.
+**Source note:** This outline uses ideas from the user-pasted transcripts headed “The fundamentals of electronics”, “What you should know”, “Electrical charge”, “Conductors and insulators”, “Voltage”, “Current”, “Circuit basics”, “Safety message”, “Resistance and Ohm’s Law”, and “SI prefixes”. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcripts as background and write original explanations rather than reproducing their wording.
 
 The local course-exercise folder contains a parts list, a multimeter list, an SI-prefix reference, and two circuit-challenge PDFs. A user-supplied screenshot of the parts list shows two 9 V batteries and two connectors, a 6.15 V, 0.5 A miniature bulb and holder, a red LED, a 470 Ω resistor, and SparkFun TOL-12966 and Extech MN36 multimeters. The listed shop links are US-oriented. Treat these as course examples, not UK purchasing recommendations. The screenshot does not show the circuit connections, so do not assume how the bulb, LED, or resistor are used together. The remaining exercise PDFs have not yet been reviewed.
 
@@ -18,10 +18,11 @@ The local course-exercise folder contains a parts list, a multimeter list, an SI
 4. Introduce a source, load, and conducting path; explain closed and open circuits, a switch, voltage across an open switch, and short-circuit risks.
 5. Define resistance as opposition to current, measured in ohms (`Ω`), and use water flow through pipes as a first analogy. Explain where the analogy stops being exact.
 6. Introduce Ohm’s law, `V = I × R`, rearrange it to find current, and show the relationships `V = I × R` and `P = V × I` with a checked, low-voltage example.
-7. Compare an ideal voltage source with a real battery: explain that a real source has limits and its terminal voltage can change with load.
-8. Measure voltage across a component and current through the circuit with a multimeter, following the booklet's meter-safety steps.
-9. Use Falstad to explore the circuit and compare the model with measurements from the real low-voltage build.
-10. Link to the resistor article for power ratings and the battery article for capacity and voltage under load.
+7. Introduce common SI prefixes used with electrical units, with examples of converting between milliamperes and amperes, and kilo-ohms and ohms.
+8. Compare an ideal voltage source with a real battery: explain that a real source has limits and its terminal voltage can change with load.
+9. Measure voltage across a component and current through the circuit with a multimeter, following the booklet's meter-safety steps.
+10. Use Falstad to explore the circuit and compare the model with measurements from the real low-voltage build.
+11. Link to the resistor article for power ratings and the battery article for capacity and voltage under load.
 
 ## Notes to carry forward
 
@@ -32,6 +33,7 @@ The local course-exercise folder contains a parts list, a multimeter list, an SI
 - Explain that current is not used up by a lamp: in a simple series loop, the same conventional current flows through each part while electrical energy is transferred. Do not claim all current is a flow of holes; hole current is a model used for semiconductors.
 - Do not describe electrons as choosing an “easier” route. A short circuit is an unintended low-resistance path that can draw excessive current; explain that current division depends on the complete circuit, not on electrons making choices.
 - Assume the reader is new to electronics. Build understanding before introducing equations, keep the mathematics to basic arithmetic, and use only the calculations needed to show how the quantities relate.
+- Teach SI prefixes as powers of ten and emphasise that prefix symbols are case-sensitive: `M` means mega (one million), while `m` means milli (one thousandth). Cover kilo, mega, giga, milli, micro, nano, and pico, then use practical conversions such as `42 mA = 0.042 A` and `24 kΩ = 24,000 Ω`. Choose the prefix that makes a value easy to read, and retain a space between the number and unit (`24 kΩ`).
 - For the resistance example, `9 V ÷ 20 Ω = 0.45 A` is arithmetically correct for an ideal, fixed 20 Ω resistance. Label it as a calculation example, not a recommended bulb circuit: a real lamp’s resistance changes as its filament heats, and the exercise parts list includes a 6.15 V, 0.5 A bulb, so do not imply it should be connected directly to 9 V. Explain that Ohm’s law relates voltage, current, and resistance; a fixed resistance gives a proportional relationship only while its resistance remains effectively constant.
 - Coordinate with the existing [Ohm’s law and Watt’s law article](https://philipmcgaw.com/ohms-law-and-watts-law/): distinguish `V = I × R` from the electrical power relationship `P = V × I`, while explaining why they are often used together. Do not say resistance is always constant; the simple proportional form applies to ohmic behaviour under specified conditions, and components such as filament lamps change resistance as they heat. Avoid making the historical naming distinction more prominent than the practical calculation.
 - Keep the hose analogy as a rough model: pressure difference can stand in for voltage, flow rate for current, and restrictions for resistance. Do not say a bend in a hose maps directly to a particular electrical resistance or imply that all components have fixed resistance. Return to the complete circuit when explaining how changing voltage or resistance affects current.

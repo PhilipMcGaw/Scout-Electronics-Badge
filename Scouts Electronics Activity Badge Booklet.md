@@ -159,6 +159,22 @@ Power (watts) = Voltage (volts) &#215; Current (amperes)
 
 For example, if a checked low-voltage circuit has 5 V across a component and 0.1 A flowing through it, the power is 0.5 W. Electrical energy may be changed into heat, light, sound, movement, or another useful output. Check a component's power rating as well as its voltage and current limits.
 
+### SI prefixes
+
+SI prefixes make very large and very small values easier to write and read. The prefix goes before a unit and tells you how many times larger or smaller the value is.
+
+| Prefix | Symbol | Meaning | Example |
+|---|---:|---:|---|
+| kilo | k | 1,000 times | 1 kΩ = 1,000 Ω |
+| mega | M | 1,000,000 times | 1 MΩ = 1,000,000 Ω |
+| giga | G | 1,000,000,000 times | 1 GΩ = 1,000,000,000 Ω |
+| milli | m | one thousandth | 1 mA = 0.001 A |
+| micro | μ | one millionth | 1 μF = 0.000001 F |
+| nano | n | one billionth | 1 nF = 0.000000001 F |
+| pico | p | one trillionth | 1 pF = 0.000000000001 F |
+
+The capital and lower-case letters matter: `M` means mega, but `m` means milli. For example, `42 mA` is `0.042 A`, and `24 kΩ` is `24,000 Ω`. A prefix can be used with different units, such as volts, amperes, ohms, and farads. Use the prefix that makes a value easy to read.
+
 ### Current Delivery
 
 Electrical signals are classified as direct current (DC) or alternating current (AC). DC keeps the same polarity, although its voltage can stay steady or vary. AC changes polarity repeatedly; its voltage may follow a sine wave or another repeating pattern. The number of cycles per second is its frequency.
