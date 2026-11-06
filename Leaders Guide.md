@@ -42,6 +42,10 @@ The older IET Leaders’ Pack gives a useful example of spreading the badge acro
 
 Some groups will need more time, especially for soldering or troubleshooting. Keep a record of what each Scout has built and measured so the final explanation can draw on their own work.
 
+### Use prediction and measurement
+
+For a new circuit, ask Scouts to predict what will happen before they build or change it. Change one feature at a time, observe the result, take a suitable measurement, and ask them to explain any difference between the prediction and the result. This makes troubleshooting part of the activity and helps Scouts connect the schematic, components, and behaviour. Keep experiments within a checked circuit design; avoid deliberately damaging components or shorting power sources.
+
 ## Activity ideas
 
 The reviewed [IET activity-pack review](Source%20Documents/iet-scout-electronics-badge-activity-pack-review.md) records ideas from an older pack: an electronics diary, component photo-symbol-description matching game, resistor-colour game, multimeter exercises, brush bug, steady-hand game, light-sensitive night light, light-up map, electronic dice, memory and reaction game, flashing guide, and open-ended design challenges. Matching cards can be played in pairs or teams; the resistor-code activity can use coloured strips or a table-top quiz if running around is unsuitable. A discussion map of the different devices replaced by a smartphone is another way to open a conversation about everyday electronics.
@@ -131,5 +135,6 @@ Philip also reports that his helping hands and vice use magnetic bases, and that
 - [HSE solderer guidance](https://www.hse.gov.uk/asthma/solderers.htm)
 - [HSE lead hygiene guidance](https://www.hse.gov.uk/lead/mostatrisk.htm)
 - [Review of the older IET Scout activity pack](Source%20Documents/iet-scout-electronics-badge-activity-pack-review.md)
+- [Review of *Make: Electronics*](Source%20Documents/Make-Electronics-review.md)
 
 This guide is a working draft. Check linked guidance and equipment instructions again before running an activity; they can change. Add project-specific risk controls and circuit notes as each session is developed.
