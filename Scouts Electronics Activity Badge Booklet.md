@@ -370,6 +370,15 @@ Which choice is a pair of particles with equal and opposite charges?
 
 **Answer for the Leader:** Protons and electrons. A proton has a positive charge and an electron has an equal-sized negative charge.
 
+**Question 11 of 11**
+
+Using conventional-current notation, electric current is shown flowing from the positive battery terminal towards the negative terminal.
+
+- True
+- False
+
+**Answer for the Leader:** True. This is the conventional-current direction used in circuit diagrams and throughout this booklet.
+
 ## Component Types
 
 Before we look at the most common types of electronics components, as well as the schematic symbol and a pictorial of each one, let’s define and review some basic terms (also see the Basic Electronics Theory section):
