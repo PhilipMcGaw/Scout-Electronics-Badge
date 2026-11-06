@@ -983,6 +983,8 @@ For an integrated circuit, find the notch, dot, or other pin-1 mark. With the no
 
 Purpose: learn polarity, current limiting, voltage measurement, and Ohm’s law. Use a battery pack or regulated supply approved by your Leader, one bare LED, and a suitable series resistor. A bare LED needs current limiting; never connect it directly across the supply. The resistor limits the current. Typical beginner values are a few volts of supply and a few milliamperes of LED current; calculate the resistor with R = (supply voltage − LED forward voltage) &#247; desired current.
 
+Worked example: suppose the supply is 9 V, the LED’s forward voltage is about 2 V at the chosen current, and the target current is 15 mA (0.015 A). The resistor must have about 9 V − 2 V = 7 V across it. Using Ohm’s law, R = 7 V &#247; 0.015 A = about 467 Ω. A 470 Ω resistor is a suitable standard value for this example. The estimated current is 7 V &#247; 470 Ω, or about 15 mA. These are example values, not specifications for every LED: check the LED datasheet and actual supply voltage before choosing a resistor. The resistor dissipates about 0.10 W, so select a power rating with suitable margin for its operating conditions.
+
 Operation and use: when the circuit is complete, current flows through the resistor and LED, producing light. Possible uses include a power indicator, a status lamp, or a warning that a switch is on. Measure the supply voltage and the voltage across the LED, then measure the circuit current in series.
 
 ### Project 2 — Light-sensitive alarm

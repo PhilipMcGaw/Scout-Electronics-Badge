@@ -6,6 +6,8 @@
 
 **Purpose:** Refresh the existing article with clearer explanations and a practical example that shows how resistor choice affects a real circuit.
 
+**New source material:** User-pasted transcript “Challenge: Limit current to an LED”.
+
 ## Planned outline
 
 1. What a resistor does: set current, create voltage drops, and dissipate energy as heat.
@@ -28,6 +30,7 @@
 - Keep the sensor example inside the resistor article as an application of the potential divider. If Falstad does not model the selected thermistor, use a variable resistor only as a clearly labelled approximation of its changing resistance.
 - The LED-resistor post has a table for several LED colours, three supply voltages, and three target currents. Carry the table forward only after rechecking each calculation against the assumed LED forward voltage and supply. Its blue and white LED examples at 3.3 V have very little voltage across the resistor, so explain why the current can vary significantly.
 - State the practical rule plainly: a bare LED needs current limiting. For the simple battery and microcontroller examples, use a correctly sized series resistor; never connect the LED directly across a supply or output pin. Note that some LED modules or driver circuits already provide current limiting, so check their documentation.
+- A useful worked example from the LED challenge is a 9 V supply, an assumed 2 V LED forward voltage, and a 15 mA target. This gives `(9 V − 2 V) ÷ 0.015 A ≈ 467 Ω`; choose 470 Ω and estimate about 14.9 mA. Label the forward voltage and current as assumptions for that example, not universal LED ratings. Check the LED datasheet and supply tolerance, and check resistor dissipation too: about 0.10 W here, so select a power rating with suitable margin.
 - Recheck resistor power as well as LED current. For example, the published red LED, 12 V, 560 Ω case dissipates about 0.19 W in the resistor if the assumed LED drop is 1.7 V, so a 1/8 W resistor would be undersized; check the exact design and rating before recommending a part.
 - Include a safety warning that a resistor can become hot when it dissipates power. The *Basic Electronics* source demonstrates this by overloading a low-value resistor from a battery and telling the reader to feel it; do not repeat that experiment. Explain heat using the power calculation and resistor rating, and do not ask readers to touch a component to judge its temperature.
 - Explain how the actual LED datasheet, supply tolerance, target current, resistor tolerance, and resistor power rating affect the result. A simulation and a measured low-voltage example can show the difference between an estimate and a built circuit.
