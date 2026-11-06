@@ -1,5 +1,7 @@
 # Scouts Electronics Activity Badge Booklet
 
+**For Leaders:** Use the companion [Leaders’ Guide](Leaders%20Guide.md) for session planning, safety preparation, and advanced-topic notes.
+
 ## How to earn your badge
 
 - Identify several common electronic components that are shown to you.
