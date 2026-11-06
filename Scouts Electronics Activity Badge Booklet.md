@@ -432,7 +432,9 @@ Diodes operate as check valves, passing current in one direction but not the oth
 
 #### Light-emitting diodes (LEDs)
 
-An LED is a diode that gives off light when current flows through it in the forward direction. A bare LED needs current limiting: in the simple circuits in this booklet, connect a suitable resistor in series with it. Do not connect a bare LED directly across a battery or an output pin, because too much current can damage the LED or the circuit. Some LED modules already contain a resistor or another current-limiting circuit, so check the module instructions before adding parts.
+An LED is a diode that gives off light when current flows through it in the forward direction. Changing its forward current (`I_F`) changes its brightness: less current usually makes it dimmer, and more current usually makes it brighter. More current also makes the LED produce more heat. Too much heat can damage it and make it fail, so do not exceed the current rating in its datasheet. As a practical guide, 20 mA is a sensible upper design value for many common 3 mm and 5 mm indicator LEDs, but it is not a rating for every LED. Check the datasheet for the LED you are using; a lower current may give enough light while keeping it cooler.
+
+A bare LED needs current limiting: in the simple circuits in this booklet, connect a suitable resistor in series with it. Do not connect a bare LED directly across a battery or an output pin, because too much current can damage the LED or the circuit. Some LED modules already contain a resistor or another current-limiting circuit, so check the module instructions before adding parts.
 
 #### Transistors
 
