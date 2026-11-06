@@ -359,6 +359,17 @@ For a fixed resistor, if the voltage across it increases, what must happen for t
 
 **Answer for the Leader:** Increase the resistance. From Ohm’s law, `I = V ÷ R`; if the voltage increases while the current stays the same, the resistance must increase too.
 
+**Question 10 of 11**
+
+Which choice is a pair of particles with equal and opposite charges?
+
+- Protons and electrons
+- Neutrons and atoms
+- Protons and neutrons
+- Electrons and neutrons
+
+**Answer for the Leader:** Protons and electrons. A proton has a positive charge and an electron has an equal-sized negative charge.
+
 ## Component Types
 
 Before we look at the most common types of electronics components, as well as the schematic symbol and a pictorial of each one, let’s define and review some basic terms (also see the Basic Electronics Theory section):
