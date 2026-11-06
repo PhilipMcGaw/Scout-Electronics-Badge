@@ -101,7 +101,7 @@ In a working circuit, a battery or another suitable source moves charge around a
 
 Here are some basic definitions of terms used in electronics.
 
-- Current is the rate at which electrical charge flows. It is measured in amperes (A). One ampere means one coulomb of charge passes a point each second. In a metal wire, that moving charge is carried by electrons.
+- Current is the rate at which electrical charge passes a point in a circuit. It is measured in amperes (A). One ampere means one coulomb of charge passes each second. A voltage can drive current only when there is a complete conducting path. In a simple battery-and-lamp circuit, current flows around the loop and the lamp changes some electrical energy into light and heat. Opening the circuit stops the current.
 - Voltage is the difference in electrical potential between two points. It tells us how much energy is transferred for each coulomb of charge that moves between them, and it is measured in volts (V). Chemical reactions in a battery create a potential difference between its terminals. For example, a 9 V battery has a nominal potential difference of 9 V between its positive and negative terminals.
 - The opposition to current flow is resistance. The resistance of a material is mainly determined by how many free electrons it has. If the material doesn’t have many, it will have little or no current flow. The unit of resistance is the ohm. One ohm is the amount of resistance that will allow 1 ampere of current to flow when the applied voltage is 1 volt.
 
