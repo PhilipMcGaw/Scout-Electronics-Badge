@@ -853,7 +853,7 @@ This is derived from the Scouts Queensland eWoggle, and follows the design princ
 
 The Woggle uses *Charlieplexing* to control several LEDs with fewer microcontroller pins than there are LEDs. The LEDs connect between pairs of pins, with different LEDs facing in opposite directions. To light one LED, the program sets one pin high and another low, while leaving the other pins as inputs. The program selects LEDs quickly in turn to display a pattern.
 
-<!-- Figure placeholder: CharliePlex.GIF is in the project as a reference, but its original source and permission to redistribute have not been verified. Check before publication; if it is not cleared, replace it with a diagram under a compatible licence. -->
+<!-- Figure placeholder: Add an original Charlieplexing diagram or a Falstad simulation, then replace this comment with the visual. -->
 
 ### Woggle KiCad files
 

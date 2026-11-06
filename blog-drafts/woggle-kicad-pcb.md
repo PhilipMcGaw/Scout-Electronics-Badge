@@ -21,7 +21,7 @@
 - Confirm the current group-name change workflow and the Woggle source-file licence.
 - Check PCBWay’s current file and order requirements; do not reuse prices or lead times without checking them.
 - Verify the BOM fields, component references, footprints, quantities, and part sources against the selected Woggle revision.
-- The project contains `CharliePlex.GIF` as a general reference diagram. A [PICBasic forum thread](https://www.picbasic.co.uk/forum/showthread.php/19618-Charlie-plexing) appears to show the same image under a forum member's name, but does not establish a reuse licence. Confirm the creator and redistribution permission before publication; otherwise make or source a compatible diagram. Do not infer the Woggle's LED count or scan sequence from that general diagram.
+- Use an original Charlieplexing diagram or a Falstad simulation as a visual. Base the explanation on the verified Woggle pin connections and firmware, not on `CharliePlex.GIF`'s general chart.
 
 ## Visuals
 
