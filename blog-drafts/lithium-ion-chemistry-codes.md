@@ -1,0 +1,42 @@
+# INR, ICR, IMR, NCR and IFR: what do lithium-ion cell labels mean?
+
+The short codes printed on cylindrical lithium-ion cells can look like a chemistry key. They can be a useful clue, but they are not a substitute for the exact manufacturer and model number. The same-looking code does not tell you a cell’s capacity, safe current, charge limit, or whether it is suitable for a particular device.
+
+## Common shorthand
+
+These are common associations found in battery references and product descriptions:
+
+| Marking | Commonly associated chemistry | Common shorthand name |
+| --- | --- | --- |
+| ICR | Lithium cobalt oxide cathode | LCO |
+| IMR | Lithium manganese oxide, often spinel | LMO |
+| INR | Lithium nickel manganese cobalt oxide | NMC or NCM |
+| IFR | Lithium iron phosphate | LFP |
+
+Treat this table as a starting point for research, not a standardised decoding rule. Manufacturers use their own model-number systems and may use blends or proprietary material names. Samsung SDI’s ICR18650-26J safety data sheet, for example, describes its cathode as a lithiated metal oxide based on cobalt, nickel, and manganese; the `ICR` prefix alone does not prove that a cell is a simple cobalt-oxide design. Panasonic’s catalogue identifies NCR18650GA as a Panasonic cell model and describes its platform as “NNP”; it does not define `NCR` as a universal chemistry abbreviation. The datasheet for the exact part is the authority.
+
+## What the photograph gets wrong
+
+The supplied comparison image maps familiar abbreviations to cathode materials, but then assigns each family a simple capacity and discharge-rate label such as “low”, “moderate”, or “high”. Those rankings cannot be applied to every cell in a chemistry family. Capacity and current capability are properties of a particular cell design and operating condition. They depend on electrode design, cell construction, temperature, cut-off voltage, and the manufacturer’s limits.
+
+The image also presents one nominal and charge voltage for each chemistry as if it were universal. Many common cylindrical lithium-ion cells use a nominal voltage around 3.6 or 3.7 V and a 4.2 V charge limit, but those values must be checked for the exact cell. Lithium iron phosphate cells commonly have a lower nominal voltage and a different charge limit. Never choose a charger from a chemistry abbreviation or a generic infographic.
+
+## Don’t confuse a label with a specification
+
+A chemistry name describes only one part of a cell. A complete specification needs the manufacturer’s exact model, operating voltage range, capacity test conditions, recommended charge method and limit, continuous and pulse discharge limits, temperature limits, and safety information. In a pack, the pack maker may impose stricter limits than the individual cell.
+
+Use the manufacturer’s datasheet and the instructions for the finished product. Do not charge or discharge a loose lithium-ion cell based only on the letters on its wrapper, and do not mix cells from different models in a pack.
+
+## Further reading
+
+- Texas Instruments lists LCO, NMC, NCA, and LFP as distinct lithium-ion cathode chemistries in its [battery gauge documentation](https://www.ti.com/tool/MATHCAD_CEDV_SOFTWARE).
+- Samsung SDI, [ICR18650-26J cell specification](https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/196/ICR18650_2D00_26J_2D00_Samsung.pdf), demonstrates that the exact cell specification gives conditions and composition beyond the short prefix.
+- Panasonic’s [industrial cell catalogue](https://energy.panasonic.com/dam/master/pdf/eu/catalog/Panasonic_Industrial-Batteries-For-Professionals_Short-Form-Catalog.pdf) gives product-level model names, nominal voltages, capacities, and a stated charge voltage.
+- For UK consumer guidance on using and charging lithium-ion products, see the [National Fire Chiefs Council guidance](https://nfcc.org.uk/our-services/campaigns/lithium-ion-batteries/).
+
+*This is an introductory guide to labels, not instructions for building, modifying, charging, or repairing a lithium-ion battery pack.*
+
+## Editorial/source notes (remove before publication)
+
+- The project source image is `Source Documents/IMG_3816.JPG`. Its creator and licence are not recorded, so do not reproduce it. Treat its chemistry mapping as a lead to verify and reject its broad capacity and discharge-rate rankings.
+- The article is intended for adult electronics makers and sits outside the Scouts booklet.

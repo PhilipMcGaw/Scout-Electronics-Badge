@@ -130,6 +130,8 @@ The same battery size can have different nominal voltages because the chemistry 
 
 Capacity is often given in milliamp-hours (mAh) or amp-hours (Ah). It describes how much charge a battery can deliver under stated test conditions; it is not the maximum current the battery can safely supply. A rough runtime estimate is capacity divided by the circuit’s average current. For example, `1,000 mAh ÷ 10 mA = 100 h`. Treat this only as an estimate: actual capacity and runtime depend on the battery, current drawn, temperature, and the voltage at which the circuit stops working. Check the manufacturer’s information, and never use the capacity rating as a safe-current rating.
 
+In a larger battery pack, a **battery management system** (BMS) can monitor cell voltages, current, and temperature. It may also estimate the pack’s state of charge (how much charge remains) and state of health (how its performance compares with when it was new). A BMS helps keep the pack within its design limits; it does not make every cell or charger interchangeable. For this activity, use only the battery type specified for the project and follow the device instructions.
+
 The table gives practice values from a 2021 course battery-sizing challenge, summarised in the [course materials review](Source%20Documents/Electronics-Foundations-Fundamentals-2021-review.md). It does not identify a battery brand or model, or state the test conditions. Use the figures to practise comparing battery options, not as specifications for batteries sold in the UK. “Typical drain” is not a safe maximum current. Check the exact battery’s datasheet before using it in a real circuit.
 
 | Alkaline battery size | Nominal voltage | Typical drain in the handout | Capacity in the handout |

@@ -41,6 +41,11 @@
 - Review the wording and equations carefully; comments on the existing post flag places where notation and terminology need clearer explanation.
 - Keep specialised reliability models and failure-rate figures only if they serve the intended reader and can be checked against a suitable source.
 
+
+- The supplied `IMG_4103.JPG` can support a short trimmer-potentiometer section in this post. Explain that the two end terminals connect to the ends of the resistive element and the centre terminal is the wiper; check the exact part datasheet because terminal layout and adjustment direction vary. A trimmer is intended for occasional adjustment, such as setting or calibration, rather than frequent user operation.
+- The image’s example resistance codes follow the three-digit pattern used in Bourns Trimpot product documentation: the first two digits are significant and the third is the power-of-ten multiplier. For example, `103` means `10 × 10³ Ω = 10 kΩ`; `502` means `50 × 10² Ω = 5 kΩ`; and `101` means `10 × 10¹ Ω = 100 Ω`. Present these as examples for a documented code system, not as a guarantee for every maker or component marking. Bourns’ [Trimpot catalogue](https://www.bourns.com/docs/technical-documents/technical-library/trimmers/publications/bourns_trimpot_catalog.pdf) identifies the resistance code and wiring diagram as part markings and shows `103` for 10 kΩ.
+- The image shows a trimmer’s terminals and labels, but its maker, exact model, and reuse licence are not established. Do not publish the image itself; use an accurately sourced manufacturer drawing or make an original diagram if the post needs a visual.
+
 ## Sources and visuals
 
 - Check current resistor manufacturer datasheets for value, tolerance, power, voltage, and temperature-coefficient examples.

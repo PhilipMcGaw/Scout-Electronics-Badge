@@ -2,6 +2,29 @@
 
 This is the durable working context for the Scouts Electronics Activity Badge project. It records useful decisions and preferences across conversations; it is not a transcript or a task list. Current actions are tracked in [TODO.md](TODO.md).
 
+## 2026-11-07 — DFRobot Arduino beginner tutorial assessed
+
+- **Repository fact checked:** The 133-page DFRobot tutorial covers Arduino setup, LED flashing, buttons and pull-ups, traffic lights, PWM fading/RGB LEDs, buzzers, sensors, servos, and IR projects. Its PDF metadata dates from 2015; it includes legacy Windows driver and IDE setup steps.
+- **Source assessment:** Button-input and PWM explanations are useful starting topics, but board pinouts, logic levels, PWM support, library APIs, and electrical limits must be checked against current Arduino documentation and the selected board. Do not copy the tutorial’s diagrams or code; reuse rights were not established.
+- **Project outcome:** First drafts now cover button inputs/pull-ups and PWM LED fading. Before publication, verify each with the chosen board and parts; see [TODO.md](TODO.md).
+
+## 2026-11-07 — Trimmer-potentiometer image assessed
+
+- **Repository fact checked:** `Source Documents/IMG_4103.JPG` shows a trimmer potentiometer, its wiper and terminals, and example three-digit resistance codes. The `103` = 10 kΩ example is consistent with Bourns Trimpot documentation; markings and pin layout must still be checked against the exact manufacturer and part.
+- **Source/licensing assessment:** The image bears a visible “Rizwan Khan” signature, but its origin and reuse licence are not recorded. Do not reproduce it without verifying rights; use a licensed manufacturer drawing or original diagram if a visual is needed.
+- **Project outcome:** The resistor article outline now includes trimmer operation and qualified resistance-code examples; the Scouts booklet is unchanged.
+
+## 2026-11-07 — Lithium-ion label image assessed
+
+- **Repository fact checked:** `Source Documents/IMG_3816.JPG` compares ICR, INR, IMR, NCR, and IFR cylindrical-cell labels. It assigns broad capacity and discharge-rate rankings by family and gives one nominal/charge voltage pair per chemistry. Those generalisations are not specifications for individual cells.
+- **Source/licensing assessment:** The image creator and licence are not recorded; do not reproduce it in a blog post.
+- **Project outcome:** Two adult-audience drafts now cover chemistry-code shorthand and how to read cell datasheets. This topic is outside the Scouts booklet. Exact manufacturer data is still needed before publication; see [TODO.md](TODO.md).
+
+## 2026-11-07 — Battery glossary adapted for booklet and blog drafts
+
+- **Source assessment:** The supplied *Battery A to Z* glossary is most useful for explaining capacity under specified conditions, internal resistance, state of charge, state of health, battery management, cell balancing, and thermal management in larger packs. Its vehicle-scale details and figures should not be presented as household-cell specifications.
+- **Project outcome:** Two first drafts now cover battery capacity and voltage under load, and battery-pack monitoring and thermal management. The booklet adds a short BMS and state-of-charge/state-of-health explanation. Drafts still need exact manufacturer data if named cells or packs are added; see [TODO.md](TODO.md).
+
 ## 2026-11-06 — Converted *Electronics For Dummies* reviewed
 
 - **Repository fact checked:** The converted 433-page copy is readable; the earlier statement that *Electronics for Dummies.pdf* was encrypted refers to the original copy and does not apply to the converted PDF.

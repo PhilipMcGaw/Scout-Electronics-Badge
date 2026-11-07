@@ -1,45 +1,45 @@
 # Batteries: capacity, current, and voltage under load
 
-**Status:** Outline started; draft not written.
+A battery label gives useful information, but it does not tell you exactly how long a circuit will run or how well it will work. To choose a battery for a project, think about voltage, current, capacity, the load, and the conditions in which the battery will be used.
 
-**Purpose:** Explain why a battery's stated voltage does not tell the whole story about how it will perform in a circuit.
+## Voltage is a starting point
 
-**Source note:** The user supplied transcripts headed “Battery capacity”, “Batteries in series and parallel”, “Challenge: Power a light bulb”, and “Solution: Power a light bulb”. Both challenge headings were pasted incorrectly: the exercise handout and both transcripts concern powering a motor. The handout is titled “Challenge: Combine batteries in series and/or parallel to power a motor”. Use them as background, correct their simplifications and arithmetic, and write original explanations.
+A battery’s nominal voltage is a convenient value used to describe it. It is not a promise that the battery will measure that exact voltage at every point in its life. Voltage changes as a cell discharges, and the amount of change depends on its chemistry, condition, temperature, and the load connected to it.
 
-## Planned outline
+Physical size does not determine chemistry. A common alkaline AAA cell has a nominal voltage of 1.5 V, while a rechargeable nickel-metal hydride (NiMH) AAA cell is typically 1.2 V. A device designed for one type may not work properly with another. Check the device instructions before choosing replacement cells.
 
-1. Distinguish voltage, current, power, and stored energy in plain language.
-2. Explain battery capacity and what a capacity rating can and cannot tell you about operating time.
-3. Introduce internal resistance and show why terminal voltage can fall when a load draws current.
-4. Compare a battery's open-circuit voltage with a suitable under-load measurement.
-5. Explain series and parallel cell arrangements, their nominal voltage and capacity effects, and why matched, manufacturer-approved packs are essential.
-6. Use a simple, low-voltage circuit or Falstad simulation to show how changing the load affects voltage and current.
-7. Explain how battery type, condition, temperature, and load affect the result; check the manufacturer's data for the actual cell.
+## What does capacity tell us?
 
-## Notes to carry forward
+Capacity is commonly stated in milliamp-hours (mAh) or amp-hours (Ah). It describes how much charge a cell can deliver under specified test conditions. It is not a measure of the cell’s safe maximum current.
 
-- The *Basic Electronics* source includes battery capacity, internal resistance, and voltage-drop examples. Explain internal resistance as the battery’s opposition to current inside the cell: under load it contributes to the difference between open-circuit voltage and terminal voltage. Treat it as an equivalent model whose value depends on chemistry, state of charge, temperature, age, and measurement conditions, not a single universal constant. Its car-starting example is not suitable for this beginner-oriented article; use a small, current-limited low-voltage example instead.
-- Do not short a battery, use an unknown load, or deliberately heat a resistor. Select any demonstration load from its calculated current and power, check its rating, and keep it within safe operating limits. If illustrating internal resistance from voltage readings, use only a manufacturer-approved test method with a known, suitable load; never infer it by short-circuit testing.
-- Distinguish energy capacity from the maximum current a cell can safely supply. Do not imply that a larger capacity rating alone guarantees a longer runtime in every circuit.
-- Define amp-hours (`Ah`) and milliamp-hours (`mAh`) as charge capacity, distinct from current (`A` or `mA`). One amp-hour equals 3,600 coulombs. A rough runtime estimate is rated capacity divided by average load current, but only as a starting estimate: the rating depends on test current, temperature, and cutoff voltage, and delivered capacity changes with discharge rate and use pattern. Use `1,000 mAh ÷ 10 mA = 100 h` only as an idealised calculation, not a runtime promise. Never infer safe maximum current from capacity.
-- Explain nominal voltage as a designated approximate value, not the voltage at the halfway point of discharge. Battery voltage under load and during discharge depends on chemistry, condition, load, temperature, and state of charge. Do not imply every battery’s voltage declines in the same way.
-- Compare nominal cell voltage by chemistry, not just by physical size. Common rechargeable NiCd and NiMH cells are typically 1.2 V per cell; alkaline primary cells of the same size are typically 1.5 V. Explain that this can affect compatibility, but do not imply all rechargeable chemistries have a 1.2 V nominal voltage. Check the device and exact cell datasheets.
-- Apply the series example to the Woggle: its holder takes two AAA cells in series. Two alkaline cells are nominally 3.0 V; two NiCd or NiMH cells are nominally 2.4 V. Check the Woggle's allowed supply range before recommending a chemistry substitution.
-- Explain that matched cells in series add nominal voltage while the pack's amp-hour capacity remains approximately that of one cell. The same current passes through each series cell; for a fixed resistive load, adding series cells raises the voltage and changes the current drawn. Do not say series connection leaves each cell's discharge rate unchanged without specifying the load.
-- Explain that a designed parallel pack keeps approximately one cell's voltage and can increase capacity, but do not claim the current divides equally or that maximum current ratings simply add unless exact cell and pack data support it. Do not recommend that readers connect loose cells in parallel; use only manufacturer-approved packs and protection.
-- Use matched cells of the same chemistry, type, age, and state of charge as specified by the manufacturer. Do not mix old and new cells: they can discharge unevenly, potentially over-discharging the weaker cell and causing leakage or damage. Keep parallel-pack construction out of the Scouts activity.
-- Do not repeat the transcript's generic AA examples (50 mA typical drain, 100 mA for a two-cell parallel pack, or 4,800/7,200 mAh totals) without a specific cell datasheet and test conditions. The 20 Ω / 1.5 V arithmetic gives 75 mA in an ideal circuit, but does not prove a particular cell can safely provide that current.
-- Do not copy the transcript’s capacity figures or current capabilities for AAA and D cells without the exact cell datasheets and their test conditions. Do not suggest that an amp-hour rating allows arbitrary current-time trades (for example, tens of amps for minutes).
-- The exercise handout's alkaline-cell chart gives examples for 9 V, AAA, AA, C, and D cells: nominal voltages of 9 V or 1.5 V, typical drain currents of 15, 10, 50, 100, and 200 mA respectively, and capacities of 500, 1,000, 2,400, 6,000, and 13,000 mAh respectively. These are values printed in that course handout, not universal specifications; do not use them as current product data or a design guarantee.
-- The motor-sizing challenge specifies 6 V, 150 mA, and 48 h, an idealised charge requirement of `150 mA × 48 h = 7,200 mAh` at that load. The solution selects four D cells in series: the handout's simplified chart gives this pack 6 V, 13,000 mAh, and a typical drain of 200 mA. Its calculation of `13,000 mAh ÷ 150 mA ≈ 86.7 h` explains the stated “over 80 hours”, but is not a runtime guarantee. The solution also gives alternatives of eight C cells (two parallel strings of four), 12 AA cells (three strings), or 60 AAA cells (15 strings). These are only exercise combinations inferred from the chart; actual capacity at load, discharge limits, motor start/stall current, voltage drop, temperature, and a runtime margin must be checked. In particular, the AA example provides exactly the idealised 7,200 mAh requirement, leaving no margin. Do not recommend loose cells wired in parallel; use only manufacturer-approved packs.
-- The transcript's 9 V, 10 kΩ example should calculate to `0.9 mA`, not `9 mA`. Its 9 V across 2 Ω calculation gives an ideal demand of `4.5 A`, but this is not a safe battery test and must not be used to claim a generic 9 V battery can provide that current.
-- Link to the [electronics fundamentals post](electronics-fundamentals.md) for the basic voltage, current, resistance, and power relationships.
-- Keep the explanation applicable to low-voltage battery-powered projects. Do not include mains-derived supplies or mains construction.
+A quick estimate divides capacity by the circuit’s average current. For example, `1,000 mAh ÷ 10 mA = 100 h`. That is an idealised calculation, not a runtime promise. The battery may deliver a different capacity at a different discharge rate, temperature, age, or cut-off voltage. The circuit may also stop working before the battery is fully discharged.
 
-## Sources and visuals
+A useful distinction is between **state of charge** and **state of health**. State of charge is an estimate of how much charge remains now. State of health describes how the cell performs compared with when it was new. An old cell can be fully charged and still have less usable capacity than it once did. These estimates are especially important in larger managed battery systems; a simple household cell does not report them to you.
 
-- Check current manufacturer datasheets for the chosen battery chemistry, capacity test conditions, internal resistance information, discharge limits, and temperature range.
-- For terminology and alkaline-cell examples, use the manufacturer’s [battery glossary](https://data.energizer.com/battery-glossary-faq/) and [alkaline application manual](https://data.energizer.com/pdfs/alkaline_appman.pdf), then check the current datasheet for the exact cell used.
-- For nominal-voltage examples, use [Panasonic’s battery chemistry guide](https://www.panasonic.com/global/energy/study/academy/battery-structure.html) alongside a datasheet for the specific alkaline cell.
-- Follow the manufacturer's [battery-use guidance](https://www.panasonic.com/global/energy/products/battery/dry_batteries_faq.html) on using matched cells and avoiding mixed or incorrectly installed batteries.
-- Use an original circuit diagram or a clearly attributed Falstad simulation if permission and reuse terms allow it.
+## Voltage under load
+
+An ideal voltage source keeps the same voltage no matter what load is connected. Real batteries behave differently. A real cell has internal resistance, so some voltage is lost inside the cell when current flows. The voltage measured at its terminals can fall under load. The effect varies with the cell’s design, chemistry, state of charge, temperature, and age.
+
+This helps explain why a battery that looks fine in a no-load voltage check may not run a device reliably. The device draws current, the battery voltage falls, and the voltage may drop below the device’s operating range. Use a suitable meter and the device maker’s instructions for checks; never test a battery by shorting it or attaching an unknown load.
+
+## Cells in series and parallel
+
+In a series arrangement, the positive end of one cell connects to the negative end of the next. The cell voltages add. Two 1.5 V cells in series provide a nominal 3 V. The amp-hour capacity of a matched series set is approximately that of one cell, and the same current passes through every cell.
+
+A designed parallel pack connects positive to positive and negative to negative. Its voltage is approximately that of one cell, while its capacity may be greater. The cells and protection system must be designed for that arrangement. Do not make a parallel pack from loose cells: differences between cells can cause unwanted currents and unsafe conditions.
+
+For either arrangement, follow the device or pack instructions and use cells of the specified type. In a device with multiple cells, use a matched set; do not mix old and new cells or different types. A weaker cell in a series string can be over-discharged, which may lead to leakage or damage.
+
+## Choosing cells for a project
+
+The Woggle badge project uses two AAA cells in series. Two alkaline cells have a nominal combined voltage of 3.0 V; two NiMH cells have a nominal combined voltage of 2.4 V. Whether a particular chemistry is suitable depends on the circuit’s allowed supply range and the cells’ actual voltage during use. Check the project instructions and the cell manufacturer’s information.
+
+When you compare battery options, look beyond the largest mAh number. Check the exact cell’s discharge curves, capacity test conditions, operating temperature range, and any current or voltage limits relevant to the device. Capacity figures from a different cell, test current, or cut-off voltage may not predict your result.
+
+## Further reading
+
+The [Battery A to Z](https://www.batterydesign.net/downloads/battery-a-to-z-glossary/) glossary introduces battery terms used in larger systems, including usable capacity, state of charge, state of health, internal resistance, and battery management systems. It is a broad engineering reference; check a cell manufacturer’s datasheet for values and operating limits for a specific product.
+
+For battery handling, follow the maker’s instructions. Panasonic advises against mixing cells of different types, brands, capacities, or ages, because the weaker cell can become over-discharged and leak. See its [dry battery guidance](https://www.panasonic.com/global/energy/products/battery/dry_batteries_faq.html).
+
+*This article is adapted for low-voltage hobby projects. It does not cover mains-powered equipment or designing lithium battery packs.*
