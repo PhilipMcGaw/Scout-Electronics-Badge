@@ -8,6 +8,10 @@ This is the durable working context for the Scouts Electronics Activity Badge pr
 - **Source assessment:** The 2005 US-oriented book mostly overlaps with the existing booklet. Its breadboard chapter usefully explains internal contact groups and prototyping before soldering. The Scout booklet and Leaders’ Guide now include concise, UK-appropriate breadboard notes, and the blog index includes a possible breadboard-prototyping post. The separate review records scope and cautions: [Electronics For Dummies review](Source%20Documents/Electronics-for-Dummies-review.md).
 - **Open action:** Verify layouts and ratings against a specific breadboard and circuit before developing the standalone article; see [TODO.md](TODO.md).
 
+## 2026-11-07 — 2021 course handouts assessed
+
+- **Source assessment:** The five local handouts’ useful points are already carried in the fundamentals, resistor, and battery drafts. The parts list matches the saved summary but has US-oriented sales links and no circuit diagram; do not reuse its imagery without checking rights. The DMM sheet names models without specifications, so check current manuals and UK suitability before making recommendations. See the [review note](Source%20Documents/Electronics-Foundations-Fundamentals-2021-review.md) and [TODO.md](TODO.md).
+
 ## 2026-11-06 — Consolidated project context
 
 ### Project, audience, and structure
@@ -50,7 +54,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - Treat course transcripts, PDFs, product pages, and supplied images as source material, not as automatically correct local guidance. Preserve attribution and verify safety, electrical values, and regional applicability before publication.
 - The reviewed course-exercise PDFs contain useful SI-prefix, DMM, LED-current-limit, and battery-sizing material. The battery challenge’s figures are teaching examples without manufacturer, model, or test-condition basis; do not present their capacities or runtime calculations as guarantees. The exercise describes a motor, despite transcript headings that called it a light bulb.
-- Some source-course material is US-oriented. Its DMM models, suppliers, power-source examples, and safety claims need current UK checks before use. A supplied parts-list screenshot still needs checking against its source. The course-exercise folder remains relevant to those checks; do not delete it solely because selected material has been added to notes.
+- Some source-course material is US-oriented. Its DMM models, suppliers, power-source examples, and safety claims need current UK checks before use. The local course parts-list PDF has been visually checked against the item summary in the fundamentals draft; its shop links are US-oriented and the sheet gives no circuit connections. The DMM models still need current manual checks before any recommendation. See the [course materials review](Source%20Documents/Electronics-Foundations-Fundamentals-2021-review.md) and TODO.md.
 - `Electronics for Dummies.pdf` was encrypted and could not be reviewed; Philip said he may revisit it later.
 - Useful existing web articles include [learn about resistors](https://philipmcgaw.com/learn-about-resistors/), [capacitors](https://philipmcgaw.com/capacitors/), [LED resistor values](https://philipmcgaw.com/led-resistors-values/), [Ohm’s and Watt’s laws](https://philipmcgaw.com/ohms-law-and-watts-law/), [capacitor value prefixes](https://philipmcgaw.com/capacitor-value-prefixes/), and [special symbols in engineering reports](https://philipmcgaw.com/special-symbols-used-in-engineering-reports/). Related revisions and other article ideas are tracked in `TODO.md` and `blog-drafts/`.
 
