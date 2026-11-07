@@ -22,14 +22,16 @@ The local course-exercise folder contains a parts list, a multimeter list, an SI
 8. Compare an ideal voltage source with a real battery: explain that a real source has limits and its terminal voltage can change with load.
 9. Introduce the digital multimeter’s display, selector, probes, sockets, and common functions; explain how to select a meter based on the measurements and safety needs.
 10. Measure voltage across a component and current through the circuit with a multimeter, following the booklet's meter-safety steps.
-11. Use Falstad to explore the circuit and compare the model with measurements from the real low-voltage build.
-12. Link to the resistor article for power ratings and the battery article for capacity and voltage under load.
-13. Add an optional advanced note explaining circuit common, Earth reference, and floating sources without bringing mains wiring into scope.
-14. Conclude by encouraging readers to keep applying the fundamentals as their circuits grow more complex and use them to troubleshoot; point to practical next steps.
+11. Build the example on a solderless breadboard; explain how contact groups and the centre gap work, and check whether the power rows are split before connecting the supply.
+12. Use Falstad to explore the circuit and compare the model with measurements from the real low-voltage build.
+13. Link to the resistor article for power ratings and the battery article for capacity and voltage under load.
+14. Add an optional advanced note explaining circuit common, Earth reference, and floating sources without bringing mains wiring into scope.
+15. Conclude by encouraging readers to keep applying the fundamentals as their circuits grow more complex and use them to troubleshoot; point to practical next steps.
 
 ## Notes to carry forward
 
 - The Scouts booklet already gives short definitions and the formulae. The blog post should add a worked example, a practical measurement, and a clear explanation of the limits of the water analogy rather than repeat the definitions at length.
+- A solderless breadboard makes a useful bridge between a schematic and a working low-voltage circuit. Explain the common five-hole contact groups and centre gap as typical layouts, not a guarantee for every board; check each board's markings or continuity because power rows may be split. Power down before changing connections. This practical setup and fault-finding angle is drawn from the breadboard chapter in the reviewed *Electronics For Dummies* source; do not reuse its figures.
 - Explain static charge as a transfer of electrons between materials, not charge created by friction. Use conventional current direction (+ to −) throughout; put the opposite electron drift in metal wires in a clearly labelled advanced note.
 - Explain that conductors and insulators are useful categories on a range of conductivity, and that temperature can affect conductivity differently in different materials. Use the copper-core and plastic-insulation example; do not use optical transparency as a stand-in for electrical conductivity.
 - Treat voltage as a difference between two points, not a property of one point on its own. Explain that `0 V`, common, and ground name a chosen reference in a circuit; this does not necessarily mean a connection to the Earth. Avoid the transcript's North American mains example. Use a checked, low-voltage battery example.

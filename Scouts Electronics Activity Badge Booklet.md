@@ -400,6 +400,12 @@ Optionally, feed-through holes can be used to hold component leads. The feed thr
 
 A feed-through hole used for a component lead must be larger to allow room for the component lead diameter plus some insertion clearance of the lead into the hole. If no component lead is being inserted in the hole, the diameter of the feed-through hole can be much smaller and require less printed circuit board space. Later, during the assembly process, a component lead is inserted into the hole and the hole and lead must be soldered together to make solid electrical contact. Several layers of traces, separated by FR-4 sheets may be sandwiched together for more complex electronic designs with feed-through holes connecting the traces as needed.
 
+### Solderless Breadboards
+
+A solderless breadboard lets you build and change a low-voltage circuit without solder. Metal contacts inside the board join groups of holes, so components and jumper wires plugged into the same group are electrically connected. Many boards also have long power rows and a gap down the middle for integrated circuits. The exact layout varies: power rows may be split, so check the board markings or instructions before using them.
+
+Use a breadboard to try a circuit before making it permanent. Compare each connection with the schematic, and switch off the supply before moving parts or wires. Do not force a thick component lead or wire into a hole; it can damage the contact. Ask your Leader to check the circuit before connecting power.
+
 ### Through-Hole Technology
 
 The technology used for placing component leads in holes drilled through the printed circuit board reached a practical limit when integrated circuits got over about 40 pins. A feed-through hole with space for the lead and the insertion tolerance meant that, based on PCB fabrication technologies at the time, integrated circuit leads needed to be about 0.100&quot; apart. Various techniques were tried with larger IC packages including longer packages, the IC pins in a grid pattern and others. There was not a viable solution to reach what would eventually be today’s package pin counts.

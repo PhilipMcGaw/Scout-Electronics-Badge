@@ -6,6 +6,7 @@ These files are working outlines for the blog posts linked to the Scouts electro
 |---|---|---|
 | [Resistors](resistors.md) | Refresh the resistor article with practical examples, a potential-divider explanation, and a thermistor application using the existing calculator. | Outline started |
 | [Electronics fundamentals](electronics-fundamentals.md) | Explain voltage, current, resistance, and power, with a practical comparison of ideal and real low-voltage sources. | Outline started |
+| [Breadboard prototyping](breadboard-prototyping.md) | Show how breadboard contacts map to a schematic, how to verify split power rows, and how to build and check a simple low-voltage prototype. | Idea |
 | [Capacitors](capacitors.md) | Update the capacitor basics and value-prefix articles; clarify markings, polarity, and charge/discharge. | Outline started |
 | [Batteries](batteries.md) | Explain battery capacity, internal resistance, and voltage drop under load. | Outline started |
 | [Mylar SMT stencils](mylar-smt-stencils.md) | Update the manufacturing post with Philip’s laser-cut Mylar stencil experience. | Outline started; WordPress access needed |

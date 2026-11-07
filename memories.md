@@ -2,6 +2,12 @@
 
 This is the durable working context for the Scouts Electronics Activity Badge project. It records useful decisions and preferences across conversations; it is not a transcript or a task list. Current actions are tracked in [TODO.md](TODO.md).
 
+## 2026-11-06 — Converted *Electronics For Dummies* reviewed
+
+- **Repository fact checked:** The converted 433-page copy is readable; the earlier statement that *Electronics for Dummies.pdf* was encrypted refers to the original copy and does not apply to the converted PDF.
+- **Source assessment:** The 2005 US-oriented book mostly overlaps with the existing booklet. Its breadboard chapter usefully explains internal contact groups and prototyping before soldering. The Scout booklet and Leaders’ Guide now include concise, UK-appropriate breadboard notes, and the blog index includes a possible breadboard-prototyping post. The separate review records scope and cautions: [Electronics For Dummies review](Source%20Documents/Electronics-for-Dummies-review.md).
+- **Open action:** Verify layouts and ratings against a specific breadboard and circuit before developing the standalone article; see [TODO.md](TODO.md).
+
 ## 2026-11-06 — Consolidated project context
 
 ### Project, audience, and structure
