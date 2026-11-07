@@ -6,7 +6,7 @@
 
 **Purpose:** Refresh the existing article with clearer explanations and a practical example that shows how resistor choice affects a real circuit.
 
-**New source material:** User-pasted transcripts “Challenge: Limit current to an LED” and “Solution: Limit current to an LED”, and the exercise sheet, [01_08 Challenge Description.pdf](../Source%20Documents/Ex_Files_Electronics_Foundations_Fundamentals_2021/Ch01/01_08/01_08%20Challenge%20Description.pdf).
+**New source material:** User-pasted transcripts “Challenge: Limit current to an LED” and “Solution: Limit current to an LED”, and a course exercise sheet summarised in the [2021 course materials review](../Source%20Documents/Electronics-Foundations-Fundamentals-2021-review.md). The original course PDFs have been removed from the repository after review.
 
 ## Planned outline
 

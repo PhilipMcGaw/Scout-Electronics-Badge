@@ -8,9 +8,9 @@
 - [ ] Refresh the existing [resistor article](blog-drafts/resistors.md), including its potential-divider explanation, thermistor example using the existing calculator, and recalculation of the [LED resistor table](https://philipmcgaw.com/led-resistors-values/). Update both capacitor articles through the [capacitor draft](blog-drafts/capacitors.md), checking all conversions, correcting the `mF` value and spelling, and avoiding a fixed capacitor-technology cutoff.
 - [ ] Develop the [electronics fundamentals post](blog-drafts/electronics-fundamentals.md) with a checked low-voltage example, safe multimeter measurements, and a comparison of ideal and real sources.
 - [ ] Develop the [breadboard prototyping post](blog-drafts/breadboard-prototyping.md) with a checked board layout and low-voltage example.
-- [x] Review the course-exercise circuit-challenge PDFs for useful material; key points from the LED current-limit and battery-sizing challenges are in the relevant notes.
-- [ ] Check current manuals and UK relevance before making DMM recommendations; the course handout lists US-oriented models without specifications.
-- [x] Check the course parts list against its local source PDF; retain the parts as course examples, not UK recommendations, and do not reuse the screenshot without checking its rights.
+- [x] Review the course-exercise circuit-challenge PDFs; key points from the LED current-limit and battery-sizing challenges are in the relevant notes. Original course PDFs were removed after review.
+- [ ] Check current manuals and UK relevance before making DMM recommendations; the reviewed course handout listed US-oriented models without specifications.
+- [x] Check the course parts list against its source; retain the parts as course examples, not UK recommendations, and do not reuse the screenshot without checking its rights. The original PDF and other course handouts were removed after review.
 - [ ] Develop the [battery](blog-drafts/batteries.md) blog draft, checking any proposed circuit against current cell data and keeping mains topics out of scope.
 - [ ] Develop the [Woggle KiCad PCB walkthrough](blog-drafts/woggle-kicad-pcb.md): set up the project, change the group name, generate a CSV bill of materials, match and order components, and prepare and send board files to PCBWay.
 - [ ] Create an original Charlieplexing visual for the Woggle section, either a drawn diagram or a Falstad simulation, and replace the placeholders in the booklet and blog post.

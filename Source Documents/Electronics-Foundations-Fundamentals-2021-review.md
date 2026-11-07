@@ -1,12 +1,12 @@
 # Review note: Electronics Foundations: Fundamentals (2021 course files)
 
 - **Reviewed:** 2026-11-07
-- **Source:** Local course handouts in `Ex_Files_Electronics_Foundations_Fundamentals_2021/`
+- **Source:** LinkedIn Learning course handouts; the original PDFs have been removed from the repository after review
 - **Attribution shown:** LinkedIn Learning, *Electronics Foundations: Fundamentals*, with Barron Stone
 
 ## Review scope
 
-Reviewed the text and rendered page of each of the five one-page PDFs originally in the folder: `SI Prefixes.pdf`, `01_08 Challenge Description.pdf`, `DMM List.pdf`, `03_06 Challenge Description.pdf`, and `Parts List.pdf`. The DMM list PDF was then removed at the user's request after they reviewed it; this note preserves the source details needed for provenance. Compared the content with the learner booklet, Leaders’ Guide, TODOs, memories, and relevant blog drafts. This records a source assessment, not an endorsement of the handouts’ technical advice or product links.
+Reviewed the text and rendered page of each of the five one-page PDFs originally in the course folder: `SI Prefixes.pdf`, `01_08 Challenge Description.pdf`, `DMM List.pdf`, `03_06 Challenge Description.pdf`, and `Parts List.pdf`. The DMM list was first removed after the user reviewed it; the user later said the entire folder could be removed if its files were no longer needed. Since useful details and cautions are recorded here and in the drafts, all original course PDFs have now been removed. Compared their content with the learner booklet, Leaders’ Guide, TODOs, memories, and relevant blog drafts. This records a source assessment, not an endorsement of the handouts’ technical advice or product links.
 
 ## Useful material and current disposition
 
@@ -18,4 +18,4 @@ Reviewed the text and rendered page of each of the five one-page PDFs originally
 
 ## Disposition
 
-The course’s useful teaching examples are already represented in the drafts; no further technical content needs to be copied into the Scout booklet or Leaders’ Guide. The four remaining handouts can be kept as provenance for the course examples. The DMM handout is not retained; the separate manual and UK-suitability check remains in [TODO.md](../TODO.md). The parts-list content check is complete.
+The course’s useful teaching examples are already represented in the drafts; no further technical content needs to be copied into the Scout booklet or Leaders’ Guide. The course folder is no longer needed: the source values, limitations, and decisions are retained in this review and the relevant drafts. The separate manual and UK-suitability check for any DMM recommendation remains in [TODO.md](../TODO.md). The parts-list content check is complete.
