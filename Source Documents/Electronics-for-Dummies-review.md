@@ -1,7 +1,7 @@
 # Review note: *Electronics For Dummies*
 
 - **Reviewed:** 2026-11-06
-- **Source file:** [Electronics for Dummies - converted.pdf](Electronics%20for%20Dummies%20-%20converted.pdf)
+- **Source file:** *Electronics for Dummies - converted.pdf* (removed from the repository at the user's request on 2026-11-07)
 - **Title:** *Electronics For Dummies*, by Gordon McComb and Earl Boysen
 - **Publication:** Wiley, copyright 2005
 - **Length:** 433 PDF pages
@@ -23,4 +23,4 @@ The book is from 2005 and is US-oriented. Do not adopt its mains-related demonst
 
 ## Disposition
 
-The breadboard concept has been added to the learner booklet, Leader preparation notes, and electronics-fundamentals outline. A separate blog idea is indexed for possible development. Other basic topics mostly overlap with existing project material, so no further additions were needed.
+The source PDF has been removed from the repository at the user's request. The breadboard concept has been added to the learner booklet, Leader preparation notes, and electronics-fundamentals outline. A separate blog idea is indexed for possible development. Other basic topics mostly overlap with existing project material, so no further additions were needed.
