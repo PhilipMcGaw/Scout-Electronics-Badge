@@ -1463,3 +1463,4 @@ If the solder paste maker specifies refrigerated storage, where should it be kep
 - In a clearly labelled, non-food refrigerator
 
 **Answer for the Leader:** In a clearly labelled, non-food refrigerator. Storage requirements vary, so follow the paste maker’s instructions. If the paste needs refrigeration, let it reach room temperature naturally before opening it, as the instructions direct.
+is
