@@ -11,6 +11,7 @@ This is the durable working context for the Scouts Electronics Activity Badge pr
 ## 2026-11-07 — 2021 course handouts assessed
 
 - **Source assessment:** The five local handouts’ useful points are already carried in the fundamentals, resistor, and battery drafts. The parts list matches the saved summary but has US-oriented sales links and no circuit diagram; do not reuse its imagery without checking rights. The DMM sheet names models without specifications, so check current manuals and UK suitability before making recommendations. See the [review note](Source%20Documents/Electronics-Foundations-Fundamentals-2021-review.md) and [TODO.md](TODO.md).
+- **User-reported decision:** The user reviewed the DMM list PDF and said it does not need to be retained. The file was removed; its model names and lack of specifications remain in the source review note. The separate current-manual check remains open.
 
 ## 2026-11-06 — Consolidated project context
 
