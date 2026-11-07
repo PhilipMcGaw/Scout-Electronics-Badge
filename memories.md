@@ -2,6 +2,12 @@
 
 This is the durable working context for the Scouts Electronics Activity Badge project. It records useful decisions and preferences across conversations; it is not a transcript or a task list. Current actions are tracked in [TODO.md](TODO.md).
 
+## 2026-11-07 — Arduino sensor data-logging article assessed
+
+- **Source assessment:** Duino4Projects’ indexed 2019 article text describes an Uno, Ethernet shield, microSD card, LM335Z and photoresistor. The page could not be fetched directly, so its wiring, code and claims were not verified or reused.
+- **Technical context:** A sensor’s ADC reading depends on the exact board and circuit. The LM335 output and operating circuit need datasheet-based conversion; a photoresistor divider gives a relative response unless calibrated. SD-card pin assignments and electrical requirements are board/module-specific.
+- **Project outcome:** Added an adult-facing draft about timestamps, units, calibration and checking saved data. Exact build steps remain open pending selection and review of hardware; see [TODO.md](TODO.md).
+
 ## 2026-11-07 — H-bridge motor-driver article assessed
 
 - **Source assessment:** Circuit Digest’s 2019 article provides an introduction to diagonal switching, but its high-current circuit claims and some switching explanations need independent review. Its schematic and images were not reused.

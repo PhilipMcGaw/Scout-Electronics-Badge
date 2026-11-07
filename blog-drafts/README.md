@@ -20,6 +20,7 @@ These files are working outlines and first drafts for the blog posts linked to t
 | [PCB silkscreens](pcb-silkscreens.md) | Explain how board markings help identify components and orientation. | Outline started |
 | [Reverse-polarity protection](reverse-polarity-protection.md) | Introduce a P-channel MOSFET input-protection circuit and the checks needed before choosing parts. | First draft written; circuit-specific technical review needed |
 | [H-bridge motor drivers](h-bridge-motor-drivers.md) | Explain how a four-switch bridge reverses a brushed DC motor and why switching and current paths matter. | First draft written; specific motor/driver review needed |
+| [Arduino sensor data logging](arduino-sensor-datalogging.md) | Explain how to record sensor readings with useful timestamps, units and calibration context. | First draft written; board and sensor review needed |
 | [PCB repair and solder-joint rework](pcb-rework.md) | Advanced repair guidance and the six-question knowledge check. | Outline started; adult electronics makers |
 
 Use Falstad simulations where they help explain circuit behaviour. A simulation should support the explanation, not replace checking the real circuit.
