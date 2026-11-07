@@ -18,3 +18,5 @@
 - [ ] Create an original Charlieplexing visual for the Woggle section, either a drawn diagram or a Falstad simulation, and replace the placeholders in the booklet and blog post.
 - [ ] Write the [PCB silkscreen post](blog-drafts/pcb-silkscreens.md), focusing on diode polarity markings and IC outlines, notches, and pin 1.
 - [ ] Develop the advanced [PCB rework post](blog-drafts/pcb-rework.md) for adult electronics makers. Keep it out of the Scouts booklet.
+- [ ] Technical-review the [reverse-polarity protection draft](blog-drafts/reverse-polarity-protection.md) against a specific circuit and exact MOSFET/Zener datasheets before publication.
+- [ ] Technical-review the [H-bridge motor-driver draft](blog-drafts/h-bridge-motor-drivers.md) against a specific motor and driver datasheet before adding construction steps or publishing.

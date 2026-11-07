@@ -18,6 +18,8 @@ These files are working outlines and first drafts for the blog posts linked to t
 | [SMD soldering at a HackSpace](smd-soldering-hackspace.md) | Diagnose the broken page, then develop the hand-soldering account. | Outline started; WordPress access needed |
 | [Woggle PCB with KiCad](woggle-kicad-pcb.md) | Walk through preparing, ordering, and assembling the Woggle board. | Outline started |
 | [PCB silkscreens](pcb-silkscreens.md) | Explain how board markings help identify components and orientation. | Outline started |
+| [Reverse-polarity protection](reverse-polarity-protection.md) | Introduce a P-channel MOSFET input-protection circuit and the checks needed before choosing parts. | First draft written; circuit-specific technical review needed |
+| [H-bridge motor drivers](h-bridge-motor-drivers.md) | Explain how a four-switch bridge reverses a brushed DC motor and why switching and current paths matter. | First draft written; specific motor/driver review needed |
 | [PCB repair and solder-joint rework](pcb-rework.md) | Advanced repair guidance and the six-question knowledge check. | Outline started; adult electronics makers |
 
 Use Falstad simulations where they help explain circuit behaviour. A simulation should support the explanation, not replace checking the real circuit.

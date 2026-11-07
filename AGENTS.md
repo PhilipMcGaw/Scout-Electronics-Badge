@@ -45,6 +45,7 @@ When the user explicitly supplies a pasted-text attachment as source material, y
 - On this Windows installation, use `C:\Users\philip.mcgaw\AppData\Local\GitHubDesktop\app-3.6.10\resources\app\git\cmd\git.exe` when command-line Git is needed. Verify the executable with `git --version`; the path may change after a GitHub Desktop upgrade.
 - Before pushing, fetch the configured remote and integrate its latest `main` branch into the task branch. Resolve divergence or conflicts while preserving unrelated work, then review the final diff.
 - Commit and push task-related changes to the configured remote’s `main` branch when the requested work is complete. Stage only files belonging to the task, review staged files before committing, and use a concise, focused commit subject.
+- A user request to prepare or update repository content authorises agents to complete this commit-and-push workflow for the resulting task changes; do not ask for a separate confirmation to push. This instruction does not override filesystem or network restrictions imposed by the execution environment.
 - Do not include temporary files, local configuration, secrets, or unrelated user changes unless explicitly requested. At completion, report the commit and remote branch after a successful push; if pushing is blocked, report the specific blocker.
 
 ## Text encoding and line endings

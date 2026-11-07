@@ -2,6 +2,18 @@
 
 This is the durable working context for the Scouts Electronics Activity Badge project. It records useful decisions and preferences across conversations; it is not a transcript or a task list. Current actions are tracked in [TODO.md](TODO.md).
 
+## 2026-11-07 — H-bridge motor-driver article assessed
+
+- **Source assessment:** Circuit Digest’s 2019 article provides an introduction to diagonal switching, but its high-current circuit claims and some switching explanations need independent review. Its schematic and images were not reused.
+- **Technical cross-check:** TI documentation confirms that an H-bridge must manage inductive motor current during switching and avoid shoot-through; integrated drivers may insert dead time and define current paths. No specific motor or driver has been selected for this project.
+- **Project outcome:** Added an adult-facing conceptual draft. It is not construction guidance and remains outside the Scouts booklet; a specific motor/driver datasheet review is required before adding build instructions. See [TODO.md](TODO.md).
+
+## 2026-11-07 — PMOS reverse-polarity protection article assessed
+
+- **Source assessment:** Components101’s 2020 guide is a useful topic introduction, but its suggested values and MOSFET selection shortcuts should not be treated as a ready-made design. Its diagrams and simulation were not reused.
+- **Technical cross-check:** onsemi application note AND90146/D explains the P-channel MOSFET body diode and gate clamp, and stresses checking the actual device ratings and thermal conditions. Automotive transient requirements in that note are outside the scope of the general low-voltage draft.
+- **Project outcome:** Added an adult-audience first draft on reverse-polarity protection. A specific circuit and exact component datasheets still need review before publication; see [TODO.md](TODO.md).
+
 ## 2026-11-07 — DFRobot Arduino beginner tutorial assessed
 
 - **Repository fact checked:** The 133-page DFRobot tutorial covers Arduino setup, LED flashing, buttons and pull-ups, traffic lights, PWM fading/RGB LEDs, buzzers, sensors, servos, and IR projects. Its PDF metadata dates from 2015; it includes legacy Windows driver and IDE setup steps.
