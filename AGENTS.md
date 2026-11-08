@@ -41,12 +41,21 @@ When the user explicitly supplies a pasted-text attachment as source material, y
 
 ## Git workflow
 
-- On Windows, use GitHub Desktop for repository status, reviewing changes, staging selected files, committing, fetching, integrating remote changes, and pushing. If the application is unavailable or cannot perform a required operation, use the documented bundled Git executable and explain that fallback in the task report.
-- On this Windows installation, use `C:\Users\philip.mcgaw\AppData\Local\GitHubDesktop\app-3.6.10\resources\app\git\cmd\git.exe` when command-line Git is needed. Verify the executable with `git --version`; the path may change after a GitHub Desktop upgrade.
-- Before pushing, fetch the configured remote and integrate its latest `main` branch into the task branch. Resolve divergence or conflicts while preserving unrelated work, then review the final diff.
-- Commit and push task-related changes to the configured remote’s `main` branch when the requested work is complete. Stage only files belonging to the task, review staged files before committing, and use a concise, focused commit subject.
-- A user request to prepare or update repository content authorises agents to complete this commit-and-push workflow for the resulting task changes; do not ask for a separate confirmation to push. This instruction does not override filesystem or network restrictions imposed by the execution environment.
-- Do not include temporary files, local configuration, secrets, or unrelated user changes unless explicitly requested. At completion, report the commit and remote branch after a successful push; if pushing is blocked, report the specific blocker.
+Standing authorisation: For user-requested changes in this repository, agents are authorised to stage the required files, commit focused validated changes, and push them to the configured remote and current working branch without asking the user again. This authorisation does not override sandbox or authentication controls; if a Git operation is blocked, report the specific blocker.
+
+Before editing, inspect the complete working-tree status and relevant diffs. Preserve unrelated changes, and stage only files required for the task.
+
+Review the staged diff before committing. Use focused changes with clear, imperative commit subjects of 72 characters or fewer.
+
+On Windows, use GitHub Desktop as the default interface for repository status, reviewing diffs, staging selected files, committing, fetching, integrating remote changes, and pushing. Do not assume Git is unavailable because `git` is not on PowerShell's `PATH`.
+
+Use command-line Git only when GitHub Desktop cannot perform a required operation, is unavailable, or repeatable automation is materially more appropriate. On Windows, use a repository helper such as `tools/github-desktop-git.cmd` when present. If no helper is available, use the documented GitHub Desktop bundled Git executable for the current host; recheck its path and version after GitHub Desktop upgrades. On macOS, use command-line Git from this repository's working directory and the machine's configured authentication.
+
+On Windows host `GBR-3N87GR3`, the documented GitHub Desktop 3.6.7 executable is `C:\Users\philip.mcgaw\AppData\Local\GitHubDesktop\app-3.6.7\resources\app\git\cmd\git.exe` (`git version 2.53.0.windows.4`, checked 2026-10-09). Use it when the Desktop interface cannot perform a required operation; recheck after upgrades.
+
+Before pushing, fetch the configured remote and integrate its latest branch into the task branch. Resolve divergence while preserving unrelated work, then review the final diff and push. Do not expose credentials or tokens.
+
+Use focused changes with clear commit messages. After a requested change has been validated, create the focused commit and push it to the configured remote and current working branch as part of the normal workflow, unless the user explicitly asks to stop before committing or pushing, or a concrete blocker prevents it. Before staging, inspect the complete status and diff so that unrelated work is not included. Do not rewrite history, force-push, reset unrelated work, or include unrelated changes. The default branch is main unless the repository states otherwise.
 
 ## Text encoding and line endings
 
