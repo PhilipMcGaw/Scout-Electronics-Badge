@@ -10,6 +10,7 @@ These files are working outlines and first drafts for the blog posts linked to t
 | [Arduino PWM and LED fading](arduino-pwm-and-led-fading.md) | Explain PWM, board-specific `analogWrite()` behaviour, and safe LED fading. | First draft written; board-specific review needed |
 | [Breadboard prototyping](breadboard-prototyping.md) | Show how breadboard contacts map to a schematic, how to verify split power rows, and how to build and check a simple low-voltage prototype. | Idea |
 | [Capacitors](capacitors.md) | Update the capacitor basics and value-prefix articles; clarify markings, polarity, and charge/discharge. | Outline started |
+| [Decoupling capacitors](decoupling-capacitors.md) | Explain why the three-values-a-decade-apart recipe is not universal, and how device guidance, placement, parasitics and real capacitor behaviour affect decoupling. | First draft written; technical review needed |
 | [Batteries](batteries.md) | Explain battery capacity, internal resistance, and voltage drop under load. | Draft written; technical review needed |
 | [Battery packs and management](battery-packs-and-management.md) | Introduce cell balancing, battery management, and thermal management in larger packs. | Draft written; technical review needed |
 | [Lithium-ion chemistry codes](lithium-ion-chemistry-codes.md) | Explain common cell-label shorthand and assess a chemistry comparison chart. | Draft written; technical review needed |

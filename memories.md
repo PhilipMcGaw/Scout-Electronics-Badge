@@ -1,5 +1,11 @@
 # Project memories
 
+## 2026-11-08 — Three-capacitor decoupling rule assessed
+
+- **Source assessment:** Eric Bogatin, Larry Smith and Steve Sandler’s 2020 Signal Integrity Journal article, [“The Myth of Three Capacitor Values”](https://www.signalintegrityjournal.com/articles/1589-the-myth-of-three-capacitor-values), argues that the traditional decade-spaced capacitor recipe grew from older leaded-part assumptions and is not automatically appropriate for modern MLCC designs. It also discusses parallel resonances and the need to consider the full power distribution network.
+- **Technical context:** The article is specialist and model-dependent. Do not generalise its preferred combinations or imply that decoupling capacitors can be removed. Specific IC datasheets and layout guides take precedence; placement, loop inductance, regulator stability and effective MLCC capacitance under DC bias all matter.
+- **Project outcome:** Added a first draft in [blog-drafts/decoupling-capacitors.md](blog-drafts/decoupling-capacitors.md). Technical review against exact device documentation remains in [TODO.md](TODO.md).
+
 This is the durable working context for the Scouts Electronics Activity Badge project. It records useful decisions and preferences across conversations; it is not a transcript or a task list. Current actions are tracked in [TODO.md](TODO.md).
 
 ## 2026-11-08 — Poeth SMD manufacturing article assessed
