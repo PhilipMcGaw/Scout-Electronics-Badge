@@ -149,6 +149,12 @@ This is the durable working context for the Scouts Electronics Activity Badge pr
 - **Technical cross-check:** Panasonic, Omron, TE Connectivity, Siemens and Schneider materials distinguish suppression across switched loads/contacts from suppression across relay or contactor coils. Suppressors can alter release time; RC networks also require consideration of off-state current and contact-closing inrush.
 - **Project outcome:** Added an adult-facing outline with no component values or mains wiring. Exact device/load review is still needed before technical design instructions; see [TODO.md](TODO.md).
 
+## 2026-11-08 — Existing relay and contactor articles identified
+
+- **User-provided context:** Philip has published [Learn about Relays](https://philipmcgaw.com/relays-what-you-should-know/), [Automotive Relays](https://philipmcgaw.com/automotive-relays/) and [Contactors, More than just a Relay](https://philipmcgaw.com/contactors-more-than-a-relay/). Together they cover relay basics, automotive terminal numbering and contactors, so the planned snubber article should continue that series rather than repeat the introductions.
+- **Technical review note:** The automotive relay article currently labels terminal 87 as common, 87a as normally closed and 87b as normally open. Lucas Electrical’s terminal guide and HELLA relay catalogue show the usual arrangement as 30 common/switch input, 87 normally open, 87a normally closed, and 85/86 for the coil. Treat this as a correction to verify against the exact relay schematic and datasheet, not as a universal pinout.
+- **Project outcome:** Added the three posts and manufacturer references to the relay draft, and updated [TODO.md](TODO.md) to track review and cross-linking of the existing series before completing the snubber follow-up.
+
 ## 2026-11-08 — Lithium-ion series-pack article assessed
 
 - **Source assessment:** Hackaday’s 2024 article explains series/parallel notation and discusses how cell capacity and resistance differences can limit a series string. It also suggests opening packs and improvised loose-cell testing; those procedures are not suitable for the Scout-facing project guidance and were not reused.
