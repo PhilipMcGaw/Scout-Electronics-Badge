@@ -65,8 +65,13 @@ This is the durable working context for the Scouts Electronics Activity Badge pr
 ## 2026-11-08 — Creepage calculator idea recorded
 
 - **Source assessment:** Creepage.com presents an interactive clearance and creepage calculator based on IEC 62368-1:2023, Fourth Edition. It describes two clearance procedures, creepage inputs such as working voltage and material group, and altitude correction; it also says to verify critical dimensions against the full standard and certification body. Its own disclaimer provides no warranty.
-- **Project decision:** Record the idea of a similar calculator for Philip’s website, but treat the reference as workflow inspiration rather than a source to copy. Before implementation, establish the intended use and applicable standard, independently validate calculations against an authorised edition, and resolve rights to IEC table data. The calculator must not imply a safety or compliance determination; see [TODO.md](TODO.md).
+- **Project context:** Creepage.com was originally assessed as workflow inspiration for a possible calculator, not as a source to copy. After the user identified an existing creepage-and-clearance article on Philip’s site, review that article first and decide whether a calculator would add value; any tool would need an established use case, independently validated calculations, resolved standards-data rights, and clear limits against implying a safety or compliance determination. See [TODO.md](TODO.md).
 - **UK context:** BSI lists BS EN IEC 62368-1:2024+A11:2024 as the current UK release. A future calculator must not silently present the IEC 2023 edition as the UK edition.
+
+## 2026-11-08 — Existing creepage and clearance article identified
+
+- **User-provided context:** Philip already has a [Creepage and Clearance article](https://philipmcgaw.com/creepage-and-clearance/), published 2023-02-21. The page presents IPC-2221 spacing guidance and summaries relating to appliance insulation and safety classifications; it is an article, not a calculator.
+- **Project outcome:** Replaced the TODO to assess a new calculator with a review of the existing article and a decision on whether an additional tool would add value. Check the article’s scope, safety classifications and tabulated standard values against authorised current sources before revising it; see [TODO.md](TODO.md).
 
 ## 2026-11-08 — Arduino analogue-input example assessed
 
