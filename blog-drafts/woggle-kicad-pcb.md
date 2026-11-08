@@ -4,6 +4,10 @@
 
 **Purpose:** Give Scouts and their Leaders a step-by-step path from the supplied Woggle design files to a checked PCB order and component list.
 
+**Teaching point:** A small PCB project brings several skills together: understanding a circuit, placing parts within physical limits, preparing clear manufacturing and assembly information, and checking a prototype. Keep this practical and focused on the Woggle; Scouts do not need a professional design workflow or advanced simulation for this activity.
+
+**Usability point:** Design the board and its instructions for the person assembling and using it. Clear polarity and pin-1 markings, understandable connector labels, sensible mounting, and a concise assembly/checking guide can prevent avoidable mistakes. Choose markings based on the actual board and user needs, then check that they remain visible after assembly.
+
 ## Planned outline
 
 1. Confirm the Woggle project files and board revision.
@@ -18,10 +22,20 @@
 ## Notes to verify before drafting
 
 - Record the exact KiCad version and menu names used for the walkthrough.
+- Explain that board-only mechanical footprints can be marked **Not in schematic** in footprint properties so they are not deleted when updating the board from the schematic. For mechanical parts that must be tracked in the schematic or assembly data, use a symbol with its footprint instead and set BOM/position-file exclusions according to how it will be assembled. Locking a footprint only prevents accidental movement; it is not the persistence setting.
+- Distinguish footprints disappearing during schematic updates from silkscreen labels hidden by component bodies or absent from manufacturing files. Put visible board labels on the appropriate silkscreen layer, check their clearance from components in 3D view, and inspect the plotted silkscreen Gerber before ordering.
 - Confirm the current group-name change workflow and the Woggle source-file licence.
 - Check PCBWay’s current file and order requirements; do not reuse prices or lead times without checking them.
 - Verify the BOM fields, component references, footprints, quantities, and part sources against the selected Woggle revision.
+- Check mechanical footprints and board labels survive schematic updates and appear in the intended fabrication outputs; follow the current KiCad manual and manufacturer file requirements.
 - Use an original Charlieplexing diagram or a Falstad simulation as a visual. Base the explanation on the verified Woggle pin connections and firmware, not on `CharliePlex.GIF`'s general chart.
+
+## Sources to check
+
+- Elliot Williams, [“Design For People”](https://hackaday.com/2023/04/08/design-for-people/), Hackaday, 2023-04-08. A broad opinion piece on designing hardware for people who must install, operate and maintain it, with discussion of clear labelling, mounting, reliability and simple documentation. Use it as a prompt for usability questions, not as a technical design standard.
+- Altium, [“Why PCB Design Courses Are Essential in an Engineering Curriculum”](https://resources.altium.com/p/why-pcb-design-courses-are-essential-engineering-curriculum), updated 2025-09-09. Background for the educational value of connecting circuit design, layout, manufacturing and prototyping. It is written by a PCB software vendor for university-level engineering education; its Altium-specific recommendations and North American workforce claims are not evidence for UK Scout learning or employment needs.
+- Smayze, [“Avoiding Mechanical Parts from Disappearing in KiCad”](https://smayze.com/2024/05/22/avoiding-mechanical-parts-from-disappearing-in-kicad/), 2024-05-22. Useful workflow ideas for symbols/footprints and 3D review; its comments point to the simpler **Not in schematic** footprint attribute.
+- KiCad, [PCB Editor manual: footprint attributes](https://docs.kicad.org/9.0/en/pcbnew/pcbnew.html#footprint-attributes) and [component placement files](https://docs.kicad.org/9.0/en/pcbnew/pcbnew.html#component-placement-files). Confirm wording against the version used for screenshots.
 
 ## Visuals
 

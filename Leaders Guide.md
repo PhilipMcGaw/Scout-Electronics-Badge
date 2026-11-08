@@ -14,6 +14,8 @@ Check the current [Scouts Electronics Activity Badge requirements](https://www.s
 
 The learner booklet uses IEC-style symbols, as covered by [IEC 60617](https://webstore.iec.ch/en/publication/2723) and its UK adoption, [BS EN 60617](https://landingpage.bsigroup.com/LandingPage/Series?UPI=BS+EN+60617). Some North American schematics, often called ANSI/IEEE style, use a zigzag resistor symbol instead of the IEC rectangle; introduce this as a recognition point, not a second full symbol system to memorise. The pasted comparison also describes ladder-diagram orientation, coil shapes, and reference letters, but those depend on the diagram type and applicable conventions. They are outside this beginner electronics booklet, so avoid teaching them as a single US-versus-IEC rule.
 
+SparkFun’s beginner [How to Read a Schematic](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all) is a useful supplementary explanation of nets, junctions, labels, reference designators and functional blocks. It is US-oriented and uses the zigzag resistor symbol in places; use it to discuss connection-reading concepts while retaining the booklet’s IEC symbols and checking each symbol against the relevant convention.
+
 ## Plan a badge programme
 
 The badge asks Scouts to identify components, read resistor and capacitor markings, use circuit symbols, recognise diode polarity and an IC pin, use a multimeter, compare analogue and digital circuits, build three circuits, explain how they work, and discuss how electronics is used. One circuit should be mainly digital. If possible, at least one should be soldered on stripboard or a PCB.
@@ -133,9 +135,13 @@ Philip also reports that his helping hands and vice use magnetic bases, and that
 
 ## Sources and status
 
+- Fidus Power, [“Understanding IEC Appliance Insulation Classes: I, II and III”](https://fiduspower.com/news/understanding-iec-appliance-insulation-classes:-i-ii-and-iii). Background only: the article cites the superseded EN 60950-1 and includes broad claims about voltage limits and touch safety. Do not transfer its numeric thresholds or claim that Class III equipment is harmless to touch. Equipment classification and insulation requirements depend on the applicable product standard and the complete equipment; battery-powered hobby circuits should not be assigned an appliance class by analogy.
+- HSE, [Maintaining portable electrical equipment (HSG107)](https://www.hse.gov.uk/pubns/priced/hsg107.pdf). UK guidance on Class I earthed and Class II double-insulated portable equipment. It does not cover Class III equipment.
+- IEC, [TC 61 information on protection against electric shock](https://assets.iec.ch/public/tc61/61-6831A-INF.pdf). Background from household-appliance standards; use the applicable current product standard for any product-specific classification.
 - [Scouts Electronics Activity Badge requirements](https://www.scouts.org.uk/scouts/activity-badges/electronics/)
 - [IEC 60617 graphical symbols for diagrams](https://webstore.iec.ch/en/publication/2723)
 - [BS EN 60617 series](https://landingpage.bsigroup.com/LandingPage/Series?UPI=BS+EN+60617)
+- SparkFun, [How to Read a Schematic](https://learn.sparkfun.com/tutorials/how-to-read-a-schematic/all). Supplementary beginner reading on connections, nets, labels and component identifiers; distinguish its North American symbol examples from the IEC symbols used in this booklet.
 - [Scouts Safety Policy](https://www.scouts.org.uk/por/2a-key-policies/2a8-safety-policy/)
 - [Scouts risk-assessment guidance](https://www.scouts.org.uk/volunteers/staying-safe-and-safeguarding/risk-assessments/)
 - [HSE solderer guidance](https://www.hse.gov.uk/asthma/solderers.htm)

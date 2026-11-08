@@ -20,5 +20,6 @@ The Arduino documentation describes `analogWrite()` as PWM on supported pins. It
 
 - Link to the [resistor article](resistors.md) for choosing a current-limiting resistor.
 - Check the exact board’s pinout and output limits, and the LED or driver datasheet, before building a circuit.
+- Iain Sharp, [Electronics for Artists, Part 2](https://lushprojects.com/electronicsforartists/electronicsforartistsp2.pdf) (revision 2.2, 2019), introduces PWM using a classic Uno. Its 0–255 values and pin examples are board/software-specific. Treat “average voltage” as a simplified description: the pin produces a switched waveform, and the effect depends on the load or filtering. The notes are CC BY-NC-SA 3.0 Unported; do not copy the diagrams or code without meeting the licence terms.
 
 *This article draws on the PWM and LED-fade lessons in the supplied DFRobot beginner tutorial but does not reuse its diagrams or code. Check the selected board and parts before publication.*

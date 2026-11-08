@@ -26,5 +26,14 @@
 ## Verification and visuals
 
 - Check all operating and safety guidance against the exact tools, solder, and component instructions.
+- Treat the element14 hot-air video as a personal account rather than a procedure: its author explicitly says it is not best practice, describes using expired solder paste, and does not confirm whether the capacitors worked. Do not adopt its temperatures, preheating approach, paste handling, or component results as recommendations. If discussing hot air, check the exact station, paste/alloy, PCB and component instructions, with suitable ventilation and adult supervision.
 - Diagnose the broken page in WordPress and record what caused it before making a replacement.
 - Prefer original close-up photographs; record image credits and licences.
+
+## Source note
+
+- Dean F. Poeth II, [“Introduction to Surface Mount Technology and Surface Mount Devices for the Small Manufacturer and Hobbyist”](http://poeth.com/smtmfg.htm), originally published in *CQ* in 2003 and revised in 2004. This is a historical overview of manual SMD assembly and rework, not a current process or safety standard. Its useful general prompts include good lighting, magnification, containing small parts, and practising on scrap boards. Do not transfer its iron settings, adhesives, cleaning solvents, abrasive preparation, or flux/solder choices as universal advice; check the current tool, material and component instructions, UK safety guidance and safety data sheets. Do not reuse its text or images without checking permission.
+
+## Source note
+
+- element14 Community, [“Quick hot-air soldering video”](https://community.element14.com/technologies/test-and-measurement/b/blog/posts/quick-hot-air-soldering-video), by shabaz, 2023-03-05. Useful as an example of an experienced hobbyist describing difficulties and uncertainty with hot-air rework. Not a validated technique guide; the author labels it non-best-practice and reports the work’s outcome was not yet known. Do not reuse the video or images without checking permission.

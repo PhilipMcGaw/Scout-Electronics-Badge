@@ -25,3 +25,5 @@
 ## Source notes
 
 The 2005 *Electronics For Dummies* chapter on breadboards is useful background for prototyping and internal contact groups. Its pictured breadboard is only one layout, and its advice predates current products. See the repository's [source review](../Source%20Documents/Electronics-for-Dummies-review.md); verify all board-specific details against the chosen product.
+
+Iain Sharp’s 2010 [Electronics for Absolute Beginners](https://lushprojects.com/absolutebeginners/) course also pairs a schematic with a physical breadboard layout. Treat that layout as specific to the course’s board, not a universal pattern. The PDF is licensed CC BY-NC-SA 3.0 Unported; make an original, product-checked diagram rather than reusing the figure unless the licence terms are suitable for the intended publication.

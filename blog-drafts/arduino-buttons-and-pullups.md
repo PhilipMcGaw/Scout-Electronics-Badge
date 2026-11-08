@@ -37,5 +37,6 @@ Keep input voltages within the limits for the exact board. Do not connect a pin 
 
 - Arduino’s [INPUT, INPUT_PULLUP and OUTPUT reference](https://docs.arduino.cc/language-reference/en/variables/constants/inputOutputPullup/) explains floating inputs and pull-up behaviour.
 - Arduino’s [button wiring example](https://docs.arduino.cc/built-in-examples/digital/InputPullupSerial/) and [pushbutton debounce example](https://docs.arduino.cc/built-in-examples/digital/Debounce/) show related circuits and code.
+- Iain Sharp, [Electronics for Artists, Part 2](https://lushprojects.com/electronicsforartists/electronicsforartistsp2.pdf) (revision 2.2, 2019), demonstrates a classic Uno input using an external pull-down resistor. It is useful as an alternate topology, not as a universal pin or voltage specification; check the selected board and exact wiring. The course notes are CC BY-NC-SA 3.0 Unported; do not copy its figures or wording without meeting the licence terms.
 
 *This article uses the supplied DFRobot beginner tutorial as background, then rewrites the explanation for current Arduino documentation. Confirm the target board before publishing pin-specific instructions.*

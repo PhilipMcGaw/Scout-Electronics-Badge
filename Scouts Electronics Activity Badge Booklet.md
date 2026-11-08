@@ -358,6 +358,8 @@ A capacitor stores energy in an electric field between conducting parts separate
 
 The amount of charge stored for a given voltage is described by capacitance, measured in farads (F). A farad is a large unit, so practical capacitors are commonly marked in microfarads (µF) or picofarads (pF). Capacitors can use insulating materials such as ceramic, mica, paper, air, or oxide. Electrolytic capacitors have positive and negative leads and must be connected with the correct polarity.
 
+In a circuit with a resistor, a capacitor’s voltage can rise or fall over time as it charges or discharges. The resistance and capacitance both affect how quickly this happens, so resistor-capacitor (RC) circuits can be used for timing. A transistor or another circuit can turn that gradual change into a clearer on/off action.
+
 ### Valves (Vacuum Tubes)
 
 Before transistors and integrated circuits became common, electronic equipment often used valves, also called vacuum tubes. Valves could amplify signals and act as switches, helping make early radio, television, radar, and other electronic systems possible. They were generally larger, hotter, more fragile, and less energy-efficient than transistors, so most modern electronics uses semiconductor devices instead. Valves are still found in some specialist equipment and musical-instrument amplifiers.
@@ -566,7 +568,7 @@ Most resistors are made of a carbon compound. Resistors used for high currents o
 
 The illustration below shows a variety of fixed resistors and a cross-section of a fixed resistor. The values of fixed resistors cannot be changed.
 
-Older types of fixed resistors have bands of colour that allow you to determine their resistance value. (See “The Colour Code of Resistors” section on page 40.) The cross-section of this fixed resistor shows the inside, which is made of carbon.
+Through-hole resistors often have colour bands that show their resistance value. (See “The Colour Code of Resistors” section on page 40.) The cross-section of this fixed resistor shows the inside, which is made of carbon.
 
 Note the schematic symbol for a fixed resistor.
 
@@ -602,7 +604,7 @@ A bare LED needs current limiting: in the simple circuits in this booklet, conne
 
 #### Transistors
 
-Transistors are solid-state devices used for controlling current. A very small input current controls a much larger output current. For example, the small current from a microphone can control a much larger current that drives a loudspeaker. This is the idea behind the audio amplifiers used in public address systems.
+Transistors are solid-state devices used for controlling current. Depending on how it is connected and driven, a transistor can amplify a signal or act as an electronic switch. In a bipolar transistor, a small base current can control a larger collector current; for example, a small microphone signal can control a larger current that drives a loudspeaker. This is the idea behind the audio amplifiers used in public address systems.
 
 #### Integrated Circuits (ICs)
 
@@ -658,13 +660,13 @@ There are many other types of components used in electronics, but these are the 
 
 The value of a resistor is specified in ohms and is indicated by coloured bands around one end of the resistor. The electronics industry devised this system because small, printed numbers would be too hard to read or might be concealed by the position of the resistor.
 
-Most resistors have four bands, with the first three (counting from the end of the resistor) indicating the value in ohms. The fourth, which is either silver or gold, indicates the tolerance (discussed below). colours used for the bands are used in place of numbers. To determine the resistance value in ohms, examine the colour bands starting with the one closest to the end of the resistor.
+Four-band resistors use the first two bands for significant digits, the third for the multiplier, and the fourth for tolerance. Five-band resistors use the first three bands for significant digits, the fourth for the multiplier, and the fifth for tolerance. A small gap often helps identify the tolerance band; use a chart that matches the number of bands. Gold and silver are common tolerance colours, but other colours can also indicate tolerance.
 
 Suppose a resistor has a brown, a black, and then a brown band. The code chart shown here tells you that brown represents the number 1. The second black band represents the number 0. The third band tells you how many zeroes to add to the first two numbers. In the example, the band is brown, so you add one zero. Therefore, the value of this resistor is 1-0-0, or 100 ohms.
 
 Now try the example for the resistor shown here, which has a red band first, then a yellow band, and then an orange band. The red band means that the first number is 2. The yellow band corresponds to the number 4. The orange band tells us to add three zeroes. Thus, the value is 2-4-000, which translates to 24,000 ohms, or 24 kilohms (kΩ).
 
-Most surface mount components are too small for colour bands, so the colour bands are converted back to digits and printed onto the top of the resistor as 243 for 24,000 ohms, or 24 kilohms (kΩ).
+Surface-mount resistors use printed codes rather than colour bands. A three-digit code such as `243` commonly means `24 × 10³ Ω`, or `24 kΩ`, but marking systems vary. Check the component’s documentation when the code is unfamiliar.
 
 ## Soldering
 

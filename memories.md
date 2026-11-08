@@ -2,6 +2,195 @@
 
 This is the durable working context for the Scouts Electronics Activity Badge project. It records useful decisions and preferences across conversations; it is not a transcript or a task list. Current actions are tracked in [TODO.md](TODO.md).
 
+## 2026-11-08 — Poeth SMD manufacturing article assessed
+
+- **Source assessment:** Dean F. Poeth II’s overview for small manufacturers and hobbyists was originally published in *CQ* in 2003 and revised in 2004. It discusses manual SMD assembly, rework, tools, and component handling.
+- **Technical context:** Treat its tool settings, adhesives, cleaning solvents, abrasive methods, and soldering materials as historical and specific to its context, not current universal advice. Its general workspace ideas (lighting, magnification, part containment, and practice on scrap boards) may be useful prompts.
+- **Project outcome:** Added a qualified source note to the SMD soldering draft. Verify current equipment/material instructions, UK safety guidance and SDS before writing procedures; check permission before reusing text or images.
+
+## 2026-11-08 — Elektor dual DC LISN assessed
+
+- **Source assessment:** Elektor’s product page describes a dual 5 µH / 50 Ω DC LISN with a 150 kHz–200 MHz RF bandwidth, <60 V DC and <10 A DC operating limits, designed with Würth Elektronik. Its manual frames the instrument around CISPR 25 / ISO 7637 automotive measurements and says it is for authorised technical staff.
+- **Project outcome:** Added it as a product-specific adult-tool example in the PCB EMC draft. Do not imply that it is a universal LISN, that it establishes conformity on its own, or that it is suitable for Scout use. Follow the manual and exact applicable test method.
+
+## 2026-11-08 — Schematic-reading tutorial assessed
+
+- **Source assessment:** SparkFun’s beginner tutorial explains symbols, connections, junctions, named nets, voltage nodes, reference designators and reading a schematic by functional blocks. It is a US-oriented learning resource and uses ANSI/IEEE-style zigzag resistor symbols alongside examples that may differ from the project’s IEC convention.
+- **Project outcome:** Added it as supplementary reading in the Leaders’ Guide. Use it for connection-reading concepts while retaining IEC symbols in the booklet and verifying specific symbols against the applicable standard.
+
+## 2026-11-08 — Electronics Tutorials site assessed as a reference index
+
+- **Source assessment:** Electronics Tutorials is a broad catalogue covering DC and AC circuits, components, analogue and digital electronics, power topics and online tools. The homepage is a topic index rather than a specific technical lesson.
+- **Project outcome:** Added it to the electronics-fundamentals draft as a discovery and alternate-explanation resource only. For any selected lesson, verify the technical content against current primary sources and check reuse rights before adapting text or diagrams.
+
+## 2026-11-08 — Relay technologies module assessed
+
+- **Source assessment:** element14’s *Relay Technologies* module was created in 2022 and last updated 2022-12-16; it is sponsored by TE Connectivity. Its coverage of relay operation, contact configurations and selection factors is a useful topic map.
+- **Technical context:** Treat its broad relay-type comparisons, timing and electrical ranges as dated or product-specific. Galvanic isolation, switching capacity and SSR/EMR behaviour depend on the exact device and application; check the current relay datasheet and manufacturer guidance.
+- **Project outcome:** Added it as qualified background to the adult relay/contact-protection draft. No numeric ratings, product recommendations or source figures adopted.
+
+## 2026-11-08 — Instructables LED beginner guide assessed
+
+- **Source assessment:** Noahw’s 2006 *LEDs for Beginners* is a personal step-by-step tutorial that explains LED polarity, series resistance and simple calculations. Its example parts and US RadioShack context are dated.
+- **Technical context:** Do not repeat its “20 mA is standard” claim or resistor-free LED experiments as instructions. LEDs need suitable current limiting based on the actual part and supply; parallel LEDs generally need individual current-limiting resistors to account for forward-voltage variation.
+- **Project outcome:** Added a qualified style/source note to the resistor draft. Do not reuse its wording or photos without checking the licence and attribution requirements.
+
+## 2026-11-08 — Operational-amplifier Q&A assessed
+
+- **Source assessment:** Nuts & Volts’ Q&A compares a differential-amplifier circuit with a two-stage inverting-plus-summing arrangement for subtracting two DC voltages. Its key trade-off is flexibility and gain adjustment versus an additional amplifier stage and its noise contribution.
+- **Project outcome:** Added it as optional advanced reading in the electronics-fundamentals outline, not as a Scout build recipe. Any implementation would require checking resistor ratios/matching and the chosen op-amp’s common-mode, output-swing and supply limits against its datasheet.
+
+## 2026-11-08 — Appliance insulation-class article assessed
+
+- **Source assessment:** Fidus Power explains Classes I, II and III from a power-supply manufacturer’s perspective, but refers to superseded EN 60950-1 and makes broad statements about voltage limits and touch safety that should not be reused as universal rules.
+- **UK/technical context:** HSE HSG107 describes Class I and II portable equipment but does not cover Class III. IEC material shows that classification and protection depend on the complete appliance and applicable product standard; battery-powered devices may be treated under separate requirements. Do not infer an appliance class for a Scout low-voltage circuit or teach that Class III means “safe to touch” in every circumstance.
+- **Project outcome:** Added this caveat and current-source pointers to the Leaders’ Guide. No numeric limits or mains instructions were adopted.
+
+## 2026-11-08 — Human-centred hardware design article assessed
+
+- **Source assessment:** Hackaday’s 2023 *Design For People* column discusses making hardware understandable and dependable for the people who install, operate and maintain it. Examples include clear labelling, mounting provisions, reliability measures and concise operating information; it is an opinion piece, not an engineering standard.
+- **Project outcome:** Added a usability point to the Woggle KiCad outline: check that polarity/pin markings and connector labels are legible after assembly, and include clear assembly and checking information. Apply advice to the actual design rather than adding features such as watchdogs without a project need.
+
+## 2026-11-08 — Hot-air soldering video assessed
+
+- **Source assessment:** element14 member shabaz’s 2023 video documents a personal attempt to solder capacitors onto a thick, four-layer PCB. The author calls it non-best-practice, notes using several-year-expired solder paste, and says the component results were not yet known.
+- **Technical context:** The post’s temperature settings and comments are anecdotal and alloy/equipment/workpiece-specific. Do not present them as a process recipe or claim that the demonstrated components worked. Check the exact equipment, solder paste, PCB and component guidance before describing hot-air rework.
+- **Project outcome:** Added a source note and cautions to the existing SMD soldering draft. Keep the procedure adult-facing and verify tool safety and ventilation before publication.
+
+## 2026-11-08 — HackHitchin Arduino kit resource queued for review
+
+- **Access status:** The supplied page could not be fetched by the web reader, the in-app browser host was unavailable, and exact-title searches returned no results. Its kit contents and activities have not been assessed.
+- **Project outcome:** Added a TODO to revisit the resource and map only suitable, verified beginner activities to existing Arduino drafts. Check board and component assumptions, safety, and reuse rights before adapting content.
+
+## 2026-11-08 — Creepage calculator idea recorded
+
+- **Source assessment:** Creepage.com presents an interactive clearance and creepage calculator based on IEC 62368-1:2023, Fourth Edition. It describes two clearance procedures, creepage inputs such as working voltage and material group, and altitude correction; it also says to verify critical dimensions against the full standard and certification body. Its own disclaimer provides no warranty.
+- **Project decision:** Record the idea of a similar calculator for Philip’s website, but treat the reference as workflow inspiration rather than a source to copy. Before implementation, establish the intended use and applicable standard, independently validate calculations against an authorised edition, and resolve rights to IEC table data. The calculator must not imply a safety or compliance determination; see [TODO.md](TODO.md).
+- **UK context:** BSI lists BS EN IEC 62368-1:2024+A11:2024 as the current UK release. A future calculator must not silently present the IEC 2023 edition as the UK edition.
+
+## 2026-11-08 — Arduino analogue-input example assessed
+
+- **Source assessment:** Arduino’s beginner example uses a potentiometer or photoresistor divider and maps the analogue reading to an LED blink interval. The input measures voltage from the divider, not resistance directly.
+- **Technical context:** Its 5 V supply, 10-bit `analogRead()` range, pin 13 LED and 220 Ω external LED resistor are not universal across Arduino boards. Verify the selected board’s input limits, ADC behaviour, pin assignments and LED circuit before adapting it.
+- **Project outcome:** Added a qualified source note to the sensor data-logging draft; it remains an example of an input-to-output activity rather than a verified sensor measurement project.
+
+## 2026-11-08 — PCB-design curriculum article assessed
+
+- **Source assessment:** Altium’s article argues that PCB design education connects circuit design, layout, manufacturing and prototyping. It is vendor-authored and aimed at university engineering curricula; its Altium product promotion and North American workforce claims do not establish UK Scout or employment needs.
+- **Project outcome:** Added a qualified teaching point to the Woggle KiCad outline: use the practical PCB workflow to show how circuit, physical layout and manufacturing information fit together, without expanding the activity into professional tools or advanced simulation.
+
+## 2026-11-08 — Resistor article sources assessed
+
+- **Source assessment:** K7MEM’s calculator explores non-standard resistance values using parallel combinations and includes power estimates when voltage is supplied. The All About Circuits forum thread concerns a complex 160 V high-side programmable current source; it is not an appropriate Scout build or a general resistor example.
+- **Technical context:** Series/parallel combinations require checking individual dissipation, voltage rating, tolerance and thermal conditions. A digital potentiometer has terminal-voltage, current and package-power limits and is not a drop-in high-voltage or high-power resistor.
+- **Project outcome:** Added a custom-combination and digital-potentiometer section to the resistor article outline, with no copied schematic or construction advice. High-voltage work remains outside Scout activities; see [TODO.md](TODO.md).
+
+## 2026-11-08 — Relay quiz resource assessed
+
+- **Source assessment:** The correct element14 Community page is the [Power Relays Quiz](https://community.element14.com/products/manufacturers/omron-electronic-components/w/quiz/4497/power-relays-quiz), an Omron-sponsored 25-question quiz covering electromechanical relays, electrical contacts and PCB power relays. The earlier `4496/power-relays-quiz-resource` URL was not the quiz page.
+- **Project outcome:** Added an original five-question knowledge check to the relay article outline, covering contact states, coil/contact ratings, load type, coil suppression and release time. Do not copy quiz wording; verify explanations against current relay manufacturer documentation.
+
+## 2026-11-08 — Maker power module assessed
+
+- **Source assessment:** element14’s *Power Essentials for Makers* is a broad topic map covering AC/DC power fundamentals, sources and converters, maker-board power architectures, and design considerations. The module was created in 2017 and last updated in 2023.
+- **Technical context:** Its board-specific figures and product examples are historical and can be stale; its safety and standards summaries need current UK verification. Do not transfer its specifications to current boards.
+- **Project outcome:** Added it as a background source to the electronics-fundamentals outline. Check product-specific and UK guidance before reusing any detail; see [TODO.md](TODO.md).
+
+## 2026-11-08 — PCB fuse module assessed
+
+- **Source assessment:** element14’s *Circuit Protection: PCB-Mounted Fuses* introduces fuse operation, ratings, I²t, PCB fuse types and resettable PTCs, and includes a 15-question quiz. It was created in 2017 and last updated in 2023; product examples and standards summaries need current checking.
+- **Technical context:** Fuse selection depends on normal current, voltage, available fault current, time-current behaviour, interrupting rating and temperature. A resettable PTC can remain at high resistance and pass some current during a fault, unlike a fuse that opens; selection remains part-specific.
+- **Project outcome:** Added fuse and PTC selection cautions, Littelfuse manufacturer references and an original five-question knowledge check to the Arduino interface-protection draft. No example fuse ratings or construction instructions adopted; see [TODO.md](TODO.md).
+
+## 2026-11-08 — Voltage-reference module assessed
+
+- **Source assessment:** element14’s *Voltage References* module covers reference architectures, performance terms and uses in ADCs, sensors and comparators. It was created in 2019 and last updated in 2022, includes Maxim product examples, and has a 15-question quiz.
+- **Technical context:** Reference performance depends on more than nominal voltage; initial accuracy, temperature coefficient, input and load regulation, noise and long-term behaviour may matter. Product examples and numerical claims should be checked against current datasheets; calculations and simplified explanations need independent review.
+- **Project outcome:** Added an optional advanced voltage-reference note to the electronics-fundamentals outline and cited TI selection guidance. No part-specific values or quiz content adopted.
+
+## 2026-11-08 — Precision-measurement module assessed
+
+- **Source assessment:** element14’s *Analog Electronics: Precision Measurement* covers ADCs, op amps, current-sense amplifiers, voltage references and measurement-system quality. It was created in 2020 and last updated in 2022; its examples focus on Maxim precision ICs and include a 15-question quiz.
+- **Technical context:** Keep accuracy, precision, repeatability and resolution distinct. Repeatable readings can still have a systematic offset, and ADC bit count or display digits alone do not establish accuracy. Use BIPM/NIST terminology for measurement claims.
+- **Project outcome:** Added a beginner-level measurement-quality note to the fundamentals post and an accuracy caveat to the sensor-logging draft. No Maxim product claims, values or quiz content adopted.
+
+## 2026-11-08 — Electronics for Absolute Beginners course assessed
+
+- **Source assessment:** Iain Sharp’s 2010 one-day course progresses through basic circuits, breadboards, resistors, LEDs, transistors, capacitors, oscillators and a decade-counter project. Its companion parts sheet specifies a historical kit including ¼ W resistors, four-band colour markings, 10 µF/100 µF electrolytics, small ceramic capacitors, a 2N3704 transistor and a 4017 decade counter. These are course examples, not current UK buying recommendations. Its notes are licensed CC BY-NC-SA 3.0 Unported.
+- **Technical context:** The course’s values and experiments are tied to a particular kit and need current component and safety checks. Its shortcut that capacitor size predicts polarity is not reliable; identify polarity from the exact part. Its breadboard diagram is only one layout. Do not reuse source figures without licence and product-layout checks.
+- **Project outcome:** Added qualified references to the fundamentals, resistor, capacitor and breadboard drafts. The companion parts sheet has now been reviewed; the resistor and capacitor drafts record its kit-specific ratings and values without treating them as universal design rules. Updated the booklet’s resistor-band section to distinguish four-band and five-band codes, clarified that SMD resistor codes vary, and noted that transistors can operate as switches as well as amplifiers. Added a brief RC timing explanation: a resistor-capacitor circuit changes voltage over time, and a transistor can use that change to switch another circuit. Use the course for teaching sequence only; verify examples and check non-commercial/share-alike licence compatibility before adapting source text or figures.
+
+## 2026-11-08 — Electronics for Artists course assessed
+
+- **Source assessment:** Iain Sharp’s two-day *Electronics for Artists* course, first presented in 2010 and updated in 2019, repeats the component/breadboard material and adds Arduino-based inputs, analogue dividers, PWM, drivers and an interactive organ. Its notes are licensed CC BY-NC-SA 3.0 Unported.
+- **Technical context:** Arduino Part 2 uses classic Uno-era 5 V pin examples and older software instructions. Do not transfer pin ranges, PWM values, supply advice or relay-isolation claims to another board without checking its current documentation and the connected component datasheets. Its body-contact sensor activities are not a Scout circuit specification.
+- **Project outcome:** Added bounded source notes to the fundamentals and Arduino button, PWM, sensor-logging and interface-protection drafts. Verify all board-specific details and licence compatibility; see [TODO.md](TODO.md).
+
+## 2026-11-08 — Overvoltage protection article assessed
+
+- **Source assessment:** Dyethin’s article is a topic prompt, not a source for universal Arduino or microcontroller protection values. Its suggested 5.1 V and 6.8 V Zener examples cannot be assumed safe for logic inputs.
+- **Technical context:** Zener and TVS clamp voltage varies with current and device characteristics; the source impedance, pulse energy and return path matter. Signal-pin clamps, series disconnects and crowbars have different behaviours. Check the exact receiving-device limits and protection-device datasheet.
+- **Project outcome:** Added these distinctions to the Arduino interface-circuit protection draft and cited TI application material on TVS clamping and data-line selection. No circuit values or build instructions adopted; exact board and component review remains tracked in [TODO.md](TODO.md).
+
+## 2026-11-08 — EMC post series scoped
+
+- **Source assessment:** Nemko’s page is a commercial overview of emissions and immunity testing; Tekbox describes its EMCview pre-compliance software and supported equipment. EDN’s PCB article is a useful engineering introduction to signal fields and return paths. PCB HERO’s EMI/EMS/EMC terminology is inconsistent and should not be used as a technical authority.
+- **Technical context:** UK EMC requirements address both disturbance generated and immunity to expected disturbance. Emissions, immunity, bench debugging, pre-compliance and formal product conformity are related but distinct. PCB layout guidance should avoid universal rules detached from edge rate, stack-up, current paths and final product configuration.
+- **Project outcome:** Added separate outlines for an EMC terminology/UK-context post and a PCB-layout/pre-compliance post. Check applicable GB/NI/EU requirements at publication; see [TODO.md](TODO.md).
+
+## 2026-11-08 — Relay and contactor snubber topic scoped
+
+- **Source assessment:** Wikipedia provides a general snubber overview. The two linked hobby articles discuss relay contact suppression but include generic values and unsafe-looking advice in comment sections; their numbers and mains suggestions were not adopted.
+- **Technical cross-check:** Panasonic, Omron, TE Connectivity, Siemens and Schneider materials distinguish suppression across switched loads/contacts from suppression across relay or contactor coils. Suppressors can alter release time; RC networks also require consideration of off-state current and contact-closing inrush.
+- **Project outcome:** Added an adult-facing outline with no component values or mains wiring. Exact device/load review is still needed before technical design instructions; see [TODO.md](TODO.md).
+
+## 2026-11-08 — Lithium-ion series-pack article assessed
+
+- **Source assessment:** Hackaday’s 2024 article explains series/parallel notation and discusses how cell capacity and resistance differences can limit a series string. It also suggests opening packs and improvised loose-cell testing; those procedures are not suitable for the Scout-facing project guidance and were not reused.
+- **Technical context:** Pack voltage does not reveal the voltage or condition of each series cell. UK OPSS PLEV safety research describes cell-level over-voltage risks and the role/limits of pack balancing. Correct charge limits, monitoring and protection are properties of the complete, chemistry-specific pack design.
+- **Project outcome:** Added a high-level caution and source note to the battery-pack management draft. No battery assembly, pack-opening or loose-cell test instructions were added.
+
+## 2026-11-08 — KiCad mechanical-footprint persistence assessed
+
+- **Source assessment:** Smayze’s 2024 article recommends schematic symbols paired with footprints to preserve and manage mechanical items through board updates, plus 3D review for physical fit and label visibility. A comment notes the simpler **Not in schematic** attribute for board-only footprints.
+- **Technical cross-check:** KiCad 9 documentation confirms that footprints marked **Not in schematic** are preserved when updating a board from the schematic, while the separate **Exclude from position files** and **Exclude from BOM** attributes control those outputs. Locking is for movement protection. Text visibility/occlusion is a separate silkscreen-layer and fabrication-output check.
+- **Project outcome:** Added these distinctions and source references to the Woggle KiCad walkthrough outline. Check exact menus against the KiCad version used in the eventual guide.
+
+## 2026-11-08 — Ceramic-capacitor Wikipedia article assessed
+
+- **Source assessment:** The article is a broad overview of ceramic capacitor construction, classes, temperature behaviour, frequency effects and applications. It is useful for finding topics and terminology, but it is collaboratively edited and should not be the project’s authority for technical specifications or current component-selection claims.
+- **Project outcome:** No Wikipedia text, tables or images were copied into the project. The capacitor draft already covers the relevant Class 1/Class 2 distinction and uses Murata, KEMET and TDK sources for claims that need manufacturer support.
+
+## 2026-11-08 — Murata ceramic-capacitor temperature guide assessed
+
+- **Source assessment:** Murata’s guide, originally published 2012 and revised 2023-12-01, explains Class 1 temperature coefficients and the bounded temperature-change categories for Class 2 ceramic dielectrics. It usefully separates these from voltage-bias and ageing effects.
+- **Technical context:** Treat codes such as X7R/X5R as specified temperature behaviour under standard test conditions, not as a complete prediction of effective capacitance. Exact part, operating temperature and DC bias still matter; consult the manufacturer’s datasheet and characteristic curves.
+- **Project outcome:** Added Murata’s guide and FAQ as manufacturer references in the capacitor draft. No part-specific values were added.
+
+## 2026-11-08 — Ceramic capacitor dielectric guide assessed
+
+- **Source assessment:** All About Circuits’ 2023 overview clearly introduces C0G/NP0, X7R, X5R and Y5V temperature codes, but is not a complete component-selection guide.
+- **Technical cross-check:** Manufacturer guidance confirms Class 2 MLCC capacitance can fall substantially under DC bias; actual capacitance also depends on temperature, ageing, package and part-specific construction. X7R/X5R temperature classification alone does not state effective in-circuit capacitance. C0G/NP0 is more stable across temperature and bias. Some Class 2 ceramics can also create audible mechanical vibration in certain circuits.
+- **Project outcome:** Added qualified notes and manufacturer references to the capacitor article outline. Keep exact effective-capacitance claims part-specific; capacitor article refresh remains tracked in [TODO.md](TODO.md).
+
+## 2026-11-08 — Conducted-emissions comparison assessed
+
+- **Source assessment:** The 2021 AnalogicTips article by a Texas Instruments applications engineer compares conducted-emissions setups for CISPR 25, CISPR 11 and MIL-STD-461G. Its numeric setup details are edition-specific and should not be reused as current universal requirements.
+- **Technical context:** Conducted emissions, immunity, LV 124 electrical stress and environmental testing address different requirements. LISNs/artificial networks and cable configurations are standard-specific; a bench pre-compliance scan is not a formal standards test.
+- **Project outcome:** Added this distinction to the Arduino interface-protection draft. For this project, explain EMC concepts only at a high level; no compliance test procedure is proposed.
+
+## 2026-11-08 — MOSFET load-switch article assessed
+
+- **Source assessment:** Codrey’s 2021 article shows a high-side P-channel MOSFET switch with optional optocoupler control. Its stated approximate power capability and component choices are not transferable without checking the circuit and operating conditions.
+- **Technical cross-check:** The cited IRF9540N datasheet specifies on-resistance at −10 V gate-to-source; its threshold voltage is measured at a very small drain current and does not establish low-loss switching at a given gate drive. Load inrush, dissipation, diode orientation and transient behaviour also need review.
+- **Project outcome:** Added general load-switch selection cautions to the Arduino interface-protection draft. No circuit values or build steps were adopted; see [TODO.md](TODO.md) for the pending board and component review.
+
+## 2026-11-08 — Arduino protection and LV 124 article scoped
+
+- **Source assessment:** Rugged Circuits’ “10 Ways to Destroy an Arduino” groups useful failure modes, but its examples are hardware-specific and its proposed protections are product claims. Do not reuse its values as universal circuit recommendations.
+- **Technical context:** LV 124 covers electrical and environmental testing for 12 V vehicle components; adding protection parts does not establish compliance. Applicable OEM requirements and the prescribed validation process matter.
+- **Project outcome:** Added an adult-facing introductory draft on interface protection, with no build values or claim of automotive qualification. Board and circuit-specific review remains open; see [TODO.md](TODO.md).
+
 ## 2026-11-07 — Arduino sensor data-logging article assessed
 
 - **Source assessment:** Duino4Projects’ indexed 2019 article text describes an Uno, Ethernet shield, microSD card, LM335Z and photoresistor. The page could not be fetched directly, so its wiring, code and claims were not verified or reused.
