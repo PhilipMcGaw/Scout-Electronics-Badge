@@ -79,6 +79,10 @@ This is the durable working context for the Scouts Electronics Activity Badge pr
 - **Technical context:** Its 5 V supply, 10-bit `analogRead()` range, pin 13 LED and 220 Ω external LED resistor are not universal across Arduino boards. Verify the selected board’s input limits, ADC behaviour, pin assignments and LED circuit before adapting it.
 - **Project outcome:** Added a qualified source note to the sensor data-logging draft; it remains an example of an input-to-output activity rather than a verified sensor measurement project.
 
+## 2026-11-08 — Arduino button draft expanded
+
+- **Project outcome:** Added a pull-up/pull-down state comparison, a matched-resistor current example, and a non-blocking `millis()` debounce sketch to the button draft. The `50` ms interval is illustrative, not a universal switch specification. Exact board support, electrical limits and behaviour with the selected switch still need review before publication; see [TODO.md](TODO.md).
+
 ## 2026-11-08 — PCB-design curriculum article assessed
 
 - **Source assessment:** Altium’s article argues that PCB design education connects circuit design, layout, manufacturing and prototyping. It is vendor-authored and aimed at university engineering curricula; its Altium product promotion and North American workforce claims do not establish UK Scout or employment needs.

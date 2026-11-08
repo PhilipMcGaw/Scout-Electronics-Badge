@@ -8,6 +8,15 @@ A pull-up or pull-down resistor gently connects the input to a known voltage whe
 
 Many Arduino boards provide an internal pull-up resistor that can be enabled in software with `INPUT_PULLUP`. For a compatible board, connect a momentary button between a digital input pin and GND, then set that pin to `INPUT_PULLUP`. The input reads `HIGH` while the button is open and `LOW` when pressed. This is called **active-low** logic: the action is represented by a low signal. Check the board documentation before relying on an internal pull-up, because Arduino boards do not all use the same microcontroller or electrical limits.
 
+The two arrangements give opposite readings:
+
+| Circuit | Button open | Button pressed |
+|---|---|---|
+| Pull-up to the logic supply; button to GND | `HIGH` | `LOW` |
+| Pull-down to GND; button to the logic supply | `LOW` | `HIGH` |
+
+In either circuit, the resistor holds the input at its default level while the button is open. When pressed, the button creates a path to the opposite rail. For equal resistor values and the same supply, a pull-up and pull-down draw the same current while held: with `3.3 V` and `10 kΩ`, `I = V ÷ R = 0.33 mA`. When open, there is ideally no complete path through the pull resistor, apart from small input leakage. Internal pull-resistor values and input leakage vary by board, so check the board documentation if power use matters.
+
 ```cpp
 const byte buttonPin = 2;
 const byte ledPin = LED_BUILTIN;
@@ -27,7 +36,41 @@ This sketch turns the built-in LED on while the button is pressed. It assumes th
 
 ## One press can look like several
 
-The contacts inside a mechanical button can briefly open and close several times as the button is pressed. A program that counts every transition may interpret one press as several. This is called **switch bounce**. If a button simply holds an LED on while pressed, the quick transitions are usually not important. If the program reacts once per press, add a debounce method and test it with the actual switch.
+The contacts inside a mechanical button can briefly open and close several times as a button is pressed. A program that counts every transition may interpret one press as several. This is called **switch bounce**. If a button simply holds an LED on while pressed, the quick transitions are usually not important. If the program reacts once per press, add a debounce method and test it with the actual switch.
+
+One simple software method accepts a new reading only after it has stayed unchanged for a short interval. This example uses `millis()` so the program does not stop to wait. The `50` millisecond interval is an example; choose and check a suitable interval for the switch and the response the project needs.
+
+```cpp
+const byte buttonPin = 2;
+const byte ledPin = LED_BUILTIN;
+const unsigned long debounceInterval = 50;
+
+bool stableButtonState = HIGH;
+bool lastReading = HIGH;
+unsigned long lastChangeTime = 0;
+
+void setup() {
+  pinMode(buttonPin, INPUT_PULLUP);
+  pinMode(ledPin, OUTPUT);
+}
+
+void loop() {
+  const bool reading = digitalRead(buttonPin);
+
+  if (reading != lastReading) {
+    lastChangeTime = millis();
+    lastReading = reading;
+  }
+
+  if (millis() - lastChangeTime >= debounceInterval) {
+    stableButtonState = reading;
+  }
+
+  digitalWrite(ledPin, stableButtonState == LOW ? HIGH : LOW);
+}
+```
+
+The sketch assumes a momentary button wired between the input and GND with `INPUT_PULLUP`, and a board with a built-in LED. The LED follows the debounced button state. A more complex program can act on a change from the previous stable state to detect one press or release event.
 
 ## Check the board’s limits
 
@@ -35,7 +78,7 @@ Keep input voltages within the limits for the exact board. Do not connect a pin 
 
 ## Further reading
 
-- Arduino’s [INPUT, INPUT_PULLUP and OUTPUT reference](https://docs.arduino.cc/language-reference/en/variables/constants/inputOutputPullup/) explains floating inputs and pull-up behaviour.
+- Arduino’s [INPUT, INPUT_PULLUP and OUTPUT reference](https://docs.arduino.cc/language-reference/en/variables/constants/inputOutputPullup/) explains floating inputs, pull-up behaviour and the opposite readings of pull-up and pull-down circuits. Its internal-pull-up examples focus on particular Arduino hardware; confirm the selected board’s support and limits.
 - Arduino’s [button wiring example](https://docs.arduino.cc/built-in-examples/digital/InputPullupSerial/) and [pushbutton debounce example](https://docs.arduino.cc/built-in-examples/digital/Debounce/) show related circuits and code.
 - Iain Sharp, [Electronics for Artists, Part 2](https://lushprojects.com/electronicsforartists/electronicsforartistsp2.pdf) (revision 2.2, 2019), demonstrates a classic Uno input using an external pull-down resistor. It is useful as an alternate topology, not as a universal pin or voltage specification; check the selected board and exact wiring. The course notes are CC BY-NC-SA 3.0 Unported; do not copy its figures or wording without meeting the licence terms.
 
