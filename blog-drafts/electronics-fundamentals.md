@@ -69,7 +69,7 @@ The related two-day [Electronics for Artists](https://lushprojects.com/electroni
 
 ## Sources and visuals
 
-- [Electronics Tutorials](https://www.electronics-tutorials.ws/) is a broad secondary tutorial index covering DC circuits, resistors, capacitors, diodes, transistors, logic, op-amps and more. Use it to find topics or an alternative explanation, not as the sole authority for technical claims; verify the specific lesson against current primary documentation and check permissions before reusing text or diagrams.
+- The [curated Electronics Tutorials source index](../Source%20Documents/Electronics-Tutorials-index.md) maps selected secondary lessons to the project drafts and records known limits. Use the site to find topics or alternate explanations, not as an authority for circuit values, safety or component claims; verify against current primary documentation and check permissions before reusing text or diagrams.
 - Check the actual battery, meter, and component datasheets used in the example.
 - Check prefix symbols against the [BIPM SI prefix table](https://www.bipm.org/en/measurement-units/si-prefixes).
 - element14 Community, [Voltage References](https://community.element14.com/learn/learning-center/essentials/w/documents/4151/voltage-references). Broad introduction to reference types, specifications and applications, with a 15-question quiz. Treat Maxim device examples and numerical details as historical; verify current device claims and calculations against manufacturer sources. Texas Instruments, [Voltage Reference Selection Basics](https://www.ti.com/lit/an/snva602/snva602.pdf), introduces the role of initial accuracy, temperature coefficient, line regulation and load regulation in an error budget.

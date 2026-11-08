@@ -21,7 +21,7 @@ This is the durable working context for the Scouts Electronics Activity Badge pr
 ## 2026-11-08 — Electronics Tutorials site assessed as a reference index
 
 - **Source assessment:** Electronics Tutorials is a broad catalogue covering DC and AC circuits, components, analogue and digital electronics, power topics and online tools. The homepage is a topic index rather than a specific technical lesson.
-- **Project outcome:** Added it to the electronics-fundamentals draft as a discovery and alternate-explanation resource only. For any selected lesson, verify the technical content against current primary sources and check reuse rights before adapting text or diagrams.
+- **Project outcome:** The user asked to map useful tutorials to project topics. Added a curated source index in [Source Documents](Source%20Documents/Electronics-Tutorials-index.md) and linked it from the fundamentals draft. The tutorials are secondary sources; the index records relevant draft mappings and cautions against copying simplified claims or using the site for current ratings, UK safety requirements or standards.
 
 ## 2026-11-08 — Relay technologies module assessed
 
