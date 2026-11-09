@@ -27,6 +27,34 @@ This is a UK-centric project. Use UK Scout requirements and UK safety, legal, re
 
 When recommending websites to buy electronic parts or kits, consider [Pimoroni](https://shop.pimoroni.com/), [The Pi Hut](https://thepihut.com/), and [Kitronik](https://kitronik.co.uk/) when they stock a suitable item. Kitronik is a suggested UK source for educational electronics kits and project parts. Philip also recommends [SparkFun](https://www.sparkfun.com/), a US-based supplier; label it as an overseas option, not a UK supplier, and remind UK buyers to check delivery and any additional charges. Check that any specific part matches the project requirements before linking to it; keep manufacturer datasheets and other technical references separate from sales links.
 
+## DokuWiki import layout
+
+Use these repository-relative roots for a DokuWiki import mirror:
+
+- Page files: `pages/sites/scouts-electronics-badge/`
+- Media files: `media/sites/scouts-electronics-badge/`
+- Root namespace: `sites:scouts-electronics-badge`
+
+Keep page and media directories parallel to their namespace paths. Use UTF-8 `.txt` page files, lowercase kebab-case page IDs, and a `start.txt` landing page in every namespace directory. The root `start.txt` is the project landing page; child namespaces have their own `start.txt` files.
+
+| Repository content | DokuWiki destination |
+| --- | --- |
+| `README.md` | `sites:scouts-electronics-badge:start` |
+| `Scouts Electronics Activity Badge Booklet.md` | `sites:scouts-electronics-badge:booklet` |
+| `Leaders Guide.md` | `sites:scouts-electronics-badge:leaders-guide` |
+| `blog-drafts/README.md` | `sites:scouts-electronics-badge:blog:start` |
+| `blog-drafts/*.md` | `sites:scouts-electronics-badge:blog:<page-id>` |
+| `Source Documents/*.md` review and index notes | `sites:scouts-electronics-badge:sources:<page-id>`; add `sources/start.txt` when importing this namespace |
+| `scouts-electronics-activity-badge-booklet-assets/` | Root-namespace media under `media/sites/scouts-electronics-badge/`, subject to the image and licensing rules above |
+| Selected material from `eWoggle/` | Curated pages under `sites:scouts-electronics-badge:woggle`; add `woggle/start.txt` when importing this namespace. Original PDFs remain repository references unless cleared as DokuWiki attachments under `media/sites/scouts-electronics-badge/woggle/references/` |
+| Selected Woggle illustrations | `media/sites/scouts-electronics-badge/woggle/`, subject to the image and licensing rules above |
+
+Repository administration files (`AGENTS.md`, `TODO.md`, `memories.md`, and Git metadata), KiCad design/source files, and original source documents are not DokuWiki pages by default. Do not copy whole source or design directories into media. Select individual reference attachments only when they are useful, readable, and permitted for the intended use; keep their source and licence information traceable.
+
+Use fully qualified DokuWiki namespace IDs for internal links, for example `[[sites:scouts-electronics-badge:booklet|Badge booklet]]`; use fully qualified media IDs for media references, for example `{{sites:scouts-electronics-badge:diagram.png|Circuit diagram}}`. Use DokuWiki core syntax for links, media, headings, lists, tables, and code. Do not rely on Markdown rendering or plugin syntax, including metadata macros, unless the target DokuWiki installation is confirmed to have the required plugin enabled. No project page-metadata convention was found in the existing documentation: do not add front matter or invent plugin metadata. Use a leading core-syntax heading for the visible page title and keep source, attribution, and licence details in the page body. Confirm any configuration-dependent title behaviour on the target instance.
+
+The repository documents remain the canonical editable source while an import is being prepared. Do not replace or edit them through DokuWiki until the imported pages, namespace IDs, media, and internal links have been checked in the target instance and the project has explicitly switched its editing workflow.
+
 ## TODO workflow
 
 At the start of project work, review `TODO.md` and `memories.md`. Address relevant TODOs where practical. Keep task descriptions concise, update them when scope or dependencies change, and mark work complete only after verification. `TODO.md` is the project’s action index.

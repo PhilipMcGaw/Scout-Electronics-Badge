@@ -1,5 +1,11 @@
 # Project memories
 
+## 2026-11-09 — DokuWiki import layout agreed
+
+- **Decision:** Use `pages/sites/scouts-electronics-badge/` and `media/sites/scouts-electronics-badge/`, under namespace `sites:scouts-electronics-badge`, for a future DokuWiki import mirror. Map the booklet, Leader’s Guide, blog drafts, source review notes, and selected Woggle material as specified in [AGENTS.md](AGENTS.md).
+- **Workflow:** No page-metadata convention exists in the current documentation. Use core DokuWiki syntax and fully qualified namespace IDs; verify optional plugins in the target instance before relying on them. Keep repository files canonical until imported pages and links have been checked.
+- **Follow-up:** The import and target-instance checks are tracked in [TODO.md](TODO.md).
+
 ## 2026-11-08 — Three-capacitor decoupling rule assessed
 
 - **Source assessment:** Eric Bogatin, Larry Smith and Steve Sandler’s 2020 Signal Integrity Journal article, [“The Myth of Three Capacitor Values”](https://www.signalintegrityjournal.com/articles/1589-the-myth-of-three-capacitor-values), argues that the traditional decade-spaced capacitor recipe grew from older leaded-part assumptions and is not automatically appropriate for modern MLCC designs. It also discusses parallel resonances and the need to consider the full power distribution network.
