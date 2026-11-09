@@ -1,0 +1,68 @@
+====== Electronics badge ======
+
+How to earn your badge:
+
+  * Identify a number of common electronic components that are shown to you.
+    * Explain, in simple terms, the functions they perform in electronic circuits.
+  * Describe the systems used for marking components with their values
+    * Demonstrate by identifying the values of resistors and capacitors by their markings. Explain the importance of the rating of a component.
+  * Show that you know the symbols used to represent common components in circuit diagrams.
+    * Show how to identify the polarity of a diode and a specific PIN on an integrated circuit.
+  * Show that you’re aware of the safe working practices to be followed when handling electronic components, circuit boards and when soldering.
+  * Use a multimeter to measure voltage, current and resistance in a simple circuit.
+    * Explain the relationship between these values.
+  * Talk about the main differences in the operation of digital and analogue circuits.
+  * Construct three simple circuits.
+    * One of these should be based mainly on digital electronics. They can be from a book or magazine, or you can design the circuits yourself. If possible, at least one of the circuits should be soldered using either stripboard or a custom-made printed circuit board.
+  * Explain the principles behind the operation of each circuit and the typical values of voltage and current found in each.
+  * Explain the possible uses of the three circuits you built.
+  * Talk about the uses and benefits of electronics in everyday life.
+    * Explain how electronics can be used to improve lives.
+
+^ Number ^ Title ^ 1 ^ 2 ^ 3 ^ 4 ^ 5 ^ 6 ^ 7 ^ 8 ^ 9 ^ 10 ^
+| 1. | Learn about resistors https://www.scouts.org.uk/activities/learn-about-resistors/ |  | 2 |  |  |  |  |  |  |  |  |
+| 2. | Ready https://www.scouts.org.uk/activities/ready-steady-solder/ |  |  |  | 4 |  |  |  |  |  |  |
+| 3. | Multimeter multi-you https://www.scouts.org.uk/activities/multimeter-multi-you/ |  |  |  |  | 5 |  |  |  |  |  |
+| 4. | Thinking logically https://www.scouts.org.uk/activities/thinking-logically/ |  |  |  |  |  | 6 |  |  |  |  |
+| 5. | Brush bugs https://www.scouts.org.uk/activities/brush-bugs/ / https://kitronik.co.uk/blogs/resources/iet-scout-brush-bug |  |  |  |  |  |  | 7 | 8 | 9 |  |
+| 6. | Fruit and Vegetable Power Challenge https://www.scouts.org.uk/activities/fruit-and-vegetable-power-challenge/ |  |  |  |  |  |  | 7 |  |  |  |
+| 7. | LEDs Celebrate https://www.scouts.org.uk/activities/leds-celebrate/ |  |  |  |  |  |  | 7 | 8 | 9 |  |
+| 8. | Make an electric car https://www.scouts.org.uk/activities/make-an-electric-car/ |  |  |  |  |  |  | 7 |  |  |  |
+| 9. | Making rainbows https://www.scouts.org.uk/activities/making-rainbows/ |  |  |  |  |  |  | 7 | 8 | 9 |  |
+| 10. | Power a lightbulb using potato energy https://www.scouts.org.uk/activities/power-a-lightbulb-using-potato-energy/ |  |  |  |  |  |  |  |  |  | 10 |
+
+  * https://kitronik.co.uk/blogs/resources/scout-electronics-badge-resources
+  * https://www.scouting.org/merit-badges/electronics/
+  * https://cobargoscouts.org.au/jota-joti-electronics.html
+
+
+
+  * Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices.
+  * Do the following:
+    * Draw a simple schematic diagram. It must show resistors, capacitors, and transistors or integrated circuits. Use the correct symbols. Label all parts.
+    * Tell the purpose of each part.
+  * Do the following:
+    * Show the right way to solder and desolder.
+    * Show how to avoid heat damage to electronic components.
+    * Tell about the function of a printed circuit board. Tell what precautions should be observed when soldering printed circuit boards.
+  * Do the following:
+    * Discuss each of the following with your counselor:
+      * How to use electronics for a control purpose.
+      * Explain the basic principles of digital logic.
+      * How to use electronics for three different analog applications.
+    * Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers.
+    * Choose ONE of the following THREE projects. For your project, find or create a schematic diagram. To the best of your ability, explain to your counselor how the circuit you built operates.
+      * A control device
+      * A digital circuit
+      * An analog circuit.
+  * Do the following:
+    * Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law
+    * Tell about the need for and the use of test equipment in electronics. Name three types of test equipment. Tell how they operate.
+    * Demonstrate to your counsellor how to read the colored bands of a resistor to determine its resistance value.
+    * Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages of each.
+  * Identify three career opportunities that would use skills and knowledge in Electronics. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
+
+
+
+
+  https://docs.franzininho.com.br/docs/franzininho-diy/sobre#projeto-open-hardware

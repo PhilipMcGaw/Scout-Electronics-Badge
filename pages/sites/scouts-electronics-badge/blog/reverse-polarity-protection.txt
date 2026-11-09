@@ -1,0 +1,42 @@
+====== Reverse-polarity protection with a P-channel MOSFET ======
+
+===== Working title =====
+
+Protecting a low-voltage circuit from a reversed supply
+
+===== Audience and scope =====
+
+An adult-audience blog post introducing reverse-polarity protection in a low-voltage DC circuit. It should explain the idea and the trade-offs, not present a universal circuit for copying. Keep mains electricity out of scope.
+
+===== Draft =====
+
+If a battery or DC supply is connected the wrong way round, current may flow through parts that were not designed for it. A reverse-polarity protection circuit is placed at the power input to reduce the chance of damage.
+
+The simplest option is a series diode. It blocks current when the supply is reversed, but it also drops some voltage and dissipates power during normal use. A correctly chosen MOSFET can have a much smaller voltage drop when it is on, though the circuit and component checks are more involved.
+
+==== How the P-channel MOSFET arrangement works ====
+
+A P-channel MOSFET can be used as a switch in the positive supply rail. With the supply connected correctly, the gate is pulled to a lower voltage than the source, making the MOSFET conduct. If the supply is reversed, the gate and source move to the same polarity and the MOSFET should remain off. The MOSFET’s built-in body diode is part of this explanation: its direction must be checked in the actual circuit, because the diode conducts one way even when the MOSFET channel is off.
+
+Some circuits add a Zener diode between gate and source. It limits the gate-to-source voltage, which must stay within the MOSFET’s absolute maximum rating. The resistor and Zener values depend on the supply range and the specific components; there is no universal 100 Ω or 6.8 V recipe.
+
+==== What to check before choosing parts ====
+
+* Check the pinout and body-diode direction in the exact MOSFET datasheet. Similar-looking packages can have different pin arrangements.
+* Check the MOSFET’s maximum drain-to-source voltage and gate-to-source voltage, including the possible supply and transient voltages.
+* Use the on-resistance specified at the gate-to-source voltage the circuit will actually provide. A low threshold voltage alone does not mean the MOSFET is fully on.
+* Estimate conduction loss using the load current and on-resistance, then check the package, circuit board and cooling conditions. A high headline drain-current rating does not guarantee that the device can carry that current in the intended layout.
+* Check that the gate clamp and its resistor are suitable for the full operating range and fault conditions.
+* Consider what happens with multiple supplies, a charged output capacitor, or current flowing back from the load. A basic reverse-battery circuit may not block reverse current in every such condition.
+
+For example, if a MOSFET has an on-resistance of 50 mΩ at the gate drive in use and the load draws 1 A, the approximate channel drop is 50 mV and the dissipation is 50 mW. These are illustrative calculations only; the actual resistance rises with temperature and the complete design still needs checking against the datasheet.
+
+==== Limits ====
+
+Reverse-polarity protection is not overcurrent protection, overvoltage protection, or a guarantee against every wiring mistake. Automotive systems and other demanding environments also face voltage transients that need their own design and validation. Use a published reference design or obtain qualified review when the consequences of failure are significant.
+
+===== Editorial and source notes =====
+
+* Components101, [[https://components101.com/articles/design-guide-pmos-mosfet-for-reverse-voltage-polarity-protection|“Design Guide - PMOS MOSFET for Reverse Voltage Polarity Protection Circuit”]], published 2020-05-28. Useful as a topic introduction. Do not copy its circuit image, simulation, component list, or specific suggested resistor values without independent checking and permission where needed.
+* onsemi, [[https://www.onsemi.com/download/application-notes/pdf/and90146-d.pdf|AND90146/D, “MOSFET Selection for Reverse Polarity Protection”]], July 2023 revision. Manufacturer application note used to cross-check diode/MOSFET behaviour and the need to check ratings and thermal conditions. Its automotive examples are not a substitute for a design checked for this project’s intended application.
+* Keep this as general adult-facing guidance unless a specific circuit and its exact parts are selected for review.

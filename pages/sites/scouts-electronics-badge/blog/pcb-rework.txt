@@ -1,0 +1,40 @@
+====== PCB rework: prototype track errors and solder-joint repairs ======
+
+**Status:** Outline started; advanced article for adult electronics makers, not part of the Scouts booklet.
+
+**Purpose:** Explain selected prototype-board repairs, their limits, and the checks needed before a repaired board is tested.
+
+===== Planned outline =====
+
+- Distinguish a temporary prototype repair from correcting the KiCad design and ordering a revised board.
+- Identify the intended connection from the schematic and layout before modifying copper.
+- Isolate an incorrectly routed track and check the cut with a continuity tester or multimeter.
+- Add and route a suitable jumper wire; consider enamelled copper wire and preparation of its ends.
+- Record Philip’s reported use of a small scalpel or drill bit, selected for track width, and his practice of securing the jumper wire flat with superglue to reduce snagging.
+- Review solder-joint faults: too little solder, excess solder and bridges, disturbed joints, and cold joints.
+- Inspect the repair, check intended continuity and unwanted shorts, and decide whether the prototype is safe to power.
+
+===== Philip’s reported method and preferences =====
+
+* Selects a small scalpel or drill bit according to the width of the track to cut, then checks continuity with a multimeter.
+* Uses superglue to hold the jumper wire close to the board and reduce the chance of it catching.
+* For solder joints, uses solder braid to remove excess SMD solder; adds flux and reheats disturbed joints; reheats the lead and pad together for a cold joint.
+
+Check the adhesive’s suitability before recommending it generally. For enamelled wire, verify the specific insulation-removal method and ventilation requirements; do not present open-flame stripping as a general instruction. Keep the repair and all tools away from powered circuits.
+
+===== Six-question knowledge check (working notes) =====
+
+- **Too little solder:** the intended answer is a poor mechanical and electrical connection.
+- **Incorrectly routed PCB track:** an enamelled-copper jumper can be a quick prototype repair, but first isolate the unwanted track and check for shorts.
+- **Excess solder on an SMD joint:** remove the excess with solder braid.
+- **Disturbed solder joint:** add flux and reheat the joint so the solder can reflow.
+- **Cold solder joint:** reheat the component lead and PCB pad together so the solder can flow over both.
+- **Too much solder between leads:** it can bridge connections and cause a short.
+
+Rewrite the quiz in the article’s own wording. Use an original or properly licensed illustration; do not reuse the supplied third-party quiz photographs without permission.
+
+===== Checks before publication =====
+
+* Verify wire, adhesive, solder, and tool guidance against the relevant manufacturers’ instructions and safety data.
+* Make clear that a jumper does not correct the design; update the design and order a new board before production.
+* Check for continuity where intended and shorts where not intended before applying power.

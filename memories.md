@@ -1,16 +1,16 @@
 # Project memories
 
-## 2026-11-09 — DokuWiki import layout agreed
+## 2026-11-09 — Canonical pages moved to DokuWiki layout
 
-- **Decision:** Use `pages/sites/scouts-electronics-badge/` and `media/sites/scouts-electronics-badge/`, under namespace `sites:scouts-electronics-badge`, for a future DokuWiki import mirror. Map the booklet, Leader’s Guide, blog drafts, source review notes, and selected Woggle material as specified in [AGENTS.md](AGENTS.md).
-- **Workflow:** No page-metadata convention exists in the current documentation. Use core DokuWiki syntax and fully qualified namespace IDs; verify optional plugins in the target instance before relying on them. Keep repository files canonical until imported pages and links have been checked.
-- **Follow-up:** The import and target-instance checks are tracked in [TODO.md](TODO.md).
+- **User decision:** Move the canonical booklet, Leaders’ Guide, blog drafts, source reviews, project landing page, and booklet images into the DokuWiki page and media paths under `pages/sites/scouts-electronics-badge/` and `media/sites/scouts-electronics-badge/`. Convert page content to core DokuWiki syntax and use fully qualified namespace IDs.
+- **Workflow:** Source-controlled `.txt` pages are now canonical. The live DokuWiki instance still needs page, namespace, media, and link verification before its pages become an editing surface. No page-metadata convention is established; do not invent plugin metadata.
+- **Follow-up:** Target-instance verification is tracked in [TODO.md](TODO.md).
 
 ## 2026-11-08 — Three-capacitor decoupling rule assessed
 
 - **Source assessment:** Eric Bogatin, Larry Smith and Steve Sandler’s 2020 Signal Integrity Journal article, [“The Myth of Three Capacitor Values”](https://www.signalintegrityjournal.com/articles/1589-the-myth-of-three-capacitor-values), argues that the traditional decade-spaced capacitor recipe grew from older leaded-part assumptions and is not automatically appropriate for modern MLCC designs. It also discusses parallel resonances and the need to consider the full power distribution network.
 - **Technical context:** The article is specialist and model-dependent. Do not generalise its preferred combinations or imply that decoupling capacitors can be removed. Specific IC datasheets and layout guides take precedence; placement, loop inductance, regulator stability and effective MLCC capacitance under DC bias all matter.
-- **Project outcome:** Added a first draft in [blog-drafts/decoupling-capacitors.md](blog-drafts/decoupling-capacitors.md). Technical review against exact device documentation remains in [TODO.md](TODO.md).
+- **Project outcome:** Added a first draft in [decoupling capacitors draft](pages/sites/scouts-electronics-badge/blog/decoupling-capacitors.txt). Technical review against exact device documentation remains in [TODO.md](TODO.md).
 
 This is the durable working context for the Scouts Electronics Activity Badge project. It records useful decisions and preferences across conversations; it is not a transcript or a task list. Current actions are tracked in [TODO.md](TODO.md).
 
@@ -33,7 +33,7 @@ This is the durable working context for the Scouts Electronics Activity Badge pr
 ## 2026-11-08 — Electronics Tutorials site assessed as a reference index
 
 - **Source assessment:** Electronics Tutorials is a broad catalogue covering DC and AC circuits, components, analogue and digital electronics, power topics and online tools. The homepage is a topic index rather than a specific technical lesson.
-- **Project outcome:** The user asked to map useful tutorials to project topics. Added a curated source index in [Source Documents](Source%20Documents/Electronics-Tutorials-index.md) and linked it from the fundamentals draft. The tutorials are secondary sources; the index records relevant draft mappings and cautions against copying simplified claims or using the site for current ratings, UK safety requirements or standards.
+- **Project outcome:** The user asked to map useful tutorials to project topics. Added a curated source index in [Source Documents](pages/sites/scouts-electronics-badge/sources/electronics-tutorials-index.txt) and linked it from the fundamentals draft. The tutorials are secondary sources; the index records relevant draft mappings and cautions against copying simplified claims or using the site for current ratings, UK safety requirements or standards.
 
 ## 2026-11-08 — Relay technologies module assessed
 
@@ -262,13 +262,13 @@ This is the durable working context for the Scouts Electronics Activity Badge pr
 ## 2026-11-06 — Converted *Electronics For Dummies* reviewed
 
 - **Repository fact checked:** The converted 433-page copy is readable; the earlier statement that *Electronics for Dummies.pdf* was encrypted refers to the original copy and does not apply to the converted PDF.
-- **Source assessment:** The 2005 US-oriented book mostly overlaps with the existing booklet. Its breadboard chapter usefully explains internal contact groups and prototyping before soldering. The Scout booklet and Leaders’ Guide now include concise, UK-appropriate breadboard notes, and the blog index includes a possible breadboard-prototyping post. The separate review records scope and cautions: [Electronics For Dummies review](Source%20Documents/Electronics-for-Dummies-review.md).
+- **Source assessment:** The 2005 US-oriented book mostly overlaps with the existing booklet. Its breadboard chapter usefully explains internal contact groups and prototyping before soldering. The Scout booklet and Leaders’ Guide now include concise, UK-appropriate breadboard notes, and the blog index includes a possible breadboard-prototyping post. The separate review records scope and cautions: [Electronics For Dummies review](pages/sites/scouts-electronics-badge/sources/electronics-for-dummies-review.txt).
 - **Open action:** Verify layouts and ratings against a specific breadboard and circuit before developing the standalone article; see [TODO.md](TODO.md).
 - **User-reported decision:** The converted source PDF is not needed in the repository; it was removed on 2026-11-07. The review note and project drafts retain the useful breadboard findings and source assessment.
 
 ## 2026-11-07 — 2021 course handouts assessed
 
-- **Source assessment:** The five course handouts’ useful points are carried in the fundamentals, resistor, and battery drafts. The parts list matches the saved summary but has US-oriented sales links and no circuit diagram; do not reuse its imagery without checking rights. The DMM sheet names models without specifications, so check current manuals and UK suitability before making recommendations. See the [review note](Source%20Documents/Electronics-Foundations-Fundamentals-2021-review.md) and [TODO.md](TODO.md).
+- **Source assessment:** The five course handouts’ useful points are carried in the fundamentals, resistor, and battery drafts. The parts list matches the saved summary but has US-oriented sales links and no circuit diagram; do not reuse its imagery without checking rights. The DMM sheet names models without specifications, so check current manuals and UK suitability before making recommendations. See the [review note](pages/sites/scouts-electronics-badge/sources/electronics-foundations-fundamentals-2021-review.txt) and [TODO.md](TODO.md).
 - **User-reported decision:** The user reviewed the DMM list PDF and said it does not need to be retained. The file was removed; its model names and lack of specifications remain in the source review note. The separate current-manual check remains open.
 - **Follow-up decision:** The user said the whole course folder could be removed if its files were no longer needed. After confirming the useful content and open checks are recorded in project notes, all remaining course PDFs were removed; the review note retains their summaries.
 
@@ -276,7 +276,7 @@ This is the durable working context for the Scouts Electronics Activity Badge pr
 
 ### Project, audience, and structure
 
-- **Project fact:** This repository develops the Scouts Electronics Activity Badge booklet and supporting learning resources. The main booklet is [Scouts Electronics Activity Badge Booklet.md](Scouts%20Electronics%20Activity%20Badge%20Booklet.md); print instructions from the original booklet were to be ignored during conversion.
+- **Project fact:** This repository develops the Scouts Electronics Activity Badge booklet and supporting learning resources. The main booklet is [Scouts Electronics Activity Badge Booklet](pages/sites/scouts-electronics-badge/booklet.txt); print instructions from the original booklet were to be ignored during conversion.
 - **Audience decision:** Write the main booklet for Scouts and Explorers aged 10–16, with an adult Leader supporting activities. Keep the explanations practical and age-appropriate. A separate Leaders’ Guide can hold leader-facing safety controls and advanced material.
 - **Scope decision:** Keep the main practical work low-voltage and through-hole, using the Woggle PCB with LEDs and a small DIP-8 microcontroller. Surface-mount soldering and PCB rework are optional advanced reading for a blog post or annex, not core Woggle activities. Exclude mains wiring instruction.
 - **Regional context:** This is a UK-centric project. US or other territory material can use different standards, symbols, safety rules, suppliers, and terminology; verify it against current UK sources before adopting it. Use ISO/IEC schematic symbols as the default, with only a brief note that ANSI-style symbols also exist.
@@ -308,18 +308,18 @@ These are Philip’s statements about his own equipment and methods, not univers
 - **ECAD and boards:** Philip uses KiCad. Eagle is deprecated and Autodesk has moved it into Fusion 360; KiCad is preferred for usability, and KiCad can open Eagle files. PCBWay is the PCB manufacturer Philip uses. The Woggle tutorial should cover KiCad setup, changing the group name, producing a BOM, selecting components, and sending the board files to PCBWay.
 - **Parts suppliers:** Prefer Pimoroni and The Pi Hut where suitable; Kitronik is a suggested UK supplier for educational kits and electronics parts. SparkFun may be recommended with a clear label that it is US-based and overseas delivery charges may apply.
 - **Simulation and articles:** Philip commonly embeds Falstad Circuit Simulator in blog posts using an iframe. Self-hosting its JavaScript or making a WordPress plugin is a possible future project, not an implemented feature.
-- **Blog workflow:** Keep one Markdown file per planned post in `blog-drafts/`. Blog posts can provide more detail than the booklet. WordPress access is expected to be available later from another computer; see [TODO.md](TODO.md) for the queued updates and broken-page diagnosis.
+- **Blog workflow:** Keep one Markdown file per planned post in `pages/sites/scouts-electronics-badge/blog/`. Blog posts can provide more detail than the booklet. WordPress access is expected to be available later from another computer; see [TODO.md](TODO.md) for the queued updates and broken-page diagnosis.
 
 ### Source material and provenance
 
 - Treat course transcripts, PDFs, product pages, and supplied images as source material, not as automatically correct local guidance. Preserve attribution and verify safety, electrical values, and regional applicability before publication.
-- The reviewed course-exercise PDFs contained useful SI-prefix, DMM, LED-current-limit, and battery-sizing material. The battery challenge’s figures are teaching examples without manufacturer, model, or test-condition basis; do not present their capacities or runtime calculations as guarantees. The exercise describes a motor, despite transcript headings that called it a light bulb. All course PDFs were removed after review; the [course materials review](Source%20Documents/Electronics-Foundations-Fundamentals-2021-review.md) and related drafts retain needed details.
+- The reviewed course-exercise PDFs contained useful SI-prefix, DMM, LED-current-limit, and battery-sizing material. The battery challenge’s figures are teaching examples without manufacturer, model, or test-condition basis; do not present their capacities or runtime calculations as guarantees. The exercise describes a motor, despite transcript headings that called it a light bulb. All course PDFs were removed after review; the [course materials review](pages/sites/scouts-electronics-badge/sources/electronics-foundations-fundamentals-2021-review.txt) and related drafts retain needed details.
 - Some source-course material was US-oriented. Its DMM models, suppliers, power-source examples, and safety claims need current UK checks before use. The course parts-list PDF was visually checked against the item summary in the fundamentals draft; its shop links were US-oriented and it showed no circuit connections. The DMM models still need current manual checks before any recommendation. See TODO.md.
 - `Electronics for Dummies.pdf` was encrypted and could not be reviewed; Philip said he may revisit it later.
-- Useful existing web articles include [learn about resistors](https://philipmcgaw.com/learn-about-resistors/), [capacitors](https://philipmcgaw.com/capacitors/), [LED resistor values](https://philipmcgaw.com/led-resistors-values/), [Ohm’s and Watt’s laws](https://philipmcgaw.com/ohms-law-and-watts-law/), [capacitor value prefixes](https://philipmcgaw.com/capacitor-value-prefixes/), and [special symbols in engineering reports](https://philipmcgaw.com/special-symbols-used-in-engineering-reports/). Related revisions and other article ideas are tracked in `TODO.md` and `blog-drafts/`.
+- Useful existing web articles include [learn about resistors](https://philipmcgaw.com/learn-about-resistors/), [capacitors](https://philipmcgaw.com/capacitors/), [LED resistor values](https://philipmcgaw.com/led-resistors-values/), [Ohm’s and Watt’s laws](https://philipmcgaw.com/ohms-law-and-watts-law/), [capacitor value prefixes](https://philipmcgaw.com/capacitor-value-prefixes/), and [special symbols in engineering reports](https://philipmcgaw.com/special-symbols-used-in-engineering-reports/). Related revisions and other article ideas are tracked in `TODO.md` and `pages/sites/scouts-electronics-badge/blog/`.
 
 ### Current project state
 
 - **Repository fact checked 2026-11-06:** `TODO.md` is the action index. It includes the Leaders’ Guide, illustration, blog planning and drafting, WordPress updates, KiCad/PCBWay walkthrough, Charlieplexing visual, silkscreen post, and advanced PCB rework post. Check it for current status instead of relying on this memory entry.
-- **Source notes:** PDF review notes are stored under `Source Documents/`. Their conclusions and open checks belong to those notes; consult the relevant source note before reusing detailed findings.
+- **Source notes:** PDF review notes are stored under `pages/sites/scouts-electronics-badge/sources/`. Their conclusions and open checks belong to those notes; consult the relevant source note before reusing detailed findings.
 - **Git:** Project changes are expected to be committed and pushed to the repository’s `main` branch. Follow the Git workflow in `AGENTS.md`, stage only task-related files, and preserve unrelated changes.
