@@ -1,5 +1,9 @@
 # Project memories
 
+## 2026-11-09 — Descriptive media filenames
+
+- **User preference:** Give project images descriptive lowercase kebab-case filenames and keep DokuWiki media references aligned with file renames.
+
 ## 2026-11-09 — Canonical pages moved to DokuWiki layout
 
 - **User decision:** Move the canonical booklet, Leaders’ Guide, blog drafts, source reviews, project landing page, and booklet images into the DokuWiki page and media paths under `pages/sites/scouts-electronics-badge/` and `media/sites/scouts-electronics-badge/`. Convert page content to core DokuWiki syntax and use fully qualified namespace IDs.

@@ -34,19 +34,19 @@ The basic tools you will need for most of your electronics work are shown here. 
 
 Some Basic Tools
 
-{{sites:scouts-electronics-badge:image1.jpeg|Precision Diagonal Cutters by The Pi Hut - The Pi Hut}}
+{{sites:scouts-electronics-badge:precision-diagonal-cutters.jpeg|Precision Diagonal Cutters by The Pi Hut - The Pi Hut}}
 
 [[https://thepihut.com/products/precision-diagonal-cutters|https://thepihut.com/products/precision-diagonal-cutters]]
 
-{{sites:scouts-electronics-badge:image2.jpeg|38 In 1 Interchangeable precise tool set by Seeed - The Pi Hut}}https://thepihut.com/products/38-in-1-interchangeable-precise-tool-set
+{{sites:scouts-electronics-badge:precision-screwdriver-bit-set.jpeg|38 In 1 Interchangeable precise tool set by Seeed - The Pi Hut}}https://thepihut.com/products/38-in-1-interchangeable-precise-tool-set
 
 [[https://amzn.to/4a0yyuT|https://amzn.to/4a0yyuT]]
 
-{{sites:scouts-electronics-badge:image4.jpeg|Multifunction Wire Strippers by The Pi Hut - The Pi Hut}}
+{{sites:scouts-electronics-badge:wire-strippers.jpeg|Multifunction Wire Strippers by The Pi Hut - The Pi Hut}}
 
 https://thepihut.com/products/wire-strippers
 
-{{sites:scouts-electronics-badge:image5.jpeg|Digital Multimeter - Model 9205B+ by Adafruit - The Pi Hut}}
+{{sites:scouts-electronics-badge:digital-multimeter-dt-9205b-plus.jpeg|Digital Multimeter - Model 9205B+ by Adafruit - The Pi Hut}}
 
 [[https://thepihut.com/products/digital-multimeter-model-9205b|https://thepihut.com/products/digital-multimeter-model-9205b]]
 
@@ -1194,9 +1194,9 @@ The Woggle was designed in KiCad. It uses two AAA cells connected in series. Two
 
 The following graphical guide is by Mitch Altman, Andie Nordgren and Jeff Keyzer. And is available in other languages and to download at [[https://mightyohm.com/soldercomic|https://mightyohm.com/soldercomic]]
 
-{{sites:scouts-electronics-badge:image7.png}}
+{{sites:scouts-electronics-badge:soldering-is-easy-comic-cover.png}}
 
-{{sites:scouts-electronics-badge:image8.png}}{{sites:scouts-electronics-badge:image9.png}}{{sites:scouts-electronics-badge:image10.png}}{{sites:scouts-electronics-badge:image11.png}}{{sites:scouts-electronics-badge:image12.png}}{{sites:scouts-electronics-badge:image13.png}}{{sites:scouts-electronics-badge:image14.png}}
+{{sites:scouts-electronics-badge:soldering-tools-and-safety-comic.png}}{{sites:scouts-electronics-badge:soldering-circuit-board-basics.png}}{{sites:scouts-electronics-badge:soldering-through-hole-resistor.png}}{{sites:scouts-electronics-badge:soldering-joint-formation.png}}{{sites:scouts-electronics-badge:inspecting-and-correcting-solder-joints.png}}{{sites:scouts-electronics-badge:trimming-component-leads-safely.png}}{{sites:scouts-electronics-badge:soldering-tools-and-final-tips.png}}
 
 ===== Using this booklet =====
 
