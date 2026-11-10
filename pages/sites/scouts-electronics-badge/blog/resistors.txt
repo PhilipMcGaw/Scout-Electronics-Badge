@@ -6,7 +6,7 @@
 
 **Purpose:** Refresh the existing article with clearer explanations and a practical example that shows how resistor choice affects a real circuit.
 
-**New source material:** User-pasted transcripts “Challenge: Limit current to an LED” and “Solution: Limit current to an LED”, and a course exercise sheet summarised in the [[sites:scouts-electronics-badge:sources:electronics-foundations-fundamentals-2021-review|2021 course materials review]]. The original course PDFs have been removed from the repository after review.
+**New source material:** User-pasted transcripts “Challenge: Limit current to an LED” and “Solution: Limit current to an LED”, and course exercise sheets summarised in the [[sites:scouts-electronics-badge:sources:electronics-foundations-fundamentals-2021-review|2021 course materials review]] and [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-exercises-review|Basic Circuits exercise-files review]]. Treat listed values as examples, not component specifications; the original course PDFs have been removed after review.
 
 ===== Planned outline =====
 

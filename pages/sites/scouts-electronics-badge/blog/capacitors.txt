@@ -15,7 +15,7 @@
 - Use a Falstad simulation to explore how changing resistance or capacitance changes the timing.
 - Note practical limits: real components have tolerances and other non-ideal properties.
 
-Use the course’s teaching progression as a conceptual guide: first show that a capacitor charges and discharges over time through a resistor, then explain that a transistor can use the changing capacitor voltage to switch another part of the circuit. Derive any example circuit, values and operating limits independently; do not copy the course’s 9 V kit diagrams or body-contact/pencil-probe activities.
+Use the course’s teaching progression as a conceptual guide: first show that a capacitor charges and discharges over time through a resistor, then explain that a transistor can use the changing capacitor voltage to switch another part of the circuit. Derive any example circuit, values and operating limits independently; do not copy the course’s 9 V kit diagrams or body-contact/pencil-probe activities. The separate exercise-file review records the RC examples and their limitations: [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-exercises-review|Basic Circuits exercise-files review]].
 
 ===== Notes to carry forward =====
 

@@ -1,5 +1,68 @@
 # Project memories
 
+## 2026-11-10 — Resistor characteristics transcript assessed
+
+- **Source assessment:** Reviewed the user-pasted “Resistor characteristics” transcript. The booklet now covers tolerance, maximum working voltage, power derating, and finding the exact part datasheet. The source review corrects its carbon-film/carbon-composition conflation and flags its approximate resistance cutoff as unsuitable general guidance.
+
+## 2026-11-10 — Thermistor preference
+
+- **User-reported preference:** Philip uses thermistors more often than LDRs (photoresistors). In resistor teaching, distinguish temperature-responsive and light-responsive resistors from hand-adjusted potentiometers and rheostats; use thermistors as the preferred sensor example where appropriate.
+
+## 2026-11-10 — SMD resistor package preference
+
+- **User-reported workshop preference:** Philip normally uses 0805 SMD resistors. Treat 0805 as his usual package choice, not a project-wide requirement; check the PCB footprint, power rating, and availability for each design.
+
+## 2026-11-10 — Through-hole resistor power preference
+
+- **User-reported workshop preference:** Philip commonly uses ¼ W through-hole resistors because they are readily available. Treat this as a practical preference, not a default rating for every circuit; calculate dissipation and check the component rating and suitable margin.
+
+## 2026-11-10 — Fixed-value resistor terminology
+
+- **User preference:** Use “fixed-value resistor” rather than “static resistor” or the shorter “fixed resistor” in project teaching text.
+
+## 2026-11-10 — Resistor types transcript assessed
+
+- **Source assessment:** The user supplied the “Types of resistors” transcript from LinkedIn Learning’s *Electronics Foundations: Basic Circuits*. Useful coverage includes standard series for fixed-value resistors, through-hole versus surface-mount packages, power ratings, potentiometer/rheostat use, and LDR behaviour. The booklet now explains these with qualifications; see the course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]].
+
+## 2026-11-10 — Schematic knowledge-check item
+
+- **Project outcome:** Completed the four-question booklet breadboard check. The questions cover jumper terminology, schematics as graphical representations, solid-core wire for bare breadboard jumpers, and the difference between schematic and physical layout. Leader answers are included.
+
+
+## 2026-11-10 — Breadboard jumper knowledge check
+
+- **Project outcome:** Added a short booklet knowledge-check question distinguishing a jumper wire from a breadboard power bus, resistor, and power supply; the Leader answer identifies ‘jumper’ or ‘jumper wire’.
+
+
+## 2026-11-10 — Breadboard supply module assessment
+
+- **Source assessment:** Checked the user-suggested Pimoroni listing against the manufacturer’s WPM467 page and manual. The module accepts 5 V via USB-C or 7–12 V DC via barrel jack, supplies 3.3/5 V rails up to 500 mA, and fits MB-102-compatible 830-point breadboards. Pimoroni no longer stocks this model; the booklet identifies it as a technical example, not a purchase recommendation.
+
+## 2026-11-10 — Breadboard photo and supplier example
+
+- **Project outcome:** Added a Wikimedia Commons public-domain photo by Evan-Amos beside the booklet's solderless-breadboard guidance, with source/licence credit, and linked The Pi Hut's 400-point half-size breadboard as a supplier example. The image is embedded from Wikimedia Commons because network restrictions prevented a local download; confirm external-image loading in the target DokuWiki instance.
+
+
+## 2026-11-10 — Repository inbox folder
+
+- **User decision:** Add a repository-level `inbox/` for newly supplied project material awaiting review. Treat it as temporary intake, not a canonical DokuWiki or source-review location; move useful findings into the appropriate project page or source note and remove material when no longer needed.
+
+## 2026-11-10 — IEC schematic-symbol preference
+
+- **User preference:** Use IEC schematic symbols in project diagrams by default. ANSI/IEEE symbols may be explained as an alternate style when useful for recognising outside schematics. The user prefers resistor-value labels without the Ω symbol when context is clear, positive supply nodes pointing up, ground/0 V nodes pointing down, left-to-right signal flow, clear net names, and small jump-over bridges to mark non-joining crossings. When a board has physical layout requirements, note them on the schematic or an accompanying layout drawing instead of relying on schematic positions or line lengths. The booklet's schematic guidance reflects these preferences.
+
+## 2026-11-10 — 12 V maximum for Scout circuit supplies
+
+- **User decision:** Scout circuit activities must use battery or DC power-supply outputs no higher than 12 V. Check the maximum charged battery-pack output; the 12 V cap is a project limit, not a complete safety assessment. The user clarifies that the 50 V figure discussed in the course safety transcript refers to SELV context in BS 7671; SELV also has separation requirements, and the figure is not the Scout activity ceiling. See the booklet's [[pages/sites/scouts-electronics-badge/booklet.txt|Using this booklet]] safety scope and the course [[pages/sites/scouts-electronics-badge/sources/electronics-foundations-basic-circuits-review.txt|source review]].
+
+## 2026-11-10 — Basic Circuits exercise bundle reviewed
+
+- **Source assessment:** Reviewed the 2021 LinkedIn Learning exercise files and retained a topic map and editorial cautions in the [[pages/sites/scouts-electronics-badge/sources/electronics-foundations-basic-circuits-exercises-review.txt|source review]]. The bundle includes several resistor, sensor, RC, filter, and RL examples. The two analogue sketches assume a 5 V reference and 0–1023 ADC readings; one bridge challenge's light/dark conditions do not distinguish the states. A simple LDR potential-divider explanation was added to the booklet's light-sensitive alarm project; the supplied files were removed after review, and no course graphics or code were adopted.
+
+## 2026-11-10 — Basic Circuits course transcript assessed
+
+- **Source assessment:** Reviewed the user-pasted “Principles of basic electronic circuits”, “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, and “Build circuits on breadboards” transcripts and course description for Barron Stone’s LinkedIn Learning *Electronics Foundations: Basic Circuits*. They offer topic and teaching-sequence context for the fundamentals and breadboard drafts, but no verified circuit details in the supplied excerpts. The course expects basic algebra and logarithms; that is not a Scouts badge prerequisite. Its component and sinusoid claims need qualification; the 50 V statement has an SELV context and is not the Scout project's 12 V limit. “Filter surrogates” appears to be a transcription error. The course treats Arduino code as a circuit-interface demonstration, its parts list is not a current UK recommendation, and its breadboard layout and mains-adapter example are not universal Scout instructions. The schematic lesson prompted concise booklet clarifications on symbolic versus physical layout and reference designators. See the [[pages/sites/scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]].
+
 ## 2026-11-10 — Blog index ordered as a suggested reading path
 
 - **Project outcome:** Added an order column to the blog index, placing beginner fundamentals and the Woggle project first, followed by optional specialist topics. The numbers indicate suggested reading order, not publication priority.

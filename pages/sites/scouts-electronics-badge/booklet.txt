@@ -348,7 +348,7 @@ The longer the conductor, the higher the resistance will be. For instance, if th
 
 Size is important, too. A thick conductor will carry more current and offer less resistance than a thin one. Think again of water pipes. A large water pipe will allow more water to flow than a small one. When a current flows through a resistor, a component that limits or opposes the flow of a current, work is being done to move the electrons. This work produces heat and warms the resistor. Heat produced by an electric current is the basis for the operation of many electrical devices and appliances such as heaters, toasters, stoves, and soldering irons. In a lightbulb, an electrical current causes a wire filament to become so hot that it glows to produce light. Only a fraction of the power that comes from the filament produces light.
 
-The rest generates heat, which is why incandescent bulbs are so inefficient. A resistor is designed to have a specific value of resistance, and resistors are available in a wide range of values. Standard power sizes are 1/4-watt, 1/2-watt, 1 watt, and 2 watts. These values indicate the maximum recommended power that the resistor can dissipate. The higher the power rating, the larger the resistor.
+The rest generates heat, which is why incandescent bulbs are so inefficient. A resistor is designed to have a specific value of resistance, and resistors are available in a wide range of values. Standard power sizes are 1/4-watt, 1/2-watt, 1 watt, and 2 watts. These values indicate the maximum recommended power that the resistor can dissipate. Higher power ratings often need a larger package, but package size alone does not prove the rating; check the component markings or datasheet.
 
 Capacitors and Capacitance
 
@@ -404,9 +404,58 @@ A feed-through hole used for a component lead must be larger to allow room for t
 
 ==== Solderless Breadboards ====
 
-A solderless breadboard lets you build and change a low-voltage circuit without solder. Metal contacts inside the board join groups of holes, so components and jumper wires plugged into the same group are electrically connected. Many boards also have long power rows and a gap down the middle for integrated circuits. The exact layout varies: power rows may be split, so check the board markings or instructions before using them.
+A solderless breadboard lets you build and change a low-voltage circuit without solder. Metal contacts inside the board join groups of holes, so components and jumper wires plugged into the same group are electrically connected. Many boards also have long power rows and a gap down the middle for integrated circuits. The exact layout varies: on long breadboards, a power bus may be broken near the middle. If your circuit needs the bus to be continuous, bridge the break with a jumper wire. Check the board markings or instructions, and confirm the connection while the board is unpowered. A common convention is to use red + markings for +Ve (often +5 V) and blue or black − markings for 0 V or GND. Treat the colours as a guide: check the board markings or instructions to confirm the polarity and whether each rail section is connected as you expect.
+{{https://upload.wikimedia.org/wikipedia/commons/1/19/Electronics-White-Breadboard.jpg?500|A solderless breadboard photographed on a white background}}
+
+Photo by Evan-Amos, released into the public domain; [[https://commons.wikimedia.org/wiki/File:Electronics-White-Breadboard.jpg|view the source and licence]]. For an example of a 400-point board, see [[https://thepihut.com/products/breadboard-400-point-clear|The Pi Hut's half-size solderless breadboard]]. Check the chosen board's layout before building.
+
+A breadboard supply module is another option, but check that it fits the board and follow its instructions. As a technical example, the [[https://www.velleman.eu/products/view/breadboard-3-3v-5v-power-supply-module-wpm467/?id=461428&lang=en|Whadda WPM467]] fits an MB-102-compatible 830-point breadboard. Its manufacturer specifies a 5 V USB-C input or a 7–12 V DC barrel input, with 3.3 V or 5 V output rails and a maximum output current of 500 mA. Use the specified input connector; the breadboard rails are outputs. [[https://cdn.velleman.eu/downloads/25/prototyping/manual_wpm467.pdf|Read the manufacturer's manual]]. Pimoroni no longer stocks this model, so this is a technical example rather than a current purchase recommendation.
 
 Use a breadboard to try a circuit before making it permanent. Compare each connection with the schematic, and switch off the supply before moving parts or wires. Do not force a thick component lead or wire into a hole; it can damage the contact. Ask your Leader to check the circuit before connecting power.
+
+Pre-made jumper leads are often listed as ‘Dupont jumper wires’ (also written ‘DuPont’). Check the connector ends when choosing them; male-to-male leads plug directly into the holes of a standard solderless breadboard.
+
+==== Quick check: breadboards ====
+
+**Question 1 of 4**
+
+What do you call the short piece of wire used to connect points on a breadboard?
+
+  * Power bus
+  * Resistor
+  * Power supply
+  * Jumper
+
+**Answer for the Leader:** Jumper (or jumper wire).
+
+**Question 2 of 4**
+
+An electronic schematic is the ''_____'' representation of a circuit.
+
+  * Graphical
+  * Physical
+  * Simplified
+  * Artistic
+
+**Answer for the Leader:** Graphical.
+
+**Question 3 of 4**
+
+A bare wire jumper that plugs directly into a breadboard should use solid-core wire.
+
+  * False
+  * True
+
+**Answer for the Leader:** True. Solid-core wire is suitable for bare jumpers inserted directly into breadboard contacts.
+
+**Question 4 of 4**
+
+The location of components on a schematic represents their physical location in the circuit.
+
+  * False
+  * True
+
+**Answer for the Leader:** False. A schematic shows how components connect; use a board layout or notes to show where parts go physically.
 
 ==== Through-Hole Technology ====
 
@@ -420,9 +469,19 @@ By removing the component pin from going through the feed-through hole, the feed
 
 Schematic diagrams show how electronic components are connected. They use symbols for components and lines for wires, rather than pictures of the parts. This booklet follows IEC-style symbols used in UK diagrams. For example, a resistor is shown as a rectangle, and a battery is shown with long and short lines.
 
-Some North American schematics, often called ANSI/IEEE style, use a zigzag line for a resistor instead of a rectangle. Both symbols represent a resistor. When you meet a diagram that uses unfamiliar symbols, look for its key or legend and follow the connections shown. In many diagrams, a dot marks wires that join at a crossing; check the diagram’s own convention if it is not clear.
+The symbols are arranged to make the circuit easy to follow. Their positions on the page do not show where the parts must sit in a real build, and the drawn line lengths do not show how long the wires should be.
 
-When you draw a schematic, use one symbol style consistently and include a key if you use symbols that may be unfamiliar. You can draw it with a pencil, paper, and a ruler, or use a schematic-capture program such as KiCad.
+If the board has a specific layout requirement, such as a connector position or a keep-clear area, call it out in a schematic note or an accompanying board-layout drawing. Do not rely on symbol position or line length alone to communicate it.
+
+For a consistent layout, draw positive supply nodes pointing up and ground or 0 V nodes pointing down, usually at the bottom of the circuit. Arrange the signal path from left to right where practical. Clear net names can make connections easier to follow without long wires; points with the same net name are connected according to the schematic's rules.
+
+Some North American schematics, often called ANSI/IEEE style, use a zigzag line for a resistor instead of a rectangle. Both symbols represent a resistor. When you meet a diagram that uses unfamiliar symbols, look for its key or legend and follow the connections shown. In many diagrams, a dot marks a junction. In that style, lines crossing without a dot are not connected; check the diagram’s own convention if it is not clear. A small jump-over bridge can make a non-joining crossing clearer; use it consistently in project schematics where it helps.
+
+Each component may also have a unique reference, such as ''R1'' for a resistor or ''C1'' for a capacitor. The letter tells you the component type, and the number distinguishes that part from others of the same type. Use the reference to find the matching component in a parts list or the notes for the circuit.
+
+For project resistor labels, omit the Ω symbol when the context is clear: ''10k'' means 10 kΩ. Use the Ω symbol in explanatory text and calculations.
+
+When you draw a schematic for this project, use the IEC style shown in this booklet consistently. Include a key if you use symbols that may be unfamiliar. You can draw it with a pencil, paper, and a ruler, or use a schematic-capture program such as KiCad.
 
 ==== Quick check: electrical fundamentals ====
 
@@ -514,7 +573,7 @@ Which option is **not** a basic element of an electrical circuit?
 
 **Question 9 of 11**
 
-For a fixed resistor, if the voltage across it increases, what must happen for the current through it to remain constant?
+For a fixed-value resistor, if the voltage across it increases, what must happen for the current through it to remain constant?
 
 * Increase the resistor’s resistance.
 * Remove the resistor from the circuit.
@@ -558,21 +617,27 @@ Before we look at the most common types of electronics components, as well as th
 * Frequency is the number of cycles a signal completes each second.
 ==== Passive Components ====
 
-=== Fixed Resistor ===
+=== Fixed-Value Resistor ===
 
 Each resistor has a specific amount of resistance. A resistor is like a nozzle on a water hose. For a given water pressure, the nozzle controls the amount of water that is allowed out of the hose. Similarly, for a given voltage, a resistor controls the flow of electrical current.
 
-Most resistors are made of a carbon compound. Resistors used for high currents often are made from special wire that is wound on an insulating form. The type of compound or wire used determines how much electrical current can flow for a given voltage. The value of a resistor is given in ohms. The symbol for the ohm is the Greek capital letter omega (Ω). Thus, 1Ω designates the resistance of 1 ohm. A 1kΩ resistor has a resistance of 1 kilohm, or 1,000 ohms. A 1MΩ resistor has a resistance of 1 megohm, or 1 million ohms.
+Resistors are made using different materials and constructions, including carbon film, metal film, and wirewound types. These can differ in properties such as tolerance, resistance stability, and power handling. Check the datasheet for the exact part; do not assume that different types or similar-looking resistors have the same ratings. The value of a resistor is given in ohms. The symbol for the ohm is the Greek capital letter omega (Ω). Thus, 1Ω designates the resistance of 1 ohm. A 1kΩ resistor has a resistance of 1 kilohm, or 1,000 ohms. A 1MΩ resistor has a resistance of 1 megohm, or 1 million ohms.
 
-The illustration below shows a variety of fixed resistors and a cross-section of a fixed resistor. The values of fixed resistors cannot be changed.
+The illustration below shows a variety of fixed-value resistors and a cross-section of one. A fixed-value resistor cannot be adjusted in use.
 
-Through-hole resistors often have colour bands that show their resistance value. (See “The Colour Code of Resistors” section on page 40.) The cross-section of this fixed resistor shows the inside, which is made of carbon.
+Through-hole resistors often have colour bands that show their resistance value. (See “The Colour Code of Resistors” section on page 40.) The cross-section shows the internal construction of one resistor design.
 
-Note the schematic symbol for a fixed resistor.
+Note the schematic symbol for a fixed-value resistor.
+
+Available fixed-value resistors come in standard series, so a calculated value may not exactly match a part you have. Choose a nearby value only after checking that it still suits the circuit.
+
+Through-hole resistors have leads that fit breadboards and pass through holes in a circuit board. Surface-mount device (SMD) resistors are designed to be soldered onto pads on a circuit board, so they do not plug directly into a standard solderless breadboard. A schematic may not show the resistor's physical package or power rating. Check the parts list or build notes and the resistor's markings or datasheet before choosing a part.
 
 === Variable Resistor ===
 
-The resistance of variable resistors can be adjusted. Rheostats are two-leaded devices that vary in resistance from 0 to the rated resistance value. Three leaded variable resistors, known as potentiometers (pots), have a fixed resistance between leads 1 and 3, and have a resistance on lead 2 proportional to the amount of rotation on the adjustment arm. These variable resistors can be used in appliances that need their currents adjusted or when the resistance needs to be varied, such as with lights that can be dimmed.
+The resistance of a variable resistor can be adjusted. A potentiometer (or pot) has two end terminals and a movable contact called the wiper. The resistance between the end terminals stays fixed; turning or sliding the control moves the wiper and changes the resistance from the wiper to either end. With all three terminals connected, a potentiometer works as an adjustable voltage divider. A rheostat is a variable resistor used with two terminals; a potentiometer can also be connected this way by joining its wiper to one end. Check the component rating before using a variable resistor to control current.
+
+Some resistors change value in response to their surroundings rather than a hand-operated control. A thermistor responds to temperature; a light-dependent resistor (LDR), also called a photoresistor, responds to light. In a negative-temperature-coefficient (NTC) thermistor, resistance usually falls as temperature rises; in a positive-temperature-coefficient (PTC) thermistor, it usually rises. Check the part datasheet for its actual behaviour. A thermistor or LDR can be paired with a fixed-value resistor in a potential divider to produce a changing voltage.
 
 === Capacitor ===
 
@@ -648,7 +713,7 @@ Ordinary flashlight dry cells produce approximately 1.5 volts. Four 1.5-volt cel
 
 === Photocells ===
 
-A photoelectrical cell changes one or more of its characteristics when exposed to light. It is popularly called the electric eye, which controls operations such as traffic lights, door openers, and devices that activate lights at dusk and turn them off at dawn. One type of photoelectric cell is called a photoconductive cell. Another name for this type of cell is the light-dependent resistor (LDR). This special resistor has a small window so that light can strike the resistance material. Generally, such a cell has a high resistance when in darkness. Another type is called a photovoltaic cell. This is the familiar “solar cell” that is used to power electronic equipment on spacecraft. It produces a low voltage across its terminals when exposed to light, especially sunlight, thus converting light energy into electrical energy.
+A photoelectrical cell changes one or more of its characteristics when exposed to light. It is popularly called the electric eye, which controls operations such as traffic lights, door openers, and devices that activate lights at dusk and turn them off at dawn. One type of photoelectric cell is called a photoconductive cell. Another name for this type of cell is the light-dependent resistor (LDR). This special resistor has a small window so that light can strike the resistance material. Generally, such a cell has a high resistance when in darkness. As more light falls on an LDR, its resistance usually decreases. Another type is called a photovoltaic cell. This is the familiar “solar cell” that is used to power electronic equipment on spacecraft. It produces a low voltage across its terminals when exposed to light, especially sunlight, thus converting light energy into electrical energy.
 
 ==== Other Component Types ====
 
@@ -788,7 +853,7 @@ For more examples, see [[https://learn.adafruit.com/adafruit-guide-excellent-sol
 
 ==== Soldering a resistor into a circuit board ====
 
-Check the resistor value and the board layout before fitting it. A fixed resistor normally has no polarity, but its position and height still matter. Follow the kit drawing: a resistor may sit close to the board, stand slightly above it, or be mounted upright to fit the layout. Do not press it flat or change its position unless the instructions show that.
+Check the resistor value and the board layout before fitting it. A fixed-value resistor normally has no polarity, but its position and height still matter. Follow the kit drawing: a resistor may sit close to the board, stand slightly above it, or be mounted upright to fit the layout. Do not press it flat or change its position unless the instructions show that.
 
 Bend the leads gently to match the holes, then insert them. On the back of the board, bend the leads apart just enough to hold the resistor in place. Do not bend them sharply against the resistor body. Hold the board steady in a suitable holder.
 
@@ -1202,7 +1267,7 @@ The following graphical guide is by Mitch Altman, Andie Nordgren and Jeff Keyzer
 
 This booklet is written for Scouts and Explorers aged approximately 10 to 16. It introduces beginner electronics in small steps and is designed to be used with an adult Leader. Ask for help whenever you are unsure, especially when using a soldering iron, drill, sharp cutters, batteries, or a multimeter.
 
-The activities in this booklet are intended for low-voltage battery circuits only. Do not connect a project to mains electricity, a wall socket, a vehicle battery, or any unknown power supply. A Leader should check each circuit before power is applied.
+Scout circuit activities in this booklet must use a battery or DC power supply with an output no greater than 12 V. Check the supply's maximum output, including the fully charged voltage of a battery pack. This 12 V ceiling is a project limit, not proof that a circuit is safe: a Leader should also check available current, stored energy, component ratings, wiring, and the activity setup before power is applied. Do not connect a project to mains electricity, a wall socket, a vehicle battery, or an unknown power supply.
 
 ==== Badge requirements at a glance ====
 
@@ -1241,6 +1306,10 @@ If a component, wire, battery, or tool becomes hot, smells unusual, smokes, or b
 A component rating tells you the limits within which it is designed to work. Check resistance in ohms, capacitance in farads, voltage rating, current rating, power rating, polarity, and temperature limits where relevant. A component with a higher voltage or power rating is not automatically a suitable replacement: the value, package, pinout, and function must also match.
 
 For a resistor, the power rating is the maximum heat it can normally dissipate. For a capacitor, never exceed its voltage rating and observe polarity for polarised types such as electrolytic capacitors. For a diode or LED, check both its polarity and its allowed forward current. For an integrated circuit, check the supply-voltage range and the pinout in the manufacturer’s datasheet.
+
+For a resistor, also check its nominal resistance and tolerance. Tolerance describes how far its actual resistance may differ from the marked value: a 10 kΩ resistor with ±5% tolerance may measure from 9.5 kΩ to 10.5 kΩ. Check maximum working voltage as well as power rating; these are separate limits. The permitted power may fall as the resistor gets hotter, so follow its datasheet and derating information. Any overload or pulse rating applies only for the stated conditions and duration.
+
+Find the datasheet for the exact part number, using the manufacturer or a retailer’s datasheet link. Datasheets can be laid out differently, so start with the specification table and check the notes or graphs for conditions such as temperature. Do not use a general resistance cutoff to decide whether power or working voltage is the limiting rating; use the exact part’s specifications.
 
 ===== Using a Multimeter =====
 
@@ -1312,7 +1381,7 @@ For an integrated circuit, find the notch, dot, or other pin-1 mark. With the no
 
 Purpose: learn polarity, current limiting, voltage measurement, and Ohm’s law. Use a battery pack or regulated supply approved by your Leader, one bare LED, and a suitable series resistor. A bare LED needs current limiting; never connect it directly across the supply. The resistor limits the current. Typical beginner values are a few volts of supply and a few milliamperes of LED current; calculate the resistor with R = (supply voltage − LED forward voltage) &#247; desired current.
 
-Worked example: suppose the supply is 9 V, the LED’s forward voltage is about 2 V at the chosen current, and the target current is 15 mA (0.015 A). The resistor has about 9 V − 2 V = 7 V across it. Use this resistor voltage—not the full 9 V supply voltage—to calculate its value: R = 7 V &#247; 0.015 A = about 467 Ω. Choose 470 Ω, a common standard value just above the calculated value. In a series circuit, the same current flows through the LED and resistor, so the estimated current is 7 V &#247; 470 Ω, or about 15 mA. The LED is non-ohmic, so do not try to calculate its behaviour as if it were a fixed resistor; use its forward voltage from the datasheet at the intended current. These are example values, not specifications for every LED: check the LED datasheet and actual supply voltage before choosing a resistor. The resistor dissipates about 0.10 W, so select a power rating with suitable margin for its operating conditions.
+Worked example: suppose the supply is 9 V, the LED’s forward voltage is about 2 V at the chosen current, and the target current is 15 mA (0.015 A). The resistor has about 9 V − 2 V = 7 V across it. Use this resistor voltage—not the full 9 V supply voltage—to calculate its value: R = 7 V &#247; 0.015 A = about 467 Ω. Choose 470 Ω, a common standard value just above the calculated value. In a series circuit, the same current flows through the LED and resistor, so the estimated current is 7 V &#247; 470 Ω, or about 15 mA. The LED is non-ohmic, so do not try to calculate its behaviour as if it were a fixed-value resistor; use its forward voltage from the datasheet at the intended current. These are example values, not specifications for every LED: check the LED datasheet and actual supply voltage before choosing a resistor. The resistor dissipates about 0.10 W, so select a power rating with suitable margin for its operating conditions.
 
 If the LED does not light, switch off or disconnect the supply before checking the wiring and LED polarity. Turning the LED around may correct a reversed connection. Do not leave the circuit powered while changing connections.
 
@@ -1321,6 +1390,8 @@ Operation and use: when the circuit is complete, current flows through the resis
 ==== Project 2 — Light-sensitive alarm ====
 
 Purpose: learn about sensors and control. Use an LDR or phototransistor, a transistor or suitable comparator module, a resistor network, and a low-voltage buzzer. The sensor changes the control voltage when the light level changes; the transistor or comparator then switches the buzzer. Use a ready-made module or a Leader-checked schematic if the exact transistor or comparator pinout is unfamiliar.
+
+For an LDR, a simple potential divider with a fixed-value resistor turns the change in resistance into a changing voltage at the join between the two parts. The voltage rises or falls with light depending on which part is connected to the supply side. A transistor or comparator can use this changing voltage to switch the buzzer; check the chosen circuit and component ratings before building it. The course exercise review records the source examples and their limitations: [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-exercises-review|Basic Circuits exercise-file review]].
 
 Operation and use: the circuit can detect light, shade, an open drawer, or a change in room brightness. Record the supply voltage, the approximate buzzer current, and the sensor voltage in bright and dark conditions.
 

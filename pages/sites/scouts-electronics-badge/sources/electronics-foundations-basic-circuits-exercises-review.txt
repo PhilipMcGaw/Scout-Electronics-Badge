@@ -1,0 +1,25 @@
+====== Review note: //Electronics Foundations: Basic Circuits exercise files// ======
+
+* **Reviewed:** 2026-11-10
+* **Source:** User-supplied LinkedIn Learning exercise-files bundle for [[https://www.linkedin.com/learning/electronics-foundations-basic-circuits/principles-of-basic-electronic-circuits?u=2174060|Electronics Foundations: Basic Circuits]] by Barron Stone
+* **Materials reviewed:** 18 one-page PDFs, two Arduino sketches, and a 60-second, 44.1 kHz mono WAV file named ''square_1kHz.wav''. Text was extracted from the PDFs; the diagram-only capacitor challenge was rendered and visually inspected. Other schematic artwork was not individually checked for wiring accuracy.
+
+===== Coverage and useful topic links =====
+
+The exercise bundle covers common resistor values; voltage dividers; photoresistors and trimpots; series/parallel resistors; a Wheatstone bridge; capacitor values and RC charge/discharge; passive low-pass and high-pass RC filters; and an RL circuit. These topics overlap with the existing [[sites:scouts-electronics-badge:blog:resistors|resistor]], [[sites:scouts-electronics-badge:blog:capacitors|capacitor]], [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals]], and [[sites:scouts-electronics-badge:blog:arduino-sensor-datalogging|sensor data-logging]] drafts. Treat the worksheets as examples of course coverage rather than verified build instructions.
+
+* The resistor and capacitor value sheets are reference lists without complete component ratings. Confirm the value, tolerance, voltage, power, and technology needed for a real design from the selected part's documentation.
+* The voltage-shifter, photoresistor, trimpot, parallel-resistor, bridge, RC, and RL sheets give course-specific schematics and example component values. Recalculate and check the complete circuit, actual load, component ratings, and expected operating conditions before adapting any example.
+* The low-pass and high-pass examples list 10 kΩ and 10 nF and state a 1,592 Hz cutoff. This is a course example, not a universal filter recipe; derive the response from the intended circuit and check component tolerances and loading.
+* The 08_09 challenge asks for a passive RC filter that attenuates frequencies above a 150 Hz, −3 dB cutoff, with ±10 Hz accepted. It may help frame a filter-design exercise, but any new exercise needs its circuit topology, component limits, and response checked independently.
+* The 03_09 light-detector challenge uses a photoresistor and Wheatstone bridge. Its stated conditions are ''Voltage A > Voltage B'' in light and ''Voltage B <= Voltage A'' in darkness. Those conditions do not describe different output states, so clarify the intended dark-state condition before using or adapting the task.
+* The rendered 05_08 diagram shows a 9 V source, an unspecified series resistor, a capacitor, a 2 Ω lamp, and a changeover switch. The supplied page has no extracted written prompt or resistor/capacitor values. Do not turn this diagram into build instructions; check the full intended operation and ratings first.
+* The photoresistor sketch calculates resistance from an analogue reading; the trimpot sketch converts the reading to voltage. Both hard-code a 5 V reference and a 0–1023 ADC range. These are board assumptions, not general Arduino behaviour. The photoresistor calculation also depends on divider orientation and can encounter an invalid endpoint; verify circuit topology, board ADC/reference behaviour, and input limits before reusing code.
+* The parts list contains US-oriented sales links and legacy board/component examples. It is not a UK purchasing recommendation. The schematic legend and resistor decoder are course graphics; do not reuse them without checking their accuracy, provenance, and reuse rights.
+* The WAV file is a course signal stimulus, not a measurement result or a rights-cleared project asset. Its supplied filename identifies it as a 1 kHz square-wave example; do not rely on its name as proof of waveform quality or frequency accuracy.
+
+===== Safety, provenance, and disposition =====
+
+The source material is from a 2021 course and is not UK-specific product or safety guidance. Keep Scout activities within the project's checked low-voltage scope, use suitable activity-specific risk assessment and Leader supervision, and verify the actual board and components before any practical use. Do not copy the PDFs, sketches, audio, sales links, or graphics into canonical project material. The bundle does not state reuse terms for these exercise files.
+
+The useful topic map, limitations, and specific editorial checks are recorded here and in the linked drafts. The supplied exercise files were removed from the inbox after review; the source note is the retained project record.

@@ -8,6 +8,8 @@ How to make sensor readings useful after you collect them
 
 An adult-facing introduction to logging low-voltage sensor readings with a microcontroller. Use the source project as inspiration, not as a verified wiring guide. Keep exact board, shield, sensor, circuit and code choices open until their documentation is checked.
 
+The course photoresistor and trimpot sketches are additional historical examples only. The course uses Arduino to demonstrate circuit interfacing, not to teach programming. Both sketches assume a 5 V analogue reference and 10-bit readings from 0 to 1023; the photoresistor calculation also depends on the divider arrangement. Do not reuse the code until the board, sensor circuit, ADC/reference behaviour, and edge cases have been checked. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course overview review]] and [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-exercises-review|exercise-file review]].
+
 ===== Draft =====
 
 A sensor reading is more useful when you can compare it with earlier readings. A data logger takes measurements at chosen intervals and saves them so they can be inspected later. A simple project might record temperature and light, then save each set of readings to a file on a memory card.
