@@ -8,6 +8,20 @@ A pull-up or pull-down resistor gently connects the input to a known voltage whe
 
 Many Arduino boards provide an internal pull-up resistor that can be enabled in software with ''INPUT//PULLUP''. For a compatible board, connect a momentary button between a digital input pin and GND, then set that pin to ''INPUT//PULLUP''. The input reads ''HIGH'' while the button is open and ''LOW'' when pressed. This is called **active-low** logic: the action is represented by a low signal. Check the board documentation before relying on an internal pull-up, because Arduino boards do not all use the same microcontroller or electrical limits.
 
+===== Internal or external pull-up? =====
+
+For a simple button connected between an input and GND, an internal pull-up is usually the easiest option. You enable it in software, so there is no separate resistor to fit and wire. That saves a component and keeps the circuit compact.
+
+An external resistor gives you more control over the circuit. You choose its value, and you can use it as a pull-up or a pull-down. It also holds the input at a defined level while the microcontroller is reset or before the program enables an internal pull-up, provided the pin is high-impedance in that state. Check the exact board or microcontroller documentation.
+
+^ Consideration ^ Internal pull-up ^ External resistor ^
+| Extra parts | No separate resistor | Adds a resistor and its connections |
+| Resistance | Set by the microcontroller; the value varies by device | You select a value that suits the circuit and input limits |
+| Default during reset | May not be enabled until the program configures it | Can set the input level before the program starts, if the pin is high-impedance |
+| Wiring options | Commonly pulls the input towards the logic supply | Can pull towards the logic supply or GND |
+
+A lower external resistance makes a stronger pull and can make a long or noisy input less sensitive to interference, but it also increases current while a button connected to the opposite rail is held down. The right value depends on the circuit; check the microcontroller’s input limits and the board guidance. Do not assume that adding both internal and external pull-ups leaves the resistance unchanged: they act in parallel, giving a lower total resistance.
+
 The two arrangements give opposite readings:
 
 ^ Circuit ^ Button open ^ Button pressed ^
