@@ -406,3 +406,9 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-10 — Blog index tracks published articles
 
 - **Workflow decision:** Keep a **Published article** column beside each blog draft; link an existing article when it is the clear match, and use `—` until a draft has a matching live article.
+
+## 2026-11-10 — Fruit and vinegar cell activity considered
+
+- **Discussion outcome, not an approved booklet change:** A lemon or vinegar cell could work as a short optional investigation alongside the booklet’s battery and multimeter material. It can introduce chemical energy, electrodes, electrolyte, polarity, voltage measurement, and comparison of cells. It does not count as one of the three constructed circuits because it is a source rather than a complete circuit.
+- Keep expectations realistic: simple fruit or vinegar cells provide little current, so use a multimeter rather than promising to light an LED. Use known copper and zinc electrodes rather than coins, whose materials and coatings vary. A vinegar cell is a simpler alternative; comparing vinegar, lemon juice, or salty water with the same electrodes can make a controlled investigation. A potato cell is a similar option.
+- **Open point:** No decision has been made to add the activity to the canonical booklet.
