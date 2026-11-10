@@ -1,5 +1,9 @@
 # Project memories
 
+## 2026-11-10 — Blog index ordered as a suggested reading path
+
+- **Project outcome:** Added an order column to the blog index, placing beginner fundamentals and the Woggle project first, followed by optional specialist topics. The numbers indicate suggested reading order, not publication priority.
+
 ## 2026-11-10 — Internal and external button pull-ups compared
 
 - **Project outcome:** Expanded the Arduino button post with the wiring and firmware simplicity of internal pull-ups, the value and reset-state control available from external resistors, and the current/noise trade-off. Exact board behaviour remains subject to the selected microcontroller documentation and the existing TODO review.
