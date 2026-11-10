@@ -6,7 +6,7 @@
 
 ## 2026-11-10 — Two buttons can share an input with switched bias
 
-- **Project outcome:** Added a conceptual two-button method that samples one pin with internal pull-up and pull-down modes. It requires support for both modes and series current-limiting resistors in each button branch; simultaneous pressing otherwise risks connecting the supply rails. Exact values and all state readings need review against the selected board before publication; see [TODO.md](TODO.md).
+- **Project outcome:** Added a conceptual two-switch method that samples one pin with internal pull-up and pull-down modes. A centre-off, up/off/down SPDT rocker can make the two positions mechanically exclusive; verify its contact action. If using two independent pushbuttons, series current-limiting resistors in both branches are needed to limit current if both are pressed. Exact values and state readings need review against the selected board before publication; see [TODO.md](TODO.md).
 
 ## 2026-11-09 — Descriptive media filenames
 

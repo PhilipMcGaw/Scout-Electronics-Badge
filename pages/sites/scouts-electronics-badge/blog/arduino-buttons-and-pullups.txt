@@ -47,18 +47,18 @@ void loop() {
 
 This sketch turns the built-in LED on while the button is pressed. It assumes the selected board has a built-in LED and supports ''INPUT_PULLUP''; use its board page and pinout to confirm. A different circuit, such as one with an external pull-down resistor, gives the opposite readings, so adapt the condition to match the wiring.
 
-===== Reading two buttons with one input =====
+===== Reading two switch states with one input =====
 
-On a microcontroller that supports both internal pull-up and pull-down modes, you can distinguish two buttons on one input by sampling the pin twice. Connect one button to the logic supply and the other to GND. Configure the pin as an input with its pull-up enabled and record the reading; then enable the pull-down and record a second reading. Check that the board’s programming core supports both modes, and allow the input to settle after changing its configuration.
+On a microcontroller that supports both internal pull-up and pull-down modes, you can distinguish two switch states on one input by sampling the pin twice. Configure the pin as an input with its pull-up enabled and record the reading; then enable the pull-down and record a second reading. Check that the board’s programming core supports both modes, and allow the input to settle after changing its configuration.
 
 With suitable series-resistor values and a pin that recognises both resulting logic levels, the readings should be:
 
-^ Button state ^ Pull-up reading ^ Pull-down reading ^
-| Neither pressed | ''HIGH'' | ''LOW'' |
-| Button to GND pressed | ''LOW'' | ''LOW'' |
-| Button to the logic supply pressed | ''HIGH'' | ''HIGH'' |
+^ Switch position ^ Pull-up reading ^ Pull-down reading ^
+| Centre/off; neither path selected | ''HIGH'' | ''LOW'' |
+| Connected to GND | ''LOW'' | ''LOW'' |
+| Connected to the logic supply | ''HIGH'' | ''HIGH'' |
 
-This method depends on the input’s pull resistors and thresholds, so verify it against the exact microcontroller. Do not wire the switches so that pressing both connects the logic supply directly to GND through the switch contacts. Fit a current-limiting resistor in series with **each** button branch, then choose values that both limit simultaneous-press current and still give valid input levels when one button is pressed. The simultaneous-press reading is not guaranteed to be distinct, so do not rely on software to protect against a short. Limit current in hardware, then test all button combinations and define how the program handles both buttons being pressed. For a simple design that must work across boards, using two input pins is usually easier to understand and verify.
+An up/off/down SPDT rocker switch with a centre-off position is a useful example. Connect its common terminal to the input, and connect each throw to one logic rail through its own series resistor. The rocker selects the supply side, the GND side, or neither. Check the datasheet for a break-before-make contact action; do not assume every rocker has it. With two separate pushbuttons instead, pressing both at once can connect the logic supply directly to GND through the switch contacts. Put a current-limiting resistor in series with **each** button branch. Those resistors must limit current if both buttons are pressed and still allow valid input levels when either one is pressed. The simultaneous-press reading is not guaranteed to be distinct, so do not rely on software to protect against a short. Limit current in hardware, test all switch combinations, and define how the program handles both buttons being pressed. For a simple design that must work across boards, using two input pins is usually easier to understand and verify.
 
 ===== One press can look like several =====
 
