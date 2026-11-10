@@ -339,3 +339,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 - **Repository fact checked 2026-11-06:** `TODO.md` is the action index. It includes the Leaders’ Guide, illustration, blog planning and drafting, WordPress updates, KiCad/PCBWay walkthrough, Charlieplexing visual, silkscreen post, and advanced PCB rework post. Check it for current status instead of relying on this memory entry.
 - **Source notes:** PDF review notes are stored under `pages/sites/scouts-electronics-badge/sources/`. Their conclusions and open checks belong to those notes; consult the relevant source note before reusing detailed findings.
 - **Git:** Project changes are expected to be committed and pushed to the repository’s `main` branch. Follow the Git workflow in `AGENTS.md`, stage only task-related files, and preserve unrelated changes.
+
+## 2026-11-10 — Blog index tracks published articles
+
+- **Workflow decision:** Keep a **Published article** column beside each blog draft; link an existing article when it is the clear match, and use `—` until a draft has a matching live article.
