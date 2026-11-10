@@ -4,6 +4,10 @@
 
 - **Project outcome:** Expanded the Arduino button post with the wiring and firmware simplicity of internal pull-ups, the value and reset-state control available from external resistors, and the current/noise trade-off. Exact board behaviour remains subject to the selected microcontroller documentation and the existing TODO review.
 
+## 2026-11-10 — Two buttons can share an input with switched bias
+
+- **Project outcome:** Added a conceptual two-button method that samples one pin with internal pull-up and pull-down modes. It requires support for both modes and series current-limiting resistors in each button branch; simultaneous pressing otherwise risks connecting the supply rails. Exact values and all state readings need review against the selected board before publication; see [TODO.md](TODO.md).
+
 ## 2026-11-09 — Descriptive media filenames
 
 - **User preference:** Give project images descriptive lowercase kebab-case filenames and keep DokuWiki media references aligned with file renames.

@@ -47,6 +47,19 @@ void loop() {
 
 This sketch turns the built-in LED on while the button is pressed. It assumes the selected board has a built-in LED and supports ''INPUT_PULLUP''; use its board page and pinout to confirm. A different circuit, such as one with an external pull-down resistor, gives the opposite readings, so adapt the condition to match the wiring.
 
+===== Reading two buttons with one input =====
+
+On a microcontroller that supports both internal pull-up and pull-down modes, you can distinguish two buttons on one input by sampling the pin twice. Connect one button to the logic supply and the other to GND. Configure the pin as an input with its pull-up enabled and record the reading; then enable the pull-down and record a second reading. Check that the board’s programming core supports both modes, and allow the input to settle after changing its configuration.
+
+With suitable series-resistor values and a pin that recognises both resulting logic levels, the readings should be:
+
+^ Button state ^ Pull-up reading ^ Pull-down reading ^
+| Neither pressed | ''HIGH'' | ''LOW'' |
+| Button to GND pressed | ''LOW'' | ''LOW'' |
+| Button to the logic supply pressed | ''HIGH'' | ''HIGH'' |
+
+This method depends on the input’s pull resistors and thresholds, so verify it against the exact microcontroller. Do not wire the switches so that pressing both connects the logic supply directly to GND through the switch contacts. Fit a current-limiting resistor in series with **each** button branch, then choose values that both limit simultaneous-press current and still give valid input levels when one button is pressed. The simultaneous-press reading is not guaranteed to be distinct, so do not rely on software to protect against a short. Limit current in hardware, then test all button combinations and define how the program handles both buttons being pressed. For a simple design that must work across boards, using two input pins is usually easier to understand and verify.
+
 ===== One press can look like several =====
 
 The contacts inside a mechanical button can briefly open and close several times as a button is pressed. A program that counts every transition may interpret one press as several. This is called **switch bounce**. If a button simply holds an LED on while pressed, the quick transitions are usually not important. If the program reacts once per press, add a debounce method and test it with the actual switch.
@@ -91,7 +104,7 @@ Keep input voltages within the limits for the exact board. Do not connect a pin 
 
 ===== Further reading =====
 
-* Arduino’s [[https://docs.arduino.cc/language-reference/en/variables/constants/inputOutputPullup/|INPUT, INPUT_PULLUP and OUTPUT reference]] explains floating inputs, pull-up behaviour and the opposite readings of pull-up and pull-down circuits. Its internal-pull-up examples focus on particular Arduino hardware; confirm the selected board’s support and limits.
+* Arduino’s [[https://docs.arduino.cc/language-reference/en/variables/constants/inputOutputPullup/|INPUT, INPUT_PULLUP and OUTPUT reference]] explains floating inputs, pull-up behaviour and the opposite readings of pull-up and pull-down circuits. The documented modes focus on ATmega hardware; other boards and cores may differ, so confirm that the selected target supports ''INPUT_PULLDOWN'' before using the two-button method above.
 * Arduino’s [[https://docs.arduino.cc/built-in-examples/digital/InputPullupSerial/|button wiring example]] and [[https://docs.arduino.cc/built-in-examples/digital/Debounce/|pushbutton debounce example]] show related circuits and code.
 * Iain Sharp, [[https://lushprojects.com/electronicsforartists/electronicsforartistsp2.pdf|Electronics for Artists, Part 2]] (revision 2.2, 2019), demonstrates a classic Uno input using an external pull-down resistor. It is useful as an alternate topology, not as a universal pin or voltage specification; check the selected board and exact wiring. The course notes are CC BY-NC-SA 3.0 Unported; do not copy its figures or wording without meeting the licence terms.
 
