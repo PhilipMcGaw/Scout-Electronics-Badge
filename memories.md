@@ -649,3 +649,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Filter frequency-response course section
 
 - **Source assessment:** The user supplied the “Filter frequency response” transcript. Explain frequency response with voltage-amplitude gain and phase versus frequency, typically as Bode plots. Keep voltage and power gain distinct, qualify passive-filter claims by topology and measurement conditions, and do not present the course’s reported low-pass values as reproducible without its schematic and setup. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
+
+## 2026-11-11 — Logarithmic-scale course section
+
+- **Source assessment:** The user supplied the “Logarithmic scale” transcript. Explain that equal distances on a logarithmic axis represent equal ratios; define decade (×10) and octave (×2), and distinguish semi-log from log-log plots. In Bode plots, keep logarithmic frequency spacing distinct from expressing magnitude in decibels; zero is not shown on a log frequency axis. Do not reuse the course’s US building-height examples or first-person claims. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
