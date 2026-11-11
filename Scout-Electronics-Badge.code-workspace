@@ -103,8 +103,7 @@
 	},
 	"extensions": {
 		"recommendations": [
-			"openai.chatgpt",
-			"mistralai.vibe"
+			"openai.chatgpt"
 		]
 	}
 }
