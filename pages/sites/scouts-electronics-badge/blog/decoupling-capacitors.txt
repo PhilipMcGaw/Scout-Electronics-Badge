@@ -16,6 +16,10 @@ When an IC switches, its supply current can change quickly. The wires and copper
 
 The connection matters as much as the printed capacitance value. Long tracks and extra vias add inductance to the loop. Place a recommended capacitor close to the supply and ground pins, and follow the manufacturer’s layout guidance. A capacitor several centimetres away may not do the same job as one beside the IC.
 
+===== The schematic is not the PCB layout =====
+
+A schematic shows which points are electrically connected; the positions of its symbols do not show where parts must sit on the board. To keep a drawing readable, decoupling capacitors may be grouped together or drawn away from the IC they serve. On the PCB, put each capacitor where the IC documentation requires it, close to the relevant supply and return pins. If that placement is easy to miss from the schematic, add a note such as “Place C1 close to IC1 supply pins” or call it out in a separate layout drawing. This matches the project’s schematic convention: record important physical layout information explicitly instead of relying on symbol positions or wire lengths.
+
 ===== A missing capacitor changed a test result =====
 
 In a project example I described in 2022, the difference between the two results shown below was a 100 nF capacitor between Vcc and GND on a PIC microcontroller. The original post labels one result as a fail and the other as a pass:
