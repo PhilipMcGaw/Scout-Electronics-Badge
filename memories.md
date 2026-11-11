@@ -456,3 +456,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Resistive-sensor measurement transcript assessed
 
 - **Source assessment:** The “Measure resistive sensors” excerpt explains using a divider and ADC voltage reading to infer sensor resistance. For the resistor article, use a thermistor as the main example per Philip's preference; do not reuse the excerpt's LDR values or Arduino readings as general specifications. State divider orientation, ADC/reference assumptions and handle near-rail readings carefully. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:resistors|resistor draft]].
+
+## 2026-11-11 — Potentiometer lesson assessed
+
+- **Source assessment:** The “Potentiometers” transcript distinguishes a three-terminal adjustable divider from a two-terminal rheostat use. In the resistor article, verify the exact pinout and keep any wiper-to-ADC voltage within the selected board's limits; do not generalise the course's 10 kΩ/20 kΩ parts or 5 V Arduino example. A rheostat must be rated for its actual load and dissipation. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:resistors|resistor draft]].
