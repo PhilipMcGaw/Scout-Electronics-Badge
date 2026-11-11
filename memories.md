@@ -1,4 +1,8 @@
 # Project memories
+## 2026-11-11 — Voltage-divider level-shifting guidance
+
+- **Source assessment:** The user supplied the “Shift voltage levels” transcript. Cover resistor dividers only as limited one-way signal interfaces after checking exact pin limits, thresholds, loading, speed and direction. Do not generalise the course’s 5 V/3.3 V Arduino/accelerometer example, use a divider for a supply, or adapt its wall-adapter example for Scouts; Scout circuits remain limited to 12 V DC.
+
 ## 2026-11-11 — Voltage-divider lesson assessed
 
 - **Source assessment:** The user supplied the “Voltage dividers” transcript and a diagram frame showing the divider formula. The diagram uses the correct R2 numerator; the transcript says R1 once, then gives the correct R2 ratio. The resistor article plan covers the unloaded formula and load effect. Do not reuse the course frame without image rights.
