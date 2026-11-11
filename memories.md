@@ -520,3 +520,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Capacitor types and safety lesson assessed
 
 - **Source assessment:** “Types of capacitors” introduces common ceramic and electrolytic parts, package recognition, polarity and stored-charge hazards. Capacitance ranges overlap; ceramic parts are generally non-polarised, while many but not all electrolytic parts are polarised. Check the exact component marking and datasheet. Do not repeat the advice to short a charged capacitor with a screwdriver; use an appropriately rated, approved discharge method and verify voltage before handling. Describe reverse-polarity failure without asserting that every electrolytic explodes or fails short. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
+
+## 2026-11-11 — Add ESR to capacitor-selection guidance
+
+- **User preference:** Include ESR when discussing capacitor selection and values. Explain ESR as a frequency- and temperature-dependent loss parameter, connect it to ripple-current heating, and check datasheet conditions. Avoid implying that lower ESR is always preferable because substitutions can change circuit stability. See the [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
