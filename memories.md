@@ -524,3 +524,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Add ESR to capacitor-selection guidance
 
 - **User preference:** Include ESR when discussing capacitor selection and values. Explain ESR as a frequency- and temperature-dependent loss parameter, connect it to ripple-current heating, and check datasheet conditions. Avoid implying that lower ESR is always preferable because substitutions can change circuit stability. See the [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
+
+## 2026-11-11 — Capacitor-failure joke terminology
+
+- **User wording:** “Factory smoke” is another name for “magic smoke”. If this joke is used in learner-facing copy, keep it clear that smoke or venting indicates a component failure and needs safe attention.
