@@ -500,3 +500,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Oscilloscope display-settings lesson assessed
 
 - **Source assessment:** “Oscilloscope display settings” supports explaining volts/div, seconds/div, vertical position and viewing multiple channels. Scope controls are model-specific. A noisy-looking trace on an unconnected input can be environmental pickup or instrument noise and does not show that the circuit itself is noisy. Use a known signal and a correctly connected, rated probe; keep the Scout supply at or below 12 V. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
+
+## 2026-11-11 — Oscilloscope trigger-settings lesson assessed
+
+- **Source assessment:** “Oscilloscope trigger settings” supports an optional explanation of edge slope, trigger level, trigger source, and normal, auto and single acquisition modes. Trigger mode Auto differs from an Auto/Autoset display button. A non-triggered or wandering trace does not establish signal behaviour; distinguish signal changes, noise and setup. Use a specified scope with a checked low-voltage source and input limits. Keep Scout supplies at or below 12 V. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
