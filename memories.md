@@ -1,4 +1,7 @@
 # Project memories
+## 2026-11-11 — Lead-free and RoHS context for resistor blog
+
+- **User direction:** Include lead-free resistor finishes and RoHS regulations in the resistor blog. Explain the distinction between component lead-free claims, solder alloy, and finished-equipment compliance; verify UK scope, limits, exemptions, and GB/NI differences against current official guidance.
 ## 2026-11-11 — Resistor technology comparison for blog
 
 - **User direction:** Expand the resistor article to compare construction types by price, initial tolerance/accuracy, and thermal stability. Treat any ordering as a sourced trend, not a universal rule; distinguish initial tolerance from temperature coefficient and long-term drift, and verify exact technical data and current UK prices.
