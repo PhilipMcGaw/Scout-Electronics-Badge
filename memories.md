@@ -612,3 +612,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — UK live-conductor terminology
 
 - **User preference:** In UK-context mains references, say “live” or “live conductor”, not the North American term “hot”. Use UK/EU nominal values in explanatory examples and put US equivalents in brackets when useful. The course’s “Measure AC voltage” transcript uses “hot” and US 120 V/60 Hz values; retain these only when describing the source, label them as US terminology, and pair them with UK/EU 230 V/50 Hz context. See the course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]].
+
+## 2026-11-11 — BS 7671 voltage-drop footnote
+
+- **Editorial decision:** Add a brief UK-only footnote to the fundamentals blog distinguishing the 230 V declared supply under ESQCR from voltage drop along installation wiring under BS 7671. IET explanatory guidance gives recommended public-supply values of 3% for lighting and 5% for other uses; confirm the current wording and figures against BS 7671:2018+A4:2026 before publication. This is contextual information, not a Scout activity. See the [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
