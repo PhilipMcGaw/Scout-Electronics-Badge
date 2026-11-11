@@ -1,4 +1,8 @@
 # Project memories
+## 2026-11-11 — Resistance measurement guidance
+
+- **Source assessment:** The user supplied the “Measure resistance” course transcript. The resistor article outline now calls for safe DMM measurement, model-specific manual instructions, power-off and capacitor-discharge precautions, isolating a resistor to avoid parallel paths, and consideration of meter accuracy. Do not repeat the body-resistance demonstration.
+
 ## 2026-11-11 — Cover preferred resistor values
 
 - **User direction:** Include a brief explanation of standard resistor values in the resistor article. Distinguish IEC 60063 E-series preferred values (for example, E12/E24/E96) from the EIA-96 SMD marking code.
