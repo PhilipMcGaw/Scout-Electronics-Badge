@@ -603,7 +603,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 ## 2026-11-11 — AC voltage and RMS lesson assessed
 
-- **Source assessment:** The course’s 170 V peak to 120 V RMS example is correct for a zero-centred sine wave. Explain RMS generally as the square root of the mean squared waveform; ''Vp/sqrt(2)'' is a sine-only shortcut. AC DMM results on distorted signals depend on meter method and specifications such as bandwidth, crest factor and coupling. The transcript’s 120 V, 60 Hz outlet procedure is North American and must not become a Scout activity; keep practical examples generated and at or below 12 V DC. See the [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]] and course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]].
+- **Source assessment:** The course’s US example (120 V RMS, 60 Hz; about 170 V peak for a sine wave) is correct. Adapt UK/EU context to nominal 230 V RMS, 50 Hz (about 325 V peak for a sine wave). Explain RMS generally as the square root of the mean squared waveform; ''Vp/sqrt(2)'' is a sine-only shortcut. AC DMM results on distorted signals depend on meter method and specifications such as bandwidth, crest factor and coupling. The outlet procedure must not become a Scout activity; keep practical examples generated and at or below 12 V DC. See the [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]] and course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]].
 
 ## 2026-11-11 — EMC Engineering Basics course notes assessed
 
@@ -611,4 +611,4 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 ## 2026-11-11 — UK live-conductor terminology
 
-- **User preference:** In UK-context mains references, say “live” or “live conductor”, not the North American term “hot”. The course’s “Measure AC voltage” transcript uses “hot”; retain that only when describing the source wording and label it as US terminology. See the course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]].
+- **User preference:** In UK-context mains references, say “live” or “live conductor”, not the North American term “hot”. Use UK/EU nominal values in explanatory examples and put US equivalents in brackets when useful. The course’s “Measure AC voltage” transcript uses “hot” and US 120 V/60 Hz values; retain these only when describing the source, label them as US terminology, and pair them with UK/EU 230 V/50 Hz context. See the course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]].
