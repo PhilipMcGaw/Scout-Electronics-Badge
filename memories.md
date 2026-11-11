@@ -492,3 +492,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Oscilloscope lesson assessed
 
 - **Source assessment:** The “What is an oscilloscope?” transcript gives the voltage-versus-time overview. Add this as optional fundamentals material, not as a requirement or purchase recommendation. Treat its bandwidth/sample-rate ranges, used-scope advice, and Rigol model as historical examples; check exact probe ratings and grounding before any practical low-voltage demonstration. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
+
+## 2026-11-11 — Oscilloscope signal-measurement lesson assessed
+
+- **Source assessment:** “Measure a signal” supports an optional exercise in probe setup, compensation, coupling, reading volts/div and time/div, and calculating peak-to-peak voltage and period. Probe loading, attenuation, compensation and grounding depend on the exact equipment; many bench-scope probe grounds are Earth-connected. Never treat the probe ground clip like a freely movable reference. The course’s 3 V peak-to-peak, 1 ms period example is arithmetic from its stated settings, not a verified Scout setup. Keep Scout supplies at or below 12 V. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
