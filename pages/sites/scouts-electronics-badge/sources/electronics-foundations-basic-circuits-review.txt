@@ -4,7 +4,7 @@
 * **Source:** [[https://www.linkedin.com/learning/electronics-foundations-basic-circuits/principles-of-basic-electronic-circuits?u=2174060|LinkedIn Learning, Electronics Foundations: Basic Circuits, “Principles of basic electronic circuits”]]
 * **Instructor:** Barron Stone, Electrical Engineer
 * **Course details shown:** Beginner; 4 h 2 min; updated 2021-07-30
-* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, and “Build circuits on breadboards”, and the user-pasted transcripts “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, and “Measure resistance”, plus all six questions from a resistor-types knowledge check. No course video or other lessons or quiz questions were reviewed.
+* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, and “Build circuits on breadboards”, and the user-pasted transcripts “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, “Measure resistance”, and “Resistors in series”, plus all six questions from a resistor-types knowledge check. No course video or other lessons or quiz questions were reviewed.
 
 ===== Useful coverage and overlap =====
 
@@ -37,6 +37,10 @@ The transcript usefully introduces standard fixed-value resistor series, through
 
 The six supplied knowledge-check questions cover fixed-value resistors, breadboard-compatible through-hole packages, working voltage, tolerance, the tolerance-band gap, and in-circuit resistance measurements. Use “fixed-value resistor” instead of “static resistor”; describe through-hole as a leaded package style that fits standard breadboards; distinguish working voltage from power rating and time-limited overload ratings; explain tolerance as a percentage range; treat band spacing as a clue rather than a guarantee; and advise isolating a resistor when parallel paths could affect its measured resistance.
 
+===== “Resistors in series” excerpt =====
+
+The lesson correctly explains that series resistance is the sum of the individual values, that the same current flows through every series part, and that resistor dissipation can be calculated with ''P = I² × R''. Three 1 kΩ resistors each at ±5% have a nominal total of 3 kΩ and a worst-case range of 2.85–3.15 kΩ. Its claim that the resulting string simply has the same tolerance is valid for this example because all resistors have the same percentage tolerance; for unequal tolerances, calculate the total worst-case bounds from each part’s own limits. The lesson’s equal-resistor example at 20 mA requires 60 V across 3 kΩ, so do not transfer it into Scout activities, which are limited to 12 V DC. The “weakest link” description of string power rating is too simple: calculate each resistor’s power and voltage stress, apply the exact part’s derating and thermal conditions, and determine which limit constrains the string. For the article, use a low-voltage example and do not claim that power ratings always add or that equal values are always best.
+
 ===== “Resistor characteristics” excerpt =====
 
 The lesson gives a useful checklist for selecting a resistor from its exact datasheet: nominal resistance, tolerance, operating temperature, power rating, maximum working voltage, package dimensions, and power derating. It also notes that datasheets vary in layout. The booklet adopts this as practical guidance and treats working voltage and power as separate limits; manufacturer datasheets may specify pulse or overload ratings only for defined conditions.
@@ -57,4 +61,4 @@ The Scouts Electronics Activity Badge asks participants to identify common compo
 
 ===== Disposition =====
 
-Added the opening lesson as background for the existing fundamentals and breadboard drafts, and used the “Types of resistors” and “Resistor characteristics” excerpts for qualified component and datasheet guidance in the booklet, and the “Read resistor color codes” and “Measure resistance” excerpts for the resistor blog outline. No course imagery, circuit values, or equipment recommendations were adopted.
+Added the opening lesson as background for the existing fundamentals and breadboard drafts, and used the “Types of resistors” and “Resistor characteristics” excerpts for qualified component and datasheet guidance in the booklet, and the “Read resistor color codes”, “Measure resistance”, and “Resistors in series” excerpts for the resistor blog outline. No course imagery, circuit values, or equipment recommendations were adopted.
