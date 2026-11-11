@@ -30,6 +30,8 @@ The related two-day [[https://lushprojects.com/electronicsforartists/|Electronic
 - Introduce a source, load, and conducting path; explain closed and open circuits, a switch, voltage across an open switch, and short-circuit risks.
 - Define resistance as opposition to current, measured in ohms (''Ω''), and use water flow through pipes as a first analogy. Explain where the analogy stops being exact.
 - Introduce Ohm’s law, ''V = I × R'', rearrange it to find current, and show the relationships ''V = I × R'' and ''P = V × I'' with a checked, low-voltage example.
+- Introduce Kirchhoff’s Current Law (KCL): at a connected node, total current entering equals total current leaving. Use ''IA + IB = IC + ID'' for a clearly drawn junction, and explain that a wire crossing is not a connection unless marked according to the schematic convention.
+- Introduce Kirchhoff’s Voltage Law (KVL): the directed sum of voltage rises and drops around a closed loop is zero. Choose a loop direction and keep voltage polarities consistent; use a simple battery-and-resistor loop to show how signed voltages balance.
 - Introduce common SI prefixes used with electrical units, with examples of converting between milliamperes and amperes, and kilo-ohms and ohms.
 - Briefly compare a periodic signal with its sinusoidal frequency components to motivate why filters can affect different frequencies differently. Explain that this is a frequency-analysis model; do not claim that every signal is a finite sum of sinusoids or derive Fourier analysis.
 - Compare an ideal voltage source with a real battery: explain that a real source has limits and its terminal voltage can change with load.

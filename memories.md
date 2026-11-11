@@ -468,3 +468,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Parallel-resistor diagram assessed
 
 - **Source assessment:** Philip supplied the course frame showing the parallel-resistance equation and branches across common rails. It agrees with the topology recorded in the source review. Do not reuse the course image; draw any project figure in the preferred IEC schematic style.
+
+## 2026-11-11 — Kirchhoff's laws transcript assessed
+
+- **Source assessment:** The “Kirchhoff's circuit laws” transcript introduces current balance at a node and signed voltage balance around a loop. Add both to the fundamentals article outline with clear reference directions, IEC symbols, and explicit junction versus crossing conventions; the transcript's 9 V values are illustrative, not Scout activity instructions. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
