@@ -624,3 +624,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Spectrum analyser context
 
 - **User-reported experience:** Philip uses spectrum analysers extensively for EMC and RF work. Include spectrum analysis as an optional advanced topic in the fundamentals blog, alongside scope FFTs. Explain their complementary frequency-domain role and model-dependent settings such as span, RBW and detector; do not suggest that either an FFT or analyser trace alone establishes EMC compliance. See the [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
+
+## 2026-11-11 — EMC course-inspired blog ideas
+
+- **Editorial decision:** Add two optional, adult-facing topics from Karen Burnham’s course-note summaries: switching noise/harmonics/edge rates, and enclosure seams/apertures/cable entries. Keep these separate from the EMC primer and PCB-layout post, use the course only as a topic map, and verify technical claims against primary sources. See the [[sites:scouts-electronics-badge:blog:emc-switching-noise-harmonics|switching-noise idea]], [[sites:scouts-electronics-badge:blog:emc-enclosure-seams-apertures|enclosure idea]] and [[sites:scouts-electronics-badge:sources:emc-engineering-basics-course-note|course note]].

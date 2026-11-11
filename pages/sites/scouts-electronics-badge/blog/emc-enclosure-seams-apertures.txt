@@ -1,0 +1,28 @@
+====== EMC enclosures: seams, apertures and cable entries ======
+
+**Status:** Idea; adult-facing outline. Verify technical explanations against primary sources before drafting.
+
+**Audience:** Adult electronics makers and technically experienced readers. Not a Scout construction activity.
+
+===== Purpose =====
+
+Show how an enclosure’s seams, openings, contact surfaces and cable entries can affect shielding and electromagnetic emissions. Explain why the enclosure is part of the complete system, while avoiding simplistic rules that imply a particular opening size or material guarantees a result.
+
+===== Planned outline =====
+
+  * Introduce the enclosure as a boundary that can reduce coupling, while noting that cables and apertures can provide paths through it.
+  * Explain how seam geometry, electrical contact, coatings, fasteners, corrosion and assembly pressure can influence continuity across joints; verify each claim against suitable engineering sources.
+  * Discuss ventilation slots, connector cut-outs, display openings and cable entries as frequency- and geometry-dependent features. Avoid presenting wavelength ratios as universal pass/fail limits.
+  * Explain the role of cable shields, bonding and connector termination at enclosure boundaries, with examples that distinguish low-frequency and RF behaviour where the evidence supports it.
+  * Connect enclosure choices with PCB layout, return paths and intended cables. Emphasise that performance depends on the assembled product and its operating modes.
+  * Close by distinguishing design exploration, pre-compliance checks and formal product assessment. Keep market requirements separate from practical shielding advice.
+
+===== Sources and assessment =====
+
+  * [[sites:scouts-electronics-badge:sources:emc-engineering-basics-course-note|Karen Burnham’s EMC Engineering Basics course-material note]], as an attributed topic map for enclosure seams, openings, contact surfaces and slots. The slide summaries are not technical verification.
+  * Verify enclosure, bonding and aperture explanations against primary technical literature, the exact product design context and any applicable standards before publication.
+  * Do not present a material, gasket, aperture dimension or informal shielding check as a universal guarantee of EMC performance or regulatory compliance.
+
+===== Visuals =====
+
+  * Consider an original diagram showing an enclosure seam and a cable entry, labelled as examples of possible coupling paths rather than a complete shield-design recipe.

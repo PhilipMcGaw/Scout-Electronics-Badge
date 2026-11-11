@@ -1,0 +1,28 @@
+====== Switching noise, harmonics and edge rates ======
+
+**Status:** Idea; adult-facing outline. Verify technical explanations and measurements against primary sources before drafting.
+
+**Audience:** Adult electronics makers and technically experienced readers. Not a Scout construction activity.
+
+===== Purpose =====
+
+Explain why switching waveforms contain frequency components beyond their repetition rate, how fast transitions can increase high-frequency content, and how unintended coupling paths can turn switching activity into an EMC problem. Link the time-domain picture to what a spectrum analyser or oscilloscope FFT can show without treating either trace as a compliance result.
+
+===== Planned outline =====
+
+  * Start with a switching converter or digital clock as a recurring source, then trace the source, coupling path and affected circuit.
+  * Compare a switching waveform in the time domain with its frequency-domain components. Explain the switching repetition frequency, harmonics, and why edge shape and rise/fall time influence the spectrum.
+  * Describe parasitic capacitance and inductance as possible coupling paths. Relate loop geometry and return paths to the separate [[sites:scouts-electronics-badge:blog:pcb-layout-for-emc|PCB layout for EMC]] post.
+  * Distinguish changing the switching frequency from changing edge rate; each can affect the spectrum and system behaviour differently. Do not offer a single rise-time formula or universal “slow edges are always better” rule without checking the device and design context.
+  * Explain what an oscilloscope FFT and a spectrum analyser can each reveal. Discuss settings and limits only at a high level, with model-specific behaviour and measurement uncertainty clearly stated.
+  * Close with a cautious troubleshooting sequence: identify a repeatable symptom, correlate it with switching operation, inspect likely coupling paths, make one controlled change, and compare measurements with a consistent setup.
+
+===== Sources and assessment =====
+
+  * [[sites:scouts-electronics-badge:sources:emc-engineering-basics-course-note|Karen Burnham’s EMC Engineering Basics course-material note]], as an attributed topic map for switching noise, harmonics, rise time and parasitic paths. The slide summaries are not technical verification.
+  * Check switching-waveform, edge-rate and spectral claims against manufacturer application notes or primary technical literature before writing.
+  * For measurement guidance, use the exact oscilloscope, probe and spectrum-analyser manuals; do not infer formal EMC compliance from a bench spectrum trace.
+
+===== Visuals =====
+
+  * Consider an original diagram pairing a switching waveform with a simplified labelled spectrum. State that the plotted values and spectral shape are illustrative, not measurements.
