@@ -16,6 +16,15 @@ When an IC switches, its supply current can change quickly. The wires and copper
 
 The connection matters as much as the printed capacitance value. Long tracks and extra vias add inductance to the loop. Place a recommended capacitor close to the supply and ground pins, and follow the manufacturer’s layout guidance. A capacitor several centimetres away may not do the same job as one beside the IC.
 
+===== A missing capacitor changed a test result =====
+
+In a project example I described in 2022, the difference between the two results shown below was a 100 nF capacitor between Vcc and GND on a PIC microcontroller. The original post labels one result as a fail and the other as a pass:
+
+* [[https://philipmcgaw.com/wp-content/uploads/2022/01/without-100nf-capacitor.png|Result without the 100 nF capacitor]]
+* [[https://philipmcgaw.com/wp-content/uploads/2022/01/with-100nf-capacitor.png|Result with the 100 nF capacitor]]
+
+This is a useful reminder that a small, local supply component can matter in a real EMC result. It is one project example, not proof that every PIC needs exactly 100 nF or that adding this capacitor alone guarantees compliance. The right value, placement and test interpretation depend on the device, circuit and measurement setup.
+
 ===== A real capacitor is not ideal =====
 
 A simple model of a capacitor includes capacitance, resistance and inductance. At lower frequencies, capacitance usually dominates: increasing capacitance lowers the capacitor’s impedance. At higher frequencies, the inductance of the part and its board connections becomes more important. Above its self-resonant frequency, the part behaves mainly like an inductor.
@@ -49,3 +58,4 @@ Decoupling is about giving a circuit a suitable low-impedance supply path over t
 * Bogatin, Smith and Sandler’s 2020 article is a specialist discussion of power distribution networks and MLCC decoupling. Use it to question inherited rules, not as a general instruction to remove or replace capacitors.
 * Texas Instruments’ device hardware and layout guides illustrate why recommendations are device-specific: some require specified capacitor values and close placement at particular power pins. Always use documentation for the exact device and revision.
 * Murata’s [[https://article.murata.com/en-eu/article/voltage-characteristics-of-electrostatic-capacitance|guide to MLCC voltage characteristics]] explains how DC bias can reduce effective capacitance in some ceramic capacitors. Check the exact component datasheet.
+* Philip McGaw, [[https://philipmcgaw.com/ce-mark/|“Placing a Product on the market – CE Mark”]], 2022-01-17, for the reported PIC microcontroller decoupling example and its before/after graphs. The page also discusses regulatory topics; treat those separately and verify any current compliance information against current official guidance.

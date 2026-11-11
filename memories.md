@@ -137,6 +137,11 @@
 - **Source assessment:** The pasted “Decoupling capacitors” transcript is a useful introduction to local supply decoupling and the difference between schematic grouping and physical placement. Its 100 nF plus 1 µF/10 µF suggestions are examples, not universal requirements, and the “drain AC noise to ground” analogy needs limits for real impedance, layout and return paths. Thermal noise should not be described as automatically removed by a shunt capacitor.
 - **Project outcome:** Added the assessment to the [course review](pages/sites/scouts-electronics-badge/sources/electronics-foundations-basic-circuits-review.txt) and a concise treatment to the [fundamentals outline](pages/sites/scouts-electronics-badge/blog/electronics-fundamentals.txt). The dedicated [decoupling article](pages/sites/scouts-electronics-badge/blog/decoupling-capacitors.txt) remains subject to exact-device datasheet and layout review tracked in TODO.md.
 
+## 2026-11-11 — PIC decoupling example added to draft
+
+- **User-reported project example:** Philip’s 2022 CE-mark article shows before/after graphs labelled fail and pass, and attributes the difference to a 100 nF capacitor between Vcc and GND on a PIC microcontroller. The underlying test details are not established here; do not infer the exact measurement or generalise the result to every PIC design.
+- **Project outcome:** Added this as a short case study with links to the original graphs in the [decoupling-capacitor draft](pages/sites/scouts-electronics-badge/blog/decoupling-capacitors.txt). Regulatory statements elsewhere on that older article require separate current-source checking.
+
 This is the durable working context for the Scouts Electronics Activity Badge project. It records useful decisions and preferences across conversations; it is not a transcript or a task list. Current actions are tracked in [TODO.md](TODO.md).
 
 ## 2026-11-08 — Poeth SMD manufacturing article assessed
