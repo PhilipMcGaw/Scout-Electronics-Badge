@@ -566,4 +566,4 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 ## 2026-11-11 — Capacitor quiz: electric field
 
-- **Source assessment:** The first supplied question from the course’s eight-question capacitor quiz correctly identifies the electric field between differently charged capacitor plates as the field in which energy is stored. This supports the blog’s existing explanation of separated charge and electric-field energy; the other seven quiz questions have not been reviewed.
+- **Source assessment:** The first two supplied questions from the course’s eight-question capacitor quiz are correct: a capacitor stores energy in the electric field between differently charged plates, and the common three-digit value code indicates picofarads. Present pF as the unit for that common code, not every capacitor marking or part-number system. The other six quiz questions have not been reviewed.
