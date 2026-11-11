@@ -528,3 +528,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Capacitor-failure joke terminology
 
 - **User wording:** “Factory smoke” is another name for “magic smoke”. If this joke is used in learner-facing copy, keep it clear that smoke or venting indicates a component failure and needs safe attention.
+
+## 2026-11-11 — Preferred capacitor discharge method
+
+- **User preference:** Philip prefers discharging capacitors through a resistor, typically around 1 kΩ. Treat that as a starting point only; check capacitor voltage, capacitance, initial resistor power, pulse-energy rating and discharge time, then measure the remaining voltage. Keep Scout activities within the 12 V maximum supply rule.
