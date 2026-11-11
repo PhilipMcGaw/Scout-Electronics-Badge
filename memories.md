@@ -595,3 +595,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Sine-wave characteristics lesson assessed
 
 - **Source assessment:** The “Sine wave characteristics” transcript introduces amplitude, frequency, period and relative phase. Use peak amplitude and peak-to-peak voltage precisely; “semi-amplitude” is not the preferred term. For a zero-centred sine, ''Vpp = 2Vp''; with DC offset, measure amplitude from the midline. State ''T = 1/f'' with seconds (the transcript’s 3 Hz example has period 1/3 s). Define phase relative to a reference and compare same-frequency waves; a quarter-cycle offset is 90°. Avoid claiming that all ocean, sound or light waves are sinusoidal. See the course source review and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
+
+## 2026-11-11 — RF wavelength in fundamentals article
+
+- **User preference:** Include wavelength with the waveform characteristics because Philip works extensively with RF; treat it as an optional advanced blog note, not Scouts core content.
+- **Technical note:** Wavelength is ''λ = v_p/f''. Use free-space speed ''c'' only for free-space wavelength; for a cable or PCB trace, use the guided phase velocity (often described by velocity factor). See the [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
