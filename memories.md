@@ -472,3 +472,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Kirchhoff's laws transcript assessed
 
 - **Source assessment:** The “Kirchhoff's circuit laws” transcript introduces current balance at a node and signed voltage balance around a loop. Add both to the fundamentals article outline with clear reference directions, IEC symbols, and explicit junction versus crossing conventions; the transcript's 9 V values are illustrative, not Scout activity instructions. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
+
+## 2026-11-11 — Wheatstone-bridge transcript assessed
+
+- **Source assessment:** The “Wheatstone Bridge” transcript connects two dividers and introduces differential measurement. With the stated output convention ''Vout = VR − VL'', preserve sign when calculating an unbalanced bridge; the 5 V, 10 kΩ, 10 kΩ, 10 kΩ and sub-1 kΩ example at −2.3 V implies about 417 Ω. Qualify claims of accuracy and use the bridge only as a checked, low-voltage sensor example. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:resistors|resistor draft]].
