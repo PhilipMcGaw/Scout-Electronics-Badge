@@ -488,3 +488,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Resistor and sensor quiz items assessed
 
 - **Source assessment:** All eight supplied quiz questions are reviewed. They cover series resistance and dividers, photoresistors, passive-divider limits, parallel resistance, rheostats, Wheatstone bridges, and Kirchhoff's Current Law. Preserve the divider circuit conditions and note that its output stays between the source rails. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]].
+
+## 2026-11-11 — Oscilloscope lesson assessed
+
+- **Source assessment:** The “What is an oscilloscope?” transcript gives the voltage-versus-time overview. Add this as optional fundamentals material, not as a requirement or purchase recommendation. Treat its bandwidth/sample-rate ranges, used-scope advice, and Rigol model as historical examples; check exact probe ratings and grounding before any practical low-voltage demonstration. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
