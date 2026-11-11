@@ -1,7 +1,7 @@
 # Project memories
 ## 2026-11-11 — Resistor-types knowledge check
 
-- **Project outcome:** Added the first of six resistor-types knowledge-check questions to the booklet. Use “fixed-value resistor” in place of the source quiz’s “static resistor”, consistent with the established terminology preference.
+- **Project outcome:** Added the first two of six resistor-types knowledge-check questions to the booklet. Use “fixed-value resistor” in place of the source quiz’s “static resistor”, consistent with the established terminology preference; describe through-hole as a leaded package style that fits standard breadboards.
 
 ## 2026-11-11 — Resistance measurement guidance
 

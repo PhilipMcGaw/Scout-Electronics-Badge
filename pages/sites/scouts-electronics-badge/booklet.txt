@@ -652,6 +652,17 @@ Which type of resistor has a constant resistance value?
 
 **Answer for the Leader:** Fixed-value resistor. Its resistance is not adjusted in use. A potentiometer or rheostat is adjustable, while a photoresistor changes resistance with light.
 
+**Question 2 of 6**
+
+Which resistor package style generally has leads that can be inserted directly into a solderless breadboard?
+
+* Through-hole
+* Low-cost
+* High-power
+* Surface-mount
+
+**Answer for the Leader:** Through-hole. These resistors have leads that fit breadboard contacts. Surface-mount parts have pads rather than leads and do not plug directly into a standard solderless breadboard.
+
 === Capacitor ===
 
 A capacitor is a storage element for electrical charge, like a bottle that stores a liquid. The basic unit of capacitance is the farad (F). Practical capacitors have capacitance values in microfarads (&#181;F). The physical size of a capacitor depends on its voltage rating and its capacitance value. The higher the voltage rating and the larger the capacitance value, the larger the capacitor must be.
