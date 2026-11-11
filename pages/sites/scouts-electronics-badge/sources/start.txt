@@ -6,6 +6,7 @@
   * [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-exercises-review|Electronics Foundations Basic Circuits Exercise Files Review]]
   * [[sites:scouts-electronics-badge:sources:electronics-tutorials-index|Electronics Tutorials Index]]
   * [[sites:scouts-electronics-badge:sources:electronics-for-dummies-review|Electronics For Dummies Review]]
+  * [[sites:scouts-electronics-badge:sources:emc-engineering-basics-course-note|EMC Engineering Basics Course Note]]
   * [[sites:scouts-electronics-badge:sources:electronics-review|Electronics Review]]
   * [[sites:scouts-electronics-badge:sources:make-electronics-review|Make Electronics Review]]
   * [[sites:scouts-electronics-badge:sources:iet-scout-electronics-badge-activity-pack-review|Iet Scout Electronics Badge Activity Pack Review]]

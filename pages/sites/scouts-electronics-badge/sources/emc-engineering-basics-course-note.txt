@@ -1,0 +1,34 @@
+====== EMC Engineering Basics: course-material note ======
+
+===== Source and handling =====
+
+The supplied note identifies six PDF slide-note files from Udemy’s //EMC Engineering Basics// course: ''EMCBasics01.pdf'' to ''EMCBasics05.pdf'', and ''EMCBasics07.pdf''. It reports that the files were timestamped 2026-11-08 and contained 96 slides in total. Philip clarified on 2026-11-09 that there was no PDF 06 because lecture 6 was a hardware demonstration; no slide notes for that demonstration were supplied.
+
+The slides identify Karen Burnham as presenter and EMC United, Inc. as the organisation. They carry EMC United, Inc. copyright notices dated 2024 and 2025. The PDFs’ metadata names Nitin Kondhare as author; the relationship between that metadata and the named presenter is not established by the supplied note.
+
+According to the note, the slide text was extracted and reviewed, with representative diagrams inspected visually. The six PDFs were removed from the inbox on 2026-11-09 at Philip’s request. The source files are course materials, not evidence of course completion, study time or learning. The note says its paraphrase and SHA-256 identifiers are retained for the CPD record; this repository page records their content without reproducing the decks.
+
+^ Supplied file ^ Pages ^ SHA-256 ^
+| ''EMCBasics01.pdf'' | 16 | ''9c6e0c664de093b0de50d4f2607ec8676fa07e5077a0f88605a04018a4985cc7'' |
+| ''EMCBasics02.pdf'' | 22 | ''5f1ffd44a25db2ea3d5cc7ce5d3478d566551a85ce6f282c7faa4c701d7f2b7b'' |
+| ''EMCBasics03.pdf'' | 15 | ''6b74692621aecfdf2ac8d92014b4ba410e73d98298b94ef0e773420a509def73'' |
+| ''EMCBasics04.pdf'' | 13 | ''db7e950702fdc07557e43b2ba2966fc7232d95324b03871206134ff84d1622a8'' |
+| ''EMCBasics05.pdf'' | 23 | ''25849ff7be3a549315fd084bf530cd2890bac844d1de8dfddba2dcc275a051de'' |
+| ''EMCBasics07.pdf'' | 7 | ''5d224d63a9a5d13ce901f6c6e1faadeaecf3118f7b7ac64e97f9dfc4682b3'' |
+
+===== Slide content summary =====
+
+These are attributed summaries of the course material as described in the supplied note. They are not independent technical verification or Philip’s personal reflections.
+
+  * **Deck 01 — Introduction:** Introduces radiated and conducted emissions and immunity using a noisy source, a susceptible victim and a coupling path. Diagrams distinguish radiation through space from coupling via wiring. It gives a refrigerator/FM-radio interference example and attributes the 1967 USS //Forrestal// fire to a power surge during checkout, describing it as conducted emissions causing conducted susceptibility. That historical explanation is recorded as the slide’s account, not as an independently established cause. The deck also uses EME for electromagnetic effects, EEE/E3 for “EM Environmental Effects”, and EMR for “electromagnetic resilience”.
+  * **Deck 02 — Dipoles and monopoles:** Discusses radiation from changing fields and displacement current, capacitive coupling, and unintended antennas formed by conductors with an RF potential difference. It extends the model to monopoles and nearby conductors, including power-cable conductors, and introduces bonding conductors to reduce potential differences; it notes that bond quality matters.
+  * **Deck 03 — Loops and PCB returns:** Covers loop antennas, loop area, PCB trace return paths, slots in reference planes and cable loop area. It presents short return paths, routing power and return close together, and balanced twisted pairs as ways to reduce loop area or emissions.
+  * **Deck 04 — Enclosures:** Covers seams, cable and ventilation openings, insulated painted contact surfaces and slots. It describes apertures as possible field-entry paths and radiating structures, and compares long slots with arrays of smaller openings such as honeycomb.
+  * **Deck 05 — Switching noise:** Introduces time- and frequency-domain views, Fourier transforms, switching-frequency components and harmonics, and examples involving a switched-mode power supply and a digital clock. It discusses switching transitions, electromagnetic noise, electric-vehicle inverter circuitry, parasitic capacitance and parallel paths.
+  * **Deck 07 — Warning signs and mitigations:** Presents switching frequencies and harmonics, rise time, and structures approaching a quarter wavelength as screening considerations. It gives an illustrative 30 MHz clock/1 ns rise-time example and lists layout, filtering and filter placement, shielding, cable routing, grounding and bonding as design measures. These are course rules of thumb; applicability to a particular product or standard requires separate analysis.
+
+===== Evidence boundary and use =====
+
+The supplied material supports a record of the topics and examples attributed to the course slides. It does not establish which sections Philip watched, his study time, learning, assessment results or application at work. Technical explanations, historical claims and design rules of thumb should be checked against appropriate primary references before publication or use in a design.
+
+Use the material as a topic map for the [[sites:scouts-electronics-badge:blog:emc-basics-emissions-and-immunity|EMC basics outline]] and [[sites:scouts-electronics-badge:blog:pcb-layout-for-emc|PCB EMC layout outline]]. Keep emissions, immunity, debugging, pre-compliance and formal conformity assessment distinct. The slide summaries do not replace applicable standards, product-specific assessment or UK market guidance.

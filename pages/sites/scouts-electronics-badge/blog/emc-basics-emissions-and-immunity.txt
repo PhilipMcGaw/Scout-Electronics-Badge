@@ -14,6 +14,7 @@ Explain why electronic products should coexist with nearby equipment: they shoul
 - Define **EMC** as the ability of equipment to function as intended in its electromagnetic environment without causing intolerable disturbance to other equipment.
 - Explain **emissions** as disturbance a device produces, and **immunity** as how well it operates when disturbance is present. Explain that **EMI** usually names the interference/disturbance problem; some industry material uses **EMS** for susceptibility or immunity, but the terms are not always used consistently.
 - Distinguish conducted and radiated disturbance, and briefly introduce coupling paths: shared wires/grounds, electric or magnetic fields, and antennas/cables.
+- Use the supplied *EMC Engineering Basics* slide-note summaries as a topic map for examples of changing-field and loop coupling, PCB return paths, cable/bonding paths, enclosure seams and slots, and switching harmonics and parasitics. Link this overview to the separate PCB-layout post; treat the course’s rules of thumb as prompts, not universal layout or compliance rules, and verify engineering claims against suitable primary references.
 - Explain that EMC assessment covers both emissions and immunity, and depends on the product, intended environment, operating modes, configuration and applicable standards.
 - Give the UK context carefully: Great Britain’s EMC Regulations 2016 set essential requirements for equipment placed on the market; Northern Ireland has separate guidance. A project prototype or one successful bench check does not establish product conformity.
 - Explain the difference between design debugging, a pre-compliance check, and a formal conformity assessment or accredited test. Pre-compliance measurements help identify problems but do not prove compliance.
@@ -26,6 +27,7 @@ Explain why electronic products should coexist with nearby equipment: they shoul
 * European Commission, [[https://single-market-economy.ec.europa.eu/sectors/electrical-and-electronic-engineering-industries-eei/electromagnetic-compatibility-emc-directive_en|EMC Directive overview]]. Useful for EU context; do not conflate EU and GB market routes.
 * Nemko, [[https://www.nemko.com/services/product-testing/emc-testing|EMC testing service overview]]. A commercial laboratory page that clearly illustrates emissions and immunity as two parts of testing; do not use its marketing copy as a standards source.
 * PCB HERO, [[https://www.pcb-hero.com/blogs/lilycolumn/what-s-the-difference-between-emi-ems-and-emc|“What’s the Difference between EMI EMS and EMC?”]]. Topic prompt only. Its definitions are inconsistent and should not be reused as technical explanations.
+* [[sites:scouts-electronics-badge:sources:emc-engineering-basics-course-note|EMC Engineering Basics course-material note]]. Summaries of the supplied slide-note PDFs; useful for topic planning, not an independently verified technical authority or evidence of course completion.
 
 ===== Visuals =====
 

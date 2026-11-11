@@ -604,3 +604,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — AC voltage and RMS lesson assessed
 
 - **Source assessment:** The course’s 170 V peak to 120 V RMS example is correct for a zero-centred sine wave. Explain RMS generally as the square root of the mean squared waveform; ''Vp/sqrt(2)'' is a sine-only shortcut. AC DMM results on distorted signals depend on meter method and specifications such as bandwidth, crest factor and coupling. The transcript’s 120 V, 60 Hz outlet procedure is North American and must not become a Scout activity; keep practical examples generated and at or below 12 V DC. See the [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]] and course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]].
+
+## 2026-11-11 — EMC Engineering Basics course notes assessed
+
+- **Source assessment:** The supplied note summarizes six EMC Engineering Basics slide-note PDFs (lessons 1–5 and 7); it reports that lesson 6 was a hardware demonstration with no PDF. Topics include source–path–victim, conducted/radiated coupling, fields and loops, PCB returns, enclosures, switching harmonics and design mitigations. Treat these as attributed course-summary topics, not independently verified claims or evidence that Philip watched/completed the course. See the [[sites:scouts-electronics-badge:sources:emc-engineering-basics-course-note|course-material note]] and EMC article outlines.
