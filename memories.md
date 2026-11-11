@@ -600,3 +600,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - **User preference:** Include wavelength with the waveform characteristics because Philip works extensively with RF; treat it as an optional advanced blog note, not Scouts core content.
 - **Technical note:** Wavelength is ''λ = v_p/f''. Use free-space speed ''c'' only for free-space wavelength; for a cable or PCB trace, use the guided phase velocity (often described by velocity factor). See the [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
+
+## 2026-11-11 — AC voltage and RMS lesson assessed
+
+- **Source assessment:** The course’s 170 V peak to 120 V RMS example is correct for a zero-centred sine wave. Explain RMS generally as the square root of the mean squared waveform; ''Vp/sqrt(2)'' is a sine-only shortcut. AC DMM results on distorted signals depend on meter method and specifications such as bandwidth, crest factor and coupling. The transcript’s 120 V, 60 Hz outlet procedure is North American and must not become a Scout activity; keep practical examples generated and at or below 12 V DC. See the [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]] and course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]].
