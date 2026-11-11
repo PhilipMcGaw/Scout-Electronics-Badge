@@ -4,7 +4,7 @@
 * **Source:** [[https://www.linkedin.com/learning/electronics-foundations-basic-circuits/principles-of-basic-electronic-circuits?u=2174060|LinkedIn Learning, Electronics Foundations: Basic Circuits, “Principles of basic electronic circuits”]]
 * **Instructor:** Barron Stone, Electrical Engineer
 * **Course details shown:** Beginner; 4 h 2 min; updated 2021-07-30
-* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, and “Build circuits on breadboards”, and the user-pasted transcripts “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, “Measure resistance”, “Resistors in series”, and “Voltage dividers”, plus all six questions from a resistor-types knowledge check. No course video or other lessons or quiz questions were reviewed.
+* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, and “Build circuits on breadboards”, and the user-pasted transcripts “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, “Measure resistance”, “Resistors in series”, and “Voltage dividers”, plus a user-supplied diagram frame from the “Voltage dividers” lesson and all six questions from a resistor-types knowledge check. No course video or other lessons or quiz questions were reviewed.
 
 ===== Useful coverage and overlap =====
 
@@ -43,7 +43,7 @@ The lesson correctly explains that series resistance is the sum of the individua
 
 ===== “Voltage dividers” excerpt =====
 
-The lesson’s 3 V divider example is consistent: 1 kΩ and 2 kΩ in series draw 1 mA when unloaded, leaving 2 V across the lower 2 kΩ resistor. For the output across R2, use ''Vout = Vin × R2 ÷ (R1 + R2)''; the transcript first gives an incorrect numerator using R1, then later states the correct R2 ratio. Say explicitly that this formula assumes the output is unloaded. A device connected across the output is in parallel with R2 and changes the divider ratio; model or measure that loading before relying on the output. The course’s traffic analogy can help introduce voltage drops, but keep the actual explanation anchored in current, resistance and measured voltage.
+The lesson’s 3 V divider example is consistent: 1 kΩ and 2 kΩ in series draw 1 mA when unloaded, leaving 2 V across the lower 2 kΩ resistor. For the output across R2, use ''Vout = Vin × R2 ÷ (R1 + R2)''. One sentence in the transcript says R1 in the numerator, but the user-supplied diagram and the transcript’s later ratio correctly show R2; treat the spoken wording as a slip. Say explicitly that this formula assumes the output is unloaded. A device connected across the output is in parallel with R2 and changes the divider ratio; model or measure that loading before relying on the output. The course’s traffic analogy can help introduce voltage drops, but keep the actual explanation anchored in current, resistance and measured voltage. Do not reuse the supplied course frame without established image rights.
 
 ===== “Resistor characteristics” excerpt =====
 

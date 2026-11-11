@@ -1,7 +1,7 @@
 # Project memories
 ## 2026-11-11 — Voltage-divider lesson assessed
 
-- **Source assessment:** The user supplied the “Voltage dividers” transcript. The resistor article plan uses `Vout = Vin × R2 ÷ (R1 + R2)` for an unloaded divider with R2 below the output node, corrects the transcript’s R1 numerator slip, and notes that an attached load changes the output.
+- **Source assessment:** The user supplied the “Voltage dividers” transcript and a diagram frame showing the divider formula. The diagram uses the correct R2 numerator; the transcript says R1 once, then gives the correct R2 ratio. The resistor article plan covers the unloaded formula and load effect. Do not reuse the course frame without image rights.
 
 ## 2026-11-11 — Series-resistor lesson assessed
 
