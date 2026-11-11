@@ -608,3 +608,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — EMC Engineering Basics course notes assessed
 
 - **Source assessment:** The supplied note summarizes six EMC Engineering Basics slide-note PDFs (lessons 1–5 and 7); it reports that lesson 6 was a hardware demonstration with no PDF. Topics include source–path–victim, conducted/radiated coupling, fields and loops, PCB returns, enclosures, switching harmonics and design mitigations. Treat these as attributed course-summary topics, not independently verified claims or evidence that Philip watched/completed the course. See the [[sites:scouts-electronics-badge:sources:emc-engineering-basics-course-note|course-material note]] and EMC article outlines.
+
+## 2026-11-11 — UK live-conductor terminology
+
+- **User preference:** In UK-context mains references, say “live” or “live conductor”, not the North American term “hot”. The course’s “Measure AC voltage” transcript uses “hot”; retain that only when describing the source wording and label it as US terminology. See the course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]].
