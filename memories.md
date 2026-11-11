@@ -583,3 +583,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Ceramic capacitor voltage-coefficient plot reviewed
 
 - **Source assessment:** The supplied “Voltage Coefficients” figure matches Figure K-2 in the Knowles/NOVACAP technical brochure. Its x-axis is volts per mil of dielectric thickness; the curves are construction/formulation examples, not universal X7R, Y5V or BX behaviour. Applied DC bias can reduce Class 2 ceramic capacitance, but modern selection requires the exact part’s DC-bias curve or datasheet. Do not reuse this image without confirming rights. See the [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
+
+## 2026-11-11 — Charge, capacitance and voltage mnemonic
+
+- **Source assessment:** The supplied equation triangle represents ''Q = C × V'', with rearrangements ''C = Q/V'' and ''V = Q/C''. Treat it as a formula memory aid, not an electrical or schematic symbol; label Q in coulombs, C in farads and V in volts. No image source or reuse licence was supplied, so make an original visual if the mnemonic is used. See the [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
