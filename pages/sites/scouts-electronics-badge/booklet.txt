@@ -685,6 +685,17 @@ Which resistor characteristic describes how much its actual resistance may diffe
 
 **Answer for the Leader:** Tolerance. It is usually given as a percentage of the nominal resistance. For example, a 1 kΩ resistor with ±5% tolerance should have an actual resistance between 950 Ω and 1,050 Ω when measured under the specified conditions.
 
+**Question 5 of 6**
+
+Which resistor colour band is commonly separated from the others by a wider gap?
+
+* Tolerance
+* Precision
+* Digit
+* Multiplier
+
+**Answer for the Leader:** Tolerance. The wider gap is a common clue that helps identify the tolerance band, but band arrangements vary. Confirm the order with a colour-code chart that matches the resistor.
+
 === Capacitor ===
 
 A capacitor is a storage element for electrical charge, like a bottle that stores a liquid. The basic unit of capacitance is the farad (F). Practical capacitors have capacitance values in microfarads (&#181;F). The physical size of a capacitor depends on its voltage rating and its capacitance value. The higher the voltage rating and the larger the capacitance value, the larger the capacitor must be.
