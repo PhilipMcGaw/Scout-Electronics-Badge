@@ -536,3 +536,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Capacitor value-marking lesson assessed
 
 - **Source assessment:** “Read capacitor values” gives correct examples for the assumed three-digit pF code: 103 = 10 nF and 334K = 330 nF ±10 %. Marking and tolerance codes vary; many MLCCs are unmarked. Do not assume a missing tolerance letter means Z or use printed voltage as a universal operating limit. Check the exact part datasheet, and isolate/discharge capacitors before DMM capacitance measurement. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
+
+## 2026-11-11 — Capacitor characteristics lesson assessed
+
+- **Source assessment:** “Capacitor characteristics” covers voltage rating, capacitance tolerance, leakage and ESR. Keep the course’s 2× voltage selection as a rule of thumb only. Do not generalise its few-nA leakage or technology-wide ESR ranges; these depend on component construction and datasheet test conditions. Check effective capacitance, voltage, temperature, ripple, leakage and ESR as the application requires. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
