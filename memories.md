@@ -637,3 +637,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Signal-source course section
 
 - **Source assessment:** The user supplied the “Signal sources” transcript. Treat transducers and controlled test sources as useful fundamentals topics. Do not call function generators inherently clean; check exact output specifications. Audio outputs are audio-band sources, and square-wave distortion can result from the entire source-to-measurement chain, not necessarily the playback device alone. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
+
+## 2026-11-11 — Frequency-domain quiz wording
+
+- **Source assessment:** The user supplied question 1 of the course’s “Frequency domain” quiz; its expected answer is “sine waves”. Keep the Fourier-series/transform qualification in project writing so this teaching shorthand is not read as every signal being a finite sum of sinusoids. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]].
