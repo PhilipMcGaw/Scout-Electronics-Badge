@@ -633,3 +633,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Bandwidth and square-wave course section
 
 - **Source assessment:** The user supplied the “Bandwidth and square waves” transcript from Barron Stone’s basic-circuits course. Add an optional advanced explanation to the fundamentals post: signal bandwidth versus circuit passband, square-wave harmonics, finite edge rates and finite circuit bandwidth. Qualify that waveform distortion depends on the source, interconnect and load, and avoid one-size-fits-all bandwidth rules. The transcript’s animation is illustrative, not a verified design guide; Scout builds remain at or below 12 V DC.
+
+## 2026-11-11 — Signal-source course section
+
+- **Source assessment:** The user supplied the “Signal sources” transcript. Treat transducers and controlled test sources as useful fundamentals topics. Do not call function generators inherently clean; check exact output specifications. Audio outputs are audio-band sources, and square-wave distortion can result from the entire source-to-measurement chain, not necessarily the playback device alone. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
