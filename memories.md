@@ -591,3 +591,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — MLCC DC-bias example plot reviewed
 
 - **Source assessment:** The supplied 4.7 µF capacitance-versus-voltage graph matches Figure 19 in Power Integrations AN-90, which identifies it as a simulated TDK characteristic for selected X5R/X7R package sizes and voltage ratings. It usefully shows that nominally equal capacitors can retain different effective capacitance under bias; it is not a universal size/rating rule. Use the exact manufacturer part’s current curve or datasheet, and do not reproduce the figure without confirmed rights. See the [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
+
+## 2026-11-11 — Sine-wave characteristics lesson assessed
+
+- **Source assessment:** The “Sine wave characteristics” transcript introduces amplitude, frequency, period and relative phase. Use peak amplitude and peak-to-peak voltage precisely; “semi-amplitude” is not the preferred term. For a zero-centred sine, ''Vpp = 2Vp''; with DC offset, measure amplitude from the midline. State ''T = 1/f'' with seconds (the transcript’s 3 Hz example has period 1/3 s). Define phase relative to a reference and compare same-frequency waves; a quarter-cycle offset is 90°. Avoid claiming that all ocean, sound or light waves are sinusoidal. See the course source review and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
