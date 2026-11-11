@@ -1,4 +1,8 @@
 # Project memories
+## 2026-11-11 — Resistor code calculator
+
+- **Project outcome:** Built a standalone browser calculator for 4-, 5- and 6-band resistor colour codes and common SMD 3-digit, 4-digit, R-notation and EIA-96 markings. The tool labels scheme limits and links to Vishay references. The refreshed article still needs the calculator hosted and linked.
+
 ## 2026-11-11 — Resistor colour-code transcript assessed
 
 - **Source assessment:** The user supplied the “Read resistor color codes” lesson transcript. The blog outline now calls for worked four- and five-band examples, tolerance ranges, reading direction, and a note on six-band TCR and SMD code variation. Do not infer precision from band count alone or reuse the course chart without cleared rights.

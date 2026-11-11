@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Resistor code calculator</title>
+  <style>
+    :root { color-scheme: light; font-family: system-ui, sans-serif; color: #18212b; background: #f4f6f8; }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 2rem 1rem; }
+    main { max-width: 850px; margin: auto; }
+    h1 { margin: 0 0 .5rem; font-size: clamp(1.8rem, 5vw, 2.5rem); }
+    h2 { margin-top: 0; font-size: 1.3rem; }
+    p { line-height: 1.55; }
+    .intro { max-width: 70ch; color: #485563; }
+    .panel { margin: 1rem 0; padding: 1.25rem; border: 1px solid #d6dde4; border-radius: .8rem; background: white; box-shadow: 0 2px 8px #17212b0a; }
+    .tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1.25rem 0; }
+    button, select, input { font: inherit; }
+    button { cursor: pointer; }
+    .tab, .reset { border: 1px solid #8795a3; border-radius: .4rem; padding: .55rem .85rem; background: white; color: #18212b; }
+    .tab[aria-selected="true"] { background: #143d62; border-color: #143d62; color: white; }
+    .fields { display: grid; grid-template-columns: repeat(auto-fit, minmax(145px, 1fr)); gap: .85rem; }
+    label { display: grid; gap: .35rem; font-weight: 650; }
+    select, input { min-width: 0; padding: .55rem; border: 1px solid #8996a3; border-radius: .35rem; background: white; color: #18212b; }
+    .band-preview { display: flex; justify-content: center; align-items: center; min-height: 76px; margin: 1rem 0; }
+    .resistor { position: relative; display: flex; align-items: center; justify-content: space-evenly; width: min(380px, 90%); height: 36px; border-top: 2px solid #8996a3; border-bottom: 2px solid #8996a3; background: #e8d4aa; }
+    .resistor::before, .resistor::after { position: absolute; top: 15px; width: 15%; height: 2px; background: #8996a3; content: ""; }
+    .resistor::before { right: 100%; } .resistor::after { left: 100%; }
+    .band { z-index: 1; width: 13px; height: 34px; border-inline: 1px solid #0004; }
+    .result { min-height: 4.5rem; padding: .9rem 1rem; border-left: 5px solid #24754b; border-radius: .25rem; background: #edf7f0; }
+    .result strong { display: block; font-size: 1.35rem; }
+    .muted { color: #4d5966; font-size: .94rem; }
+    .warning { padding: .8rem 1rem; border-left: 4px solid #bd7900; background: #fff6df; }
+    [hidden] { display: none !important; }
+    :focus-visible { outline: 3px solid #1876c9; outline-offset: 2px; }
+    @media (prefers-reduced-motion: no-preference) { .tab { transition: background-color .15s ease; } }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Resistor code calculator</h1>
+  <p class="intro">Decode common through-hole resistor colour bands and surface-mount resistor markings. Select the marking scheme that matches the part. The result is an interpretation, so check the resistor’s datasheet when the value matters.</p>
+
+  <div class="tabs" role="tablist" aria-label="Resistor marking type">
+    <button class="tab" id="tab-bands" role="tab" aria-selected="true" aria-controls="bands-panel">Colour bands</button>
+    <button class="tab" id="tab-smd" role="tab" aria-selected="false" aria-controls="smd-panel" tabindex="-1">SMD marking</button>
+  </div>
+
+  <section class="panel" id="bands-panel" role="tabpanel" aria-labelledby="tab-bands">
+    <h2>Through-hole colour bands</h2>
+    <div class="fields">
+      <label for="band-count">Number of bands
+        <select id="band-count"><option value="4">4 bands</option><option value="5">5 bands</option><option value="6">6 bands</option></select>
+      </label>
+      <label id="band-label-1" for="band-1">Band 1<select id="band-1"></select></label>
+      <label id="band-label-2" for="band-2">Band 2<select id="band-2"></select></label>
+      <label id="band-label-3" for="band-3">Band 3<select id="band-3"></select></label>
+      <label id="band-label-4" for="band-4">Band 4<select id="band-4"></select></label>
+      <label id="band-label-5" for="band-5" hidden>Band 5<select id="band-5"></select></label>
+      <label id="band-label-6" for="band-6" hidden>Band 6<select id="band-6"></select></label>
+    </div>
+    <div class="band-preview" aria-hidden="true"><div class="resistor" id="resistor-preview"></div></div>
+    <div class="result" id="band-result" aria-live="polite" aria-atomic="true"></div>
+    <p class="muted">For 4 bands, the first two bands are significant digits. For 5 or 6 bands, the first three are significant digits. The next band is the multiplier, followed by tolerance; a sixth band commonly gives temperature coefficient.</p>
+  </section>
+
+  <section class="panel" id="smd-panel" role="tabpanel" aria-labelledby="tab-smd" hidden>
+    <h2>Surface-mount marking</h2>
+    <div class="fields">
+      <label for="smd-scheme">Marking scheme
+        <select id="smd-scheme">
+          <option value="3">3-digit code</option><option value="4">4-digit code</option><option value="r">R notation</option><option value="96">EIA-96 (2 digits + letter)</option>
+        </select>
+      </label>
+      <label for="smd-code">Marking on component
+        <input id="smd-code" type="text" inputmode="text" autocomplete="off" maxlength="4" value="103" aria-describedby="smd-example">
+      </label>
+    </div>
+    <p class="muted" id="smd-example">Examples: 3-digit <code>103</code> = 10 kΩ; 4-digit <code>1002</code> = 10 kΩ; R notation <code>4R7</code> = 4.7 Ω; EIA-96 <code>01C</code> = 100 Ω.</p>
+    <div class="result" id="smd-result" aria-live="polite" aria-atomic="true"></div>
+    <p class="warning">SMD marking systems are not universal. Some resistors have no marking, and a similar-looking code can mean something different for another series or manufacturer. Confirm the code against the exact datasheet or bill of materials.</p>
+  </section>
+
+  <p class="muted">Tolerance codes and band conventions can vary. A colour band calculator cannot identify the resistor’s power rating, working voltage, temperature coefficient or exact series.</p>
+  <p class="muted">References: <a href="https://www.vishay.com/docs/49411/resistor_color_code_calculator.pdf">Vishay colour-code chart</a> and <a href="https://www.vishay.com/docs/20020/smdmark.pdf">Vishay surface-mount resistor marking guide</a>.</p>
+</main>
+<script>
+(() => {
+  'use strict';
+  const colours = [
+    { name: 'Black', hex: '#202124', digit: 0, multiplier: 1, tcr: 250 },
+    { name: 'Brown', hex: '#795548', digit: 1, multiplier: 10, tolerance: 1, tcr: 100 },
+    { name: 'Red', hex: '#d32f2f', digit: 2, multiplier: 100, tolerance: 2, tcr: 50 },
+    { name: 'Orange', hex: '#ef6c00', digit: 3, multiplier: 1000, tcr: 15 },
+    { name: 'Yellow', hex: '#fdd835', digit: 4, multiplier: 10000, tcr: 25 },
+    { name: 'Green', hex: '#2e7d32', digit: 5, multiplier: 100000, tolerance: 0.5, tcr: 20 },
+    { name: 'Blue', hex: '#1565c0', digit: 6, multiplier: 1000000, tolerance: 0.25, tcr: 10 },
+    { name: 'Violet', hex: '#7b1fa2', digit: 7, multiplier: 10000000, tolerance: 0.1, tcr: 5 },
+    { name: 'Grey', hex: '#9e9e9e', digit: 8, multiplier: 100000000, tolerance: 0.05, tcr: 1 },
+    { name: 'White', hex: '#f5f5f5', digit: 9, multiplier: 1000000000 },
+    { name: 'Gold', hex: '#c49a00', multiplier: 0.1, tolerance: 5 },
+    { name: 'Silver', hex: '#aeb6bf', multiplier: 0.01, tolerance: 10 },
+    { name: 'None', hex: '#e8d4aa', tolerance: 20 }
+  ];
+  const digitColours = colours.filter(c => c.digit !== undefined);
+  const multiplierColours = colours.filter(c => c.multiplier !== undefined);
+  const toleranceColours = colours.filter(c => c.tolerance !== undefined);
+  const bandCount = document.querySelector('#band-count');
+  const bandSelects = [1,2,3,4,5,6].map(n => document.querySelector(`#band-${n}`));
+  const labels = [1,2,3,4,5,6].map(n => document.querySelector(`#band-label-${n}`));
+  const fmt = new Intl.NumberFormat('en-GB', { maximumSignificantDigits: 7 });
+  const ohms = value => {
+    if (!Number.isFinite(value)) return 'out of range';
+    const abs = Math.abs(value);
+    if (value === 0) return '0 Ω';
+    if (abs >= 1e6) return `${fmt.format(value / 1e6)} MΩ`;
+    if (abs >= 1e3) return `${fmt.format(value / 1e3)} kΩ`;
+    if (abs < 1) return `${fmt.format(value * 1e3)} mΩ`;
+    return `${fmt.format(value)} Ω`;
+  };
+  const populate = (select, choices, selected) => {
+    select.replaceChildren(...choices.map(c => {
+      const option = document.createElement('option'); option.value = c.name; option.textContent = c.name;
+      if (c.name === selected) option.selected = true;
+      return option;
+    }));
+  };
+  bandSelects.forEach((select, i) => {
+    const allowed = i < 3 ? digitColours : (i === 3 ? multiplierColours : (i === 4 ? toleranceColours : colours.filter(c => c.tcr !== undefined)));
+    const defaults = ['Brown','Black','Red','Gold','Brown','Brown'];
+    populate(select, allowed, defaults[i]);
+    select.addEventListener('change', updateBands);
+  });
+  const getColour = select => colours.find(c => c.name === select.value);
+  function configureBands() {
+    const count = Number(bandCount.value);
+    labels.forEach((label, i) => { label.hidden = i >= count; });
+    bandSelects.forEach((select, i) => {
+      const choices = i < count - 2 ? digitColours : i === count - 2 ? multiplierColours : (count === 6 && i === 5 ? colours.filter(c => c.tcr !== undefined) : toleranceColours);
+      const previous = select.value;
+      populate(select, choices, choices.some(c => c.name === previous) ? previous : choices[0].name);
+    });
+    updateBands();
+  }
+  function updateBands() {
+    const count = Number(bandCount.value);
+    const chosen = bandSelects.slice(0,count).map(getColour);
+    const digits = chosen.slice(0,count - 2).map(c => c.digit).join('');
+    const nominal = Number(digits) * chosen[count - 2].multiplier;
+    const tolerance = chosen[count - 1].tolerance;
+    const preview = document.querySelector('#resistor-preview');
+    preview.replaceChildren(...chosen.map(c => { const span = document.createElement('span'); span.className = 'band'; span.style.backgroundColor = c.hex; return span; }));
+    const parts = [`<strong>${ohms(nominal)}</strong>`, `Nominal resistance: ${ohms(nominal)}.`];
+    if (tolerance !== undefined) parts.push(`Tolerance: ±${fmt.format(tolerance)}% (${ohms(nominal * (1-tolerance/100))} to ${ohms(nominal * (1+tolerance/100))}).`);
+    else parts.push('Tolerance: not specified by the selected band.');
+    if (count === 6) {
+      const tcrColour = chosen[5];
+      parts.push(tcrColour.tcr === undefined ? 'Temperature coefficient: not defined for this colour in the selected convention.' : `Sixth-band temperature coefficient: ${tcrColour.tcr} ppm/°C in the common scheme shown.`);
+    }
+    document.querySelector('#band-result').innerHTML = parts.join('<br>');
+  }
+  bandCount.addEventListener('change', configureBands);
+  configureBands();
+
+  const tabs = [...document.querySelectorAll('[role="tab"]')];
+  tabs.forEach(tab => tab.addEventListener('click', () => {
+    tabs.forEach(t => { const active = t === tab; t.setAttribute('aria-selected', String(active)); t.tabIndex = active ? 0 : -1; document.querySelector(`#${t.getAttribute('aria-controls')}`).hidden = !active; });
+  }));
+  const scheme = document.querySelector('#smd-scheme');
+  const codeInput = document.querySelector('#smd-code');
+  const eia96 = [100,102,105,107,110,113,115,118,121,124,127,130,133,137,140,143,147,150,154,158,162,165,169,174,178,182,187,191,196,200,205,210,215,221,226,232,237,243,249,255,261,267,274,280,287,294,301,309,316,324,332,340,348,357,365,374,383,392,402,412,422,432,442,453,464,475,487,499,511,523,536,549,562,576,590,604,619,634,649,665,681,698,715,732,750,768,787,806,825,845,866,887,909,931,953,976];
+  const eiaMultipliers = { A:100, B:10, C:1, D:0.1, E:0.01, F:0.001 };
+  function decodeSmd() {
+    const raw = codeInput.value.trim().toUpperCase();
+    const mode = scheme.value;
+    let value = NaN, detail = '';
+    if (mode === '3' || mode === '4') {
+      const digits = mode === '3' ? 3 : 4;
+      if (new RegExp(`^\\d{${digits}}$`).test(raw)) {
+        const sig = Number(raw.slice(0,-1)); const exponent = Number(raw.slice(-1));
+        value = sig * (10 ** exponent); detail = `${digits === 3 ? 'Three' : 'Four'}-digit code: first ${digits-1} digits are significant; final digit is the multiplier.`;
+      }
+    } else if (mode === 'r') {
+      if (/^\d*R\d*$/.test(raw) && raw !== 'R') {
+        const [left, right] = raw.split('R'); value = Number(`${left || '0'}.${right || '0'}`); detail = 'R marks the decimal point in this notation.';
+      } else if (/^\d+$/.test(raw) && raw.length <= 2) { value = Number(raw); detail = 'Unmarked decimal notation is ambiguous; confirm the part documentation.'; }
+    } else if (mode === '96') {
+      const match = raw.match(/^(\d{2})([A-F])$/);
+      if (match) { const index = Number(match[1]); if (index >= 1 && index <= 96) value = eia96[index-1] * eiaMultipliers[match[2]]; detail = 'EIA-96 interpretation: two-digit E96 value multiplied by the letter factor.'; }
+    }
+    const output = document.querySelector('#smd-result');
+    if (!Number.isFinite(value)) output.innerHTML = '<strong>Code not recognised</strong>Check the selected scheme and enter a valid marking.';
+    else output.innerHTML = `<strong>${ohms(value)}</strong>${detail}`;
+  }
+  scheme.addEventListener('change', decodeSmd);
+  codeInput.addEventListener('input', decodeSmd);
+  decodeSmd();
+})();
+</script>
+</body>
+</html>
