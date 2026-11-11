@@ -553,3 +553,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - **User direction:** Cover Class X/Y safety capacitors and LVD context in the capacitor blog only, not in the Scouts booklet.
 - **Technical context:** X and Y are safety classifications for EMI suppression capacitors and indicate distinct permitted circuit positions; they do not mean a pair of capacitors wired in series. Some individual capacitors are approved for both classifications. Keep any discussion descriptive, distinguish component approval from finished-product compliance, and give no mains construction instructions. See the [capacitor draft](pages/sites/scouts-electronics-badge/blog/capacitors.txt).
+
+## 2026-11-11 — RC circuits lesson assessed
+
+- **Source assessment:** The user supplied the “RC circuits” transcript. The examples 1 kΩ × 1,000 µF = 1 s and 1 kΩ × 10 µF = 0.01 s are correct. The capacitor reaches 63.2 % of the total voltage change after one time constant and approaches, but does not exactly reach, its final voltage; after five time constants it is about 99.3 % there. On discharge 36.8 % remains after one time constant. See the course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]] and [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
