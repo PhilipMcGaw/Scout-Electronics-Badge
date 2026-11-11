@@ -566,4 +566,4 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 ## 2026-11-11 — Capacitor quiz: electric field
 
-- **Source assessment:** The first two supplied questions from the course’s eight-question capacitor quiz are correct: a capacitor stores energy in the electric field between differently charged plates, and the common three-digit value code indicates picofarads. Present pF as the unit for that common code, not every capacitor marking or part-number system. The other six quiz questions have not been reviewed.
+- **Source assessment:** The first three supplied questions from the course’s eight-question capacitor quiz are correct: a capacitor stores energy in the electric field between differently charged plates; the common three-digit value code indicates picofarads; and electrolytic capacitors are usually polarised. Present pF as the unit for that common code, not every capacitor marking or part-number system, and retain the note that non-polarised electrolytic types exist. The other five quiz questions have not been reviewed.
