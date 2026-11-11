@@ -9,6 +9,8 @@
 ===== Planned outline =====
 
 - What capacitance means and how a capacitor differs from a battery and an inductor.
+- Explain the two conductive electrodes and dielectric, separated charge and electric field; introduce ''Q = C × V'' and stored energy ''E = ½ C V²'' with a simple checked example. Clarify that current flows in the external circuit as capacitor voltage changes, not through the dielectric, and that real capacitors have leakage.
+- Compare capacitors with batteries carefully: ordinary capacitors can charge and discharge quickly but usually store less energy per mass or volume; supercapacitors occupy a different range, so avoid a universal same-size claim.
 - Recognise common units and read typical ceramic-capacitor markings.
 - Identify polarised and non-polarised parts; explain polarity and voltage rating, and what can happen if a polarised electrolytic capacitor is connected backwards.
 - Show a resistor-capacitor charge and discharge circuit, including the time constant.
@@ -20,6 +22,8 @@ Use the course’s teaching progression as a conceptual guide: first show that a
 ===== Notes to carry forward =====
 
 * The existing post covers capacitor uses, charge, energy, and the RC time constant.
+* Use TDK’s [[https://www.tdk.com/en/tech-mag/electronics_primer/4|Capacitors Part 1: The Basics of Capacitors]] for a manufacturer explanation of electrode charge separation, dielectric insulation, external charging current, and the distinction between DC and changing signals. Write the explanation independently and check the actual component for its leakage and ratings.
+* Do not imply that a capacitor contains a reservoir of electrons or that electrons cross its dielectric during normal operation. The balloon comparison is a limited analogy, not a physical description. A real disconnected capacitor can retain charge; specify a safe discharge method and verification before handling any charged part.
 * Review the value-prefix article before reusing its table. It lists 1 mF as 0.0001 F; the correct conversion is 0.001 F, and “millifarard” is a spelling error. It also presents electrolytic capacitors as more common above about 100 nF, which must not be treated as a technology boundary: ceramic and film types are also available at higher capacitances, as shown in [[https://www.kemet.com/en/us/capacitors.html|KEMET’s capacitor range]]. Recheck every prefix, marking, and technology comparison against current references before publication.
 * Reader comments ask for clearer definitions of symbols and a comparison with battery and inductor energy storage.
 * Do not imply that all capacitors above or below a particular value use one construction or have the same polarity rules.
@@ -33,6 +37,7 @@ Use the course’s teaching progression as a conceptual guide: first show that a
 ===== Sources and visuals =====
 
 * Check component markings and ratings against manufacturer datasheets.
+* TDK, [[https://www.tdk.com/en/tech-mag/electronics_primer/4|Capacitors Part 1: The Basics of Capacitors]], for an introductory manufacturer explanation of capacitor construction, charging, and DC/AC behaviour.
 * KEMET, [[https://www.kemet.com/en/us/capacitors/ceramic/ceramics-faq.html|Ceramic Capacitor FAQ and Application Guide]], for Class 2/Class 3 DC-bias effects and the need to check capacitance under operating conditions.
 * TDK, [[https://www.tdk-electronics.tdk.com/en/373562/tech-library/articles/applications-cases/applications-cases/ceralink/3472416|CeraLink technical article on DC-bias effects]], with comparative Class I/Class II capacitance behaviour.
 * Murata, [[https://article.murata.com/en-us/article/temperature-characteristics-electrostatic-capacitance|“What is the temperature characteristics of ceramic capacitors?”]], final revision 2023-12-01, for Class 1 temperature coefficients and Class 2 capacitance-change categories.

@@ -512,3 +512,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Oscilloscope display quiz items assessed
 
 - **Source assessment:** All six supplied oscilloscope quiz questions are reviewed. They cover voltage versus time axes, divisions and their scales, shared horizontal versus channel-specific vertical controls, and Auto trigger mode. Explain that an oscilloscope plots voltage against time; V/div and s/div give the quantity represented by each division. Auto updates may not be synchronised. The channel controls are confirmed for the instructor’s Rigol DS1054/DS1054Z; verify other models. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
+
+## 2026-11-11 — Capacitor introduction assessed
+
+- **Source assessment:** “What is a capacitor?” is useful for introducing capacitance, dielectric-separated electrodes, stored energy, units and the battery comparison. Avoid the literal balloon/electron model and clarify that charge does not conduct through the dielectric. Distinguish external charging current from steady-state DC, include leakage and retained charge, and avoid treating pF-to-µF as a practical range limit or making a universal energy-density comparison. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
