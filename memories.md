@@ -540,3 +540,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Capacitor characteristics lesson assessed
 
 - **Source assessment:** “Capacitor characteristics” covers voltage rating, capacitance tolerance, leakage and ESR. Keep the course’s 2× voltage selection as a rule of thumb only. Do not generalise its few-nA leakage or technology-wide ESR ranges; these depend on component construction and datasheet test conditions. Check effective capacitance, voltage, temperature, ripple, leakage and ESR as the application requires. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
+
+## 2026-11-11 — Capacitors in parallel lesson assessed
+
+- **Source assessment:** The “Capacitors in parallel” example correctly sums 10 µF + 1 µF + 1 µF to 12 µF. The lowest-rated part limits the bank’s working voltage, subject to any further derating. Equal relative tolerances produce the same relative tolerance in the sum; mixed tolerances require adding individual minimum and maximum values. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
