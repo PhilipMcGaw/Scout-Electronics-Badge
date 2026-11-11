@@ -476,3 +476,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Wheatstone-bridge transcript assessed
 
 - **Source assessment:** The “Wheatstone Bridge” transcript connects two dividers and introduces differential measurement. With the stated output convention ''Vout = VR − VL'', preserve sign when calculating an unbalanced bridge; the 5 V, 10 kΩ, 10 kΩ, 10 kΩ and sub-1 kΩ example at −2.3 V implies about 417 Ω. Qualify claims of accuracy and use the bridge only as a checked, low-voltage sensor example. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:resistors|resistor draft]].
+
+## 2026-11-11 — Light-activated bridge challenge assessed
+
+- **Source assessment:** The new “Challenge: Light activated switch” transcript specifies relay logic ''A > B'' on and ''A ≤ B'' off, clarifying the 03_09 worksheet's overlapping dark condition. Treat its LDR values as examples, and do not adapt its unspecified relay/stereo interface into a Scout build. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-exercises-review|exercise-file review]], the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course review]], and the [[sites:scouts-electronics-badge:blog:resistors|resistor draft]].
