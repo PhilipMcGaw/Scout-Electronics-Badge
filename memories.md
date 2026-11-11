@@ -587,3 +587,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Charge, capacitance and voltage mnemonic
 
 - **Source assessment:** The supplied equation triangle represents ''Q = C × V'', with rearrangements ''C = Q/V'' and ''V = Q/C''. Treat it as a formula memory aid, not an electrical or schematic symbol; label Q in coulombs, C in farads and V in volts. No image source or reuse licence was supplied, so make an original visual if the mnemonic is used. See the [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
+
+## 2026-11-11 — MLCC DC-bias example plot reviewed
+
+- **Source assessment:** The supplied 4.7 µF capacitance-versus-voltage graph matches Figure 19 in Power Integrations AN-90, which identifies it as a simulated TDK characteristic for selected X5R/X7R package sizes and voltage ratings. It usefully shows that nominally equal capacitors can retain different effective capacitance under bias; it is not a universal size/rating rule. Use the exact manufacturer part’s current curve or datasheet, and do not reproduce the figure without confirmed rights. See the [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
