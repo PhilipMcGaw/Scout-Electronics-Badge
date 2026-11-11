@@ -616,3 +616,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — BS 7671 voltage-drop footnote
 
 - **Editorial decision:** Add a brief UK-only footnote to the fundamentals blog distinguishing the 230 V declared supply under ESQCR from voltage drop along installation wiring under BS 7671. IET explanatory guidance gives recommended public-supply values of 3% for lighting and 5% for other uses. Before publication, verify both ESQCR Regulation 27 (including voltage variation) and the current BS 7671:2018+A4:2026 wording and figures. This is contextual information, not a Scout activity. See the [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
+
+## 2026-11-11 — Frequency-domain lesson assessed
+
+- **Source assessment:** The course’s frequency-domain explanation is useful, but “every signal is a collection of sinusoids” needs qualification: periodic signals use discrete Fourier-series components, while aperiodic signals may have continuous spectra. A DC offset appears at 0 Hz. An FFT efficiently computes a DFT of sampled finite data; frequency resolution and spectral leakage depend on acquisition and windowing, while magnitude-only plots omit phase. See the course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
