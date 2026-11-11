@@ -575,3 +575,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — EPCI capacitor technology chart reviewed
 
 - **Source assessment:** The supplied capacitance-versus-voltage graphic matches Figure 2 in EPCI’s “Capacitor, What is it?” overview and reflects a broad, older mass-market range, not hard technology limits or part-selection data. Use only to explain overlapping envelopes; distinguish low-voltage individual supercapacitor cells from higher-voltage series modules. EPCI’s site states its content is CC BY-SA 4.0 unless otherwise noted, but warns that some images may have separate copyright with no licence provided. Do not reproduce this image until its image-specific rights are confirmed; an original chart still needs sourced, checked ranges. Recorded in the [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
+
+## 2026-11-11 — EPCI capacitor applications table reviewed
+
+- **Source assessment:** The supplied “Typical applications overview table” matches Figure 3 in EPCI’s “Capacitor, What is it?” overview. Its coupling, decoupling, filter, smoothing, pulse-energy and snubbing categories are useful prompts, but its component requirements are broad and application-dependent. It also depicts 230 VAC EMI suppression and legacy TV circuits; keep these descriptive only and out of Scout builds. EPCI’s image-specific reuse caveat applies here too. The capacitor draft records the source and visual-rights check.
