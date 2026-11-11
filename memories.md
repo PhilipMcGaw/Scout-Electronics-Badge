@@ -675,3 +675,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — RC high-pass filter course section
 
 - **Source assessment:** The user supplied the “RC high pass filter” transcript. For the ideal unloaded series-C/shunt-R topology, use ''H(jω) = jωRC/(1 + jωRC)'' and ''f_c = 1/(2πRC)''; 10 kΩ and 10 nF give about 1.59 kHz. At cutoff, output amplitude is 0.707 of passband and phase lead is +45°; half-power wording requires equal impedances. A settled DC component is blocked, but transitions in offset create transients and circuit bias determines the output reference. Check source/load effects and do not treat course scope traces as reproducible without setup details. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
+
+## 2026-11-11 — Impedance bridging and matching course section
+
+- **Source assessment:** The user supplied the “Impedance matching and bridging” transcript. Distinguish high-input/low-output impedance voltage bridging from matching for maximum power or transmission-line reflection control. The 10:1 load/source ratio is a rule of thumb, not a universal boundary; a resistive voltage-divider model gives 90.9% of open-circuit voltage at 10:1 and 99.9% at 1000:1. For reactive AC maximum-power transfer, use complex-conjugate matching. Do not describe every lumped impedance mismatch as reflected travelling energy.
+- **Project outcome:** Added this distinction to the course review and fundamentals outline, with an RF tutorial and university voltage-divider lab as references.
