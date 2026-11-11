@@ -4,7 +4,7 @@
 * **Source:** [[https://www.linkedin.com/learning/electronics-foundations-basic-circuits/principles-of-basic-electronic-circuits?u=2174060|LinkedIn Learning, Electronics Foundations: Basic Circuits, “Principles of basic electronic circuits”]]
 * **Instructor:** Barron Stone, Electrical Engineer
 * **Course details shown:** Beginner; 4 h 2 min; updated 2021-07-30
-* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, and “Build circuits on breadboards”, and the user-pasted transcripts “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, and “Measure resistance”, plus the first two questions from a six-question resistor-types knowledge check. No course video or other lessons or quiz questions were reviewed.
+* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, and “Build circuits on breadboards”, and the user-pasted transcripts “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, and “Measure resistance”, plus the first three questions from a six-question resistor-types knowledge check. No course video or other lessons or quiz questions were reviewed.
 
 ===== Useful coverage and overlap =====
 
@@ -35,7 +35,7 @@ The lesson provides a concise teaching sequence: understand what components do, 
 
 The transcript usefully introduces standard fixed-value resistor series, through-hole and surface-mount packages, power dissipation, potentiometers, rheostats, and light-dependent resistors. Adapt these points with care: use “through-hole” for breadboard-friendly leaded parts, since PTH can mean plated through-hole in PCB terminology; do not infer a resistor’s power rating from package size alone; describe a potentiometer as a three-terminal wiper device that can be wired as a voltage divider, and a rheostat as a two-terminal variable-resistance use; and say that an LDR’s resistance usually falls as light increases. The booklet now includes these qualified explanations. No course imagery or specific resistor values were reused.
 
-The supplied first knowledge-check question distinguishes a constant-value resistor from adjustable resistors and a light-dependent resistor. Its answer uses “static resistor”; use Philip’s preferred term “fixed-value resistor” instead. The second question identifies through-hole resistors as suitable for breadboard use; phrase this as a package style with leads that fit standard breadboards, since compatibility depends on the part’s leads and board.
+The supplied first knowledge-check question distinguishes a constant-value resistor from adjustable resistors and a light-dependent resistor. Its answer uses “static resistor”; use Philip’s preferred term “fixed-value resistor” instead. The second question identifies through-hole resistors as suitable for breadboard use; phrase this as a package style with leads that fit standard breadboards, since compatibility depends on the part’s leads and board. The third question distinguishes maximum working voltage from power rating and overload voltage; reinforce that working and power limits are separate and any overload rating has specified duration and conditions.
 
 ===== “Resistor characteristics” excerpt =====
 
