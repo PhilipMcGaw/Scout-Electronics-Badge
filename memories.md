@@ -532,3 +532,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Preferred capacitor discharge method
 
 - **User preference:** Philip prefers discharging capacitors through a resistor, typically around 1 kΩ. Treat that as a starting point only; check capacitor voltage, capacitance, initial resistor power, pulse-energy rating and discharge time, then measure the remaining voltage. Keep Scout activities within the 12 V maximum supply rule.
+
+## 2026-11-11 — Capacitor value-marking lesson assessed
+
+- **Source assessment:** “Read capacitor values” gives correct examples for the assumed three-digit pF code: 103 = 10 nF and 334K = 330 nF ±10 %. Marking and tolerance codes vary; many MLCCs are unmarked. Do not assume a missing tolerance letter means Z or use printed voltage as a universal operating limit. Check the exact part datasheet, and isolate/discharge capacitors before DMM capacitance measurement. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
