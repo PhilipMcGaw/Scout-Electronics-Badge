@@ -1,4 +1,8 @@
 # Project memories
+## 2026-11-11 — Cover preferred resistor values
+
+- **User direction:** Include a brief explanation of standard resistor values in the resistor article. Distinguish IEC 60063 E-series preferred values (for example, E12/E24/E96) from the EIA-96 SMD marking code.
+
 ## 2026-11-11 — Resistor code calculator
 
 - **Project outcome:** Built a standalone browser calculator for 4-, 5- and 6-band resistor colour codes and common SMD 3-digit, 4-digit, R-notation and EIA-96 markings. The tool labels scheme limits and links to Vishay references. The refreshed article still needs the calculator hosted and linked.
