@@ -508,3 +508,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Instructor oscilloscope identified
 
 - **User clarification:** The instructor’s scope is a Rigol DS1054. The pasted course transcript calls it a DS1054Z; Rigol’s DS1000Z user guide includes the DS1054Z and lists it as four-channel, 50 MHz. Preserve the model-name discrepancy and check the unit label/manual before using model-specific settings or ratings. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[https://www.rigol.com/dam/global/downloads/brochures/en/user-manual/oscilloscopes/DS1000Z_UserGuide_EN.pdf|Rigol DS1000Z-series User Guide]].
+
+## 2026-11-11 — Oscilloscope display quiz item assessed
+
+- **Source assessment:** The first supplied oscilloscope quiz question asks what the vertical divisions indicate; the correct option is voltage. Explain the grid separately from the selected V/div scale, which specifies voltage represented by each division. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
