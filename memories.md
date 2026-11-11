@@ -464,3 +464,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Parallel-resistor lesson assessed
 
 - **Source assessment:** The “Resistors in parallel” transcript gives the reciprocal-resistance method and current/power examples. In the resistor draft, identify reciprocal resistance as conductance in siemens, check each branch's current and dissipation, and measure resistance only when de-energised. The 10 kΩ/20 kΩ values are illustrative course examples. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:resistors|resistor draft]].
+
+## 2026-11-11 — Parallel-resistor diagram assessed
+
+- **Source assessment:** Philip supplied the course frame showing the parallel-resistance equation and branches across common rails. It agrees with the topology recorded in the source review. Do not reuse the course image; draw any project figure in the preferred IEC schematic style.
