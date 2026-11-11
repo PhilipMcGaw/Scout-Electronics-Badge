@@ -4,7 +4,7 @@
 * **Source:** [[https://www.linkedin.com/learning/electronics-foundations-basic-circuits/principles-of-basic-electronic-circuits?u=2174060|LinkedIn Learning, Electronics Foundations: Basic Circuits, “Principles of basic electronic circuits”]]
 * **Instructor:** Barron Stone, Electrical Engineer
 * **Course details shown:** Beginner; 4 h 2 min; updated 2021-07-30
-* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, and “Build circuits on breadboards”, and the user-pasted transcripts “Types of resistors” and “Resistor characteristics”. No course video or other lessons were reviewed.
+* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, and “Build circuits on breadboards”, and the user-pasted transcripts “Types of resistors”, “Resistor characteristics”, and “Read resistor color codes”. No course video or other lessons were reviewed.
 
 ===== Useful coverage and overlap =====
 
@@ -41,10 +41,14 @@ The lesson gives a useful checklist for selecting a resistor from its exact data
 
 Two transcript claims need correction or qualification. Carbon film and carbon composition are separate resistor technologies, not alternate names for the same type; see Vishay’s [[https://www.vishay.com/docs/28771/basics.pdf|Basics of Linear Fixed Resistors]]. Do not teach the transcript’s approximate 250 kΩ dividing line as a general rule for which rating will limit a resistor. Vishay defines a critical resistance in relation to rated power and maximum working voltage and gives device-specific derating terminology in its [[https://www.vishay.com/docs/49873/49873_sg2113.pdf|resistor terminology guide]]. Check the exact part datasheet instead.
 
+===== “Read resistor color codes” excerpt =====
+
+The lesson gives a useful sequence for decoding four-band and five-band through-hole resistors: significant digits, multiplier, then tolerance. A wider gap can help orient a banded resistor, but readers should confirm the band scheme with a suitable chart. Do not say that five bands guarantee a particular precision or that four-band tolerance is nearly always gold or silver; band codes vary, and some six-band resistors use an extra band for temperature coefficient. Vishay’s [[https://www.vishay.com/docs/49411/resistor_color_code_calculator.pdf|resistor colour-code chart]] shows different commercial schemes; its [[https://www.vishay.com/docs/20020/smdmark.pdf|SMD marking document]] also illustrates that surface-mount markings depend on package and series. The booklet already has a basic colour-code explanation; expand it in the blog with verified examples and a tolerance-range calculation. Do not reuse the course chart without permission and attribution details.
+
 ===== UK context =====
 
 The Scouts Electronics Activity Badge asks participants to identify common components, understand schematic symbols and safe working practices, take multimeter measurements, construct simple circuits, and explain their operation. The lesson's broad component and circuit-design topics can support that learning, but do not replace those badge requirements. Current Scouts policy requires activities to be appropriately risk-assessed and stopped or changed if safety cannot be assured. See the [[https://www.scouts.org.uk/por/2a-key-policies/2a8-safety-policy/|Scouts Safety Policy]] and the [[https://www.scouts.org.uk/scouts/activity-badges/electronics/|Electronics Activity Badge requirements]].
 
 ===== Disposition =====
 
-Added the opening lesson as background for the existing fundamentals and breadboard drafts, and used the “Types of resistors” and “Resistor characteristics” excerpts for qualified component and datasheet guidance in the booklet. No course imagery, circuit values, or equipment recommendations were adopted.
+Added the opening lesson as background for the existing fundamentals and breadboard drafts, and used the “Types of resistors” and “Resistor characteristics” excerpts for qualified component and datasheet guidance in the booklet, and the “Read resistor color codes” excerpt for the resistor blog outline. No course imagery, circuit values, or equipment recommendations were adopted.

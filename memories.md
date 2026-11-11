@@ -1,4 +1,7 @@
 # Project memories
+## 2026-11-11 — Resistor colour-code transcript assessed
+
+- **Source assessment:** The user supplied the “Read resistor color codes” lesson transcript. The blog outline now calls for worked four- and five-band examples, tolerance ranges, reading direction, and a note on six-band TCR and SMD code variation. Do not infer precision from band count alone or reuse the course chart without cleared rights.
 ## 2026-11-11 — Resistor voltage ratings in blog
 
 - **User direction:** Include a small note on resistor maximum working voltage and overvoltage/overload ratings because it is relevant to one of the user’s projects. Keep the project unnamed; distinguish continuous operation from short-duration ratings and check exact datasheet conditions.
