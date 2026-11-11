@@ -1,4 +1,7 @@
 # Project memories
+## 2026-11-11 — Resistor voltage ratings in blog
+
+- **User direction:** Include a small note on resistor maximum working voltage and overvoltage/overload ratings because it is relevant to one of the user’s projects. Keep the project unnamed; distinguish continuous operation from short-duration ratings and check exact datasheet conditions.
 ## 2026-11-11 — Lead-free and RoHS context for resistor blog
 
 - **User direction:** Include lead-free resistor finishes and RoHS regulations in the resistor blog. Explain the distinction between component lead-free claims, solder alloy, and finished-equipment compliance; verify UK scope, limits, exemptions, and GB/NI differences against current official guidance.
