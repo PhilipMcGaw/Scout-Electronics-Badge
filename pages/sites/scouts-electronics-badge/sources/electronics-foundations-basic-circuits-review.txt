@@ -4,7 +4,7 @@
 * **Source:** [[https://www.linkedin.com/learning/electronics-foundations-basic-circuits/principles-of-basic-electronic-circuits?u=2174060|LinkedIn Learning, Electronics Foundations: Basic Circuits, “Principles of basic electronic circuits”]]
 * **Instructor:** Barron Stone, Electrical Engineer
 * **Course details shown:** Beginner; 4 h 2 min; updated 2021-07-30
-* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, and “Build circuits on breadboards”, and the user-pasted transcripts “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, “Measure resistance”, “Resistors in series”, “Resistors in parallel”, “Voltage dividers”, “Shift voltage levels”, “Measure resistive sensors”, “Potentiometers”, “Kirchhoff's circuit laws”, “Wheatstone Bridge”, “Challenge: Light activated switch”, and “Solution: Challenge: Light activated switch”. User-supplied diagram frames were also reviewed from the “Voltage dividers” and “Resistors in parallel” lessons, along with all six questions from a resistor-types knowledge check and questions 1–4 of 8 from a separate quiz on resistors and sensors. No course video, other lessons, or remaining questions from the separate quiz were reviewed.
+* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, and “Build circuits on breadboards”, and the user-pasted transcripts “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, “Measure resistance”, “Resistors in series”, “Resistors in parallel”, “Voltage dividers”, “Shift voltage levels”, “Measure resistive sensors”, “Potentiometers”, “Kirchhoff's circuit laws”, “Wheatstone Bridge”, “Challenge: Light activated switch”, and “Solution: Challenge: Light activated switch”. User-supplied diagram frames were also reviewed from the “Voltage dividers” and “Resistors in parallel” lessons, along with all six questions from a resistor-types knowledge check and questions 1–5 of 8 from a separate quiz on resistors and sensors. No course video, other lessons, or remaining questions from the separate quiz were reviewed.
 
 ===== Useful coverage and overlap =====
 
@@ -37,14 +37,15 @@ The transcript usefully introduces standard fixed-value resistor series, through
 
 The six supplied knowledge-check questions cover fixed-value resistors, breadboard-compatible through-hole packages, working voltage, tolerance, the tolerance-band gap, and in-circuit resistance measurements. Use “fixed-value resistor” instead of “static resistor”; describe through-hole as a leaded package style that fits standard breadboards; distinguish working voltage from power rating and time-limited overload ratings; explain tolerance as a percentage range; treat band spacing as a clue rather than a guarantee; and advise isolating a resistor when parallel paths could affect its measured resistance.
 
-===== Separate quiz: questions 1–4 of 8 =====
+===== Separate quiz: questions 1–5 of 8 =====
 
 * **Question 1:** Two resistors connected in series create a “voltage divider”. This is a useful shorthand, with an important circuit detail: the pair must be driven across the series combination and the output taken from the midpoint relative to one end.
 * **Question 2:** Resistors connected in series have resistances that add together. This is correct: ''Rtotal = R1 + R2 + …''.
 * **Question 3:** A photoresistor changes resistance with the amount of light on it. This is correct; an LDR's resistance generally falls as illumination increases, though the amount depends on the part and lighting conditions.
 * **Question 4:** The answer to whether a voltage divider can convert a low voltage to a higher voltage is ''false''. A conventional passive divider between two supply rails produces an output between those rails; it cannot boost the input above its source rail.
+* **Question 5:** Resistors connected in parallel have a combined resistance less than any individual branch resistance. This is correct for ordinary positive, finite resistor values.
 
-The remaining four questions from this quiz have not been supplied or reviewed.
+The remaining three questions from this quiz have not been supplied or reviewed.
 
 ===== “Resistors in series” excerpt =====
 
