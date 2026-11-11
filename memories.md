@@ -1,4 +1,7 @@
 # Project memories
+## 2026-11-11 — Resistor technology comparison for blog
+
+- **User direction:** Expand the resistor article to compare construction types by price, initial tolerance/accuracy, and thermal stability. Treat any ordering as a sourced trend, not a universal rule; distinguish initial tolerance from temperature coefficient and long-term drift, and verify exact technical data and current UK prices.
 
 ## 2026-11-10 — Resistor characteristics transcript assessed
 

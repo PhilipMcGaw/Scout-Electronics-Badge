@@ -1,4 +1,4 @@
-====== Resistors: values, ratings, dividers, and practical use ======
+====== Resistors: types, values, ratings, dividers, and practical use ======
 
 **Status:** Outline started; draft not written.
 
@@ -6,12 +6,13 @@
 
 **Purpose:** Refresh the existing article with clearer explanations and a practical example that shows how resistor choice affects a real circuit.
 
-**New source material:** User-pasted transcripts “Challenge: Limit current to an LED” and “Solution: Limit current to an LED”, and course exercise sheets summarised in the [[sites:scouts-electronics-badge:sources:electronics-foundations-fundamentals-2021-review|2021 course materials review]] and [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-exercises-review|Basic Circuits exercise-files review]]. Treat listed values as examples, not component specifications; the original course PDFs have been removed after review.
+**New source material:** User-pasted transcripts “Challenge: Limit current to an LED”, “Solution: Limit current to an LED”, “Types of resistors”, and “Resistor characteristics”, plus course exercise sheets summarised in the [[sites:scouts-electronics-badge:sources:electronics-foundations-fundamentals-2021-review|2021 course materials review]] and [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-exercises-review|Basic Circuits exercise-files review]]. Treat listed values as examples, not component specifications; the original course PDFs have been removed after review.
 
 ===== Planned outline =====
 
 - What a resistor does: set current, create voltage drops, and dissipate energy as heat.
 - Read through-hole colour bands and common surface-mount markings.
+- Compare resistor constructions—carbon composition, carbon film, metal film, thick- and thin-film SMD, and wirewound—by typical cost, nominal tolerance (initial accuracy), temperature coefficient, long-term stability, and use. Distinguish tolerance from drift with temperature and over time. Treat any trend as illustrative, not a universal ranking: exact performance and price depend on the part series, resistance, power rating, package, manufacturer, order quantity, and supplier. Base technical figures on exact manufacturer datasheets and check any UK price examples against current listings at publication.
 - Choose a value and power rating for an LED indicator; explain the calculation and assumptions.
 - Explain the potential divider and use the existing calculator to explore how resistor values set the output voltage.
 - Use a thermistor as one resistor in a potential divider to show how temperature changes can produce a changing voltage.
@@ -19,7 +20,7 @@
 - Explain that electrical power dissipated by a resistor becomes heat, and include a warning against deliberately overloading or touching a hot resistor.
 - Explain when series or parallel resistor combinations can provide a useful resistance or spread power, while checking each resistor’s dissipation, working-voltage limit, tolerance and cooling. Treat calculator results as starting points; do not assume power ratings simply add safely in every layout.
 - Distinguish a mechanical potentiometer, a rheostat connection, and a digital potentiometer. Explain that a digital potentiometer is a low-level adjustable component with terminal-voltage, current and power limits, not a general high-voltage or high-power substitute for a resistor.
-- Show the examples in Falstad, then compare the simulation with measurements from a real low-voltage circuit.
+- Show the examples in Falstad, then compare the simulation with measurements from a real low-voltage circuit. If a visual comparison is useful, create an original sourced table or diagram rather than treating the supplied carbon-film/metal-film/wirewound graphic as a universal price and performance scale.
 
 ===== Notes to carry forward =====
 
