@@ -696,6 +696,15 @@ Which resistor colour band is commonly separated from the others by a wider gap?
 
 **Answer for the Leader:** Tolerance. The wider gap is a common clue that helps identify the tolerance band, but band arrangements vary. Confirm the order with a colour-code chart that matches the resistor.
 
+**Question 6 of 6**
+
+You should measure the resistance of an individual resistor while it is connected in a circuit.
+
+* False
+* True
+
+**Answer for the Leader:** False. Switch off the circuit and discharge capacitors before measuring resistance. Other parts connected to the resistor can create parallel paths and affect the reading, so remove the resistor or lift one lead when you need its individual value. Some in-circuit checks can be useful, but they do not always show the resistor’s own resistance.
+
 === Capacitor ===
 
 A capacitor is a storage element for electrical charge, like a bottle that stores a liquid. The basic unit of capacitance is the farad (F). Practical capacitors have capacitance values in microfarads (&#181;F). The physical size of a capacitor depends on its voltage rating and its capacitance value. The higher the voltage rating and the larger the capacitance value, the larger the capacitor must be.

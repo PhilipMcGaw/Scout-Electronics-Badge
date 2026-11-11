@@ -1,7 +1,7 @@
 # Project memories
 ## 2026-11-11 — Resistor-types knowledge check
 
-- **Project outcome:** Added the first five of six resistor-types knowledge-check questions to the booklet. Use “fixed-value resistor” in place of the source quiz’s “static resistor”, consistent with the established terminology preference; describe through-hole as a leaded package style that fits standard breadboards; distinguish working voltage from power and time-limited overload ratings; explain tolerance as a percentage range around nominal resistance; present wider band spacing as a clue, not a guarantee.
+- **Project outcome:** Completed the six-question resistor-types knowledge check in the booklet. Use “fixed-value resistor” in place of the source quiz’s “static resistor”; describe through-hole as a leaded package style that fits standard breadboards; distinguish working voltage from power and time-limited overload ratings; explain tolerance as a percentage range around nominal resistance; present wider band spacing as a clue, not a guarantee; isolate a resistor for an individual resistance reading when parallel paths could affect it.
 
 ## 2026-11-11 — Resistance measurement guidance
 
