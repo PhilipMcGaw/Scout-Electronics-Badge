@@ -132,6 +132,11 @@
 - **Technical context:** The article is specialist and model-dependent. Do not generalise its preferred combinations or imply that decoupling capacitors can be removed. Specific IC datasheets and layout guides take precedence; placement, loop inductance, regulator stability and effective MLCC capacitance under DC bias all matter.
 - **Project outcome:** Added a first draft in [decoupling capacitors draft](pages/sites/scouts-electronics-badge/blog/decoupling-capacitors.txt). Technical review against exact device documentation remains in [TODO.md](TODO.md).
 
+## 2026-11-11 — Course decoupling lesson reviewed
+
+- **Source assessment:** The pasted “Decoupling capacitors” transcript is a useful introduction to local supply decoupling and the difference between schematic grouping and physical placement. Its 100 nF plus 1 µF/10 µF suggestions are examples, not universal requirements, and the “drain AC noise to ground” analogy needs limits for real impedance, layout and return paths. Thermal noise should not be described as automatically removed by a shunt capacitor.
+- **Project outcome:** Added the assessment to the [course review](pages/sites/scouts-electronics-badge/sources/electronics-foundations-basic-circuits-review.txt) and a concise treatment to the [fundamentals outline](pages/sites/scouts-electronics-badge/blog/electronics-fundamentals.txt). The dedicated [decoupling article](pages/sites/scouts-electronics-badge/blog/decoupling-capacitors.txt) remains subject to exact-device datasheet and layout review tracked in TODO.md.
+
 This is the durable working context for the Scouts Electronics Activity Badge project. It records useful decisions and preferences across conversations; it is not a transcript or a task list. Current actions are tracked in [TODO.md](TODO.md).
 
 ## 2026-11-08 — Poeth SMD manufacturing article assessed
