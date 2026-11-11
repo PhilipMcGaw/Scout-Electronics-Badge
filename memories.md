@@ -1,4 +1,5 @@
 # Project memories
+
 ## 2026-11-11 — Voltage-divider level-shifting guidance
 
 - **Source assessment:** The user supplied the “Shift voltage levels” transcript. Cover resistor dividers only as limited one-way signal interfaces after checking exact pin limits, thresholds, loading, speed and direction. Do not generalise the course’s 5 V/3.3 V Arduino/accelerometer example, use a divider for a supply, or adapt its wall-adapter example for Scouts; Scout circuits remain limited to 12 V DC.
@@ -628,3 +629,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — EMC course-inspired blog ideas
 
 - **Editorial decision:** Add two optional, adult-facing topics from Karen Burnham’s course-note summaries: switching noise/harmonics/edge rates, and enclosure seams/apertures/cable entries. Keep these separate from the EMC primer and PCB-layout post, use the course only as a topic map, and verify technical claims against primary sources. See the [[sites:scouts-electronics-badge:blog:emc-switching-noise-harmonics|switching-noise idea]], [[sites:scouts-electronics-badge:blog:emc-enclosure-seams-apertures|enclosure idea]] and [[sites:scouts-electronics-badge:sources:emc-engineering-basics-course-note|course note]].
+
+## 2026-11-11 — Bandwidth and square-wave course section
+
+- **Source assessment:** The user supplied the “Bandwidth and square waves” transcript from Barron Stone’s basic-circuits course. Add an optional advanced explanation to the fundamentals post: signal bandwidth versus circuit passband, square-wave harmonics, finite edge rates and finite circuit bandwidth. Qualify that waveform distortion depends on the source, interconnect and load, and avoid one-size-fits-all bandwidth rules. The transcript’s animation is illustrative, not a verified design guide; Scout builds remain at or below 12 V DC.
