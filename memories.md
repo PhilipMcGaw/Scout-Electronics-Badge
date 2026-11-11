@@ -557,3 +557,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — RC circuits lesson assessed
 
 - **Source assessment:** The user supplied the “RC circuits” transcript. The examples 1 kΩ × 1,000 µF = 1 s and 1 kΩ × 10 µF = 0.01 s are correct. The capacitor reaches 63.2 % of the total voltage change after one time constant and approaches, but does not exactly reach, its final voltage; after five time constants it is about 99.3 % there. On discharge 36.8 % remains after one time constant. See the course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]] and [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
+
+## 2026-11-11 — Camera-flash capacitor challenge assessed
+
+- **Source assessment:** The ideal 9 V/15 mA charging limit gives 600 Ω as the theoretical minimum resistor. For a constant 2 Ω load, the ideal capacitor minimum to remain above 3 V for 2 ms from 9 V is approximately 910 µF. Real resistor tolerances/supply maximum, lamp filament resistance, capacitor tolerance and ESR, and circuit resistance need consideration; the ideal starting discharge current is 4.5 A. Keep the camera-flash topic as an adult blog calculation, never dismantle a flash unit, and do not turn this pulse circuit into a Scout build simply because its supply is 9 V. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:capacitors|capacitor draft]].
