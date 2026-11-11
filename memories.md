@@ -620,3 +620,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Frequency-domain lesson assessed
 
 - **Source assessment:** The course’s frequency-domain explanation is useful, but “every signal is a collection of sinusoids” needs qualification: periodic signals use discrete Fourier-series components, while aperiodic signals may have continuous spectra. A DC offset appears at 0 Hz. An FFT efficiently computes a DFT of sampled finite data; frequency resolution and spectral leakage depend on acquisition and windowing, while magnitude-only plots omit phase. See the course [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
+
+## 2026-11-11 — Spectrum analyser context
+
+- **User-reported experience:** Philip uses spectrum analysers extensively for EMC and RF work. Include spectrum analysis as an optional advanced topic in the fundamentals blog, alongside scope FFTs. Explain their complementary frequency-domain role and model-dependent settings such as span, RBW and detector; do not suggest that either an FFT or analyser trace alone establishes EMC compliance. See the [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
