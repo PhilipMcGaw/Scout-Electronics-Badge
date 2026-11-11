@@ -460,3 +460,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Potentiometer lesson assessed
 
 - **Source assessment:** The “Potentiometers” transcript distinguishes a three-terminal adjustable divider from a two-terminal rheostat use. In the resistor article, verify the exact pinout and keep any wiper-to-ADC voltage within the selected board's limits; do not generalise the course's 10 kΩ/20 kΩ parts or 5 V Arduino example. A rheostat must be rated for its actual load and dissipation. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:resistors|resistor draft]].
+
+## 2026-11-11 — Parallel-resistor lesson assessed
+
+- **Source assessment:** The “Resistors in parallel” transcript gives the reciprocal-resistance method and current/power examples. In the resistor draft, identify reciprocal resistance as conductance in siemens, check each branch's current and dissipation, and measure resistance only when de-energised. The 10 kΩ/20 kΩ values are illustrative course examples. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:resistors|resistor draft]].
