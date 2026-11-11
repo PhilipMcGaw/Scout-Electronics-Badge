@@ -6,7 +6,7 @@
 
 **Purpose:** Refresh the existing article with clearer explanations and a practical example that shows how resistor choice affects a real circuit.
 
-**New source material:** User-pasted transcripts “Challenge: Limit current to an LED”, “Solution: Limit current to an LED”, “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, and “Measure resistance”, plus course exercise sheets summarised in the [[sites:scouts-electronics-badge:sources:electronics-foundations-fundamentals-2021-review|2021 course materials review]] and [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-exercises-review|Basic Circuits exercise-files review]]. Treat listed values as examples, not component specifications; the original course PDFs have been removed after review.
+**New source material:** User-pasted transcripts “Challenge: Limit current to an LED”, “Solution: Limit current to an LED”, “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, “Measure resistance”, and “Voltage dividers”, plus course exercise sheets summarised in the [[sites:scouts-electronics-badge:sources:electronics-foundations-fundamentals-2021-review|2021 course materials review]] and [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-exercises-review|Basic Circuits exercise-files review]]. Treat listed values as examples, not component specifications; the original course PDFs have been removed after review.
 
 ===== Planned outline =====
 
@@ -19,7 +19,7 @@
 - Add a brief datasheet note distinguishing maximum working voltage (continuous use) from any maximum overload or pulse voltage (short duration under specified conditions). Explain that these limits are separate from the power rating; do not treat an overload rating as permission for sustained overvoltage. Verify terminology and limits in the exact resistor datasheet.
 - Explain lead-free resistor terminations and RoHS in UK electronics: distinguish a component’s lead-free claim from the solder alloy and from conformity of finished equipment. RoHS restricts specified substances in in-scope EEE; for lead, the maximum concentration is 0.1% by weight in homogeneous material, subject to scope and exemptions. Clarify that RoHS-compliant does not necessarily mean absolutely lead-free. Check the [[https://www.gov.uk/guidance/rohs-compliance-and-guidance|current GOV.UK RoHS guidance]] and GB/NI differences at publication.
 - Choose a value and power rating for an LED indicator; explain the calculation and assumptions.
-- Explain the potential divider and use the existing calculator to explore how resistor values set the output voltage.
+- Explain an unloaded potential divider using ''Vout = Vin × R2 ÷ (R1 + R2)'', with R1 above and R2 below the output node. Use the course’s 3 V, 1 kΩ/2 kΩ example to show 1 mA through the string and 2 V across R2. Correct the transcript’s earlier formula slip that uses R1 in the numerator. Explain that a load connected across the output is in parallel with R2 and can change Vout; use the existing calculator to explore the ideal ratio, then distinguish it from a loaded circuit.
 - Use a thermistor as one resistor in a potential divider to show how temperature changes can produce a changing voltage.
 - Explain tolerance, temperature effects, and failure modes at a useful level.
 - Explain that electrical power dissipated by a resistor becomes heat, and include a warning against deliberately overloading or touching a hot resistor.

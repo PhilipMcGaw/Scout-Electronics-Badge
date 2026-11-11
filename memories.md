@@ -1,4 +1,8 @@
 # Project memories
+## 2026-11-11 — Voltage-divider lesson assessed
+
+- **Source assessment:** The user supplied the “Voltage dividers” transcript. The resistor article plan uses `Vout = Vin × R2 ÷ (R1 + R2)` for an unloaded divider with R2 below the output node, corrects the transcript’s R1 numerator slip, and notes that an attached load changes the output.
+
 ## 2026-11-11 — Series-resistor lesson assessed
 
 - **Source assessment:** The user supplied the “Resistors in series” transcript. The resistor article plan now covers resistance sums, worst-case tolerance bounds, same-current power calculations for each part, and separate voltage/power/thermal checks. The transcript’s 20 mA across 3 kΩ example requires 60 V and is outside the 12 V DC maximum for Scout circuit activities; do not use it as a Scout example.
