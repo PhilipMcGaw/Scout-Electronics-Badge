@@ -4,7 +4,7 @@
 * **Source:** [[https://www.linkedin.com/learning/electronics-foundations-basic-circuits/principles-of-basic-electronic-circuits?u=2174060|LinkedIn Learning, Electronics Foundations: Basic Circuits, “Principles of basic electronic circuits”]]
 * **Instructor:** Barron Stone, Electrical Engineer
 * **Course details shown:** Beginner; 4 h 2 min; updated 2021-07-30
-* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, “Build circuits on breadboards”, “What is an oscilloscope?”, “Measure a signal”, “Oscilloscope display settings”, “Oscilloscope trigger settings”, “Alternating current vs. direct current”, “Sine wave characteristics”, “Frequency domain”, “Bandwidth and square waves”, “Signal sources”, “Measure AC voltage”, “What is a capacitor?”, “Types of capacitors”, “Read capacitor values”, “Capacitor characteristics”, “Capacitors in parallel”, “Capacitors in series”, “RC circuits”, “Challenge: Camera flash”, “Solution: Challenge: Camera flash”, and the user-pasted transcripts “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, “Measure resistance”, “Resistors in series”, “Resistors in parallel”, “Voltage dividers”, “Shift voltage levels”, “Measure resistive sensors”, “Potentiometers”, “Kirchhoff's circuit laws”, “Wheatstone Bridge”, “Challenge: Light activated switch”, and “Solution: Challenge: Light activated switch”. User-supplied diagram frames were also reviewed from the “Voltage dividers” and “Resistors in parallel” lessons, along with all six questions from a resistor-types knowledge check, all eight questions from a separate quiz on resistors and sensors, all six oscilloscope quiz questions, all eight questions from an eight-question capacitor quiz, all six questions from the “Sine wave characteristics” quiz, and questions 1–4 of 6 from the “Frequency domain” quiz. No course video or other lessons were reviewed.
+* **Material reviewed:** User-pasted course description and transcripts for “Principles of basic electronic circuits” (duration 1 min 37 sec), “What you should know”, “Using the exercise files”, “Safety warnings”, “Read electrical schematics”, “Build circuits on breadboards”, “What is an oscilloscope?”, “Measure a signal”, “Oscilloscope display settings”, “Oscilloscope trigger settings”, “Alternating current vs. direct current”, “Sine wave characteristics”, “Frequency domain”, “Bandwidth and square waves”, “Signal sources”, “Measure AC voltage”, “What is a capacitor?”, “Types of capacitors”, “Read capacitor values”, “Capacitor characteristics”, “Capacitors in parallel”, “Capacitors in series”, “RC circuits”, “Challenge: Camera flash”, “Solution: Challenge: Camera flash”, and the user-pasted transcripts “Types of resistors”, “Resistor characteristics”, “Read resistor color codes”, “Measure resistance”, “Resistors in series”, “Resistors in parallel”, “Voltage dividers”, “Shift voltage levels”, “Measure resistive sensors”, “Potentiometers”, “Kirchhoff's circuit laws”, “Wheatstone Bridge”, “Challenge: Light activated switch”, and “Solution: Challenge: Light activated switch”. User-supplied diagram frames were also reviewed from the “Voltage dividers” and “Resistors in parallel” lessons, along with all six questions from a resistor-types knowledge check, all eight questions from a separate quiz on resistors and sensors, all six oscilloscope quiz questions, all eight questions from an eight-question capacitor quiz, all six questions from the “Sine wave characteristics” quiz, and questions 1–5 of 6 from the “Frequency domain” quiz. No course video or other lessons were reviewed.
 
 ===== Useful coverage and overlap =====
 
@@ -230,6 +230,14 @@ This is the expected introductory answer. When writing more precisely, define wh
 **Correct answer:** A DC offset.
 
 For a finite signal record, the zero-frequency component corresponds to its mean value (subject to the transform’s scaling convention). It appears as a constant offset in the time-domain signal.
+
+===== Knowledge check: “Frequency domain”, question 5 of 6 =====
+
+**Question:** The time domain and the frequency domain are two ways to represent the same signal.
+
+**Correct answer:** True.
+
+The two views describe the same signal using different variables. For practical sampled measurements, note that the displayed spectrum is calculated from a finite record and depends on acquisition and transform settings.
 
 ===== “Bandwidth and square waves” excerpt =====
 
