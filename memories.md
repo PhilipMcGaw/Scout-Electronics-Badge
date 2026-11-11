@@ -480,3 +480,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Light-activated bridge challenge assessed
 
 - **Source assessment:** The new “Challenge: Light activated switch” transcript specifies relay logic ''A > B'' on and ''A ≤ B'' off, clarifying the 03_09 worksheet's overlapping dark condition. Treat its LDR values as examples, and do not adapt its unspecified relay/stereo interface into a Scout build. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-exercises-review|exercise-file review]], the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course review]], and the [[sites:scouts-electronics-badge:blog:resistors|resistor draft]].
+
+## 2026-11-11 — Light-activated bridge solution assessed
+
+- **Source assessment:** The course solution defines bridge output as ''VA − VB'', opposite to the earlier bridge transcript's ''VR − VL''; the polarity choice is arbitrary, so label the midpoint wiring and equation consistently. The ideal 5 V example puts A at 2.5 V and uses a 5 kΩ top resistor to balance a 5 kΩ LDR threshold. Calculated outputs with the transcript's 1 kΩ/10 kΩ LDR values are about +1.67 V in bright light and −0.83 V in darkness. Treat course sensor values and reported checks as examples, not guaranteed behaviour. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:resistors|resistor draft]].
