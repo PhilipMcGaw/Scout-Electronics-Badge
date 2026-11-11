@@ -35,6 +35,7 @@ The related two-day [[https://lushprojects.com/electronicsforartists/|Electronic
 - Introduce common SI prefixes used with electrical units, with examples of converting between milliamperes and amperes, and kilo-ohms and ohms.
 - Explain that a DMM reading gives a numeric measurement at a time, while an oscilloscope displays voltage against time as a waveform. Use a simple, low-voltage signal to show changing behaviour and compare two points only when the scope channels and probe references can be connected safely. Treat the scope as a useful tool for time-varying signals, not a requirement for every circuit or a guarantee that a fault's cause is identified.
 - Briefly compare a periodic signal with its sinusoidal frequency components to motivate why filters can affect different frequencies differently. Explain that this is a frequency-analysis model; do not claim that every signal is a finite sum of sinusoids or derive Fourier analysis.
+- Compare DC and AC as circuit behaviours: DC current has one direction, while AC current reverses direction and voltage polarity periodically. Explain that DC need not be perfectly constant and AC need not be a sine wave. Use conventional current direction in circuit diagrams; if mentioning electron drift, label it as opposite in metal wires. Explain that mains adapters convert UK AC supply to the DC used by many electronic circuits, without implying that every part of a device uses DC. Give 230 V nominal and 50 Hz as UK context only, with authoritative references; state clearly that Scouts must not build or measure mains circuits and practical Scout supplies remain limited to 12 V DC.
 - Compare an ideal voltage source with a real battery: explain that a real source has limits and its terminal voltage can change with load.
 - Introduce the digital multimeter’s display, selector, probes, sockets, and common functions; explain how to select a meter based on the measurements and safety needs.
 - Measure voltage across a component and current through the circuit with a multimeter, following the booklet's meter-safety steps. Explain accuracy, precision, repeatability and display resolution simply; more digits or repeatable readings do not by themselves prove that a result is accurate.
@@ -45,6 +46,8 @@ The related two-day [[https://lushprojects.com/electronicsforartists/|Electronic
 - Add an optional advanced note explaining circuit common, Earth reference, and floating sources without bringing mains wiring into scope.
 - Add an optional advanced note that a voltage reference provides a known comparison level for analogue circuits such as ADCs and comparators. Keep the distinction from circuit common and power supply rails clear; if discussing reference quality, introduce initial accuracy, temperature change, input/load effects and noise at a high level.
 - Conclude by encouraging readers to keep applying the fundamentals as their circuits grow more complex and use them to troubleshoot; point to practical next steps.
+
+* For AC/DC, explain direction and periodic reversal without implying that all DC is constant or all AC is sinusoidal. Describe 230 V nominal, 50 Hz UK mains only as background, cited to NESO and UK Power Networks; do not make it an activity or suggest measuring it. Keep Scout circuit supplies at or below 12 V DC.
 
 ===== Notes to carry forward =====
 
@@ -83,6 +86,9 @@ The related two-day [[https://lushprojects.com/electronicsforartists/|Electronic
 
 * The [[sites:scouts-electronics-badge:sources:electronics-tutorials-index|curated Electronics Tutorials source index]] maps selected secondary lessons to the project drafts and records known limits. Use the site to find topics or alternate explanations, not as an authority for circuit values, safety or component claims; verify against current primary documentation and check permissions before reusing text or diagrams.
 * Check the actual battery, meter, and component datasheets used in the example.
+* National Energy System Operator (NESO), [[https://www.neso.energy/energy-101/electricity-explained/how-do-we-balance-grid/what-frequency|What is frequency?]], for Great Britain’s 50 Hz system frequency.
+* UK Power Networks, [[https://www.ukpowernetworks.co.uk/voltage-changes-in-your-home-or-business|Voltage changes in your home or business]], for the UK nominal 230 V single-phase supply.
+
 * RIGOL, [[https://www.rigol.com/dam/global/downloads/brochures/en/user-manual/probes/PVP2350UserGuideCNEN.pdf|PVP2350 Passive Probe User Guide]] and [[https://www.rigol.com/dam/global/downloads/brochures/en/user-manual/oscilloscopes/DS1000Z_UserGuide_EN.pdf|DS1000Z-series User Guide (includes DS1054Z)]]. The course instructor’s scope is identified by the user as a DS1054 and by the transcript as a DS1054Z. The guide lists DS1054Z-series functions, but use the manual for the exact unit and probe before any practical work.
 * Tektronix, [[https://www.tek.com/vn/documents/primer/oscilloscope-systems-and-controls|Oscilloscope Systems and Controls]]. Manufacturer primer for trigger level and common normal/auto mode behaviour; scope menus and details remain model-specific.
 * Check prefix symbols against the [[https://www.bipm.org/en/measurement-units/si-prefixes|BIPM SI prefix table]].
