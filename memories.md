@@ -1,4 +1,8 @@
 # Project memories
+## 2026-11-11 — Resistor-types knowledge check
+
+- **Project outcome:** Added the first of six resistor-types knowledge-check questions to the booklet. Use “fixed-value resistor” in place of the source quiz’s “static resistor”, consistent with the established terminology preference.
+
 ## 2026-11-11 — Resistance measurement guidance
 
 - **Source assessment:** The user supplied the “Measure resistance” course transcript. The resistor article outline now calls for safe DMM measurement, model-specific manual instructions, power-off and capacitor-discharge precautions, isolating a resistor to avoid parallel paths, and consideration of meter accuracy. Do not repeat the body-resistance demonstration.

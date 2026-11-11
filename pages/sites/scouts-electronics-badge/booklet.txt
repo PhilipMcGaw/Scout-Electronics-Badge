@@ -639,6 +639,19 @@ The resistance of a variable resistor can be adjusted. A potentiometer (or pot) 
 
 Some resistors change value in response to their surroundings rather than a hand-operated control. A thermistor responds to temperature; a light-dependent resistor (LDR), also called a photoresistor, responds to light. In a negative-temperature-coefficient (NTC) thermistor, resistance usually falls as temperature rises; in a positive-temperature-coefficient (PTC) thermistor, it usually rises. Check the part datasheet for its actual behaviour. A thermistor or LDR can be paired with a fixed-value resistor in a potential divider to produce a changing voltage.
 
+==== Quick check: resistor types ====
+
+**Question 1 of 6**
+
+Which type of resistor has a constant resistance value?
+
+* Rheostat
+* Fixed-value resistor
+* Photoresistor
+* Potentiometer
+
+**Answer for the Leader:** Fixed-value resistor. Its resistance is not adjusted in use. A potentiometer or rheostat is adjustable, while a photoresistor changes resistance with light.
+
 === Capacitor ===
 
 A capacitor is a storage element for electrical charge, like a bottle that stores a liquid. The basic unit of capacitance is the farad (F). Practical capacitors have capacitance values in microfarads (&#181;F). The physical size of a capacitor depends on its voltage rating and its capacitance value. The higher the voltage rating and the larger the capacitance value, the larger the capacitor must be.
