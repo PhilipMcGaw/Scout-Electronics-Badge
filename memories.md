@@ -504,3 +504,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-11 — Oscilloscope trigger-settings lesson assessed
 
 - **Source assessment:** “Oscilloscope trigger settings” supports an optional explanation of edge slope, trigger level, trigger source, and normal, auto and single acquisition modes. Trigger mode Auto differs from an Auto/Autoset display button. A non-triggered or wandering trace does not establish signal behaviour; distinguish signal changes, noise and setup. Use a specified scope with a checked low-voltage source and input limits. Keep Scout supplies at or below 12 V. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals draft]].
+
+## 2026-11-11 — Instructor oscilloscope identified
+
+- **User clarification:** The instructor’s scope is a Rigol DS1054. The pasted course transcript calls it a DS1054Z; Rigol’s DS1000Z user guide includes the DS1054Z and lists it as four-channel, 50 MHz. Preserve the model-name discrepancy and check the unit label/manual before using model-specific settings or ratings. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|course source review]] and [[https://www.rigol.com/dam/global/downloads/brochures/en/user-manual/oscilloscopes/DS1000Z_UserGuide_EN.pdf|Rigol DS1000Z-series User Guide]].
