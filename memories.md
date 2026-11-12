@@ -703,3 +703,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 - **Project outcome:** Added a qualified note to the course review and fundamentals outline.
 - **“Types of inductors” assessment:** Do not generalise the transcript’s DCR or current figures. Distinguish datasheet saturation current from thermal/RMS current ratings and verify the manufacturer’s definitions. Series/parallel inductance formulas assume negligible mutual coupling; coupling changes the result.
 - **“What is an inductor?” assessment:** Describe magnetic-field energy storage and opposition to current change; use ''v = L di/dt'' and ''E = ½LI²'' if suitable. An ideal inductor is a short at steady DC, but a real coil has winding resistance. Use IEC symbols in project diagrams.
+
+## 2026-11-12 — L/R response course transcript
+
+- **Source assessment:** For a simple series RL step, use total series resistance (including source resistance and coil DCR) in ''τ = L/R_total''. Current changes by 63.2% of its total step after one time constant and reaches about 99.3% after five; switch-off current decays and the inductor can generate a voltage that needs design-appropriate protection. Resistor voltage can indicate branch current if resistance is known. Scope probe grounding must be checked; two channels are not inherently differential or isolated.
+- **Project outcome:** Added the qualified response model to the course review and fundamentals outline.
