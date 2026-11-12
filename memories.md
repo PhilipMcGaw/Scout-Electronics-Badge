@@ -715,7 +715,7 @@ These are Philip’s statements about his own equipment and methods, not univers
 - **Project outcome:** Added a qualified comparison to the course review and fundamentals outline.
 - **Diagram assessment:** The user supplied a comparison frame confirming matching ideal first-order low-pass plots with ''f_c = 1/(2πRC)'' and ''f_c = R/(2πL)''. State the RL topology and ideal/unloaded assumptions; do not reuse the screenshot without image-rights review.
 
-## 2026-11-12 — Inductance knowledge check, question 1
+## 2026-11-12 — Inductance knowledge check, questions 1–2
 
-- **Correct answer:** Current. An ideal inductor opposes changes in current; its voltage relates to the rate of change as ''v = L di/dt'' under the passive sign convention.
-- **Project outcome:** Recorded question 1 of 8 in the course review; only this question has been supplied so far.
+- **Correct answers:** Question 1: current. An ideal inductor opposes changes in current; its voltage relates to the rate of change as ''v = L di/dt'' under the passive sign convention. Question 2: a magnetic field; current flowing through a wire creates a magnetic field around it.
+- **Project outcome:** Recorded questions 1 and 2 of 8 in the course review. Clarified the matching inductor explanations in the booklet and fundamentals draft.

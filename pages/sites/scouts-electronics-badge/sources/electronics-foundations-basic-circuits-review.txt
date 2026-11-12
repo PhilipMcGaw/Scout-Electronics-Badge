@@ -267,13 +267,19 @@ This lesson gives an intuitive account of an inductor as a coil that stores ener
 
 The lesson usefully surveys core materials, through-hole and surface-mount packages, inductance, winding DC resistance (DCR), and current ratings. Qualify its generalisations: some inductors are air-core; DCR varies with part and winding, so “less than 1 Ω” is not a universal expectation. Datasheets may specify separate saturation and thermal/RMS current ratings, using manufacturer-defined conditions; saturation can reduce inductance before the winding overheats. Check the exact part’s core, DCR, current definitions, temperature rise, and frequency-dependent limits. The simple series-sum and reciprocal parallel-sum equations apply to ideal, uncoupled inductors; mutual coupling changes the result and may require a coupled-inductor model. Any parts-kit value range or stocking preference belongs to the instructor, not to the project as a general recommendation.
 
-===== Inductance knowledge check, question 1 of 8 =====
+===== Inductance knowledge check, questions 1–2 of 8 =====
 
 **Question:** An inductor opposes changes in what quantity?
 
 **Correct answer:** Current.
 
 An ideal inductor’s current cannot change instantaneously; its voltage is proportional to the rate of current change (''v = L di/dt'', with sign set by the reference directions).
+
+**Question 2:** When current flows through a wire, what does it create around the wire?
+
+**Correct answer:** A magnetic field.
+
+Current in a conductor creates a magnetic field around it; in a coil, the fields from its turns combine. This is consistent with the booklet’s inductor explanation and the fundamentals draft.
 
 ===== “L/R response” excerpt =====
 
