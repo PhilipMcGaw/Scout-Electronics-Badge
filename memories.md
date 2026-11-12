@@ -680,3 +680,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - **Source assessment:** The user supplied the “Impedance matching and bridging” transcript. Distinguish high-input/low-output impedance voltage bridging from matching for maximum power or transmission-line reflection control. The 10:1 load/source ratio is a rule of thumb, not a universal boundary; a resistive voltage-divider model gives 90.9% of open-circuit voltage at 10:1 and 99.9% at 1000:1. For reactive AC maximum-power transfer, use complex-conjugate matching. Do not describe every lumped impedance mismatch as reflected travelling energy.
 - **Project outcome:** Added this distinction to the course review and fundamentals outline, with an RF tutorial and university voltage-divider lab as references.
+
+## 2026-11-12 — Audio low-pass filter challenge
+
+- **Source assessment:** The user supplied the “Challenge: Filter audio” transcript. Treat its 150 Hz ±10 Hz target as a first-order signal-level low-pass design exercise. The source impedance and amplifier input impedance affect the actual cutoff; a representative 11 kΩ/100 nF pair gives about 146.2 Hz with 3 Ω source and 1 MΩ load, but those are assumptions to label. Explain the 20 dB/decade roll-off and distinguish this single RC stage from a complete speaker crossover.
+- **Project outcome:** Added the loaded calculation and example to the course review and fundamentals outline. The outline points to the University of Colorado Boulder filter and voltage-divider labs.
