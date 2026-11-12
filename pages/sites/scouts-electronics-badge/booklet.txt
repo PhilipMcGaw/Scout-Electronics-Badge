@@ -711,7 +711,7 @@ A capacitor is a storage element for electrical charge, like a bottle that store
 
 === Inductor ===
 
-An inductor is a coil of wire usually wrapped around some type of metal or hollow core material and is used to smooth out variations in the current flow. Current flowing through the wire creates a magnetic field around it; a core can strengthen or guide the field. When the current changes, the magnetic field changes too, inducing a voltage that opposes the change in current. Single coils are often called chokes when used to filter current changes. Two or more coils can be arranged to form a transformer that transfers energy between circuits through a changing magnetic field.
+An inductor is a coil of wire usually wrapped around some type of metal or hollow core material and is used to smooth out variations in the current flow. Current flowing through the wire creates a magnetic field around it; a core can strengthen or guide the field. When the current changes, the magnetic field changes too, inducing a voltage that opposes the change in current. Single coils are often called chokes when used to filter current changes. Two or more coils can be arranged to form a transformer that transfers energy between circuits through a changing magnetic field. In circuit diagrams, inductors are labelled with the letter ''L'', such as ''L1''.
 
 === Transformer ===
 
