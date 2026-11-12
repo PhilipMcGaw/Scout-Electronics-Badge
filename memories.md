@@ -701,3 +701,4 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - **Source assessment:** The user supplied the “Inductance” transcript. Preserve the useful explanation that changing current and magnetic fields can induce voltage and cause mutual coupling/crosstalk, while distinguishing self-inductance from coupling between conductors. Qualify layout advice: small loops and short leads help reduce coupling; perpendicular crossings are situational guidance, not a guarantee. Do not adapt the course’s probe-near-mains demo or its US 60 Hz framing for Scout activities.
 - **Project outcome:** Added a qualified note to the course review and fundamentals outline.
+- **“What is an inductor?” assessment:** Describe magnetic-field energy storage and opposition to current change; use ''v = L di/dt'' and ''E = ½LI²'' if suitable. An ideal inductor is a short at steady DC, but a real coil has winding resistance. Use IEC symbols in project diagrams.
