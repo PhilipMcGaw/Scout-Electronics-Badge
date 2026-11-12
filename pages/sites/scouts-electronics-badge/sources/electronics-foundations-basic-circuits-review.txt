@@ -267,7 +267,7 @@ This lesson gives an intuitive account of an inductor as a coil that stores ener
 
 The lesson usefully surveys core materials, through-hole and surface-mount packages, inductance, winding DC resistance (DCR), and current ratings. Qualify its generalisations: some inductors are air-core; DCR varies with part and winding, so “less than 1 Ω” is not a universal expectation. Datasheets may specify separate saturation and thermal/RMS current ratings, using manufacturer-defined conditions; saturation can reduce inductance before the winding overheats. Check the exact part’s core, DCR, current definitions, temperature rise, and frequency-dependent limits. The simple series-sum and reciprocal parallel-sum equations apply to ideal, uncoupled inductors; mutual coupling changes the result and may require a coupled-inductor model. Any parts-kit value range or stocking preference belongs to the instructor, not to the project as a general recommendation.
 
-===== Inductance knowledge check, questions 1–6 of 8 =====
+===== Inductance knowledge check, questions 1–7 of 8 =====
 
 **Question:** An inductor opposes changes in what quantity?
 
@@ -304,6 +304,12 @@ For the course’s ideal first-order low-pass examples, a series-R/shunt-C netwo
 **Correct answer:** The voltage across it.
 
 This is an analogy between ideal components: with finite applied voltage, an inductor’s current cannot jump; with finite current, a capacitor’s voltage cannot jump (''v_L = L di/dt'' and ''i_C = C dv/dt''). It does not mean their waveforms are always identical.
+
+**Question 7:** In an RL low-pass filter, which frequencies does the inductor attenuate?
+
+**Correct answer:** High frequencies.
+
+In the series-L/shunt-R low-pass topology with output across the resistor, the inductor’s reactance increases with frequency, reducing the output at higher frequencies. Say “attenuate” rather than “block”: a real first-order filter rolls off progressively and does not remove every component above its cutoff.
 
 ===== “L/R response” excerpt =====
 
