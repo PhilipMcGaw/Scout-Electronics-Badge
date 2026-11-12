@@ -267,7 +267,7 @@ This lesson gives an intuitive account of an inductor as a coil that stores ener
 
 The lesson usefully surveys core materials, through-hole and surface-mount packages, inductance, winding DC resistance (DCR), and current ratings. Qualify its generalisations: some inductors are air-core; DCR varies with part and winding, so “less than 1 Ω” is not a universal expectation. Datasheets may specify separate saturation and thermal/RMS current ratings, using manufacturer-defined conditions; saturation can reduce inductance before the winding overheats. Check the exact part’s core, DCR, current definitions, temperature rise, and frequency-dependent limits. The simple series-sum and reciprocal parallel-sum equations apply to ideal, uncoupled inductors; mutual coupling changes the result and may require a coupled-inductor model. Any parts-kit value range or stocking preference belongs to the instructor, not to the project as a general recommendation.
 
-===== Inductance knowledge check, questions 1–7 of 8 =====
+===== Inductance knowledge check, questions 1–8 of 8 =====
 
 **Question:** An inductor opposes changes in what quantity?
 
@@ -310,6 +310,12 @@ This is an analogy between ideal components: with finite applied voltage, an ind
 **Correct answer:** High frequencies.
 
 In the series-L/shunt-R low-pass topology with output across the resistor, the inductor’s reactance increases with frequency, reducing the output at higher frequencies. Say “attenuate” rather than “block”: a real first-order filter rolls off progressively and does not remove every component above its cutoff.
+
+**Question 8:** Which low-pass filter is the course’s intended choice for signals containing mostly DC energy?
+
+**Correct answer:** RC.
+
+Interpret this as a practical choice for retaining a DC level while attenuating ripple or other higher-frequency changes. “More efficient” is not a general ranking of filter topologies: the useful design depends on cutoff, source and load impedance, load current, allowable voltage drop, component size and losses. For example, an RC stage can be simple for a light signal load, while a loaded power rail may need a different filter or a buffer/regulator.
 
 ===== “L/R response” excerpt =====
 
