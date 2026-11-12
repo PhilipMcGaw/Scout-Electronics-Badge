@@ -708,3 +708,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - **Source assessment:** For a simple series RL step, use total series resistance (including source resistance and coil DCR) in ''τ = L/R_total''. Current changes by 63.2% of its total step after one time constant and reaches about 99.3% after five; switch-off current decays and the inductor can generate a voltage that needs design-appropriate protection. Resistor voltage can indicate branch current if resistance is known. Scope probe grounding must be checked; two channels are not inherently differential or isolated.
 - **Project outcome:** Added the qualified response model to the course review and fundamentals outline.
+
+## 2026-11-12 — Capacitors versus inductors course transcript
+
+- **Source assessment:** Preserve the electric-field versus magnetic-field energy comparison and the ideal opposite frequency trends, while qualifying them for real components and their parasitics. Similar RC/RL transfer responses do not mean equivalent source loading or losses. Describe an ignition coil as mutual induction; do not repeat the absolute claim that capacitors cannot participate in voltage-raising circuits, since charge-pump/multiplier circuits do. Keep ignition/high-voltage activity out of Scout builds.
+- **Project outcome:** Added a qualified comparison to the course review and fundamentals outline.
