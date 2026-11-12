@@ -267,7 +267,7 @@ This lesson gives an intuitive account of an inductor as a coil that stores ener
 
 The lesson usefully surveys core materials, through-hole and surface-mount packages, inductance, winding DC resistance (DCR), and current ratings. Qualify its generalisations: some inductors are air-core; DCR varies with part and winding, so “less than 1 Ω” is not a universal expectation. Datasheets may specify separate saturation and thermal/RMS current ratings, using manufacturer-defined conditions; saturation can reduce inductance before the winding overheats. Check the exact part’s core, DCR, current definitions, temperature rise, and frequency-dependent limits. The simple series-sum and reciprocal parallel-sum equations apply to ideal, uncoupled inductors; mutual coupling changes the result and may require a coupled-inductor model. Any parts-kit value range or stocking preference belongs to the instructor, not to the project as a general recommendation.
 
-===== Inductance knowledge check, questions 1–4 of 8 =====
+===== Inductance knowledge check, questions 1–5 of 8 =====
 
 **Question:** An inductor opposes changes in what quantity?
 
@@ -292,6 +292,12 @@ For ideal, uncoupled inductors, series inductances add and parallel inductances 
 **Correct answer:** L.
 
 Use uppercase ''L'' for inductance and inductor reference designators (for example, ''L1''). Do not confuse it with ''I'' for current or ''R'' and ''C'' for resistor and capacitor designators.
+
+**Question 5:** Can RC and RL filters have the same frequency response for gain?
+
+**Correct answer:** True.
+
+For the course’s ideal first-order low-pass examples, a series-R/shunt-C network with output across the capacitor and a series-L/shunt-R network with output across the resistor can have the same gain magnitude versus frequency when their values give the same cutoff. This does not mean arbitrary RC and RL circuits have identical responses, or that their phase, loading, losses and current demand are the same.
 
 ===== “L/R response” excerpt =====
 
