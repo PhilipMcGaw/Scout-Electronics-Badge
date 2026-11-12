@@ -685,3 +685,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - **Source assessment:** The user supplied the “Challenge: Filter audio” transcript. Treat its 150 Hz ±10 Hz target as a first-order signal-level low-pass design exercise. The source impedance and amplifier input impedance affect the actual cutoff; a representative 11 kΩ/100 nF pair gives about 146.2 Hz with 3 Ω source and 1 MΩ load, but those are assumptions to label. Explain the 20 dB/decade roll-off and distinguish this single RC stage from a complete speaker crossover.
 - **Project outcome:** Added the loaded calculation and example to the course review and fundamentals outline. The outline points to the University of Colorado Boulder filter and voltage-divider labs.
+
+## 2026-11-12 — Audio filter solution checked
+
+- **Source assessment:** The supplied solution selects 10 kΩ and 100 nF. This gives 159.2 Hz unloaded, or about 159.6 Hz with assumed 3 Ω source and 3 MΩ load, within the 140–160 Hz tolerance. A 1 MΩ load would shift it to about 160.7 Hz. The reported 0.71 amplitude ratio at 150 Hz is approximate; the ideal unloaded ratio is about 0.728. Keep measured scope values distinct from calculated ideal values, and explain that the single-pole response is not a complete subwoofer crossover.
+- **Project outcome:** Added the course solution and its checked assumptions to the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]] and [[sites:scouts-electronics-badge:blog:electronics-fundamentals|fundamentals outline]].
