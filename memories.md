@@ -713,3 +713,4 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - **Source assessment:** Preserve the electric-field versus magnetic-field energy comparison and the ideal opposite frequency trends, while qualifying them for real components and their parasitics. Similar RC/RL transfer responses do not mean equivalent source loading or losses. Describe an ignition coil as mutual induction; do not repeat the absolute claim that capacitors cannot participate in voltage-raising circuits, since charge-pump/multiplier circuits do. Keep ignition/high-voltage activity out of Scout builds.
 - **Project outcome:** Added a qualified comparison to the course review and fundamentals outline.
+- **Diagram assessment:** The user supplied a comparison frame confirming matching ideal first-order low-pass plots with ''f_c = 1/(2πRC)'' and ''f_c = R/(2πL)''. State the RL topology and ideal/unloaded assumptions; do not reuse the screenshot without image-rights review.
