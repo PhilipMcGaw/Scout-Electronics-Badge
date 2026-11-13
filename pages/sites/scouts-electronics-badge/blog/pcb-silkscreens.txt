@@ -13,6 +13,18 @@
 - Find polarity markings for diodes and LEDs, and confirm them against the component and assembly guide.
 - Identify an IC outline, its notch or pin-1 mark, and the package’s pin numbering.
 - Explain why markings are helpful but should be checked against the schematic, datasheet, and assembly instructions.
+- PCB silkscreen design for manufacture (DFM): character height, stroke width, legibility, component clearance, and the distinction between a manufacturer's stated minimum and what its CAM process may accept or alter.
+- Reference-designator sizing: compare compact layouts with practical readability during assembly, inspection, and rework. Treat 1.0 mm character height and 0.15 mm stroke width as figures reported from the current JLCPCB design rules in the user's note; recheck the live manufacturer guidance before publication. The podcast anecdote reports a CAM engineer routinely increasing 1.0 mm text to 1.5 mm, but this is not evidence of JLCPCB's practice.
+
+===== DFM research note — reference-designator size =====
+
+**User-supplied observation (2026-11-13):** A listener's note from an earlier Pick Place Podcast episode reports a CAM engineer saying undersized silkscreen is the most common customer issue, occurring on roughly 90% of orders, and that the engineer often increases reference-designator character height from 1.0 mm to at least 1.5 mm. The listener compared this with their own long-standing 0.7 mm character height and 0.1 mm stroke width, and reported that JLCPCB's published minimums are 1.0 mm height and 0.15 mm stroke width. They wondered whether CAM staff manually correct their files.
+
+**Engineering interpretation:** This is a useful DFM prompt, not a verified statement about any particular fabricator's CAM workflow. A published minimum may define the manufacturer's supported or guaranteed process, rather than the smallest feature that can sometimes be reproduced. An undersized feature might be enlarged, thickened, removed, flagged, or left unchanged; the actual treatment depends on the fabricator's documented process and order-specific CAM review. Do not claim that JLCPCB manually enlarges this user's text without comparing submitted Gerbers with CAM outputs or manufactured boards.
+
+**Practical guidance to develop:** Design reference designators for legibility at the intended board size and viewing conditions, while respecting the selected fabricator's current minimum character height and stroke width. Check clearance from pads, exposed copper, solderable surfaces, board edges, and component bodies; ensure polarity and pin-1 markings remain unambiguous. Where space is constrained, prioritise essential polarity/orientation marks and use a consistent, readable hierarchy rather than shrinking all text indiscriminately. Distinguish a minimum manufacturable feature from a recommended production size and from a readability target.
+
+**Verification before publication:** Recheck current JLCPCB silkscreen rules and obtain the exact Pick Place Podcast episode and timestamp. If investigating whether CAM changes a particular order, compare the submitted Gerber silkscreen layer with the manufacturer's processed CAM data or the delivered board; photographs alone may not reveal whether text was altered before imaging.
 
 ===== Visuals =====
 
