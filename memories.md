@@ -730,3 +730,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - **Source assessment:** The supplied closing excerpt frames the course as a reference for component behaviour, signal filtering, circuit design and troubleshooting. Treat it as a topic source rather than a build recipe; examples still need verification and circuits do not reliably work first time.
 - **Project outcome:** Recorded the closing remarks in the course source review. The review covers all eight questions from the inductor knowledge check; no course video was reviewed.
+
+
+## 2026-11-13 — GCSE Electronics relevance
+
+- **Checked reference:** The reviewed Basic Circuits course has useful overlap with WJEC Eduqas GCSE Electronics in circuit analysis, measurements, resistive/sensor circuits, practical investigation, and system design/test/evaluation. It is not full GCSE coverage; logic systems, timing, op-amps and control are notable additional specification areas. Treat this as optional progression context for the badge, not as a badge requirement. WJEC Eduqas serves Wales and its designated qualification in England; the Department for Education subject-content page is England-specific. See the GCSE relevance section in the [[pages/sites/scouts-electronics-badge/sources/electronics-foundations-basic-circuits-review.txt|course review]].

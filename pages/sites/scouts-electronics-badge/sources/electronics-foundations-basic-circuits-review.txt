@@ -448,3 +448,11 @@ Added the opening lesson as background for the existing fundamentals and breadbo
 ===== Course closing remarks excerpt =====
 
 The closing remarks summarise the course’s practical aim: use an understanding of common components and signals to adapt circuits, design simple circuits and troubleshoot. Treat the course as a reference and source of topics, not as proof that any example will work unchanged. The closing wish that circuits work correctly on the first attempt is encouragement, not a realistic guarantee; design checks, testing and troubleshooting remain part of electronics work.
+
+
+===== GCSE relevance =====
+
+The course overlaps with parts of the WJEC Eduqas GCSE Electronics specification: circuit symbols and analysis; measuring voltage, current and resistance; investigating component behaviour; resistor networks and potential dividers; sensor circuits; and design, testing and evaluation. Its oscilloscope, passive-filter and signal topics also provide useful context, while GCSE study goes further into areas not covered by this reviewed course material, including logic systems, timing circuits, op-amps and control. Treat this as an optional progression link for interested Scouts and Leaders, not as a badge requirement or a claim of full GCSE coverage. The qualification is offered in Wales and as the designated qualification in England; the DfE's GCSE electronics subject content applies to England. Check the awarding body's current specification before using this comparison for teaching.
+
+* WJEC Eduqas, [[https://www.eduqas.co.uk/media/0phdotb0/eduqas-gcse-electronics-spec-from-2017-e.pdf|GCSE Electronics specification]], particularly Components 1–2 and the system-design assessment.
+* Department for Education, [[https://www.gov.uk/government/publications/gcse-electronics|GCSE electronics subject content]], which applies to England.
