@@ -1,5 +1,11 @@
 # Project memories
 
+## 2026-11-13 — PCB silkscreen sizing and CAM practice
+
+- **User-supplied source note:** The user shared a listener's note from an earlier Pick Place Podcast episode. It reports a CAM engineer describing undersized silkscreen as a frequent problem (around 90% of orders) and routinely enlarging 1.0 mm reference-designator text to 1.5 mm. The user reports historically using 0.7 mm character height and 0.1 mm stroke width, and seeing JLCPCB guidance of 1.0 mm minimum height and 0.15 mm minimum stroke width. These figures and the anecdote need checking against the current source material before publication.
+- **Technical interpretation:** A manufacturer's published minimum is not necessarily the smallest feature it can occasionally reproduce; it may define supported/guaranteed capability. Possible CAM responses include enlargement, thickening, removal, query, or leaving the artwork unchanged. Do not assume JLCPCB manually alters this user's files without evidence from the CAM output or board comparison.
+- **Project outcome:** Added the observation, qualified DFM interpretation, practical design considerations, and verification actions to the [[sites:scouts-electronics-badge:blog:pcb-silkscreens|PCB silkscreen draft]]. The existing TODO already tracks writing this post; no duplicate task was added.
+
 ## 2026-11-11 — Voltage-divider level-shifting guidance
 
 - **Source assessment:** The user supplied the “Shift voltage levels” transcript. Cover resistor dividers only as limited one-way signal interfaces after checking exact pin limits, thresholds, loading, speed and direction. Do not generalise the course’s 5 V/3.3 V Arduino/accelerometer example, use a divider for a supply, or adapt its wall-adapter example for Scouts; Scout circuits remain limited to 12 V DC.
