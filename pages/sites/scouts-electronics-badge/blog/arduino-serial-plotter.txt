@@ -1,0 +1,94 @@
+====== Arduino Serial Plotter ======
+
+===== Working title =====
+
+Plot microcontroller data with the Arduino IDE
+
+===== Audience and scope =====
+
+An adult-facing, practical introduction to sending numeric data from a microcontroller to the Serial Plotter in Arduino IDE 2. The code uses the Arduino ''Serial'' API and an analogue input as an example, but the analogue pin name, input range, ADC resolution, serial implementation, and supported IDE features depend on the selected board and software version. Check those before using hardware. This draft explains data formatting; it does not specify or validate a sensor circuit.
+
+===== Draft =====
+
+The Serial Plotter turns a stream of numbers from a microcontroller into a live graph. It is useful for seeing how a value changes over time, such as an analogue input, a sensor reading, or a control value. The board sends text over its serial connection; the plotter reads each line and draws the numbers it finds.
+
+==== Send one value per line ====
+
+Each update should end with a line break. In Arduino code, ''Serial.println(value)'' prints the value and ends the line. A simple example is:
+
+<code cpp>
+void setup() {
+  Serial.begin(115200);
+}
+
+void loop() {
+  int reading = analogRead(A0);
+
+  Serial.print("reading:");
+  Serial.println(reading);
+
+  delay(50);
+}
+</code>
+
+The text before the colon names the trace; the number after it is the value to plot. The delay spaces updates about 50 milliseconds apart, or roughly 20 times per second. It is an example interval, not a requirement. A slower interval can make a changing signal easier to inspect, while fast-changing signals need a suitable sample rate and a board that can keep up.
+
+After uploading the sketch, open ''Tools > Serial Plotter'' in Arduino IDE 2 and choose the same baud rate used in ''Serial.begin()''. The plot should begin updating as the board sends complete lines.
+
+''A0'' and ''analogRead()'' are Arduino-style examples, not promises that every microcontroller has the same pin names or behaviour. The input must stay within the selected board's permitted range, and the returned code range and resolution depend on its ADC. Check the board documentation before connecting a sensor.
+
+==== Plot several values together ====
+
+Print multiple labelled numbers on the same line, separated by a comma, tab, or space. End the final value with ''Serial.println()'' so that the next update starts on a new line:
+
+<code cpp>
+Serial.print("temperature_C:");
+Serial.print(temperatureC, 1);
+Serial.print(",humidity_percent:");
+Serial.println(humidityPercent, 1);
+</code>
+
+This example assumes that ''temperatureC'' and ''humidityPercent'' have already been set from valid readings. The second argument to ''Serial.print()'' asks for one digit after the decimal point. Keep units in the labels, because the plotter receives numbers and labels rather than understanding what the units mean.
+
+For example, the stream could look like this:
+
+<code>
+temperature_C:21.4,humidity_percent:48.2
+temperature_C:21.5,humidity_percent:48.1
+temperature_C:21.5,humidity_percent:48.3
+</code>
+
+Each line is one time step. The plotter draws a separate trace for each label. Labels should stay consistent from line to line; changing their spelling can make the plotter treat them as different traces.
+
+==== Keep plot data separate from messages ====
+
+The Serial Plotter expects a regular stream of numeric values. Debug messages such as ''Starting sensor...'' mixed into the stream may be interpreted as another value or make the graph confusing. During plotting, send only the labelled values you want to display. If you need diagnostic text, use a separate output channel supported by the particular board and IDE, or switch back to the Serial Monitor when appropriate.
+
+Avoid printing a label on one line and its value on another. Avoid leaving out the line ending, too: the plotter needs to know when one set of readings is complete. Arduino IDE 2's Serial Plotter accepts line endings such as those produced by ''Serial.println()''.
+
+==== Read the graph carefully ====
+
+The Serial Plotter is a visual aid, not a calibrated measuring instrument. A graph can reveal a trend, fluctuation, delay, or unexpected step, but it does not correct a sensor, ADC, reference-voltage, wiring, or calibration error. Record units and conversion assumptions in the sketch or project notes.
+
+When traces have very different numeric ranges, a small trace may look almost flat beside a large one. Plot related values separately, or use an appropriate display scaling while retaining the original measurements for calculations. A fixed reference trace can help show a threshold, but choose its value and units for the particular signal. Do not confuse a convenient graph scale with a hardware limit.
+
+The plot scrolls as new readings arrive, so use a separate logger if the measurements need to be saved for later analysis. The serial connection is also shared with other tools: close the Serial Monitor before opening the Serial Plotter if the IDE reports that the port is already in use.
+
+==== A short checklist ====
+
+  * Select the correct board and port.
+  * Match the plotter baud rate to ''Serial.begin()''.
+  * Send numeric values with stable labels and a line break after each set.
+  * Keep debugging text out of the plotted stream.
+  * Check the board documentation before connecting a sensor to an analogue input.
+  * Treat the graph as a way to inspect data, not as proof that the readings are accurate.
+
+===== Editorial and source notes =====
+
+* Arduino, [[https://docs.arduino.cc/software/ide-v2/tutorials/ide-v2-serial-plotter/|Using the Serial Plotter Tool]]. The IDE 2 guide documents labelled values using ''name:value'', comma, tab, or space delimiters, and CRLF or LF line endings. It also demonstrates ''Serial.println()'' and plotting multiple values. The examples here are independently written; verify behaviour with the chosen board and IDE version.
+* Arduino, [[https://docs.arduino.cc/software/ide-v2/tutorials/getting-started-ide-v2/|Getting Started with Arduino IDE 2]]. Describes the plotter as a tool for visualising serial data, including voltage peaks. It does not make the plotter a calibrated instrument.
+* The analogue-input example is intentionally minimal. Before adding wiring or sensor conversions, check the selected microcontroller's ADC input limits, reference, resolution, pin map, sensor circuit and calibration.
+
+===== Review still needed =====
+
+Check the examples and setup steps against the current Arduino IDE 2 Serial Plotter and a selected board before publication. Confirm any board-specific serial and analogue-input behaviour against that board's manufacturer documentation. Do not add sensor wiring or accuracy claims until the exact sensor and circuit are selected and reviewed.

@@ -785,3 +785,9 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - **Source assessment:** //Arduino Made Simple// pp. 60–63 gives a clear topic sequence from potentiometer divider to ''analogRead()'' and ''map()'', but its ''reading × 5.0 ÷ 1023'' display conversion should be labelled endpoint scaling. For an ideal 10-bit ADC, code width is ''VREF ÷ 1024''; code labels run 0–1023, and the ATmega328P datasheet defines full scale as ''VREF'' minus one LSB. Keep resolution separate from accuracy, and do not treat divider ADC readings as direct resistance measurements.
 - **Project outcome:** Added a qualified quantisation explanation to the sensor data-logging draft and a 10-bit-to-8-bit mapping example to the PWM draft. Broader ADC sampling, noise and calibration details still need technical review against selected hardware.
+
+## 2026-11-15 — Arduino Serial Plotter draft
+
+- **User request:** Add a blog post showing how a microcontroller can send formatted values to the Serial Plotter.
+- **Source assessment:** Arduino's IDE 2 guide documents labelled `name:value` data, multiple values separated by commas, tabs or spaces, and line endings. Treat the plot as a visual aid, not a calibrated instrument; board-specific serial and ADC behaviour still needs checking.
+- **Project outcome:** Added a first draft covering one and multiple traces, labels and units, line endings, baud rate, debug text, scaling and interpretation. A selected-board and IDE review is tracked in [TODO.md](TODO.md).
