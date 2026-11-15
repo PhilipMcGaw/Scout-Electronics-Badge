@@ -780,3 +780,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - **Repository check:** The repository `inbox/` contains only the existing proposed KiCad PCB footprint-field feature request; the three newly added PDFs are in `Source Documents/`, not `inbox/`.
 - **Source assessment:** //Arduino Playground// (2017) is an all-rights-reserved, experienced-maker book with several hazardous or unsuitable builds; use only for topic discovery. //Arduino Made Simple// (2018) is an all-rights-reserved beginner topic map with dated Uno/Tian board and software instructions. The 2005 local Meteorologist Badge Pack has a useful two-week observation-log structure and weather-station context, but is not current badge guidance and needs current UK meteorology, outdoor-safety, and health references before adaptation. See the [[sites:scouts-electronics-badge:sources:new-source-documents-triage|initial triage note]].
+
+## 2026-11-15 — ADC quantisation for Arduino articles
+
+- **Source assessment:** //Arduino Made Simple// pp. 60–63 gives a clear topic sequence from potentiometer divider to ''analogRead()'' and ''map()'', but its ''reading × 5.0 ÷ 1023'' display conversion should be labelled endpoint scaling. For an ideal 10-bit ADC, code width is ''VREF ÷ 1024''; code labels run 0–1023, and the ATmega328P datasheet defines full scale as ''VREF'' minus one LSB. Keep resolution separate from accuracy, and do not treat divider ADC readings as direct resistance measurements.
+- **Project outcome:** Added a qualified quantisation explanation to the sensor data-logging draft and a 10-bit-to-8-bit mapping example to the PWM draft. Broader ADC sampling, noise and calibration details still need technical review against selected hardware.

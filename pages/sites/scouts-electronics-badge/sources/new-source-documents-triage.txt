@@ -16,6 +16,8 @@ Ashwin Pajankar, //Arduino Made Simple with Interactive Projects//, first editio
 
 This can help locate beginner Arduino topics, but its hardware and software instructions are tied to a 2018-era board/software context, including Arduino Tian. Verify every pin, voltage, current, library, product, and IDE detail against current documentation for the selected board and parts. It is published in India, so its suppliers and context are not UK recommendations. The book states that all rights are reserved; do not reproduce its content without permission.
 
+Its analogue-input chapter (pp. 60–63) is a useful teaching sequence: a potentiometer as a voltage divider, ''analogRead()'', the 10-bit code range 0–1023, a voltage display, and ''map()'' to an 8-bit range. The expression ''reading × 5.0 ÷ 1023'' maps the two endpoint code labels for display; it should not be presented as the physical ADC step size. For an ideal 10-bit converter, one code width is ''VREF ÷ 1024''; the ATmega328P datasheet defines the maximum code as ''VREF'' minus one LSB. Explain the distinction between code number, code width, resolution and accuracy, and verify against the exact board and reference.
+
 ===== Meteorologist Badge Pack =====
 
 Darren Dowling, //9th Barking & Dagenham Meteorologist Badge Pack//, 25 PDF pages; the file is dated 2005. It proposes a two-week weather record and covers observation and measurement of temperature, rainfall, wind, cloud, and pressure, plus weather instruments, clouds, air masses, fronts, synoptic maps, and effects of weather on the human body.
