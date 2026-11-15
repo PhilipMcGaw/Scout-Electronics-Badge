@@ -1,0 +1,28 @@
+====== DroneBot Workshop source review ======
+
+**Reviewed:** 2026-11-15
+
+**Source:** [[https://dronebotworkshop.com/electronics-index/|DroneBot Workshop electronics index]], with the linked [[https://dronebotworkshop.com/project/|Projects]] and [[https://dronebotworkshop.com/tutorials/|Tutorials]] indexes and selected articles below.
+
+===== Assessment =====
+
+The site is a useful discovery source for practical microcontroller, sensor and robotics topics. Its strongest fit with current project work is the sensor material: calibration, choosing between analogue and digital interfaces, and building a weather data logger. The project and tutorial indexes are broad and frequently updated; use them to find relevant articles rather than treating the indexes as a reviewed curriculum. Articles combine explanations, code, wiring examples and product-specific claims, so check current primary documentation before adapting any circuit or specification. The source is US-based; its units, products, board assumptions and safety context may not transfer directly to the UK. Do not reuse its text, code or images without checking their terms.
+
+===== Selected reading =====
+
+^ Article ^ Useful ideas ^ Limits and project relevance ^
+| [[https://dronebotworkshop.com/air-pressure-sensors/|Measuring Air Pressure with Microcontrollers]] | Explains pressure sensing, hPa/mbar and applications including weather logging and altitude estimation. Could inform an optional pressure-sensor example in the [[sites:scouts-electronics-badge:blog:arduino-sensor-datalogging|sensor data-logging draft]]. | Treat the stated sensor list and board examples as a snapshot, not a recommendation. Pressure-to-altitude conversion depends on atmospheric conditions and reference pressure; weather interpretation needs a time series and local context. Check each sensor and breakout datasheet. |
+| [[https://dronebotworkshop.com/soil-moisture/|Water Your Garden with IoT]] | Particularly useful distinction between resistive probes, capacitive probes and digital threshold outputs; it also emphasises calibrating individual sensors against known conditions. | Avoid presenting a simple dry-air/water calibration as a universal soil-moisture calibration: soil type, packing, salinity and probe construction affect readings. Resistive probes can corrode; use only suitable low-voltage equipment and check the exact module/interface. Useful as a possible sensor-datalogging or sensor-conditioning case study. |
+| [[https://dronebotworkshop.com/arduino-temperature/|Measuring Temperature with Arduino]] | Compares analogue and digital temperature sensors and shows that application needs determine sensor choice. | The page contains an apparent typo in the DHT22 range (“8-0 degrees”) and an incorrect humidity accuracy unit (“5%” for temperature accuracy). Do not rely on those values. Verify every operating range, accuracy, wiring and library assumption against the exact manufacturer datasheet and board documentation. |
+| [[https://dronebotworkshop.com/getting-started-building-robots/|Getting Started Building Robots]] | Good project-planning sequence: define the task, constraints, budget, platform and power needs; begin with a manageable first version. | General inspiration only. The article mentions legacy products and US dollar prices. For a UK youth activity, check current kit availability, battery safety and mechanical risks, and keep build complexity suitable for the group. |
+
+===== Related example =====
+
+The Raspberry Pi article [[https://www.raspberrypi.com/news/self-sufficient-mobile-weather-station/|Self-sufficient mobile weather station]] (published 2026-11-09) is a useful project case study rather than a build guide. It describes a portable, solar-powered station measuring temperature, humidity, wind speed and light, with field testing in Wales. Its reported testing also makes good discussion points: bearing friction caused low-speed wind readings to stall, and a warm sensor head read about 1–2 °C above expectation. These are reported results from that project, not general sensor performance claims. The article illustrates why enclosure design, sensor placement, calibration/validation and field testing matter. Its IP65 description is the builder’s account; do not treat it as independent certification or copy the design without checking requirements.
+
+===== Project use =====
+
+* Add calibration, sensor-interface comparison and sensor placement as reading leads for the sensor data-logging draft. Keep the draft’s requirement to verify the selected board, sensor, circuit and storage hardware.
+* Use the weather-station article as an optional discussion example for measurement quality and iterative field testing; do not reproduce its design, images or results as project experience.
+* The index also points to digital potentiometers, logic, power supplies and motor drivers. These overlap existing project topics, but the indexes alone do not establish that any individual article is suitable or technically current.
+* This review is not a UK safety assessment or a validation of any featured circuit, code or product specification.
