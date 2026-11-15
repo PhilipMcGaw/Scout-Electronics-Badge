@@ -768,5 +768,10 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 ## 2026-11-15 — Source Documents folder review
 
-- **Repository check:** The 73-page //Basic Electronics// PDF already has a source review; the Iain Sharp //Electronics for Absolute Beginners// notes and parts sheet are already assessed in project drafts and memory. No duplicate review is needed. The one-page resistor colour-code wheel may help with checking colour/value relationships, but its attribution is to Electronics-Tutorials.ws and no reuse permission is established; do not place its image in project materials without checking rights.
+- **Repository check:** The 73-page //Basic Electronics// PDF already has a source review; the Iain Sharp //Electronics for Absolute Beginners// notes and parts sheet are already assessed in project drafts and memory. No duplicate review is needed. Electronics-Tutorials.ws offers the resistor colour-code wheel as a free printable template and gives assembly/use instructions. Direct users to the original page for printing; no broader permission to alter or republish its artwork was established.
 - **New source assessment:** Cypress AN1032, //Using Decoupling Capacitors// (document 001-19299 Rev. *C; issued 2007, sunset review 2014), is a useful case study of parasitic impedance and resonance, but its HOTLink-specific recommendations and calculations are not general layout rules. Added a qualified source note to the [[sites:scouts-electronics-badge:blog:decoupling-capacitors|decoupling-capacitors draft]].
+
+## 2026-11-15 — Resistor colour-code wheel activity
+
+- **User suggestion:** The resistor colour-code wheel would make a good activity for Scouts.
+- **Project outcome:** Expanded the Leaders’ Guide with a pair-based activity to assemble and use the wheel, decode four- and five-band resistors, calculate tolerance limits, and compare an unpowered multimeter reading. The source artwork is linked at Electronics-Tutorials.ws rather than copied or altered. Keep six-band temperature-coefficient interpretation out of this wheel activity.
