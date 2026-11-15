@@ -775,3 +775,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 
 - **User suggestion:** The resistor colour-code wheel would make a good activity for Scouts.
 - **Project outcome:** Expanded the Leaders’ Guide with a pair-based activity to assemble and use the wheel, decode four- and five-band resistors, calculate tolerance limits, and compare an unpowered multimeter reading. The source artwork is linked at Electronics-Tutorials.ws rather than copied or altered. Keep six-band temperature-coefficient interpretation out of this wheel activity.
+
+## 2026-11-15 — New PDF source triage
+
+- **Repository check:** The repository `inbox/` contains only the existing proposed KiCad PCB footprint-field feature request; the three newly added PDFs are in `Source Documents/`, not `inbox/`.
+- **Source assessment:** //Arduino Playground// (2017) is an all-rights-reserved, experienced-maker book with several hazardous or unsuitable builds; use only for topic discovery. //Arduino Made Simple// (2018) is an all-rights-reserved beginner topic map with dated Uno/Tian board and software instructions. The 2005 local Meteorologist Badge Pack has a useful two-week observation-log structure and weather-station context, but is not current badge guidance and needs current UK meteorology, outdoor-safety, and health references before adaptation. See the [[sites:scouts-electronics-badge:sources:new-source-documents-triage|initial triage note]].

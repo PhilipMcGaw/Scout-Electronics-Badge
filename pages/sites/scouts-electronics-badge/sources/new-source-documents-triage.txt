@@ -1,0 +1,29 @@
+====== New source documents: initial triage ======
+
+**Reviewed:** 2026-11-15
+
+**Scope:** Initial triage of three PDFs newly present in the repository's //Source Documents// folder. This review checked PDF metadata, copyright/front matter, contents, and selected extracted text. It is not a full technical review. Figures were not visually reviewed, and no circuits, code, meteorology claims, or activity safety were validated.
+
+===== Arduino Playground =====
+
+Warren Andrews, //Arduino Playground: Geeky Projects for the Experienced Maker//, No Starch Press, 2017; 441 PDF pages. The book's stated prerequisites include basic electronics, schematic reading, soldering, and some mechanical skills. Projects include a reaction-time machine, PCB etching agitator, regulated variable power supply, watch winder, garage parking assistant, vehicle battery saver, pH meter, ballistic chronographs, square-wave generator, and colour-coded thermometer.
+
+This is an idea source for experienced adult makers, not a Scout project guide. Several builds involve etchant, substantial battery current, projectile measurement, power-supply construction, mechanical tools, or specialist sensors. Do not adapt builds or component values without an independent design and safety review. The book states that all rights are reserved; do not copy its text, schematics, code, tables, or images without permission.
+
+===== Arduino Made Simple =====
+
+Ashwin Pajankar, //Arduino Made Simple with Interactive Projects//, first edition, BPB Publications, 2018; 190 PDF pages. Its contents cover classic Uno Rev3 setup and programming, LEDs, buttons and pull-ups, analogue inputs, serial/SPI/I2C, displays, sound and sensors, PWM, motors, servos, keypads, SD cards, IR receivers, relays, Nano and Arduino Tian.
+
+This can help locate beginner Arduino topics, but its hardware and software instructions are tied to a 2018-era board/software context, including Arduino Tian. Verify every pin, voltage, current, library, product, and IDE detail against current documentation for the selected board and parts. It is published in India, so its suppliers and context are not UK recommendations. The book states that all rights are reserved; do not reproduce its content without permission.
+
+===== Meteorologist Badge Pack =====
+
+Darren Dowling, //9th Barking & Dagenham Meteorologist Badge Pack//, 25 PDF pages; the file is dated 2005. It proposes a two-week weather record and covers observation and measurement of temperature, rainfall, wind, cloud, and pressure, plus weather instruments, clouds, air masses, fronts, synoptic maps, and effects of weather on the human body.
+
+Its observation-log structure and weather-station placement topics may help with an optional sensor-logging or outdoor observation activity. Treat it as a historical local-group pack, not current UK Scout badge requirements or an authority for present-day meteorology or health advice. References to services, units, map conventions, exposure guidance, and health effects need checking against current authoritative UK sources before adaptation. The PDF does not state clear reuse terms; do not reproduce its diagrams, tables, or wording without permission.
+
+===== Project relevance =====
+
+* The meteorologist pack may provide a context for timestamped weather observations in the [[sites:scouts-electronics-badge:blog:arduino-sensor-datalogging|sensor data-logging draft]], once suitable sensors, placement, calibration, and current UK references are chosen.
+* The two Arduino books offer broad topic and project ideas, but add no verified board-specific instructions to current drafts.
+* Keep the supplied PDFs in //Source Documents// as reference copies. They are not DokuWiki pages or cleared media attachments.
