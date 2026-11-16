@@ -2,7 +2,7 @@
 
 These files are working outlines and first drafts for the blog posts linked to the Scouts electronics booklet. Check technical claims and source permissions before publication, and keep Philip’s reported experience distinct from general guidance.
 
-The order below is a suggested reading sequence, not a publication schedule. The first ten posts build from basic concepts to practical projects; later posts are optional, more specialised topics. Add a link in the **Published article** column when a draft is published. A link to an existing article being revised can be recorded there too; use `—` when there is no matching live article yet.
+The order below is a suggested reading sequence, not a publication schedule. The first ten posts build from basic concepts to practical projects; later posts are optional, more specialised topics. Split a broad subject into linked parts when one post would become too long, and make the order between parts clear. Add a link in the **Published article** column when a draft is published. A link to an existing article being revised can be recorded there too; use `—` when there is no matching live article yet.
 
 ^ Order ^ Draft ^ Published article ^ Subject ^ Status ^
 | 1 | [[sites:scouts-electronics-badge:blog:electronics-fundamentals|Electronics fundamentals]] | — | Explain voltage, current, resistance, and power, with a practical comparison of ideal and real low-voltage sources. | First prose draft started; rest outlined |

@@ -796,3 +796,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-16 — Electronics fundamentals opening draft
 
 - **Project outcome:** Expanded the fundamentals outline into opening prose on charge, current, voltage, complete circuits, resistance, Ohm’s law, power and energy transfer. The worked 9 V / 1 kΩ example is explicitly idealised and not a build recipe. The remaining outline still covers measurements, instrumentation and signal topics; the blog index now records the draft as started.
+
+
+## 2026-11-16 — Blog post length preference
+
+- **User preference:** Split a blog subject into multiple linked parts if a single post becomes too long. Keep the sequence between parts clear in the index and draft plan.
