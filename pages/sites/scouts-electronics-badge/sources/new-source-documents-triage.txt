@@ -2,7 +2,7 @@
 
 **Reviewed:** 2026-11-15
 
-**Scope:** Initial triage of three PDFs newly present in the repository's //Source Documents// folder. This review checked PDF metadata, copyright/front matter, contents, and selected extracted text. It is not a full technical review. Figures were not visually reviewed, and no circuits, code, meteorology claims, or activity safety were validated.
+**Scope:** Initial triage of three books/packs newly present in the repository's //Source Documents// folder. This review checked PDF metadata, copyright/front matter, contents, and selected extracted text. It is not a full technical review. Figures were not visually reviewed, and no circuits, code, meteorology claims, or activity safety were validated. A later check mapped the exact four currently untracked PDFs to the reviewed material and the decoupling-capacitor source note below.
 
 ===== Arduino Playground =====
 
@@ -29,3 +29,13 @@ Its observation-log structure and weather-station placement topics may help with
 * The meteorologist pack may provide a context for timestamped weather observations in the [[sites:scouts-electronics-badge:blog:arduino-sensor-datalogging|sensor data-logging draft]], once suitable sensors, placement, calibration, and current UK references are chosen.
 * The two Arduino books offer broad topic and project ideas, but add no verified board-specific instructions to current drafts.
 * Keep the supplied PDFs in //Source Documents// as reference copies. They are not DokuWiki pages or cleared media attachments.
+
+===== Current untracked PDF assessment =====
+
+**Checked:** 2026-11-16. All four untracked PDFs have a specific source-review or draft use, so retain them in //Source Documents// as reference copies.
+
+^ Repository filename ^ Assessment and existing use ^
+| //Arduino Playground_ Geeky Projects for the - Warren Andrews.pdf// | The //Arduino Playground// book reviewed above. Its project list can prompt adult-facing maker ideas, but its all-rights-reserved text, diagrams, and code are not reusable without permission. Avoid adapting its higher-risk builds without an independent design and safety review. |
+| //prelim.pmd - abc.pdf// | The front matter identifies this as Ashwin Pajankar's //Arduino Made Simple with Interactive Projects//, reviewed above. Its analogue-input and ''map()'' sequence has already informed the [[sites:scouts-electronics-badge:blog:arduino-sensor-datalogging|sensor data-logging]] and [[sites:scouts-electronics-badge:blog:arduino-pwm-and-led-fading|PWM]] drafts, including the distinction between ADC code width and endpoint scaling. Keep the book's 2018 Uno assumptions and all-rights-reserved content qualified. |
+| //Meteorologist_Badge_Pack_2005.PDF - Darren Dowling.pdf// | The //9th Barking & Dagenham Meteorologist Badge Pack// reviewed above. Its two-week observation-log idea remains a possible context for the [[sites:scouts-electronics-badge:blog:arduino-sensor-datalogging|sensor data-logging draft]], but it is historical local-group material, not current badge or meteorological guidance. |
+| //Using Decoupling Capacitors - Unknown.pdf// | Cypress AN1032, //Using Decoupling Capacitors//, document 001-19299 Rev. *C. Its HOTLink-specific discussion of parasitic impedance and resonance is already assessed in the [[sites:scouts-electronics-badge:blog:decoupling-capacitors|decoupling-capacitors draft]]. Keep its example values and recommendations tied to that old application note, not as general layout rules. |

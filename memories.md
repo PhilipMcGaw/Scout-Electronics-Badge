@@ -801,3 +801,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 ## 2026-11-16 — Blog post length preference
 
 - **User preference:** Split a blog subject into multiple linked parts if a single post becomes too long. Keep the sequence between parts clear in the index and draft plan.
+
+## 2026-11-16 — Four source PDFs assessed for retention
+
+- **Repository check:** The four untracked PDFs in `Source Documents/` are the Arduino Playground book, Arduino Made Simple (named `prelim.pmd - abc.pdf`), a 2005 meteorologist badge pack, and Cypress AN1032 on decoupling capacitors.
+- **Assessment:** Each has a documented use in source triage or an existing blog draft. Keep them as reference copies; none is cleared for copying into project pages or media. See the [[pages/sites/scouts-electronics-badge/sources/new-source-documents-triage|source triage]] and [[pages/sites/scouts-electronics-badge/blog/decoupling-capacitors|decoupling draft]].
