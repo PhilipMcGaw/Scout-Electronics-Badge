@@ -791,3 +791,8 @@ These are Philip’s statements about his own equipment and methods, not univers
 - **User request:** Add a blog post showing how a microcontroller can send formatted values to the Serial Plotter.
 - **Source assessment:** Arduino's IDE 2 guide documents labelled `name:value` data, multiple values separated by commas, tabs or spaces, and line endings. Treat the plot as a visual aid, not a calibrated instrument; board-specific serial and ADC behaviour still needs checking.
 - **Project outcome:** Added a first draft covering one and multiple traces, labels and units, line endings, baud rate, debug text, scaling and interpretation. A selected-board and IDE review is tracked in [TODO.md](TODO.md).
+
+
+## 2026-11-16 — Electronics fundamentals opening draft
+
+- **Project outcome:** Expanded the fundamentals outline into opening prose on charge, current, voltage, complete circuits, resistance, Ohm’s law, power and energy transfer. The worked 9 V / 1 kΩ example is explicitly idealised and not a build recipe. The remaining outline still covers measurements, instrumentation and signal topics; the blog index now records the draft as started.

@@ -1,12 +1,12 @@
 ====== Electronics fundamentals: voltage, current, resistance, and power ======
 
-**Status:** Outline started; draft not written.
+**Status:** First prose draft started; circuit measurements and signal topics remain outlined.
 
 **Purpose:** Connect the basic electrical quantities to a simple circuit, then check the explanation with safe low-voltage measurements.
 
 **Related article to review:** [[https://philipmcgaw.com/ohms-law-and-watts-law/|Is P = I x V Part of Ohm’s Law?]].
 
-**Source note:** This outline uses ideas from the user-pasted transcripts headed “The fundamentals of electronics”, “What you should know”, “Electrical charge”, “Conductors and insulators”, “Voltage”, “Current”, “Circuit basics”, “Safety message”, “Resistance and Ohm’s Law”, “SI prefixes”, “What is a multimeter?”, “Electric power”, “Ideal vs. real-world power sources”, “Grounded vs. floating power sources”, and “Continue your electronics journey”. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcripts as background and write original explanations rather than reproducing their wording.
+**Source note:** This draft draws on ideas from the user-pasted transcripts headed “The fundamentals of electronics”, “What you should know”, “Electrical charge”, “Conductors and insulators”, “Voltage”, “Current”, “Circuit basics”, “Safety message”, “Resistance and Ohm’s Law”, “SI prefixes”, “What is a multimeter?”, “Electric power”, “Ideal vs. real-world power sources”, “Grounded vs. floating power sources”, and “Continue your electronics journey”. The presenter is identified as Barron Stone; the exact course URL and publication details were not supplied. Treat the transcripts as background and write original explanations rather than reproducing their wording.
 
 The opening lesson of Barron Stone’s [[https://www.linkedin.com/learning/electronics-foundations-basic-circuits/principles-of-basic-electronic-circuits?u=2174060|Electronics Foundations: Basic Circuits]] course gives a useful high-level sequence from component behaviour to circuit design and troubleshooting. Its claim that every electronic circuit needs some combination of resistors, capacitors, and inductors is too broad; describe these as common components instead. See the [[sites:scouts-electronics-badge:sources:electronics-foundations-basic-circuits-review|source review]].
 
@@ -22,14 +22,44 @@ Iain Sharp’s [[https://lushprojects.com/absolutebeginners/|Electronics for Abs
 
 The related two-day [[https://lushprojects.com/electronicsforartists/|Electronics for Artists]] course was first presented in 2010 and updated in 2019. Part 1 overlaps with the beginner course; Part 2 adds an Arduino-based interactive organ. Its Arduino examples target classic Uno-era hardware and an older software setup. Use them for teaching sequence only, and verify board voltage, pin behaviour, programming instructions and connected loads against current documentation. It has the same CC BY-NC-SA 3.0 Unported licence.
 
-===== Planned outline =====
+===== Draft text =====
 
-- Introduce electrical charge using a static-electricity example, then define current as charge passing a point per second and show that voltage drives current only around a complete circuit.
-- Explain conductors and insulators with a wire's copper core and plastic covering, and show how conductivity varies by material and conditions.
-- Define voltage as a potential difference between two points and explain why a stated voltage needs a reference point.
-- Introduce a source, load, and conducting path; explain closed and open circuits, a switch, voltage across an open switch, and short-circuit risks.
-- Define resistance as opposition to current, measured in ohms (''Ω''), and use water flow through pipes as a first analogy. Explain where the analogy stops being exact.
-- Introduce Ohm’s law, ''V = I × R'', rearrange it to find current, and show the relationships ''V = I × R'' and ''P = V × I'' with a checked, low-voltage example.
+==== Charge, current and voltage ====
+
+Electronics is about controlling electrical energy and signals. A battery, for example, can transfer energy from its chemical store to a lamp, where some of that energy becomes light and some becomes heat. To describe what happens in a circuit, we need to keep three ideas separate: charge, current and voltage.
+
+Electric charge is a property of particles. In a metal wire, some electrons can move through the material. Copper is a good conductor and is commonly used for the core of a wire; the surrounding plastic is an insulator that helps keep the conducting path separate from its surroundings. Conductors and insulators are useful broad categories, though materials vary in how well they conduct and conditions such as temperature can affect them. Rubbing two different materials can transfer electrons from one to the other, leaving them with a static charge; the charge is transferred, not created by friction. In a working circuit we usually describe conventional current, which points from the positive side of a source towards its negative side through the external circuit. Electrons in a metal move in the opposite direction. For most beginner circuit calculations, conventional current is the useful direction to follow.
+
+Current tells us how quickly charge passes a point. One ampere means one coulomb of charge passing each second. For steady current, 'I = Q ÷ t', where 'Q' is charge in coulombs and 't' is time in seconds. A current of 20 mA, for example, is 0.020 A. Current is not used up as it passes through a component. In a simple series loop the same current flows through each part, while electrical energy is transferred to the components.
+
+Voltage is a difference in electrical potential energy per unit charge between two points. One volt is one joule per coulomb. A voltage reading therefore needs two points: saying that one point is “5 V” only makes sense relative to a chosen reference. In a battery circuit, we often call the negative terminal 0 V and measure the positive terminal as about 9 V relative to it. The circuit’s 0 V or common is a reference; it does not automatically mean a connection to the Earth.
+
+A complete circuit has a source, a conducting path and a load. The source provides a potential difference, and the connected circuit determines the current. Opening a switch breaks the conducting path. In a simple battery-and-lamp circuit, the open switch can have nearly the full battery voltage across it, while the lamp is off because there is no complete path for steady current. A short circuit is an unintended path with very low resistance. It can allow excessive current and cause wires or a battery to heat, so a source should never be tested by deliberately shorting it.
+
+==== Resistance and a first calculation ====
+
+Resistance describes how a component limits current for a given voltage across it. It is measured in ohms (Ω). For an ohmic resistor under steady conditions, voltage and current are related by Ohm’s law:
+
+''V = I × R''
+
+Rearranging gives ''I = V ÷ R''. Suppose an ideal 9 V source is connected to a 1 kΩ resistor. The model predicts ''I = 9 V ÷ 1,000 Ω = 0.009 A'', or 9 mA. This is a calculation example, not a construction instruction or a claim about what a particular battery will deliver. Real sources have limits and their terminal voltage can change under load; actual components also have ratings that must be checked before building a circuit.
+
+The simple proportional relationship applies when the resistance remains effectively constant. A resistor is designed to behave approximately this way within its stated conditions. A filament lamp does not: its filament heats as current flows, and its resistance rises. Its current therefore does not increase in direct proportion to voltage across its full operating range. The shape of a component’s current–voltage relationship tells us how it behaves; it is not always a straight line through the origin.
+
+A water-flow analogy can help at first: pressure difference is like voltage, flow rate is like current, and a restriction is like resistance. The analogy has limits. Electrical current is not a material being consumed by a load, individual components do not map neatly to bends in a pipe, and circuit behaviour depends on the complete connected network. Use the analogy to picture relationships, then return to the circuit and its measurements.
+
+==== Power and energy transfer ====
+
+Power is the rate at which energy is transferred. One watt is one joule per second. For a component, electrical power is the voltage across it multiplied by the current through it:
+
+''P = V × I''
+
+In the ideal 9 V and 1 kΩ example, the resistor has 9 V across it and carries 9 mA, so it transfers energy at ''P = 9 V × 0.009 A = 0.081 W'', or 81 mW. For a fixed resistor, Ohm’s law lets us also use ''P = I² × R'' or ''P = V² ÷ R''. These forms are useful for calculations, but the component’s actual power and voltage ratings still need checking. Energy transferred over time is ''E = P × t''; a 1 W load transfers 1 J each second.
+
+The electrical energy does not disappear. A lamp transfers much of it into light and heat; a motor transfers some into movement and also warms up; a speaker creates sound and heat. Thinking in terms of energy transfer helps explain why a component can become hot and why its power rating matters. It also avoids treating current as the energy itself: current describes charge flow, while voltage describes energy transferred per unit charge.
+
+===== Remaining outline =====
+
 - Introduce Kirchhoff’s Current Law (KCL): at a connected node, total current entering equals total current leaving. Use ''IA + IB = IC + ID'' for a clearly drawn junction, and explain that a wire crossing is not a connection unless marked according to the schematic convention.
 - Introduce Kirchhoff’s Voltage Law (KVL): the directed sum of voltage rises and drops around a closed loop is zero. Choose a loop direction and keep voltage polarities consistent; use a simple battery-and-resistor loop to show how signed voltages balance.
 - Introduce common SI prefixes used with electrical units, with examples of converting between milliamperes and amperes, and kilo-ohms and ohms.
